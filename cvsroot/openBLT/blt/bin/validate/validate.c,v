@@ -1,0 +1,402 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.4
+	openblt20000429:1.1.1.3
+	openblt20000428:1.1.1.3
+	openblt20000427:1.1.1.3
+	openblt20000426:1.1.1.3
+	openblt20000425:1.1.1.3
+	openblt20000424:1.1.1.3
+	openblt20000423:1.1.1.3
+	openblt20000422:1.1.1.3
+	openblt20000421:1.1.1.3
+	openblt20000420:1.1.1.3
+	openblt20000419:1.1.1.3
+	openblt20000418:1.1.1.3
+	openblt20000417:1.1.1.3
+	openblt20000416:1.1.1.3
+	openblt20000415:1.1.1.3
+	openblt20000414:1.1.1.3
+	openblt20000413:1.1.1.3
+	openblt20000412:1.1.1.3
+	openblt20000411:1.1.1.3
+	openblt20000410:1.1.1.3
+	openblt20000409:1.1.1.3
+	openblt20000408:1.1.1.3
+	openblt20000407:1.1.1.3
+	openblt20000406:1.1.1.3
+	openblt20000405:1.1.1.3
+	openblt20000404:1.1.1.3
+	openblt20000403:1.1.1.3
+	openblt20000402:1.1.1.3
+	openblt20000401:1.1.1.3
+	openblt20000331:1.1.1.3
+	openblt20000330:1.1.1.3
+	openblt20000329:1.1.1.3
+	openblt20000328:1.1.1.3
+	openblt20000327:1.1.1.3
+	openblt20000326:1.1.1.3
+	openblt20000325:1.1.1.3
+	openblt20000324:1.1.1.3
+	openblt20000323:1.1.1.3
+	openblt20000322:1.1.1.3
+	openblt20000321:1.1.1.3
+	openblt20000320:1.1.1.3
+	openblt20000319:1.1.1.3
+	openblt20000318:1.1.1.3
+	openblt20000317:1.1.1.3
+	openblt20000316:1.1.1.3
+	openblt20000315:1.1.1.3
+	openblt20000314:1.1.1.3
+	openblt20000313:1.1.1.3
+	openblt20000312:1.1.1.3
+	openblt20000311:1.1.1.3
+	openblt20000310:1.1.1.3
+	openblt20000309:1.1.1.3
+	openblt20000308:1.1.1.3
+	openblt20000307:1.1.1.3
+	openblt20000306:1.1.1.3
+	openblt20000305:1.1.1.3
+	openblt20000304:1.1.1.3
+	openblt20000303:1.1.1.3
+	openblt20000302:1.1.1.3
+	openblt20000301:1.1.1.3
+	openblt20000229:1.1.1.3
+	openblt20000228:1.1.1.3
+	openblt20000227:1.1.1.3
+	openblt20000226:1.1.1.3
+	openblt20000225:1.1.1.3
+	openblt20000224:1.1.1.3
+	openblt20000223:1.1.1.3
+	openblt20000222:1.1.1.3
+	openblt20000221:1.1.1.3
+	openblt20000220:1.1.1.3
+	openblt20000219:1.1.1.3
+	openblt20000218:1.1.1.3
+	openblt20000217:1.1.1.3
+	openblt20000216:1.1.1.3
+	openblt20000215:1.1.1.3
+	openblt20000214:1.1.1.3
+	openblt20000213:1.1.1.3
+	openblt20000212:1.1.1.3
+	openblt20000211:1.1.1.3
+	openblt20000210:1.1.1.3
+	openblt20000209:1.1.1.3
+	openblt20000208:1.1.1.3
+	openblt20000207:1.1.1.3
+	openblt20000206:1.1.1.3
+	openblt20000205:1.1.1.3
+	openblt20000204:1.1.1.3
+	openblt20000203:1.1.1.3
+	openblt20000202:1.1.1.3
+	openblt20000201:1.1.1.3
+	openblt20000131:1.1.1.3
+	openblt20000130:1.1.1.3
+	openblt20000129:1.1.1.3
+	openblt20000128:1.1.1.3
+	openblt20000127:1.1.1.3
+	openblt20000126:1.1.1.3
+	openblt20000125:1.1.1.3
+	openblt20000124:1.1.1.3
+	openblt20000123:1.1.1.3
+	openblt20000122:1.1.1.3
+	openblt20000121:1.1.1.3
+	openblt20000120:1.1.1.3
+	openblt20000119:1.1.1.3
+	openblt20000118:1.1.1.3
+	openblt20000117:1.1.1.3
+	openblt20000116:1.1.1.3
+	openblt20000115:1.1.1.3
+	openblt20000114:1.1.1.3
+	openblt20000113:1.1.1.3
+	openblt20000112:1.1.1.3
+	openblt20000111:1.1.1.3
+	openblt20000110:1.1.1.3
+	openblt20000109:1.1.1.3
+	openblt20000108:1.1.1.3
+	openblt20000107:1.1.1.3
+	openblt20000106:1.1.1.3
+	openblt20000105:1.1.1.3
+	openblt20000104:1.1.1.3
+	openblt20000103:1.1.1.3
+	openblt20000102:1.1.1.3
+	openblt19991228:1.1.1.3
+	openblt19990827:1.1.1.2
+	openblt082699:1.1.1.2
+	openblt082599:1.1.1.2
+	openblt082499:1.1.1.2
+	openblt082399:1.1.1.2
+	openblt082299:1.1.1.2
+	openblt082199:1.1.1.2
+	openblt082099:1.1.1.2
+	openblt081999:1.1.1.2
+	openblt081899:1.1.1.2
+	openblt081799:1.1.1.2
+	openblt081699:1.1.1.2
+	openblt081599:1.1.1.2
+	openblt071199:1.1.1.2
+	openblt071099:1.1.1.1
+	openblt070799:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.29.12;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.29.12;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.29.31;	author jr;	state Exp;
+branches;
+next	1.1.1.3;
+
+1.1.1.3
+date	2005.01.20.16.31.50;	author jr;	state Exp;
+branches;
+next	1.1.1.4;
+
+1.1.1.4
+date	2005.01.20.17.11.08;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@
+#include <stdio.h>
+#include <stdlib.h>
+#include <blt/syscall.h>
+#include <blt/namer.h>
+
+int send_port, recv_port;
+
+
+void sender(void)
+{
+	char buffer[32];
+	msg_hdr_t mh;
+
+	os_sleep(20);
+		
+	for(;;){
+		mh.src = send_port;
+		mh.dst = recv_port;
+		mh.size = 32;
+		mh.flags = 0;
+		mh.data = buffer;
+		
+		port_send(&mh);
+	}
+}
+
+void receiver(void)
+{
+	char buffer[32];
+	msg_hdr_t mh;
+	
+	recv_port = port_create(0);
+	os_sleep(20);
+	
+	for(;;){
+		mh.src = 0;
+		mh.dst = recv_port;
+		mh.size = 32;
+		mh.flags = 0;
+		mh.data = buffer;
+		
+		port_recv(&mh);
+	}
+}
+
+int main (int argc, char **argv)
+{
+	int s,c;
+	__libc_init_console ();
+
+#if 0
+	send_port = port_create(0);
+	os_thread(sender);
+	receiver();
+#endif
+	
+	printf("sem_test: starting\n");
+	for(c=0;c<1000000;c++){
+		if(!(c % 100000)) printf("sem_test: %dth semaphore\n",c);
+		if((s = sem_create(1)) < 1) {
+			printf("sem_test: failed (in create) - iteration %d\n",c);
+			return 1;
+		}
+		if(sem_destroy(s)){
+			printf("sem_test: failed (in destroy) - iteration %d\n",c);
+			return 1;
+		}
+	}
+	printf("sem_test: passed\n");
+
+	printf("port_test: starting\n");
+	for(c=0;c<1000000;c++){
+		if(!(c % 100000)) printf("port_test: %dth port\n",c);
+		if((s = port_create(0)) < 1) {
+			printf("port_test: failed (in create) - iteration %d\n",c);
+			return 1;
+		}
+		if(port_destroy(s)){
+			printf("port_test: failed (in destroy) - iteration %d\n",c);
+			return 1;
+		}
+	}
+	printf("port_test: passed\n");
+	return 0;
+	
+}
+
+@
+
+
+1.1.1.1
+log
+@openblt.070799
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.071199
+@
+text
+@a51 3
+	printf("xxx %x %x / %x\n",argc,(uint32)argv,(uint32)&argc);
+	os_debug();
+	
+@
+
+
+1.1.1.3
+log
+@openblt.19991228
+@
+text
+@d33 1
+a33 1
+	recv_port = port_create(0,"recv port");
+d47 1
+a47 1
+int port_test(void)
+d50 1
+a50 17
+	printf("port_test: starting\n");
+	for(c=0;c<1000000;c++){
+		if(!(c % 100000)) printf("port_test: %dth port\n",c);
+		if((s = port_create(0,"port test")) < 1) {
+			printf("port_test: failed (in create) - iteration %d\n",c);
+			return 1;
+		}
+		if(port_destroy(s)){
+			printf("port_test: failed (in destroy) - iteration %d\n",c);
+			return 1;
+		}
+	}
+	printf("port_test: passed\n");
+	return 0;
+}
+
+int sem_id;
+d52 2
+a53 10
+void tt_thread(void *data)
+{
+	sem_release(sem_id);
+	os_terminate(0);
+}
+
+int thread_test(void)
+{
+	int n;
+	sem_id = sem_create(0, "thread_test_step");
+d55 5
+a59 5
+	for(n=0;n<100000;n++){
+		if(!(n % 1000)) printf("thread_test: %dth thread\n",n);
+		thr_create(tt_thread, NULL, "thread test");
+		sem_acquire(sem_id);
+	}
+a60 5
+}
+
+int sem_test(void)
+{
+	int s,c;
+d64 1
+a64 1
+		if((s = sem_create(1,"sem test")) < 1) {
+d74 14
+a88 18
+}
+
+int main (int argc, char **argv)
+{
+	int s,c;
+
+#if 0
+	send_port = port_create(0,"xmit port");
+	os_thread(sender);
+	receiver();
+#endif
+
+#if 0
+	if(sem_test()) return 0;
+	if(port_test()) return 0;
+#endif
+
+	if(thread_test()) return 0;
+a89 1
+	return 0;	
+@
+
+
+1.1.1.4
+log
+@openblt.20000517
+@
+text
+@d24 1
+a24 1
+		old_port_send(&mh);
+d43 1
+a43 1
+		old_port_recv(&mh);
+d66 1
+a66 1
+int semid;
+d70 1
+a70 1
+	sem_release(semid);
+d77 1
+a77 1
+	semid = sem_create(0, "thread_test_step");
+d82 1
+a82 1
+		sem_acquire(semid);
+@
+
+

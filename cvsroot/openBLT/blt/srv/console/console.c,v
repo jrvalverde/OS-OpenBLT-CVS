@@ -1,0 +1,620 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.1
+	openblt20000429:1.1.1.1
+	openblt20000428:1.1.1.1
+	openblt20000427:1.1.1.1
+	openblt20000426:1.1.1.1
+	openblt20000425:1.1.1.1
+	openblt20000424:1.1.1.1
+	openblt20000423:1.1.1.1
+	openblt20000422:1.1.1.1
+	openblt20000421:1.1.1.1
+	openblt20000420:1.1.1.1
+	openblt20000419:1.1.1.1
+	openblt20000418:1.1.1.1
+	openblt20000417:1.1.1.1
+	openblt20000416:1.1.1.1
+	openblt20000415:1.1.1.1
+	openblt20000414:1.1.1.1
+	openblt20000413:1.1.1.1
+	openblt20000412:1.1.1.1
+	openblt20000411:1.1.1.1
+	openblt20000410:1.1.1.1
+	openblt20000409:1.1.1.1
+	openblt20000408:1.1.1.1
+	openblt20000407:1.1.1.1
+	openblt20000406:1.1.1.1
+	openblt20000405:1.1.1.1
+	openblt20000404:1.1.1.1
+	openblt20000403:1.1.1.1
+	openblt20000402:1.1.1.1
+	openblt20000401:1.1.1.1
+	openblt20000331:1.1.1.1
+	openblt20000330:1.1.1.1
+	openblt20000329:1.1.1.1
+	openblt20000328:1.1.1.1
+	openblt20000327:1.1.1.1
+	openblt20000326:1.1.1.1
+	openblt20000325:1.1.1.1
+	openblt20000324:1.1.1.1
+	openblt20000323:1.1.1.1
+	openblt20000322:1.1.1.1
+	openblt20000321:1.1.1.1
+	openblt20000320:1.1.1.1
+	openblt20000319:1.1.1.1
+	openblt20000318:1.1.1.1
+	openblt20000317:1.1.1.1
+	openblt20000316:1.1.1.1
+	openblt20000315:1.1.1.1
+	openblt20000314:1.1.1.1
+	openblt20000313:1.1.1.1
+	openblt20000312:1.1.1.1
+	openblt20000311:1.1.1.1
+	openblt20000310:1.1.1.1
+	openblt20000309:1.1.1.1
+	openblt20000308:1.1.1.1
+	openblt20000307:1.1.1.1
+	openblt20000306:1.1.1.1
+	openblt20000305:1.1.1.1
+	openblt20000304:1.1.1.1
+	openblt20000303:1.1.1.1
+	openblt20000302:1.1.1.1
+	openblt20000301:1.1.1.1
+	openblt20000229:1.1.1.1
+	openblt20000228:1.1.1.1
+	openblt20000227:1.1.1.1
+	openblt20000226:1.1.1.1
+	openblt20000225:1.1.1.1
+	openblt20000224:1.1.1.1
+	openblt20000223:1.1.1.1
+	openblt20000222:1.1.1.1
+	openblt20000221:1.1.1.1
+	openblt20000220:1.1.1.1
+	openblt20000219:1.1.1.1
+	openblt20000218:1.1.1.1
+	openblt20000217:1.1.1.1
+	openblt20000216:1.1.1.1
+	openblt20000215:1.1.1.1
+	openblt20000214:1.1.1.1
+	openblt20000213:1.1.1.1
+	openblt20000212:1.1.1.1
+	openblt20000211:1.1.1.1
+	openblt20000210:1.1.1.1
+	openblt20000209:1.1.1.1
+	openblt20000208:1.1.1.1
+	openblt20000207:1.1.1.1
+	openblt20000206:1.1.1.1
+	openblt20000205:1.1.1.1
+	openblt20000204:1.1.1.1
+	openblt20000203:1.1.1.1
+	openblt20000202:1.1.1.1
+	openblt20000201:1.1.1.1
+	openblt20000131:1.1.1.1
+	openblt20000130:1.1.1.1
+	openblt20000129:1.1.1.1
+	openblt20000128:1.1.1.1
+	openblt20000127:1.1.1.1
+	openblt20000126:1.1.1.1
+	openblt20000125:1.1.1.1
+	openblt20000124:1.1.1.1
+	openblt20000123:1.1.1.1
+	openblt20000122:1.1.1.1
+	openblt20000121:1.1.1.1
+	openblt20000120:1.1.1.1
+	openblt20000119:1.1.1.1
+	openblt20000118:1.1.1.1
+	openblt20000117:1.1.1.1
+	openblt20000116:1.1.1.1
+	openblt20000115:1.1.1.1
+	openblt20000114:1.1.1.1
+	openblt20000113:1.1.1.1
+	openblt20000112:1.1.1.1
+	openblt20000111:1.1.1.1
+	openblt20000110:1.1.1.1
+	openblt20000109:1.1.1.1
+	openblt20000108:1.1.1.1
+	openblt20000107:1.1.1.1
+	openblt20000106:1.1.1.1
+	openblt20000105:1.1.1.1
+	openblt20000104:1.1.1.1
+	openblt20000103:1.1.1.1
+	openblt20000102:1.1.1.1
+	openblt19991228:1.1.1.1
+	openblt19990827:1.1.1.1
+	openblt082699:1.1.1.1
+	openblt082599:1.1.1.1
+	openblt082499:1.1.1.1
+	openblt082399:1.1.1.1
+	openblt082299:1.1.1.1
+	openblt082199:1.1.1.1
+	openblt082099:1.1.1.1
+	openblt081999:1.1.1.1
+	openblt081899:1.1.1.1
+	openblt081799:1.1.1.1
+	openblt081699:1.1.1.1
+	openblt081599:1.1.1.1
+	openblt071199:1.1.1.1
+	openblt071099:1.1.1.1
+	openblt070799:1.1.1.1
+	openblt070699:1.1.1.1
+	openblt070299:1.1.1.1
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/srv/console/console.c#4 $
+**
+** Copyright 1998 Brian J. Swetland
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+#include <blt/syscall.h>
+#include <blt/error.h>
+#include <blt/namer.h>
+#include <blt/conio.h>
+#include <i386/io.h>
+#include <string.h>
+
+int console_port;
+int send_port;
+
+int y = 2;
+char command[80];
+
+#define WITH_KBD
+
+#define MONOx
+
+#ifdef MONO
+void *SCREEN = (void *) 0xB0000;
+#else
+void *SCREEN = (void *) 0xB8000;
+#endif
+
+
+#define ESC 27
+#define BS 8
+#define TAB 9
+#define CR 13
+
+char ScanTable [] =  {' ', ESC, '1', '2', '3', '4', '5', '6', '7', '8',
+                      '9', '0', '-', '=', BS,  TAB, 'q', 'w', 'e', 'r',
+                      't', 'y', 'u', 'i', 'o', 'p', '[', ']', CR,  ' ',
+                      'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';',
+                      '\'', '~', ' ', '\\', 'z', 'x', 'c', 'v', 'b', 'n',
+                      'm', ',', '.', '/', ' ', ' ', ' ', ' ', ' '};
+char ShiftTable [] = {' ', ESC, '!', '@@', '#', '$', '%', '^', '&', '*',
+                      '(', ')', '_', '+', ' ', ' ', 'Q', 'W', 'E', 'R',
+                      'T', 'Y', 'U', 'I', 'O', 'P', '{', '}', CR,  ' ',
+                      'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':',
+                      '\"', '~', ' ', '|', 'Z', 'X', 'C', 'V', 'B', 'N',
+                      'M', '<', '>', '?', ' ', ' ', ' ', ' ', ' '};
+#define LSHIFT 42
+#define RSHIFT 54
+
+static char kpbuf[256];
+static char *kp = kpbuf;    
+
+void movecursor (int x, int y);
+
+void printf(char *fmt,...) 
+{
+    va_list pvar;    
+    char *x;
+    static msg_hdr_t msg;    
+    
+    va_start(pvar,fmt);
+    va_snprintf(kp,256 - (kp-kpbuf),fmt,pvar);
+    va_end(pvar);
+
+    for(x = kp; *x; x++){
+        if(*x == '\n'){
+            *x = 0;            
+            msg.size = strlen(kpbuf);
+            msg.data = kpbuf;
+            msg.src = send_port;
+            msg.dst = console_port;
+            port_send(&msg);
+            kp = kpbuf;
+            return;            
+        }
+    }
+    kp = x;
+    
+}
+
+void keypress(int key);
+
+int keyboard_nh;
+
+void keyboard_irq_thread(void)
+{
+    char x[128];
+    int i;
+    
+    int shift = 0;    
+    int key;
+
+    send_port = port_create(console_port);
+    keyboard_nh = namer_newhandle();
+
+    printf("keyboard: ready\n");
+
+    os_handle_irq(1);
+		movecursor (y, 24);
+
+    x[2] = 0;
+    i = 0;
+    
+    for(;;) {
+        os_sleep_irq();
+#ifdef MULTI
+        while(inb(0x64) & 0x01) {
+#endif
+            key = inb(0x60);
+            if(key == 1) {
+                os_debug();
+                continue;
+            }
+
+
+            switch(key){
+            case LSHIFT:
+            case RSHIFT:
+                shift = 1;
+                break;
+            case LSHIFT | 0x80:
+            case RSHIFT | 0x80:
+                shift = 0;
+                break;
+            default:
+                if(key & 0x80){
+                        /* break */
+                } else {
+                    if(key < 59){
+                        key = shift ? ShiftTable[key] : ScanTable[key];
+                        keypress(key);                        
+                    }
+                }
+            }
+#ifdef MULTI
+        }
+#endif
+    }
+
+}
+
+#define NULL ((void *) 0)
+
+typedef struct _tline 
+{
+    char raw[160];    
+    struct _tline *prev, *next;    
+} tline;
+
+typedef struct _tpane
+{    
+    tline *top, *bottom;
+    int visible;
+    int height;
+    int y0,y1;    
+} tpane;
+
+
+tpane commandline;
+tpane console;
+tline lines[128];
+tline *nextline = NULL;
+
+tline *newline(tline *next, tline *prev)
+{
+    tline *l = nextline;
+    if(!l) os_terminate(0);    
+    nextline = nextline->next;
+    l->next = next;
+    l->prev = prev;    
+    return l;    
+}
+
+void delline(tline *line)
+{
+    line->next = nextline;
+    nextline = line;    
+}
+
+void wipeline(tline *line, int attr)
+{
+    int i = 0;    
+    unsigned char *x = line->raw;
+    for(i=0;i<160;i++){
+        *x++ = ' ';
+        *x++ = attr;
+    }
+}
+
+
+void init(tpane *pane, int attr)
+{
+    int i;
+    pane->bottom = pane->top = newline(NULL,NULL);
+    wipeline(pane->bottom, attr);
+    
+    for(i=1;i<pane->height;i++){
+        pane->bottom->next = newline(NULL,pane->bottom);
+        wipeline(pane->bottom->next, attr);
+        pane->bottom = pane->bottom->next;
+    }
+/*    wipeline(pane->bottom, attr);
+    wipeline(pane->bottom->prev, attr);*/
+    
+}
+
+void clr(tpane *pane, int attr)
+{
+    int i;
+    
+    tline *l = pane->top;
+
+    for(i=0;i<pane->height;i++){
+        wipeline(l,attr);
+        l = l->next;
+    }
+}
+
+void addline(tpane *pane, char *text)
+{
+    int i;    
+
+    tline *l = pane->top;
+    pane->top = pane->top->next;
+    pane->top->prev = NULL;
+    pane->bottom->next = l;
+    l->prev = pane->bottom;    
+    l->next = NULL;
+    pane->bottom = l;
+    for(i=0;i<80;i++){
+        if(*text >= ' ') l->raw[i*2] = *text++;
+        else l->raw[i*2] = ' ';
+    }
+}
+
+void paint(tpane *pane)
+{
+    int y;
+    tline *l;    
+    int *a,*b;
+    int i;
+
+    for(l=pane->top,y=pane->y0;y<=pane->y1;y++){
+        a = (int *) (l->raw);
+        b = (int *) (((uint32)SCREEN) + 160*y);
+        for(i=0;i<40;i++) *b++ = *a++;
+        l = l->next;        
+    }
+}
+
+void execute(char *command)
+{
+    int l;
+
+    if(!strncmp(command,"find",4)){
+        if(command[4]){
+            l = namer_find(keyboard_nh,command+5);            
+            printf("console: found \"%s\" at port %d\n",command+5,l);
+        }
+        return;        
+    }
+    if(!strncmp(command,"send",4)){
+        char *serv;
+        char *text;
+
+        if(command[4] == ' '){
+            serv = text = command+5;
+            while(*text){
+                if(*text == ' '){
+                    *text = 0;
+                    text++;
+                    if(*text){
+                        msg_hdr_t msg;        
+                        msg.dst = namer_find(keyboard_nh,serv);
+                        if(msg.dst < 1){
+                            printf("console: unknown service \"%s\"\n",serv);
+                            return;
+                        }
+                        msg.src = keyboard_nh;
+                        msg.size = strlen(text);
+                        msg.data = text;
+                        port_send(&msg);
+                        return;                        
+                    }
+                    printf("console: no message?\n");
+                    return;                    
+                }
+                text++;                
+            }
+            printf("console: no message?\n");
+            return;                    
+        }
+        printf("console: no server or message?\n");        
+        return;                            
+    }
+    if(!strcmp(command,"exit")){
+        os_terminate(0x00420023);        
+    }
+    if(!strcmp(command,"quit")){
+        os_terminate(0x00420023);        
+    }
+
+    printf("console: bad command\n");
+}
+
+void movecursor (int x, int y)
+{
+	int offset;
+
+	offset = 80 * y + x;
+	outb (0xe, 0x3d4);
+	outb (offset / 256, 0x3d5);
+	outb (0xf, 0x3d4);
+	outb (offset % 256, 0x3d5);
+}
+
+void keypress(int key)
+{
+    if(key == BS){
+        if(y > 2){
+            y--;        
+            commandline.bottom->raw[y*2] = ' ';
+            paint(&commandline);
+        }
+				movecursor (y, 24);
+        return;        
+    }
+    if(y == 79 || key == 13){
+        if(key == 13){
+            command[y-2] = 0;
+            execute(command);        
+        }
+        for(y=2;y<79;y++) commandline.bottom->raw[y*2] = ' ';
+        y = 2;
+    }
+    if(key != 13){        
+        commandline.bottom->raw[y*2] = key;
+        command[y-2] = key;        
+        y++;
+    } 
+    paint(&commandline);
+    movecursor (y, 24);
+}
+
+
+char *divider =
+"### OpenBLT System Console #######################################################";
+
+
+void console_thread(void)
+{
+    int i;
+    int l;    
+    char data[81];
+    msg_hdr_t msg;    
+    msg.data = data;
+    msg.dst = console_port;
+    msg.size = 80;
+    
+    for(i=0;i<128;i++) delline(&lines[i]);
+    
+    console.y0 = 0;
+    console.y1 = 22;
+    console.height = 23;
+    
+    commandline.y0 = 23;
+    commandline.y1 = 24;
+    commandline.height = 2;    
+
+    init(&console, CON_WHITE);
+    init(&commandline, CON_BLUE << 4 | CON_WHITE);
+
+    for(i=0;i<80;i++) commandline.top->raw[i*2] = divider[i];
+    commandline.bottom->raw[0] = '>';    
+        
+
+/*    clr(&console, CON_WHITE);*/
+    
+    paint(&console);
+    paint(&commandline);
+
+    while((l = port_recv(&msg)) > 0){
+        data[l]=0;        
+        addline(&console,data);
+        paint(&console);        
+    }
+    addline(&console,"console: ready.");
+    os_terminate(0);
+    
+}
+
+
+int main(void)
+{
+    int nh;
+    
+    os_brk(2*32768);
+
+	area_create(0x2000, 0, &SCREEN, 0x1010);
+    
+    console_port = port_create(0);
+
+    nh = namer_newhandle();    
+    namer_register(nh,console_port,"console");
+    namer_delhandle(nh);    
+    
+#ifdef WITH_KBD
+    os_thread(keyboard_irq_thread);
+#endif
+    console_thread();
+
+    return 0;
+}
+
+
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@

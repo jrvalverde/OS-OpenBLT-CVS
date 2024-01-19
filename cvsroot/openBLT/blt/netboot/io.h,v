@@ -1,0 +1,374 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.1
+	openblt20000429:1.1.1.1
+	openblt20000428:1.1.1.1
+	openblt20000427:1.1.1.1
+	openblt20000426:1.1.1.1
+	openblt20000425:1.1.1.1
+	openblt20000424:1.1.1.1
+	openblt20000423:1.1.1.1
+	openblt20000422:1.1.1.1
+	openblt20000421:1.1.1.1
+	openblt20000420:1.1.1.1
+	openblt20000419:1.1.1.1
+	openblt20000418:1.1.1.1
+	openblt20000417:1.1.1.1
+	openblt20000416:1.1.1.1
+	openblt20000415:1.1.1.1
+	openblt20000414:1.1.1.1
+	openblt20000413:1.1.1.1
+	openblt20000412:1.1.1.1
+	openblt20000411:1.1.1.1
+	openblt20000410:1.1.1.1
+	openblt20000409:1.1.1.1
+	openblt20000408:1.1.1.1
+	openblt20000407:1.1.1.1
+	openblt20000406:1.1.1.1
+	openblt20000405:1.1.1.1
+	openblt20000404:1.1.1.1
+	openblt20000403:1.1.1.1
+	openblt20000402:1.1.1.1
+	openblt20000401:1.1.1.1
+	openblt20000331:1.1.1.1
+	openblt20000330:1.1.1.1
+	openblt20000329:1.1.1.1
+	openblt20000328:1.1.1.1
+	openblt20000327:1.1.1.1
+	openblt20000326:1.1.1.1
+	openblt20000325:1.1.1.1
+	openblt20000324:1.1.1.1
+	openblt20000323:1.1.1.1
+	openblt20000322:1.1.1.1
+	openblt20000321:1.1.1.1
+	openblt20000320:1.1.1.1
+	openblt20000319:1.1.1.1
+	openblt20000318:1.1.1.1
+	openblt20000317:1.1.1.1
+	openblt20000316:1.1.1.1
+	openblt20000315:1.1.1.1
+	openblt20000314:1.1.1.1
+	openblt20000313:1.1.1.1
+	openblt20000312:1.1.1.1
+	openblt20000311:1.1.1.1
+	openblt20000310:1.1.1.1
+	openblt20000309:1.1.1.1
+	openblt20000308:1.1.1.1
+	openblt20000307:1.1.1.1
+	openblt20000306:1.1.1.1
+	openblt20000305:1.1.1.1
+	openblt20000304:1.1.1.1
+	openblt20000303:1.1.1.1
+	openblt20000302:1.1.1.1
+	openblt20000301:1.1.1.1
+	openblt20000229:1.1.1.1
+	openblt20000228:1.1.1.1
+	openblt20000227:1.1.1.1
+	openblt20000226:1.1.1.1
+	openblt20000225:1.1.1.1
+	openblt20000224:1.1.1.1
+	openblt20000223:1.1.1.1
+	openblt20000222:1.1.1.1
+	openblt20000221:1.1.1.1
+	openblt20000220:1.1.1.1
+	openblt20000219:1.1.1.1
+	openblt20000218:1.1.1.1
+	openblt20000217:1.1.1.1
+	openblt20000216:1.1.1.1
+	openblt20000215:1.1.1.1
+	openblt20000214:1.1.1.1
+	openblt20000213:1.1.1.1
+	openblt20000212:1.1.1.1
+	openblt20000211:1.1.1.1
+	openblt20000210:1.1.1.1
+	openblt20000209:1.1.1.1
+	openblt20000208:1.1.1.1
+	openblt20000207:1.1.1.1
+	openblt20000206:1.1.1.1
+	openblt20000205:1.1.1.1
+	openblt20000204:1.1.1.1
+	openblt20000203:1.1.1.1
+	openblt20000202:1.1.1.1
+	openblt20000201:1.1.1.1
+	openblt20000131:1.1.1.1
+	openblt20000130:1.1.1.1
+	openblt20000129:1.1.1.1
+	openblt20000128:1.1.1.1
+	openblt20000127:1.1.1.1
+	openblt20000126:1.1.1.1
+	openblt20000125:1.1.1.1
+	openblt20000124:1.1.1.1
+	openblt20000123:1.1.1.1
+	openblt20000122:1.1.1.1
+	openblt20000121:1.1.1.1
+	openblt20000120:1.1.1.1
+	openblt20000119:1.1.1.1
+	openblt20000118:1.1.1.1
+	openblt20000117:1.1.1.1
+	openblt20000116:1.1.1.1
+	openblt20000115:1.1.1.1
+	openblt20000114:1.1.1.1
+	openblt20000113:1.1.1.1
+	openblt20000112:1.1.1.1
+	openblt20000111:1.1.1.1
+	openblt20000110:1.1.1.1
+	openblt20000109:1.1.1.1
+	openblt20000108:1.1.1.1
+	openblt20000107:1.1.1.1
+	openblt20000106:1.1.1.1
+	openblt20000105:1.1.1.1
+	openblt20000104:1.1.1.1
+	openblt20000103:1.1.1.1
+	openblt20000102:1.1.1.1
+	openblt19991228:1.1.1.1
+	openblt19990827:1.1.1.1
+	openblt082699:1.1.1.1
+	openblt082599:1.1.1.1
+	openblt082499:1.1.1.1
+	openblt082399:1.1.1.1
+	openblt082299:1.1.1.1
+	openblt082199:1.1.1.1
+	openblt082099:1.1.1.1
+	openblt081999:1.1.1.1
+	openblt081899:1.1.1.1
+	openblt081799:1.1.1.1
+	openblt081699:1.1.1.1
+	openblt081599:1.1.1.1
+	openblt071199:1.1.1.1
+	openblt071099:1.1.1.1
+	openblt070799:1.1.1.1
+	openblt070699:1.1.1.1
+	openblt070299:1.1.1.1
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/netboot/io.h#2 $
+**
+** Copyright 1998 Brian J. Swetland
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+#ifndef _ASM_IO_H
+#define _ASM_IO_H
+
+#define SLOW_IO_BY_JUMPING
+
+/*
+ * This file contains the definitions for the x86 IO instructions
+ * inb/inw/inl/outb/outw/outl and the "string versions" of the same
+ * (insb/insw/insl/outsb/outsw/outsl). You can also use "pausing"
+ * versions of the single-IO instructions (inb_p/inw_p/..).
+ *
+ * This file is not meant to be obfuscating: it's just complicated
+ * to (a) handle it all in a way that makes gcc able to optimize it
+ * as well as possible and (b) trying to avoid writing the same thing
+ * over and over again with slight variations and possibly making a
+ * mistake somewhere.
+ */
+
+/*
+ * Thanks to James van Artsdalen for a better timing-fix than
+ * the two short jumps: using outb's to a nonexistent port seems
+ * to guarantee better timings even on fast machines.
+ *
+ * On the other hand, I'd like to be sure of a non-existent port:
+ * I feel a bit unsafe about using 0x80 (should be safe, though)
+ *
+ *		Linus
+ */
+
+#ifdef SLOW_IO_BY_JUMPING
+#define __SLOW_DOWN_IO __asm__ __volatile__("jmp 1f\n1:\tjmp 1f\n1:")
+#else
+#define __SLOW_DOWN_IO __asm__ __volatile__("outb %al,$0x80")
+#endif
+
+#define SLOW_DOWN_IO __SLOW_DOWN_IO
+
+/*
+ * Talk about misusing macros..
+ */
+
+#define __OUT1(s,x) \
+extern inline void __out##s(unsigned x value, unsigned short port) {
+
+#define __OUT2(s,s1,s2) \
+__asm__ __volatile__ ("out" #s " %" s1 "0,%" s2 "1"
+
+#define __OUT(s,s1,x) \
+__OUT1(s,x) __OUT2(s,s1,"w") : : "a" (value), "d" (port)); } \
+__OUT1(s##c,x) __OUT2(s,s1,"") : : "a" (value), "id" (port)); } \
+__OUT1(s##_p,x) __OUT2(s,s1,"w") : : "a" (value), "d" (port)); SLOW_DOWN_IO; } \
+__OUT1(s##c_p,x) __OUT2(s,s1,"") : : "a" (value), "id" (port)); SLOW_DOWN_IO; }
+
+#define __IN1(s) \
+extern inline RETURN_TYPE __in##s(unsigned short port) { RETURN_TYPE _v;
+
+#define __IN2(s,s1,s2) \
+__asm__ __volatile__ ("in" #s " %" s2 "1,%" s1 "0"
+
+#define __IN(s,s1,i...) \
+__IN1(s) __IN2(s,s1,"w") : "=a" (_v) : "d" (port) ,##i ); return _v; } \
+__IN1(s##c) __IN2(s,s1,"") : "=a" (_v) : "id" (port) ,##i ); return _v; } \
+__IN1(s##_p) __IN2(s,s1,"w") : "=a" (_v) : "d" (port) ,##i ); SLOW_DOWN_IO; return _v; } \
+__IN1(s##c_p) __IN2(s,s1,"") : "=a" (_v) : "id" (port) ,##i ); SLOW_DOWN_IO; return _v; }
+
+#define __INS(s) \
+extern inline void ins##s(unsigned short port, void * addr, unsigned long count) \
+{ __asm__ __volatile__ ("cld ; rep ; ins" #s \
+: "=D" (addr), "=c" (count) : "d" (port),"0" (addr),"1" (count)); }
+
+#define __OUTS(s) \
+extern inline void outs##s(unsigned short port, const void * addr, unsigned long count) \
+{ __asm__ __volatile__ ("cld ; rep ; outs" #s \
+: "=S" (addr), "=c" (count) : "d" (port),"0" (addr),"1" (count)); }
+
+#define RETURN_TYPE unsigned char
+/* __IN(b,"b","0" (0)) */
+__IN(b,"")
+#undef RETURN_TYPE
+#define RETURN_TYPE unsigned short
+/* __IN(w,"w","0" (0)) */
+__IN(w,"")
+#undef RETURN_TYPE
+#define RETURN_TYPE unsigned int
+__IN(l,"")
+#undef RETURN_TYPE
+
+__OUT(b,"b",char)
+__OUT(w,"w",short)
+__OUT(l,,int)
+
+__INS(b)
+__INS(w)
+__INS(l)
+
+__OUTS(b)
+__OUTS(w)
+__OUTS(l)
+
+/*
+ * Note that due to the way __builtin_constant_p() works, you
+ *  - can't use it inside a inline function (it will never be true)
+ *  - you don't have to worry about side effects within the __builtin..
+ */
+#define outb(val,port) \
+((__builtin_constant_p((port)) && (port) < 256) ? \
+	__outbc((val),(port)) : \
+	__outb((val),(port)))
+
+#define inb(port) \
+((__builtin_constant_p((port)) && (port) < 256) ? \
+	__inbc(port) : \
+	__inb(port))
+
+#define outb_p(val,port) \
+((__builtin_constant_p((port)) && (port) < 256) ? \
+	__outbc_p((val),(port)) : \
+	__outb_p((val),(port)))
+
+#define inb_p(port) \
+((__builtin_constant_p((port)) && (port) < 256) ? \
+	__inbc_p(port) : \
+	__inb_p(port))
+
+#define outw(val,port) \
+((__builtin_constant_p((port)) && (port) < 256) ? \
+	__outwc((val),(port)) : \
+	__outw((val),(port)))
+
+#define inw(port) \
+((__builtin_constant_p((port)) && (port) < 256) ? \
+	__inwc(port) : \
+	__inw(port))
+
+#define outw_p(val,port) \
+((__builtin_constant_p((port)) && (port) < 256) ? \
+	__outwc_p((val),(port)) : \
+	__outw_p((val),(port)))
+
+#define inw_p(port) \
+((__builtin_constant_p((port)) && (port) < 256) ? \
+	__inwc_p(port) : \
+	__inw_p(port))
+
+#define outl(val,port) \
+((__builtin_constant_p((port)) && (port) < 256) ? \
+	__outlc((val),(port)) : \
+	__outl((val),(port)))
+
+#define inl(port) \
+((__builtin_constant_p((port)) && (port) < 256) ? \
+	__inlc(port) : \
+	__inl(port))
+
+#define outl_p(val,port) \
+((__builtin_constant_p((port)) && (port) < 256) ? \
+	__outlc_p((val),(port)) : \
+	__outl_p((val),(port)))
+
+#define inl_p(port) \
+((__builtin_constant_p((port)) && (port) < 256) ? \
+	__inlc_p(port) : \
+	__inl_p(port))
+
+#endif
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@

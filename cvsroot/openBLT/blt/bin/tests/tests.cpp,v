@@ -1,0 +1,308 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.2
+	openblt20000429:1.1.1.1
+	openblt20000428:1.1.1.1
+	openblt20000427:1.1.1.1
+	openblt20000426:1.1.1.1
+	openblt20000425:1.1.1.1
+	openblt20000424:1.1.1.1
+	openblt20000423:1.1.1.1
+	openblt20000422:1.1.1.1
+	openblt20000421:1.1.1.1
+	openblt20000420:1.1.1.1
+	openblt20000419:1.1.1.1
+	openblt20000418:1.1.1.1
+	openblt20000417:1.1.1.1
+	openblt20000416:1.1.1.1
+	openblt20000415:1.1.1.1
+	openblt20000414:1.1.1.1
+	openblt20000413:1.1.1.1
+	openblt20000412:1.1.1.1
+	openblt20000411:1.1.1.1
+	openblt20000410:1.1.1.1
+	openblt20000409:1.1.1.1
+	openblt20000408:1.1.1.1
+	openblt20000407:1.1.1.1
+	openblt20000406:1.1.1.1
+	openblt20000405:1.1.1.1
+	openblt20000404:1.1.1.1
+	openblt20000403:1.1.1.1
+	openblt20000402:1.1.1.1
+	openblt20000401:1.1.1.1
+	openblt20000331:1.1.1.1
+	openblt20000330:1.1.1.1
+	openblt20000329:1.1.1.1
+	openblt20000328:1.1.1.1
+	openblt20000327:1.1.1.1
+	openblt20000326:1.1.1.1
+	openblt20000325:1.1.1.1
+	openblt20000324:1.1.1.1
+	openblt20000323:1.1.1.1
+	openblt20000322:1.1.1.1
+	openblt20000321:1.1.1.1
+	openblt20000320:1.1.1.1
+	openblt20000319:1.1.1.1
+	openblt20000318:1.1.1.1
+	openblt20000317:1.1.1.1
+	openblt20000316:1.1.1.1
+	openblt20000315:1.1.1.1
+	openblt20000314:1.1.1.1
+	openblt20000313:1.1.1.1
+	openblt20000312:1.1.1.1
+	openblt20000311:1.1.1.1
+	openblt20000310:1.1.1.1
+	openblt20000309:1.1.1.1
+	openblt20000308:1.1.1.1
+	openblt20000307:1.1.1.1
+	openblt20000306:1.1.1.1
+	openblt20000305:1.1.1.1
+	openblt20000304:1.1.1.1
+	openblt20000303:1.1.1.1
+	openblt20000302:1.1.1.1
+	openblt20000301:1.1.1.1
+	openblt20000229:1.1.1.1
+	openblt20000228:1.1.1.1
+	openblt20000227:1.1.1.1
+	openblt20000226:1.1.1.1
+	openblt20000225:1.1.1.1
+	openblt20000224:1.1.1.1
+	openblt20000223:1.1.1.1
+	openblt20000222:1.1.1.1
+	openblt20000221:1.1.1.1
+	openblt20000220:1.1.1.1
+	openblt20000219:1.1.1.1
+	openblt20000218:1.1.1.1
+	openblt20000217:1.1.1.1
+	openblt20000216:1.1.1.1
+	openblt20000215:1.1.1.1
+	openblt20000214:1.1.1.1
+	openblt20000213:1.1.1.1
+	openblt20000212:1.1.1.1
+	openblt20000211:1.1.1.1
+	openblt20000210:1.1.1.1
+	openblt20000209:1.1.1.1
+	openblt20000208:1.1.1.1
+	openblt20000207:1.1.1.1
+	openblt20000206:1.1.1.1
+	openblt20000205:1.1.1.1
+	openblt20000204:1.1.1.1
+	openblt20000203:1.1.1.1
+	openblt20000202:1.1.1.1
+	openblt20000201:1.1.1.1
+	openblt20000131:1.1.1.1
+	openblt20000130:1.1.1.1
+	openblt20000129:1.1.1.1
+	openblt20000128:1.1.1.1
+	openblt20000127:1.1.1.1
+	openblt20000126:1.1.1.1
+	openblt20000125:1.1.1.1
+	openblt20000124:1.1.1.1
+	openblt20000123:1.1.1.1
+	openblt20000122:1.1.1.1
+	openblt20000121:1.1.1.1
+	openblt20000120:1.1.1.1
+	openblt20000119:1.1.1.1
+	openblt20000118:1.1.1.1
+	openblt20000117:1.1.1.1
+	openblt20000116:1.1.1.1
+	openblt20000115:1.1.1.1
+	openblt20000114:1.1.1.1
+	openblt20000113:1.1.1.1
+	openblt20000112:1.1.1.1
+	openblt20000111:1.1.1.1
+	openblt20000110:1.1.1.1
+	openblt20000109:1.1.1.1
+	openblt20000108:1.1.1.1
+	openblt20000107:1.1.1.1
+	openblt20000106:1.1.1.1
+	openblt20000105:1.1.1.1
+	openblt20000104:1.1.1.1
+	openblt20000103:1.1.1.1
+	openblt20000102:1.1.1.1
+	openblt19991228:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@// @;
+
+
+1.1
+date	2005.01.20.16.31.49;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.31.49;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.17.11.08;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#include <stdio.h>
+#include <stdlib.h>
+#include <blt/syscall.h>
+#include <blt/os.h>
+
+#define LOOK_ITS_A_RACE 0
+
+#if LOOK_ITS_A_RACE
+	int malloc_sem = -1;
+#endif
+
+//
+//	Test malloc()
+//
+int malloc_thread(void*)
+{
+	for (int i = 0; i < 50000; i++){
+#if LOOK_ITS_A_RACE
+		sem_acquire(malloc_sem);
+#endif
+		free(malloc(10000));
+
+#if LOOK_ITS_A_RACE
+		sem_release(malloc_sem);
+#endif
+	}
+
+	printf("malloc thread finished\n");		
+	os_terminate(0);
+	return 0;
+}
+
+void malloc_test(void)
+{
+	printf("starting malloc tests\n");
+#if LOOK_ITS_A_RACE
+	malloc_sem = sem_create(1,"malloc lock");
+#endif
+
+	for (int i = 0; i < 5; i++)
+		thr_create(malloc_thread, 0, "malloc_thread");	
+}
+
+
+//
+//	producer/consumer
+//
+struct cl_info {
+	char name[32];
+	int port;
+};
+
+int consumer(void *_p)
+{
+	int port = ((cl_info*) _p)->port;
+	char buffer[10];
+
+	for (;;) {
+		msg_hdr_t header;
+		header.src = 0;
+		header.dst = port;
+		header.data = buffer;
+		header.size = 10;
+		port_recv(&header);
+		printf("%s receive\n", ((cl_info*) _p)->name);
+	}
+}
+
+int producer(void *_p)
+{
+	int port = ((cl_info*) _p)->port;
+	char buffer[10];
+
+	for (;;) {
+		msg_hdr_t header;
+		header.src = port;
+		header.dst = port;
+		header.data = buffer;
+		header.size = 10;
+		port_send(&header);
+		printf("%s send\n", ((cl_info*) _p)->name);
+	}
+}
+
+void prodcons(int num_producers, int num_consumers)
+{
+	int port = port_create(0, "prodcons");
+	printf("%d producers, %d consumers\n", num_producers, num_consumers);
+	for (int i = 0; i < num_producers; i++) {
+		cl_info *scinfo = new cl_info;
+		snprintf(scinfo->name, 32, "producer %d", i + 1);
+		scinfo->port = port;
+		thr_create(producer, scinfo, scinfo->name);
+	}
+
+	for (int i = 0; i < num_consumers; i++) {
+		cl_info *scinfo = new cl_info;
+		snprintf(scinfo->name, 32, "consumer %d", i + 1);
+		scinfo->port = port;
+		thr_create(consumer, scinfo, scinfo->name);
+	}
+}
+
+
+int main()
+{
+	// Case 1: malloc tests.
+	//	This crashes the kernel when more than 1 thread is doing malloc/
+	//	free operations.  Using only one thread, or using my own locks,
+	//	reduces the problem, although I still see a reboot once in a while.
+	malloc_test();
+
+	// Case 2: single producer, single consumer
+	//	The system quickly wedges when I do this.
+//	prodcons(1, 1);
+	
+	// case 3: multi-producer, single consumer
+	//	The kernel code looks like it might not handle this case properly.
+//	prodcons(2, 1);
+	
+	// Case 4: multi-consumer, single producer
+//	prodcons(1, 2);
+
+	return 0;	
+}
+@
+
+
+1.1.1.1
+log
+@openblt.19991228
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.20000517
+@
+text
+@d6 1
+a6 1
+#define LOOK_ITS_A_RACE 1
+d64 1
+a64 1
+		old_port_recv(&header);
+d80 1
+a80 1
+		old_port_send(&header);
+@
+

@@ -1,0 +1,740 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.7
+	openblt20000429:1.1.1.6
+	openblt20000428:1.1.1.6
+	openblt20000427:1.1.1.6
+	openblt20000426:1.1.1.6
+	openblt20000425:1.1.1.6
+	openblt20000424:1.1.1.6
+	openblt20000423:1.1.1.6
+	openblt20000422:1.1.1.6
+	openblt20000421:1.1.1.6
+	openblt20000420:1.1.1.6
+	openblt20000419:1.1.1.6
+	openblt20000418:1.1.1.6
+	openblt20000417:1.1.1.6
+	openblt20000416:1.1.1.6
+	openblt20000415:1.1.1.6
+	openblt20000414:1.1.1.6
+	openblt20000413:1.1.1.6
+	openblt20000412:1.1.1.6
+	openblt20000411:1.1.1.6
+	openblt20000410:1.1.1.6
+	openblt20000409:1.1.1.6
+	openblt20000408:1.1.1.6
+	openblt20000407:1.1.1.6
+	openblt20000406:1.1.1.6
+	openblt20000405:1.1.1.6
+	openblt20000404:1.1.1.6
+	openblt20000403:1.1.1.6
+	openblt20000402:1.1.1.6
+	openblt20000401:1.1.1.6
+	openblt20000331:1.1.1.6
+	openblt20000330:1.1.1.6
+	openblt20000329:1.1.1.6
+	openblt20000328:1.1.1.6
+	openblt20000327:1.1.1.6
+	openblt20000326:1.1.1.6
+	openblt20000325:1.1.1.6
+	openblt20000324:1.1.1.6
+	openblt20000323:1.1.1.6
+	openblt20000322:1.1.1.6
+	openblt20000321:1.1.1.6
+	openblt20000320:1.1.1.6
+	openblt20000319:1.1.1.6
+	openblt20000318:1.1.1.6
+	openblt20000317:1.1.1.6
+	openblt20000316:1.1.1.6
+	openblt20000315:1.1.1.6
+	openblt20000314:1.1.1.6
+	openblt20000313:1.1.1.6
+	openblt20000312:1.1.1.6
+	openblt20000311:1.1.1.6
+	openblt20000310:1.1.1.6
+	openblt20000309:1.1.1.6
+	openblt20000308:1.1.1.6
+	openblt20000307:1.1.1.6
+	openblt20000306:1.1.1.6
+	openblt20000305:1.1.1.6
+	openblt20000304:1.1.1.6
+	openblt20000303:1.1.1.6
+	openblt20000302:1.1.1.6
+	openblt20000301:1.1.1.6
+	openblt20000229:1.1.1.6
+	openblt20000228:1.1.1.6
+	openblt20000227:1.1.1.6
+	openblt20000226:1.1.1.6
+	openblt20000225:1.1.1.6
+	openblt20000224:1.1.1.6
+	openblt20000223:1.1.1.6
+	openblt20000222:1.1.1.6
+	openblt20000221:1.1.1.6
+	openblt20000220:1.1.1.6
+	openblt20000219:1.1.1.6
+	openblt20000218:1.1.1.6
+	openblt20000217:1.1.1.6
+	openblt20000216:1.1.1.6
+	openblt20000215:1.1.1.6
+	openblt20000214:1.1.1.6
+	openblt20000213:1.1.1.6
+	openblt20000212:1.1.1.6
+	openblt20000211:1.1.1.6
+	openblt20000210:1.1.1.6
+	openblt20000209:1.1.1.6
+	openblt20000208:1.1.1.6
+	openblt20000207:1.1.1.6
+	openblt20000206:1.1.1.6
+	openblt20000205:1.1.1.6
+	openblt20000204:1.1.1.6
+	openblt20000203:1.1.1.6
+	openblt20000202:1.1.1.6
+	openblt20000201:1.1.1.6
+	openblt20000131:1.1.1.6
+	openblt20000130:1.1.1.6
+	openblt20000129:1.1.1.6
+	openblt20000128:1.1.1.6
+	openblt20000127:1.1.1.6
+	openblt20000126:1.1.1.6
+	openblt20000125:1.1.1.6
+	openblt20000124:1.1.1.6
+	openblt20000123:1.1.1.6
+	openblt20000122:1.1.1.6
+	openblt20000121:1.1.1.6
+	openblt20000120:1.1.1.6
+	openblt20000119:1.1.1.6
+	openblt20000118:1.1.1.6
+	openblt20000117:1.1.1.6
+	openblt20000116:1.1.1.5
+	openblt20000115:1.1.1.5
+	openblt20000114:1.1.1.5
+	openblt20000113:1.1.1.5
+	openblt20000112:1.1.1.5
+	openblt20000111:1.1.1.5
+	openblt20000110:1.1.1.5
+	openblt20000109:1.1.1.5
+	openblt20000108:1.1.1.5
+	openblt20000107:1.1.1.5
+	openblt20000106:1.1.1.5
+	openblt20000105:1.1.1.5
+	openblt20000104:1.1.1.5
+	openblt20000103:1.1.1.5
+	openblt20000102:1.1.1.5
+	openblt19991228:1.1.1.4
+	openblt19990827:1.1.1.3
+	openblt082699:1.1.1.3
+	openblt082599:1.1.1.3
+	openblt082499:1.1.1.3
+	openblt082399:1.1.1.3
+	openblt082299:1.1.1.3
+	openblt082199:1.1.1.3
+	openblt082099:1.1.1.3
+	openblt081999:1.1.1.3
+	openblt081899:1.1.1.3
+	openblt081799:1.1.1.3
+	openblt081699:1.1.1.3
+	openblt081599:1.1.1.3
+	openblt071199:1.1.1.3
+	openblt071099:1.1.1.3
+	openblt070799:1.1.1.3
+	openblt070699:1.1.1.2
+	openblt070299:1.1.1.2
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.23.01;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.23.01;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.28.58;	author jr;	state Exp;
+branches;
+next	1.1.1.3;
+
+1.1.1.3
+date	2005.01.20.16.29.16;	author jr;	state Exp;
+branches;
+next	1.1.1.4;
+
+1.1.1.4
+date	2005.01.20.16.31.58;	author jr;	state Exp;
+branches;
+next	1.1.1.5;
+
+1.1.1.5
+date	2005.01.20.16.32.17;	author jr;	state Exp;
+branches;
+next	1.1.1.6;
+
+1.1.1.6
+date	2005.01.20.16.36.34;	author jr;	state Exp;
+branches;
+next	1.1.1.7;
+
+1.1.1.7
+date	2005.01.20.17.11.18;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/kernel/fault.c#6 $
+**
+** Copyright 1998 Brian J. Swetland
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+#include <i386/io.h>
+#include "kernel.h"
+#include "queue.h"
+#include "memory.h"
+#include "smp.h"
+#include "init.h"
+
+#define noHALT_ON_FAULT
+#define DEBUG_ON_FAULT
+#define noCRASH_ON_FAULT
+
+#define noTRACK_SYSCALLS
+
+
+#include "port.h"
+#include "task.h"
+#include "aspace.h"
+extern queue_t *run_queue;
+
+static char *etable[] = {
+    "Divide-by-zero",
+    "Debug Exception",
+    "NMI",
+    "Breakpoint",
+    "INTO",
+    "BOUNDS",
+    "Invalid Opcode",
+    "Device Not Available",
+    "Double-fault",
+    "Coprocessor segment overrun",
+    "Invalid TSS fault",
+    "Segment Not Present",
+    "Stack Exception",
+    "General Protection",
+    "Page Fault",
+    "*reserved*",
+    "Floating-point error",
+    "Alignment Check",
+    "Machine Check"
+};
+
+
+extern unsigned char *screen;
+
+task_t *irq_task_map[16];
+
+typedef struct { uint32 edi, esi, ebp, esp, ebx, edx, ecx, eax; } regs;
+void k_debugger(regs *r, uint32 eip, uint32 cs, uint32 eflags);
+
+void print_regs(regs *r, uint32 eip, uint32 cs, uint32 eflags)
+{
+    kprintf("   EAX = %x   EBX = %x   ECX = %x   EDX = %x",
+            r->eax, r->ebx, r->ecx, r->edx);
+    kprintf("   EBP = %x   ESP = %x   ESI = %x   EDI = %x",
+            r->ebp, r->esp, r->esi, r->edi);
+    kprintf("EFLAGS = %x    CS = %x   EIP = %x",
+            eflags, cs, eip);   
+}
+
+
+void faultE(uint32 number,
+            regs r, uint32 error,
+            uint32 eip, uint32 cs, uint32 eflags)
+{
+    uint32 _cr2, _cr3;
+
+    kprintf("");
+    kprintf("*** Exception 0x%X* (%s)",number,etable[number]);
+#ifdef __SMP__
+    if (smp_configured)
+      kprintf ("      on cpu#%d", smp_my_cpu ());
+#endif
+    print_regs(&r, eip, cs, eflags);
+    
+    asm("mov %%cr2, %0":"=r" (_cr2));    
+    asm("mov %%cr3, %0":"=r" (_cr3));
+    kprintf("   cr2 = %x   cr3 = %x error = %x",_cr2,_cr3,error);
+    kprintf("");
+    kprintf("Task %X (%s) crashed.",current->rsrc.id,current->name);
+
+#ifdef DEBUG_ON_FAULT
+    current->flags = tDEAD;
+    k_debugger(&r, eip, cs, eflags);
+#endif
+    
+#ifdef HALT_ON_FAULT
+    asm("hlt");
+#endif    
+    
+    terminate();    
+}
+
+void fault(uint32 number,
+           regs r,
+           uint32 eip, uint32 cs, uint32 eflags)
+{
+
+    kprintf("");
+    kprintf("*** Exception 0x%X (%s)",number,etable[number]);
+    print_regs(&r, eip, cs, eflags);
+
+    kprintf("");
+    kprintf("Task %X (%s) crashed.",current->rsrc.id,current->name);
+#ifdef DEBUG_ON_FAULT
+    if(number != 2){
+        current->flags = tDEAD;
+    }
+    k_debugger(&r, eip, cs, eflags);
+#endif
+#ifdef HALT_ON_FAULT
+    asm("hlt");
+#endif    
+    if(number != 2){
+        terminate();    
+    }
+}
+
+void irq_dispatch(regs r, uint32 number)
+{
+    mask_irq(number);    
+    if(irq_task_map[number]){
+        if(irq_task_map[number]->flags == tSLEEP_IRQ){
+            irq_task_map[number]->flags = tREADY;
+            queue_addHead(run_queue, irq_task_map[number], 0);            
+            preempt();            
+        }
+    }    
+}
+
+int kernel_timer = 0;
+
+unsigned char x[] = { '-', '-', '\\', '\\', '|', '|', '/', '/' };
+
+void pulse (void)
+{
+#ifndef __SMP__
+	screen[0] = x[kernel_timer%8];
+	screen[1] = 7;
+#else
+	screen[smp_my_cpu () * 2] = x[kernel_timer%8];
+	screen[smp_my_cpu () * 2 + 1] = 7;
+#endif
+}
+
+void timer_irq(regs r, uint32 eip, uint32 cs, uint32 eflags)
+{
+    struct _ll *n = time_first.next;
+    kernel_timer++;
+    
+    while(n && (n->when <= kernel_timer)){
+            /*     kprintf("rescheduling %d\n",n->t->rid);*/
+        n->t->flags = tREADY;
+        queue_addTail(run_queue, n->t, 0);
+
+        time_first.next = n->next;
+        if(n->next) n->next->prev = NULL;
+        kfree16(n);
+        n = time_first.next;
+    }
+#ifdef PULSE
+    pulse ();
+#endif    
+    swtch();
+    
+}
+
+extern void __null_irq(void);
+extern void __timer_irq(void);
+extern void __kbd_irq(void);
+extern void __syscall(void);
+
+#define EX(n) extern void __ex##n(void);
+EX(0); EX(1); EX(2); EX(3); EX(4); EX(5); EX(6); EX(7); EX(8); EX(9);
+EX(10); EX(11); EX(12); EX(13); EX(14); EX(15); EX(16); EX(17); EX(18);
+
+#define IQ(n) extern void __irq##n(void);
+IQ(1); IQ(2); IQ(3); IQ(4); IQ(5); IQ(6); IQ(7); IQ(8); IQ(9);
+IQ(10); IQ(11); IQ(12); IQ(13); IQ(14); IQ(15); 
+
+extern void __ipi_cf (void), __ipi_tlb (void), __ipi_pte (void),
+	__ipi_resched (void), __ipi_stop (void);
+
+static void set_irq(uint32 *IDT, int n, void *func)
+{
+    IDT[2*n+1] = (((uint32) func) & 0xFFFF0000) | 0x00008E00;
+    IDT[2*n]   = (((uint32) func) & 0x0000FFFF) | (SEL_KCODE << 16);
+}
+
+static void set_irqU(uint32 *IDT, int n, void *func)
+{
+    IDT[2*n+1] = (((uint32) func) & 0xFFFF0000) | 0x00008E00 | 0x00006000;
+    IDT[2*n]   = (((uint32) func) & 0x0000FFFF) | (SEL_KCODE << 16);
+}
+
+void __init__ init_idt(uint32 *IDT)
+{
+    int i;
+    for(i=0;i<16;i++) irq_task_map[i] = NULL;
+    
+    set_irq(IDT,0x00,__ex0);
+    set_irq(IDT,0x01,__ex1);
+    set_irq(IDT,0x02,__ex2);
+    set_irq(IDT,0x03,__ex3);
+    set_irq(IDT,0x04,__ex4);
+    set_irq(IDT,0x05,__ex5);
+    set_irq(IDT,0x06,__ex6);
+    set_irq(IDT,0x07,__ex7);
+    set_irq(IDT,0x08,__ex8);
+    set_irq(IDT,0x09,__ex9);
+    set_irq(IDT,0x0A,__ex10);
+    set_irq(IDT,0x0B,__ex11);
+    set_irq(IDT,0x0C,__ex12);
+    set_irq(IDT,0x0D,__ex13);
+    set_irq(IDT,0x0E,__ex14);
+    set_irq(IDT,0x0F,__ex15);
+    set_irq(IDT,0x10,__ex16);
+    set_irq(IDT,0x11,__ex17);
+    set_irq(IDT,0x12,__ex18);
+    
+    set_irqU(IDT,0x20,__syscall);
+    
+    set_irq(IDT,0x30,__timer_irq);
+    set_irq(IDT,0x31,__irq1);
+    set_irq(IDT,0x32,__irq2);
+    set_irq(IDT,0x33,__irq3);
+    set_irq(IDT,0x34,__irq4);
+    set_irq(IDT,0x35,__irq5);
+    set_irq(IDT,0x36,__irq6);
+    set_irq(IDT,0x37,__irq7);
+    set_irq(IDT,0x38,__irq8);
+    set_irq(IDT,0x39,__irq9);
+    set_irq(IDT,0x3A,__irq10);
+    set_irq(IDT,0x3B,__irq11);
+    set_irq(IDT,0x3C,__irq12);
+    set_irq(IDT,0x3D,__irq13);
+    set_irq(IDT,0x3E,__irq14);
+    set_irq(IDT,0x3F,__irq15);
+
+#ifdef __SMP__
+		set_irq(IDT,0x40,__ipi_cf);
+		set_irq(IDT,0x41,__ipi_tlb);
+		set_irq(IDT,0x42,__ipi_pte);
+		set_irq(IDT,0x43,__ipi_resched);
+		set_irq(IDT,0x44,__ipi_stop);
+#endif
+ 
+    i386lidt((uint32) IDT, 0x3FF);
+    
+    remap_irqs();
+    unmask_irq(0);
+}
+
+void restore_idt(void)
+{
+    unmap_irqs();    
+    i386lidt(0,0x3FF);
+}
+
+
+#ifdef __SMP__
+void ipi_dispatch (regs r, uint32 number)
+{
+	unsigned int config;
+
+	kprintf ("cpu#%d got ipi %x", smp_my_cpu (), number);
+	apic_write (APIC_EOI, 0);
+	switch (number)
+		{
+			case IPI_CACHE_FLUSH:
+				asm ("wbinvd");
+				break;
+			case IPI_INV_TLB:
+				local_flush_tlb ();
+				break;
+			case IPI_INV_PTE:
+				local_flush_tlb (); /* FIXME */
+				break;
+			case IPI_INV_RESCHED:
+				break;
+			case IPI_STOP:
+				config = apic_read (APIC_LVTT);
+				apic_write (APIC_LVTT, config | 0x10000);
+				while (!smp_begun) ;
+				apic_write (APIC_LVTT, config);
+				break;
+		}
+}
+#endif
+
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.070299
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/fault.c#9 $
+d31 1
+d46 1
+d107 1
+a107 1
+    kprintf("Task %X (%s) crashed.",current->rsrc.id,current->rsrc.name);
+a108 1
+	rsrc_enqueue(reaper_queue, current);
+d131 1
+a131 3
+    kprintf("Task %X (%s) crashed.",current->rsrc.id,current->rsrc.name);
+	
+	rsrc_enqueue(reaper_queue, current);
+d151 3
+a153 1
+            preempt(irq_task_map[number]);            
+d175 1
+a175 1
+	task_t *task;
+d178 10
+a187 8
+	while(task = timer_queue->queue_head){
+		if(task->wait_time <= kernel_timer){
+			task = rsrc_dequeue(timer_queue);
+			rsrc_enqueue(run_queue, task);
+		} else {
+			break;
+		}
+	}
+d191 2
+a192 1
+    swtch();    
+@
+
+
+1.1.1.3
+log
+@openblt.070799
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/fault.c#10 $
+d152 1
+a152 1
+            preempt(irq_task_map[number],ERR_NONE);            
+@
+
+
+1.1.1.4
+log
+@openblt.19991228
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/fault.c#12 $
+d105 1
+a105 1
+    kprintf("Task %d (%s) crashed.",current->rsrc.id,current->rsrc.name);
+d107 1
+d130 1
+a130 1
+    kprintf("Task %d (%s) crashed.",current->rsrc.id,current->rsrc.name);
+d132 1
+d177 1
+a177 1
+	while(task = rsrc_queue_peek(timer_queue)){
+@
+
+
+1.1.1.5
+log
+@openblt.20000102
+@
+text
+@d1 26
+a26 2
+/* Copyright 1998-1999, Brian J. Swetland. All rights reserved.
+** Distributed under the terms of the OpenBLT License
+a272 1
+    unmask_irq(2);
+@
+
+
+1.1.1.6
+log
+@openblt.20000117
+@
+text
+@a9 6
+#include "port.h"
+#include "task.h"
+#include "aspace.h"
+#include "resource.h"
+#include "pager.h"
+#include "i386.h"
+d15 7
+a43 24
+typedef void (*ehfcn)(uint32, regs, uint32, uint32, uint32);
+typedef void (*ehfcnE)(uint32, regs, uint32, uint32, uint32, uint32);
+
+void fault(uint32 number, regs r, uint32 eip, uint32 cs,
+		uint32 eflags);
+void faultE(uint32 number, regs r, uint32 error, uint32 eip, uint32 cs,
+		uint32 eflags);
+static void __fault(uint32 number, regs r, uint32 eip, uint32 cs,
+		uint32 eflags);
+static void __faultE(uint32 number, regs r, uint32 error, uint32 eip, uint32 cs,
+		uint32 eflags);
+
+static ehfcn ehtable[] =
+	{ __fault, __fault, __fault, __fault,
+	  __fault, __fault, __fault, __fault,
+	  NULL, __fault, NULL, NULL,
+	  NULL, NULL, NULL, __fault,
+	  __fault, __fault, __fault };
+static ehfcnE ehtableE[] =
+	{ NULL, NULL, NULL, NULL,
+	  NULL, NULL, NULL, NULL,
+	  __faultE, NULL, __faultE, __faultE,
+	  __faultE, __faultE, page_fault, NULL,
+	  NULL, NULL, NULL };
+d49 1
+a50 1
+void terminate(void);
+a61 10
+void faultE(uint32 number, regs r, uint32 error, uint32 eip, uint32 cs,
+		uint32 eflags)
+{
+	(*ehtableE[number]) (number, r, error, eip, cs, eflags);
+}
+
+void fault(uint32 number, regs r, uint32 eip, uint32 cs, uint32 eflags)
+{
+	(*ehtable[number]) (number, r, eip, cs, eflags);
+}
+d63 1
+a63 1
+static void __faultE(uint32 number,
+d95 1
+a95 1
+static void __fault(uint32 number,
+d151 1
+a151 1
+	while((task = rsrc_queue_peek(timer_queue))){
+@
+
+
+1.1.1.7
+log
+@openblt.20000517
+@
+text
+@d43 2
+a44 1
+typedef void (*ehfunc)();
+d46 4
+d55 1
+a55 1
+ehfunc ehfunctab[] = 
+d58 2
+a59 2
+	  __faultE, __fault, __faultE, __faultE,
+	  __faultE, __faultE, __faultE /*page_fault*/, __fault,
+d61 6
+d85 2
+a86 1
+void user_debug(regs *r, uint32 *eip, uint32 *eflags)
+d88 1
+a88 21
+#if 1
+	return;
+#else
+	int src,p,sz;
+	task_t *t0;
+	uchar buf[16];
+	uint32 code;
+	
+	p = port_create(0, "debug control");
+		
+	/* wake all blocking objects */
+	while((t0 = list_detach_head(&current->rsrc.queue))) task_wake(t0,ERR_RESOURCE);
+		
+	kprintf("Waiting on debug control port (%d)... ",p);
+	current->team = kernel_team; // XXX hack 
+	 
+	while((sz = port_recv(p, &src, buf, 16, &code)) >= 0){
+	}
+	kprintf("debug control error %d\n",sz);
+	
+#endif
+d91 4
+a115 2
+	if((cs & 0xFFF8) == SEL_UCODE) user_debug(&r, &eip, &eflags);
+	
+a138 2
+	
+	if((cs & 0xFFF8) == SEL_UCODE) user_debug(&r, &eip, &eflags);
+@
+
+

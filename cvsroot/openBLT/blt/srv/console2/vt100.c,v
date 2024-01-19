@@ -1,0 +1,646 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.1
+	openblt20000429:1.1.1.1
+	openblt20000428:1.1.1.1
+	openblt20000427:1.1.1.1
+	openblt20000426:1.1.1.1
+	openblt20000425:1.1.1.1
+	openblt20000424:1.1.1.1
+	openblt20000423:1.1.1.1
+	openblt20000422:1.1.1.1
+	openblt20000421:1.1.1.1
+	openblt20000420:1.1.1.1
+	openblt20000419:1.1.1.1
+	openblt20000418:1.1.1.1
+	openblt20000417:1.1.1.1
+	openblt20000416:1.1.1.1
+	openblt20000415:1.1.1.1
+	openblt20000414:1.1.1.1
+	openblt20000413:1.1.1.1
+	openblt20000412:1.1.1.1
+	openblt20000411:1.1.1.1
+	openblt20000410:1.1.1.1
+	openblt20000409:1.1.1.1
+	openblt20000408:1.1.1.1
+	openblt20000407:1.1.1.1
+	openblt20000406:1.1.1.1
+	openblt20000405:1.1.1.1
+	openblt20000404:1.1.1.1
+	openblt20000403:1.1.1.1
+	openblt20000402:1.1.1.1
+	openblt20000401:1.1.1.1
+	openblt20000331:1.1.1.1
+	openblt20000330:1.1.1.1
+	openblt20000329:1.1.1.1
+	openblt20000328:1.1.1.1
+	openblt20000327:1.1.1.1
+	openblt20000326:1.1.1.1
+	openblt20000325:1.1.1.1
+	openblt20000324:1.1.1.1
+	openblt20000323:1.1.1.1
+	openblt20000322:1.1.1.1
+	openblt20000321:1.1.1.1
+	openblt20000320:1.1.1.1
+	openblt20000319:1.1.1.1
+	openblt20000318:1.1.1.1
+	openblt20000317:1.1.1.1
+	openblt20000316:1.1.1.1
+	openblt20000315:1.1.1.1
+	openblt20000314:1.1.1.1
+	openblt20000313:1.1.1.1
+	openblt20000312:1.1.1.1
+	openblt20000311:1.1.1.1
+	openblt20000310:1.1.1.1
+	openblt20000309:1.1.1.1
+	openblt20000308:1.1.1.1
+	openblt20000307:1.1.1.1
+	openblt20000306:1.1.1.1
+	openblt20000305:1.1.1.1
+	openblt20000304:1.1.1.1
+	openblt20000303:1.1.1.1
+	openblt20000302:1.1.1.1
+	openblt20000301:1.1.1.1
+	openblt20000229:1.1.1.1
+	openblt20000228:1.1.1.1
+	openblt20000227:1.1.1.1
+	openblt20000226:1.1.1.1
+	openblt20000225:1.1.1.1
+	openblt20000224:1.1.1.1
+	openblt20000223:1.1.1.1
+	openblt20000222:1.1.1.1
+	openblt20000221:1.1.1.1
+	openblt20000220:1.1.1.1
+	openblt20000219:1.1.1.1
+	openblt20000218:1.1.1.1
+	openblt20000217:1.1.1.1
+	openblt20000216:1.1.1.1
+	openblt20000215:1.1.1.1
+	openblt20000214:1.1.1.1
+	openblt20000213:1.1.1.1
+	openblt20000212:1.1.1.1
+	openblt20000211:1.1.1.1
+	openblt20000210:1.1.1.1
+	openblt20000209:1.1.1.1
+	openblt20000208:1.1.1.1
+	openblt20000207:1.1.1.1
+	openblt20000206:1.1.1.1
+	openblt20000205:1.1.1.1
+	openblt20000204:1.1.1.1
+	openblt20000203:1.1.1.1
+	openblt20000202:1.1.1.1
+	openblt20000201:1.1.1.1
+	openblt20000131:1.1.1.1
+	openblt20000130:1.1.1.1
+	openblt20000129:1.1.1.1
+	openblt20000128:1.1.1.1
+	openblt20000127:1.1.1.1
+	openblt20000126:1.1.1.1
+	openblt20000125:1.1.1.1
+	openblt20000124:1.1.1.1
+	openblt20000123:1.1.1.1
+	openblt20000122:1.1.1.1
+	openblt20000121:1.1.1.1
+	openblt20000120:1.1.1.1
+	openblt20000119:1.1.1.1
+	openblt20000118:1.1.1.1
+	openblt20000117:1.1.1.1
+	openblt20000116:1.1.1.1
+	openblt20000115:1.1.1.1
+	openblt20000114:1.1.1.1
+	openblt20000113:1.1.1.1
+	openblt20000112:1.1.1.1
+	openblt20000111:1.1.1.1
+	openblt20000110:1.1.1.1
+	openblt20000109:1.1.1.1
+	openblt20000108:1.1.1.1
+	openblt20000107:1.1.1.1
+	openblt20000106:1.1.1.1
+	openblt20000105:1.1.1.1
+	openblt20000104:1.1.1.1
+	openblt20000103:1.1.1.1
+	openblt20000102:1.1.1.1
+	openblt19991228:1.1.1.1
+	openblt19990827:1.1.1.1
+	openblt082699:1.1.1.1
+	openblt082599:1.1.1.1
+	openblt082499:1.1.1.1
+	openblt082399:1.1.1.1
+	openblt082299:1.1.1.1
+	openblt082199:1.1.1.1
+	openblt082099:1.1.1.1
+	openblt081999:1.1.1.1
+	openblt081899:1.1.1.1
+	openblt081799:1.1.1.1
+	openblt081699:1.1.1.1
+	openblt081599:1.1.1.1
+	openblt071199:1.1.1.1
+	openblt071099:1.1.1.1
+	openblt070799:1.1.1.1
+	openblt070699:1.1.1.1
+	openblt070299:1.1.1.1
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/srv/console2/vt100.c#1 $ */
+/* VT100 Engine Copyright 1997 Daniel Marks <dmarks@@uiuc.edu> */
+
+#include "vt100.h"
+#include <stdlib.h>
+
+#define STRICT_VT100
+
+/* struct virtscreen newscr; */
+
+void std_interpret_char(struct virtscreen *cur, unsigned char ch);
+void std_interpret_ansi(struct virtscreen *cur, unsigned char ch);
+void special_reading_ansi(struct virtscreen *cur, unsigned char ch);
+void special_ansi_charset_0(struct virtscreen *cur, unsigned char ch);
+void special_ansi_charset_1(struct virtscreen *cur, unsigned char ch);
+
+void clear_region(struct virtscreen *cur, int y1, int x1, int y2, int x2, int atrb);
+
+int init_virtscreen(struct virtscreen *cur, int rows, int columns)
+{
+
+  cur->num_bytes = ((sizeof(unsigned short) * rows * columns));
+
+  if (!(cur->data=malloc(cur->num_bytes)))
+    return (-1);
+
+  cur->data_off_scr = cur->data;
+
+  cur->bottom_scroll = cur->rows = rows;
+  cur->columns = columns;
+  cur->cur_ansi_number = cur->top_scroll = 0;
+  cur->ansi_elements = cur->ansi_reading_number = 0;
+  cur->next_char_send = std_interpret_char;
+  cur->old_attrib = cur->attrib = 0x07;
+  cur->next_char_send = std_interpret_char;
+  clear_region(cur,0,0,rows-1,columns-1,cur->attrib);
+  cur->old_xpos = cur->old_ypos = 0;
+
+  return (0);
+}
+
+void clear_region(struct virtscreen *cur, int y1, int x1, int y2, int x2, int atrb)
+{
+  ushort *ch = loc_in_virtscreen(cur,y1,x1);
+  ushort *tr = loc_in_virtscreen(cur,y2,x2);
+  int dt = 0x20 | (atrb << 8);
+
+  while (ch<=tr)
+    *ch++ = dt;
+}
+
+void clear_virtscreen(struct virtscreen *cur, int mode)
+{
+  switch (mode)
+  {
+    case 0: clear_region(cur,cur->ypos,cur->xpos,
+			 cur->rows-1,cur->columns-1,cur->attrib);
+            break;
+    case 1: clear_region(cur,0,0,cur->ypos,cur->xpos,cur->attrib);
+            break;
+    default: clear_region(cur,0,0,cur->rows-1,cur->columns-1,cur->attrib);
+             cur->xpos = cur->ypos = 0;
+             break;
+  }
+}
+
+void clear_to_eol(struct virtscreen *cur, int mode)
+{
+  switch(mode)
+    {
+      case 0: 
+          clear_region(cur,cur->ypos,cur->xpos,cur->ypos,
+                       cur->columns-1,cur->attrib);
+          break;
+      case 1:
+	  clear_region(cur,cur->ypos,0,cur->ypos,cur->xpos,
+                       cur->attrib);
+          break;
+      default:
+          clear_region(cur,cur->ypos,0,cur->ypos,cur->columns-1,
+                       cur->attrib);
+	}
+}
+
+
+void move_cursor(struct virtscreen *cur);
+/*
+{
+}
+*/
+
+void position_console(struct virtscreen *cur, int ypos, int xpos, int rel)
+{
+  if (rel)
+    {
+      cur->xpos += xpos;
+      cur->ypos += ypos;
+  } else
+    {
+      cur->xpos = xpos;
+      cur->ypos = ypos;
+    }
+  if (cur->xpos < 0) cur->xpos = 0;
+  if (cur->xpos >= cur->columns) cur->xpos = cur->columns-1;
+  if (cur->ypos < 0) cur->ypos = 0;
+  if (cur->ypos >= cur->rows) cur->ypos = cur->rows-1;
+  move_cursor(cur);
+}
+
+void delete_chars_in_line(struct virtscreen *cur, int char_move)
+{
+   ushort *next_move;
+   ushort *end_move;
+   ushort *start_move;
+   ushort clr_with;
+
+   clr_with = (cur->attrib << 8) | 0x20; 
+   start_move = loc_in_virtscreen(cur,cur->ypos,cur->xpos);
+   end_move = loc_in_virtscreen(cur,cur->ypos,cur->columns);
+   if ((cur->xpos + char_move) < cur->columns)
+   {
+     next_move = loc_in_virtscreen(cur,cur->ypos,cur->xpos+char_move);
+     while (next_move<end_move)
+       *start_move++ = *next_move++;
+   }
+   while (start_move<end_move) *start_move++ = clr_with;
+}
+
+void scroll_virt_up_at_cursor(struct virtscreen *cur, int dir)
+{
+   ushort clr_with;
+   ushort *beginScr;
+   ushort *endofScr;
+   ushort *lastLine;
+   ushort *nextLine;
+   unsigned int real_scroll_length;
+
+   if ((cur->ypos >= cur->top_scroll) &&
+       (cur->ypos < cur->bottom_scroll))
+   {
+     clr_with = (cur->attrib << 8) | 0x20;
+     beginScr = loc_in_virtscreen(cur,cur->ypos,0);
+     endofScr = loc_in_virtscreen(cur,cur->bottom_scroll,0);
+     lastLine = endofScr - cur->columns;
+     nextLine = beginScr + cur->columns;
+     real_scroll_length = ((unsigned int) lastLine) -
+                          ((unsigned int) beginScr);
+
+     if (dir)
+       {
+	 memmove(beginScr,nextLine,real_scroll_length);
+         while (lastLine < endofScr)
+	   *lastLine++ = clr_with;
+       } else
+	 {
+	   memmove(nextLine,beginScr,real_scroll_length);
+           while (beginScr < nextLine)
+	     *beginScr++ = clr_with;
+	 }
+   }
+}
+
+void scroll_virtscreen(struct virtscreen *cur)
+ {
+   int clr_with = (cur->attrib << 8) | 0x20;
+   ushort *beginScr = loc_in_virtscreen(cur,cur->top_scroll,0);
+   ushort *endofScr = loc_in_virtscreen(cur,cur->bottom_scroll,0);
+   ushort *lastLine = endofScr - cur->columns;
+   ushort *nextLine = beginScr + cur->columns;
+   unsigned int real_scroll_length = ((unsigned int) lastLine) -
+                          ((unsigned int) beginScr);
+
+   memmove(beginScr,nextLine,real_scroll_length);
+   while (lastLine < endofScr)
+     *lastLine++ = clr_with;
+ };
+
+void set_scroll_region(struct virtscreen *cur, int low, int high)
+{
+   low--;
+   high = (high >= cur->rows) ? cur->rows : high;
+   low = (low < 0) ? 0 : low;
+
+   cur->top_scroll = low;
+   cur->bottom_scroll = high;
+}
+
+void change_attribute(struct virtscreen *cur, int attrib)
+{
+  cur->attrib = attrib;
+}
+
+void change_character(struct virtscreen *cur, int ch)
+{
+  *(loc_in_virtscreen(cur,cur->ypos,cur->xpos)) =
+    ch | (cur->attrib << 8);
+}
+
+void special_ansi_charset_0(struct virtscreen *cur, unsigned char ch)
+{
+  cur->next_char_send = std_interpret_char;
+}
+
+void special_ansi_charset_1(struct virtscreen *cur, unsigned char ch)
+{
+  cur->next_char_send = std_interpret_char;
+}
+
+void std_interpret_ansi(struct virtscreen *cur, unsigned char ch)
+{
+  switch (ch)
+  {
+    case '(':  cur->next_char_send = special_ansi_charset_0;
+               return;
+    case ')':  cur->next_char_send = special_ansi_charset_1;
+               return;
+    case '[':  cur->cur_ansi_number = 0;
+               cur->ansi_elements = 0;
+               cur->ansi_reading_number = 0;
+               cur->next_char_send = special_reading_ansi;
+               return;
+    case '7':  cur->old_attrib = cur->attrib;
+               cur->old_xpos = cur->xpos;
+               cur->old_ypos = cur->ypos;
+               break;
+    case '8':  change_attribute(cur,cur->old_attrib);
+               position_console(cur,cur->ypos,cur->xpos,0);
+               break;
+    case 'E':  cur->xpos = 0;
+    case 'D':  cur->ypos++;
+               if (cur->ypos >= cur->bottom_scroll)
+               {
+                 scroll_virtscreen(cur);
+                 cur->ypos--;
+               }
+               move_cursor(cur);
+               break; 
+    case 'M':  cur->ypos--;
+               if (cur->ypos < cur->top_scroll)
+               {
+                 cur->ypos++;
+                 scroll_virt_up_at_cursor(cur,0);
+               }
+               move_cursor(cur);
+               break;    /* recalculate screen pos */
+  }
+  if (ch != 27)
+    cur->next_char_send = std_interpret_char;
+}
+
+void std_interpret_char(struct virtscreen *cur, unsigned char ch)
+{
+  switch (ch)
+  {
+    case 27: cur->next_char_send = std_interpret_ansi;
+             return;
+    case 12: clear_virtscreen(cur,2);
+             break;
+    case 13: cur->xpos = 0;        /* return = back to begin */
+             break;
+    case 10: cur->ypos++;
+             if (cur->ypos >= cur->bottom_scroll)
+                     /* if we're at bottom */
+             {
+               if (cur->ypos == cur->bottom_scroll)
+		 scroll_virtscreen(cur);        /* and scroll it! */
+               cur->ypos--;            /* go back up a line */
+             }
+             cur->xpos=0;
+             break;  
+    case 9:  position_console(cur,cur->ypos,cur->xpos+(8-(cur->xpos % 8)),0);
+             break;
+    case 8:  cur->xpos--;               /* backspace on screen */
+             if (cur->xpos<0)
+             {
+               cur->xpos = cur->columns - 1;
+               cur->ypos;
+               if (cur->ypos<0)
+		 cur->ypos=0;
+             }
+             break;
+    default: if (!ch)
+                break;
+             change_character(cur,ch);
+             cur->xpos++;
+             if (cur->xpos >= cur->columns)
+	       {
+#ifdef STRICT_VT100
+		 cur->xpos = cur->columns-1;
+#else
+		 cur->xpos = 0;
+                 cur->ypos++;
+                 if (cur->ypos == cur->bottom_scroll)
+		   {
+		     cur->ypos--;
+		     scroll_virtscreen(cur);
+		   }
+#endif
+	       }
+             break;
+    }
+  move_cursor(cur);
+}
+
+void special_reading_ansi(struct virtscreen *cur, unsigned char ch)
+{
+  if ((ch>='0') && (ch<='9'))
+  {
+    cur->cur_ansi_number = (cur->cur_ansi_number * 10) + (ch - '0');
+    cur->ansi_reading_number = 1;
+    return;
+  }
+
+  if ((cur->ansi_reading_number) || (ch == ';'))
+  {
+     if (cur->ansi_elements<MAX_ANSI_ELEMENTS)
+      cur->ansi_element[cur->ansi_elements++] = cur->cur_ansi_number;
+     cur->ansi_reading_number = 0;
+  }
+  cur->cur_ansi_number = 0;
+  switch (ch)
+  {
+    case '?':
+    case ';':   return;
+    case 'D':   position_console(cur,0,(cur->ansi_elements) ?
+			 -cur->ansi_element[0] : -1,1);
+                break;
+    case 'a':
+    case 'C':   position_console(cur,0,(cur->ansi_elements) ?
+			 cur->ansi_element[0] : 1,1);
+                break;
+    case 'A':   position_console(cur,(cur->ansi_elements) ? 
+		         -cur->ansi_element[0] : -1,0,1);
+                break;
+    case 'e':
+    case 'B':   position_console(cur,(cur->ansi_elements) ?
+			 cur->ansi_element[0] : 1,0,1);
+                break;
+    case '`':
+    case 'G':   
+                {
+                  int temp = cur->ansi_elements ? cur->ansi_element[0] : 1;
+		  if (temp)
+		    temp--;
+                  position_console(cur,cur->ypos,temp,0);
+		}
+                break;
+    case 'E':   position_console(cur,cur->ypos + 
+		         ((cur->ansi_elements) ? cur->ansi_element[0] : 1),
+			 0,0);
+                break;
+    case 'F':   position_console(cur,cur->ypos - 
+		         ((cur->ansi_elements) ? cur->ansi_element[0] : 1),
+			 0,0);
+                break;
+    case 'd':   
+                {
+                  int temp = cur->ansi_elements ? cur->ansi_element[0] : 1;
+		  if (temp)
+		    temp--;
+                  position_console(cur,temp,cur->xpos,0);
+		}
+                break;
+    case 'f':
+    case 'H':
+      {
+        int row = (cur->ansi_elements > 0) ? cur->ansi_element[0] : 1;
+        int col = (cur->ansi_elements > 1) ? cur->ansi_element[1] : 1;
+	if (row)
+	  row--;
+	if (col)
+	  col--;
+        position_console(cur,row,col,0);
+      }
+      break;
+    case 'J':   clear_virtscreen(cur,(cur->ansi_elements) ?
+		       cur->ansi_element[0]: 0);
+                break;
+    case 'L':   {
+                  int lines = (cur->ansi_elements) ? 
+		     cur->ansi_element[0] : 1;
+                  while (lines>0)
+                  {
+                    scroll_virt_up_at_cursor(cur,0);
+                    lines--;
+                  }
+                }
+                break;
+    case 'M':   {
+                  int lines = (cur->ansi_elements) ? 
+		     cur->ansi_element[0] : 1;
+                  while (lines>0)
+                  {
+                    scroll_virt_up_at_cursor(cur,1);
+                    lines--;
+                  }
+                }
+                break;
+    case 'P':   delete_chars_in_line(cur,(cur->ansi_elements) ? 
+			 cur->ansi_element[0] : 1);
+                break;
+    case 'K':   clear_to_eol(cur,cur->ansi_elements ? 
+		    cur->ansi_element[0] : 0);
+                break;
+    case 's':   cur->old_xpos = cur->xpos;
+                cur->old_ypos = cur->ypos;
+                break;
+    case 'u':   position_console(cur,cur->old_ypos,cur->old_xpos,0);
+                break;
+    case 'r':   {
+                  int low = (cur->ansi_elements > 0) ?
+		      cur->ansi_element[0] : 1;
+                  int high = (cur->ansi_elements > 1) ?
+		      cur->ansi_element[1] : cur->rows;
+                  if (low<=high)
+                    set_scroll_region(cur,low,high);
+                }
+                break;
+    case 'm':
+       {
+          int count = 0;
+          int cthing;
+          if (!cur->ansi_elements)
+            change_attribute(cur,0x07);
+          while (count < cur->ansi_elements)
+          {
+            cthing = cur->ansi_element[count];
+            switch (cthing)
+            {
+              case 0:
+              case 27: change_attribute(cur,0x07);
+                       break;
+              case 1:  change_attribute(cur,cur->attrib | 0x08);
+                       break;
+              case 5:  change_attribute(cur,cur->attrib | 0x80);
+                       break;
+              case 7:  change_attribute(cur,0x70);
+                       break;
+              case 21:
+              case 22: change_attribute(cur,cur->attrib & 0xF7);
+                       break;
+              case 25: change_attribute(cur,cur->attrib & 0x7F);
+                       break;
+              default:
+                if ((cthing>=30) && (cthing<=37))
+		  {
+		    change_attribute(cur,(cur->attrib & 0xF8) | (cthing-30));
+		  }
+                if ((cthing>=40) && (cthing<=47))
+		  {
+		    change_attribute(cur,(cur->attrib & 0x8F) | 
+				     ((cthing-40) << 4));
+		  }
+                break;
+	      }
+            count++;
+	  }
+	}
+      break;
+      
+  }
+  cur->next_char_send = std_interpret_char;
+}
+
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@

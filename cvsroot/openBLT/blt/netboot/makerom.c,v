@@ -1,0 +1,394 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.3
+	openblt20000429:1.1.1.3
+	openblt20000428:1.1.1.3
+	openblt20000427:1.1.1.3
+	openblt20000426:1.1.1.3
+	openblt20000425:1.1.1.3
+	openblt20000424:1.1.1.3
+	openblt20000423:1.1.1.3
+	openblt20000422:1.1.1.3
+	openblt20000421:1.1.1.3
+	openblt20000420:1.1.1.3
+	openblt20000419:1.1.1.3
+	openblt20000418:1.1.1.3
+	openblt20000417:1.1.1.3
+	openblt20000416:1.1.1.3
+	openblt20000415:1.1.1.3
+	openblt20000414:1.1.1.3
+	openblt20000413:1.1.1.3
+	openblt20000412:1.1.1.3
+	openblt20000411:1.1.1.3
+	openblt20000410:1.1.1.3
+	openblt20000409:1.1.1.3
+	openblt20000408:1.1.1.3
+	openblt20000407:1.1.1.3
+	openblt20000406:1.1.1.3
+	openblt20000405:1.1.1.3
+	openblt20000404:1.1.1.3
+	openblt20000403:1.1.1.3
+	openblt20000402:1.1.1.3
+	openblt20000401:1.1.1.3
+	openblt20000331:1.1.1.3
+	openblt20000330:1.1.1.3
+	openblt20000329:1.1.1.3
+	openblt20000328:1.1.1.3
+	openblt20000327:1.1.1.3
+	openblt20000326:1.1.1.3
+	openblt20000325:1.1.1.3
+	openblt20000324:1.1.1.3
+	openblt20000323:1.1.1.3
+	openblt20000322:1.1.1.3
+	openblt20000321:1.1.1.3
+	openblt20000320:1.1.1.3
+	openblt20000319:1.1.1.3
+	openblt20000318:1.1.1.3
+	openblt20000317:1.1.1.3
+	openblt20000316:1.1.1.3
+	openblt20000315:1.1.1.3
+	openblt20000314:1.1.1.3
+	openblt20000313:1.1.1.3
+	openblt20000312:1.1.1.3
+	openblt20000311:1.1.1.3
+	openblt20000310:1.1.1.3
+	openblt20000309:1.1.1.3
+	openblt20000308:1.1.1.3
+	openblt20000307:1.1.1.3
+	openblt20000306:1.1.1.3
+	openblt20000305:1.1.1.3
+	openblt20000304:1.1.1.3
+	openblt20000303:1.1.1.3
+	openblt20000302:1.1.1.3
+	openblt20000301:1.1.1.3
+	openblt20000229:1.1.1.3
+	openblt20000228:1.1.1.3
+	openblt20000227:1.1.1.3
+	openblt20000226:1.1.1.3
+	openblt20000225:1.1.1.3
+	openblt20000224:1.1.1.3
+	openblt20000223:1.1.1.3
+	openblt20000222:1.1.1.3
+	openblt20000221:1.1.1.3
+	openblt20000220:1.1.1.3
+	openblt20000219:1.1.1.3
+	openblt20000218:1.1.1.3
+	openblt20000217:1.1.1.3
+	openblt20000216:1.1.1.3
+	openblt20000215:1.1.1.3
+	openblt20000214:1.1.1.3
+	openblt20000213:1.1.1.3
+	openblt20000212:1.1.1.3
+	openblt20000211:1.1.1.3
+	openblt20000210:1.1.1.3
+	openblt20000209:1.1.1.3
+	openblt20000208:1.1.1.3
+	openblt20000207:1.1.1.3
+	openblt20000206:1.1.1.3
+	openblt20000205:1.1.1.3
+	openblt20000204:1.1.1.3
+	openblt20000203:1.1.1.3
+	openblt20000202:1.1.1.3
+	openblt20000201:1.1.1.3
+	openblt20000131:1.1.1.3
+	openblt20000130:1.1.1.3
+	openblt20000129:1.1.1.3
+	openblt20000128:1.1.1.3
+	openblt20000127:1.1.1.3
+	openblt20000126:1.1.1.3
+	openblt20000125:1.1.1.3
+	openblt20000124:1.1.1.3
+	openblt20000123:1.1.1.3
+	openblt20000122:1.1.1.3
+	openblt20000121:1.1.1.3
+	openblt20000120:1.1.1.3
+	openblt20000119:1.1.1.3
+	openblt20000118:1.1.1.3
+	openblt20000117:1.1.1.3
+	openblt20000116:1.1.1.3
+	openblt20000115:1.1.1.3
+	openblt20000114:1.1.1.3
+	openblt20000113:1.1.1.3
+	openblt20000112:1.1.1.3
+	openblt20000111:1.1.1.3
+	openblt20000110:1.1.1.3
+	openblt20000109:1.1.1.3
+	openblt20000108:1.1.1.3
+	openblt20000107:1.1.1.3
+	openblt20000106:1.1.1.3
+	openblt20000105:1.1.1.3
+	openblt20000104:1.1.1.3
+	openblt20000103:1.1.1.3
+	openblt20000102:1.1.1.3
+	openblt19991228:1.1.1.2
+	openblt19990827:1.1.1.1
+	openblt082699:1.1.1.1
+	openblt082599:1.1.1.1
+	openblt082499:1.1.1.1
+	openblt082399:1.1.1.1
+	openblt082299:1.1.1.1
+	openblt082199:1.1.1.1
+	openblt082099:1.1.1.1
+	openblt081999:1.1.1.1
+	openblt081899:1.1.1.1
+	openblt081799:1.1.1.1
+	openblt081699:1.1.1.1
+	openblt081599:1.1.1.1
+	openblt071199:1.1.1.1
+	openblt071099:1.1.1.1
+	openblt070799:1.1.1.1
+	openblt070699:1.1.1.1
+	openblt070299:1.1.1.1
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.31.57;	author jr;	state Exp;
+branches;
+next	1.1.1.3;
+
+1.1.1.3
+date	2005.01.20.16.32.15;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/netboot/makerom.c#2 $
+**
+** Copyright 1998 Brian J. Swetland
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+/************************************************************************
+
+Program to put ROM checksum in ROM image.
+
+This program strips off the FreeBSD a.out header!
+
+************************************************************************/
+#include <stdio.h>
+#include <fcntl.h>
+
+#define ROMSIZE 0x4000
+
+unsigned char rom[ROMSIZE];
+unsigned int sum;
+
+void makehex(char *n)
+{
+    FILE *fp;
+    int chk,chk2;
+    int l,i;
+    
+    if(fp = fopen(n,"w")){
+        for(l=0;l<ROMSIZE;l+=32) {
+            fprintf(fp,":%02X%04X00",32,l);
+
+            chk = 32;
+
+            chk += ((l & 0xFF00) >> 8);
+/*            if(chk > 0xFF) chk = chk + (chk >> 8);*/
+            chk += ((l & 0x00FF));
+/*            if(chk > 0xFF) chk = chk + (chk >> 8);*/
+            
+            for(i=0;i<32;i++){
+                fprintf(fp,"%02X",rom[l+i]);
+                chk += rom[l+i];
+/*                if(chk > 0xFF) chk = chk + (chk >> 8);*/
+                
+            }
+            chk &= 0xFF;
+            chk2 = 0x100 - chk;
+                /*   if(chk + chk2) printf("ERR %02x + %02x != 0\n",chk,chk2);*/
+            
+            fprintf(fp,"%02X\r\n",(chk2 & 0xFF));
+            
+        }
+        fprintf(fp,":00000001FF\r\n");
+        
+        fclose(fp);
+        
+        
+    }
+}
+
+
+main(argc,argv)
+	int argc; char *argv[];
+{
+	int i, fd;
+	if (argc < 2) {
+		fprintf(stderr,"usage: %s rom-file hex-file\n",argv[0]);
+		exit(2);
+	}
+	if ((fd = open(argv[1], O_RDWR)) < 0) {
+		perror("unable to open file");
+		exit(2);
+	}
+	bzero(rom, ROMSIZE);
+/*	if (lseek(fd, (off_t)32, SEEK_SET) < 0) {
+		perror("lseek error");
+		exit(2);
+	}*/
+	if (read(fd, rom, ROMSIZE) < 0) {
+		perror("read error");
+		exit(2);
+	}
+	rom[5] = 0;
+	for (i=0,sum=0; i<ROMSIZE; i++)
+		sum += rom[i];
+	rom[5] = -sum;
+	for (i=0,sum=0; i<ROMSIZE; i++)
+		sum += rom[i];
+	if (sum & 0x00FF)
+		printf("checksum fails.\n");
+        close(fd);
+
+            /*
+	if (lseek(fd, (off_t)0, SEEK_SET) < 0) {
+		perror("unable to seek");
+		exit(2);
+	}
+	if (write(fd, rom, ROMSIZE) < 0) {
+		perror("unable to write");
+		exit(2);
+	}
+	close(fd);
+
+        printf("< %02x > \n", 0x4000 >> 9 );
+        */
+        makehex(argv[2]);
+        
+	exit(0);
+        
+}
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.19991228
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/netboot/makerom.c#3 $
+d28 1
+d30 5
+a36 1
+#include <unistd.h>
+d56 1
+d58 1
+d63 2
+d68 1
+d71 1
+d76 2
+d82 2
+a83 1
+int main(int argc, char *argv[])
+d92 1
+a92 1
+		return 1;
+d95 4
+a98 1
+	
+d101 1
+a101 1
+		return 1;
+a102 1
+	
+d104 2
+a105 1
+	for (i=0,sum=0; i<ROMSIZE; i++) sum += rom[i];
+d107 15
+a121 4
+	
+	for (i=0,sum=0; i<ROMSIZE; i++) sum += rom[i];
+	if (sum & 0x00FF) printf("checksum fails.\n");
+	
+d123 6
+a128 2
+	
+	makehex(argv[2]);
+a129 1
+	return 0;
+@
+
+
+1.1.1.3
+log
+@openblt.20000102
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/netboot/makerom.c#4 $
+d86 1
+a86 7
+
+	/* store size in ROM header */	
+	rom[2] = ROMSIZE / 512;
+
+	/* store size in PCI ROM header */
+	rom[0x18 + 0x10 + 4] = ROMSIZE / 512;
+
+@
+
+

@@ -1,0 +1,417 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.1
+	openblt20000429:1.1.1.1
+	openblt20000428:1.1.1.1
+	openblt20000427:1.1.1.1
+	openblt20000426:1.1.1.1
+	openblt20000425:1.1.1.1
+	openblt20000424:1.1.1.1
+	openblt20000423:1.1.1.1
+	openblt20000422:1.1.1.1
+	openblt20000421:1.1.1.1
+	openblt20000420:1.1.1.1
+	openblt20000419:1.1.1.1
+	openblt20000418:1.1.1.1
+	openblt20000417:1.1.1.1
+	openblt20000416:1.1.1.1
+	openblt20000415:1.1.1.1
+	openblt20000414:1.1.1.1
+	openblt20000413:1.1.1.1
+	openblt20000412:1.1.1.1
+	openblt20000411:1.1.1.1
+	openblt20000410:1.1.1.1
+	openblt20000409:1.1.1.1
+	openblt20000408:1.1.1.1
+	openblt20000407:1.1.1.1
+	openblt20000406:1.1.1.1
+	openblt20000405:1.1.1.1
+	openblt20000404:1.1.1.1
+	openblt20000403:1.1.1.1
+	openblt20000402:1.1.1.1
+	openblt20000401:1.1.1.1
+	openblt20000331:1.1.1.1
+	openblt20000330:1.1.1.1
+	openblt20000329:1.1.1.1
+	openblt20000328:1.1.1.1
+	openblt20000327:1.1.1.1
+	openblt20000326:1.1.1.1
+	openblt20000325:1.1.1.1
+	openblt20000324:1.1.1.1
+	openblt20000323:1.1.1.1
+	openblt20000322:1.1.1.1
+	openblt20000321:1.1.1.1
+	openblt20000320:1.1.1.1
+	openblt20000319:1.1.1.1
+	openblt20000318:1.1.1.1
+	openblt20000317:1.1.1.1
+	openblt20000316:1.1.1.1
+	openblt20000315:1.1.1.1
+	openblt20000314:1.1.1.1
+	openblt20000313:1.1.1.1
+	openblt20000312:1.1.1.1
+	openblt20000311:1.1.1.1
+	openblt20000310:1.1.1.1
+	openblt20000309:1.1.1.1
+	openblt20000308:1.1.1.1
+	openblt20000307:1.1.1.1
+	openblt20000306:1.1.1.1
+	openblt20000305:1.1.1.1
+	openblt20000304:1.1.1.1
+	openblt20000303:1.1.1.1
+	openblt20000302:1.1.1.1
+	openblt20000301:1.1.1.1
+	openblt20000229:1.1.1.1
+	openblt20000228:1.1.1.1
+	openblt20000227:1.1.1.1
+	openblt20000226:1.1.1.1
+	openblt20000225:1.1.1.1
+	openblt20000224:1.1.1.1
+	openblt20000223:1.1.1.1
+	openblt20000222:1.1.1.1
+	openblt20000221:1.1.1.1
+	openblt20000220:1.1.1.1
+	openblt20000219:1.1.1.1
+	openblt20000218:1.1.1.1
+	openblt20000217:1.1.1.1
+	openblt20000216:1.1.1.1
+	openblt20000215:1.1.1.1
+	openblt20000214:1.1.1.1
+	openblt20000213:1.1.1.1
+	openblt20000212:1.1.1.1
+	openblt20000211:1.1.1.1
+	openblt20000210:1.1.1.1
+	openblt20000209:1.1.1.1
+	openblt20000208:1.1.1.1
+	openblt20000207:1.1.1.1
+	openblt20000206:1.1.1.1
+	openblt20000205:1.1.1.1
+	openblt20000204:1.1.1.1
+	openblt20000203:1.1.1.1
+	openblt20000202:1.1.1.1
+	openblt20000201:1.1.1.1
+	openblt20000131:1.1.1.1
+	openblt20000130:1.1.1.1
+	openblt20000129:1.1.1.1
+	openblt20000128:1.1.1.1
+	openblt20000127:1.1.1.1
+	openblt20000126:1.1.1.1
+	openblt20000125:1.1.1.1
+	openblt20000124:1.1.1.1
+	openblt20000123:1.1.1.1
+	openblt20000122:1.1.1.1
+	openblt20000121:1.1.1.1
+	openblt20000120:1.1.1.1
+	openblt20000119:1.1.1.1
+	openblt20000118:1.1.1.1
+	openblt20000117:1.1.1.1
+	openblt20000116:1.1.1.1
+	openblt20000115:1.1.1.1
+	openblt20000114:1.1.1.1
+	openblt20000113:1.1.1.1
+	openblt20000112:1.1.1.1
+	openblt20000111:1.1.1.1
+	openblt20000110:1.1.1.1
+	openblt20000109:1.1.1.1
+	openblt20000108:1.1.1.1
+	openblt20000107:1.1.1.1
+	openblt20000106:1.1.1.1
+	openblt20000105:1.1.1.1
+	openblt20000104:1.1.1.1
+	openblt20000103:1.1.1.1
+	openblt20000102:1.1.1.1
+	openblt19991228:1.1.1.1
+	openblt19990827:1.1.1.1
+	openblt082699:1.1.1.1
+	openblt082599:1.1.1.1
+	openblt082499:1.1.1.1
+	openblt082399:1.1.1.1
+	openblt082299:1.1.1.1
+	openblt082199:1.1.1.1
+	openblt082099:1.1.1.1
+	openblt081999:1.1.1.1
+	openblt081899:1.1.1.1
+	openblt081799:1.1.1.1
+	openblt081699:1.1.1.1
+	openblt081599:1.1.1.1
+	openblt071199:1.1.1.1
+	openblt071099:1.1.1.1
+	openblt070799:1.1.1.1
+	openblt070699:1.1.1.1
+	openblt070299:1.1.1.1
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.22.59;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.22.59;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/lib/linker/start.c#2 $
+**
+** Copyright 1998 Sidney Cammeresi
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+**
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+#include <stdio.h>
+#include <string.h>
+#include <sys/mman.h>
+#include <fcntl.h>
+
+#include "file.h"
+#include "elf.h"
+#include "link.h"
+#include "defs.h"
+
+char *exec_name;
+elf32_sec_hdr_t *dyn_sec;
+elf32_sym_t *dyn_sym;
+
+extern unsigned int high;
+
+void _dl_find_files (void);
+void _dl_run_init (void);
+void _dl_run_fini (void);
+
+void _dl_start (int argc, char **argv, char **environ)
+{
+	unsigned int i, *pgm_start;
+	void (*_start)(int, char **, char **);
+	elf32_hdr_t *exec_hdr;
+	elf32_sec_hdr_t *elf_sec;
+	extern unsigned int num_files;
+
+	/*
+	 * figure out what we need to load.  we need to load the executable
+	 * to get off of the ground.  note that the linker is already loaded
+	 * but it doesn't need anything done to it.
+	 */
+	_dl_add_file (argv[0]);
+	_dl_add_file ("linker");
+	files[1].nopatch = 1;
+	files[1].addr = (unsigned int) _DL_LIB_START;
+	_dl_find_files ();
+
+	/* now load everything */
+	for (i = 0; i < num_files; i++)
+		_dl_load (i);
+
+	/* print out our present setup */
+	for (i = 0; i < num_files; i++)
+		printf ("%2d: %6x - %6x %s\n", i, files[i].addr, files[i].addr +
+			files[i].len, files[i].name);
+
+	/* patch up external references */
+	for (i = 0; i < num_files; i++)
+		_dl_patchup (i);
+
+	printf ("we get %x\n", _elf_lookup_sym (2, "__libc_console_port") +
+		files[2].addr);
+
+#ifdef BLT
+	/* run objects' initialisation code */
+	_dl_run_init ();
+
+	/* away we go! */
+	exec_hdr = (elf32_hdr_t *) files[0].addr;
+	_start = (void (*)(int, char **, char **)) exec_hdr->e_entry;
+	(*_start) (argc, argv, environ);
+
+	/* run objects' finalisation code */
+	_dl_run_fini ();
+#endif
+}
+
+#if defined (LINUX)
+
+int main (int argc, char **argv)
+{
+	int fd, len;
+
+	if (argc < 2)
+		{
+			printf ("%s: test syntax is `%s filename [args]'\n", *argv, *argv);
+			exit (1);
+		}
+
+	/* make things a bit more realistic */
+	fd = open ("linker", O_RDONLY, 0);
+	len = lseek (fd, 0, SEEK_END);
+	mmap (_DL_LIB_START, len, PROT_READ, MAP_PRIVATE, fd, 0);
+	high += (len / 0x1000 + 1) * 0x1000;
+
+	_dl_start (argc - 1, argv + 1, NULL);
+}
+
+#elif defined (BLT)
+#endif
+
+void _dl_find_files (void)
+{
+	unsigned int i, j, fd, len, *magic, filenum;
+	char *dynstr, *libname, *temp;
+	void *addr;
+	elf32_hdr_t *hdr;
+	elf32_dyn_t *dyn;
+	file_info *file;
+	extern unsigned int num_files;
+
+	/*
+	 * look through the executable and the library chain to find out what
+	 * we need to load.  we need to do this now since the data we need won't
+	 * exist in memory when we start constructing the process image.
+	 */
+	for (i = 0; i < num_files; i++)
+		{
+			if (files[i].nopatch)
+				continue;
+
+			/* mmap the next file */
+			temp = files[i].name;
+			/* printf ("looking at %s\n", libname); */
+			if ((fd = open (temp, O_RDONLY, 0)) == -1)
+				error ("linker: _dl_find_files: open failed: %s\n", temp);
+			len = lseek (fd, 0, SEEK_END);
+			if (!(addr = mmap (_DL_LIB_START, len, PROT_READ, MAP_PRIVATE, fd, 0)))
+				error ("linker: _dl_find_files: mmap failed\n");
+
+			hdr = (elf32_hdr_t *) addr;
+			magic = (unsigned int *) addr;
+			file = &files[i];
+
+			/* perform a few sanity checks */
+			if (*magic != ELF_MAGIC)
+				error ("linker: bad magic number\n");
+			if (hdr->e_machine != EM_386)
+				error ("linker: not i386\n");
+			if (hdr->e_version != EV_CURRENT)
+				error ("linker: wrong ELF version\n");
+
+			/*
+			 * grab some useful info while we have .shstrtab around.
+			 *
+			 * we have to store these as offsets from the beginning
+			 * of the file since we don't yet know how the files will
+			 * be situated.
+			 */
+			file = &files[i];
+			file->got_off =     _elf_section_offset (hdr, ".got");
+			file->plt_off =     _elf_section_offset (hdr, ".plt");
+			file->dynstr_off =  _elf_section_offset (hdr, ".dynstr");
+			file->dynsym_off =  _elf_section_offset (hdr, ".dynsym");
+			file->symtab_off =  _elf_section_offset (hdr, ".symtab");
+			file->strtab_off =  _elf_section_offset (hdr, ".strtab");
+			file->hash_off =    _elf_section_offset (hdr, ".hash");
+			file->got_size =    _elf_section_size (hdr, ".got");
+			file->plt_size =    _elf_section_size (hdr, ".plt");
+			file->symtab_size = _elf_section_size (hdr, ".symtab");
+			file->strtab_size = _elf_section_size (hdr, ".strtab");
+
+			dynstr = (char *) _elf_find_section_data (hdr, ".dynstr");
+			dyn = (elf32_dyn_t *) _elf_find_section_data (hdr, ".dynamic");
+
+			for (j = 0; dyn[j].d_tag != DT_NULL; j++)
+				switch (dyn[j].d_tag)
+					{
+						case DT_HASH:
+						case DT_STRTAB:
+						case DT_SYMTAB:
+							/* we got these above already */
+							break;
+						case DT_NEEDED:
+							/* library dependency */
+							libname = (char *) (dynstr + dyn[j].d_un.d_ptr);
+							temp = (char *) malloc (strlen (libname) + 1);
+							(void) strcpy (temp, libname);
+							(void) _dl_add_file (temp);
+							break;
+						case DT_JMPREL:
+							/* printf ("DT_JMPREL @@ %x\n", dyn[j].d_un.d_ptr); */
+							files[i].jmprel_off = dyn[j].d_un.d_ptr;
+							break;
+						case DT_PLTRELSZ:
+							/* printf ("DT_JMPRELSZ %x\n", dyn[j].d_un.d_val); */
+							files[i].jmprel_size = dyn[j].d_un.d_val;
+							break;
+						case DT_REL:
+							files[i].rel_off = dyn[j].d_un.d_ptr;
+							break;
+						case DT_RELSZ:
+							/* printf ("DT_RELSZ %x\n", dyn[j].d_un.d_val); */
+							files[i].rel_size = dyn[j].d_un.d_val;
+							break;
+						default:
+							/* printf ("dt: %d\n", dyn[j].d_tag); */
+							break;
+					}
+			/* printf ("\n"); */
+
+			/* clean up */
+			munmap (addr, len);
+		}
+}
+
+void _dl_run_init (void)
+{
+}
+
+void _dl_run_fini (void)
+{
+}
+
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@

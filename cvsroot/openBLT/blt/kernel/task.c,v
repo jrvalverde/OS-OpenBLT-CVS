@@ -1,0 +1,556 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.7
+	openblt20000429:1.1.1.7
+	openblt20000428:1.1.1.7
+	openblt20000427:1.1.1.7
+	openblt20000426:1.1.1.7
+	openblt20000425:1.1.1.7
+	openblt20000424:1.1.1.7
+	openblt20000423:1.1.1.7
+	openblt20000422:1.1.1.7
+	openblt20000421:1.1.1.7
+	openblt20000420:1.1.1.7
+	openblt20000419:1.1.1.7
+	openblt20000418:1.1.1.7
+	openblt20000417:1.1.1.7
+	openblt20000416:1.1.1.7
+	openblt20000415:1.1.1.7
+	openblt20000414:1.1.1.7
+	openblt20000413:1.1.1.7
+	openblt20000412:1.1.1.7
+	openblt20000411:1.1.1.7
+	openblt20000410:1.1.1.7
+	openblt20000409:1.1.1.7
+	openblt20000408:1.1.1.7
+	openblt20000407:1.1.1.7
+	openblt20000406:1.1.1.7
+	openblt20000405:1.1.1.7
+	openblt20000404:1.1.1.7
+	openblt20000403:1.1.1.7
+	openblt20000402:1.1.1.7
+	openblt20000401:1.1.1.7
+	openblt20000331:1.1.1.7
+	openblt20000330:1.1.1.7
+	openblt20000329:1.1.1.7
+	openblt20000328:1.1.1.7
+	openblt20000327:1.1.1.7
+	openblt20000326:1.1.1.7
+	openblt20000325:1.1.1.7
+	openblt20000324:1.1.1.7
+	openblt20000323:1.1.1.7
+	openblt20000322:1.1.1.7
+	openblt20000321:1.1.1.7
+	openblt20000320:1.1.1.7
+	openblt20000319:1.1.1.7
+	openblt20000318:1.1.1.7
+	openblt20000317:1.1.1.7
+	openblt20000316:1.1.1.7
+	openblt20000315:1.1.1.7
+	openblt20000314:1.1.1.7
+	openblt20000313:1.1.1.7
+	openblt20000312:1.1.1.7
+	openblt20000311:1.1.1.7
+	openblt20000310:1.1.1.7
+	openblt20000309:1.1.1.7
+	openblt20000308:1.1.1.7
+	openblt20000307:1.1.1.7
+	openblt20000306:1.1.1.7
+	openblt20000305:1.1.1.7
+	openblt20000304:1.1.1.7
+	openblt20000303:1.1.1.7
+	openblt20000302:1.1.1.7
+	openblt20000301:1.1.1.7
+	openblt20000229:1.1.1.7
+	openblt20000228:1.1.1.7
+	openblt20000227:1.1.1.7
+	openblt20000226:1.1.1.7
+	openblt20000225:1.1.1.7
+	openblt20000224:1.1.1.7
+	openblt20000223:1.1.1.7
+	openblt20000222:1.1.1.7
+	openblt20000221:1.1.1.7
+	openblt20000220:1.1.1.7
+	openblt20000219:1.1.1.7
+	openblt20000218:1.1.1.7
+	openblt20000217:1.1.1.7
+	openblt20000216:1.1.1.7
+	openblt20000215:1.1.1.7
+	openblt20000214:1.1.1.7
+	openblt20000213:1.1.1.7
+	openblt20000212:1.1.1.7
+	openblt20000211:1.1.1.7
+	openblt20000210:1.1.1.7
+	openblt20000209:1.1.1.7
+	openblt20000208:1.1.1.7
+	openblt20000207:1.1.1.7
+	openblt20000206:1.1.1.7
+	openblt20000205:1.1.1.7
+	openblt20000204:1.1.1.7
+	openblt20000203:1.1.1.7
+	openblt20000202:1.1.1.7
+	openblt20000201:1.1.1.7
+	openblt20000131:1.1.1.7
+	openblt20000130:1.1.1.7
+	openblt20000129:1.1.1.7
+	openblt20000128:1.1.1.7
+	openblt20000127:1.1.1.7
+	openblt20000126:1.1.1.7
+	openblt20000125:1.1.1.7
+	openblt20000124:1.1.1.7
+	openblt20000123:1.1.1.7
+	openblt20000122:1.1.1.7
+	openblt20000121:1.1.1.7
+	openblt20000120:1.1.1.7
+	openblt20000119:1.1.1.7
+	openblt20000118:1.1.1.7
+	openblt20000117:1.1.1.7
+	openblt20000116:1.1.1.6
+	openblt20000115:1.1.1.6
+	openblt20000114:1.1.1.6
+	openblt20000113:1.1.1.6
+	openblt20000112:1.1.1.6
+	openblt20000111:1.1.1.6
+	openblt20000110:1.1.1.6
+	openblt20000109:1.1.1.6
+	openblt20000108:1.1.1.6
+	openblt20000107:1.1.1.6
+	openblt20000106:1.1.1.6
+	openblt20000105:1.1.1.6
+	openblt20000104:1.1.1.6
+	openblt20000103:1.1.1.6
+	openblt20000102:1.1.1.6
+	openblt19991228:1.1.1.5
+	openblt19990827:1.1.1.4
+	openblt082699:1.1.1.4
+	openblt082599:1.1.1.4
+	openblt082499:1.1.1.4
+	openblt082399:1.1.1.4
+	openblt082299:1.1.1.4
+	openblt082199:1.1.1.4
+	openblt082099:1.1.1.4
+	openblt081999:1.1.1.4
+	openblt081899:1.1.1.4
+	openblt081799:1.1.1.4
+	openblt081699:1.1.1.4
+	openblt081599:1.1.1.4
+	openblt071199:1.1.1.4
+	openblt071099:1.1.1.3
+	openblt070799:1.1.1.3
+	openblt070699:1.1.1.2
+	openblt070299:1.1.1.2
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.23.01;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.23.01;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.28.59;	author jr;	state Exp;
+branches;
+next	1.1.1.3;
+
+1.1.1.3
+date	2005.01.20.16.29.17;	author jr;	state Exp;
+branches;
+next	1.1.1.4;
+
+1.1.1.4
+date	2005.01.20.16.29.36;	author jr;	state Exp;
+branches;
+next	1.1.1.5;
+
+1.1.1.5
+date	2005.01.20.16.31.58;	author jr;	state Exp;
+branches;
+next	1.1.1.6;
+
+1.1.1.6
+date	2005.01.20.16.32.18;	author jr;	state Exp;
+branches;
+next	1.1.1.7;
+
+1.1.1.7
+date	2005.01.20.16.36.34;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/kernel/task.c#8 $
+**
+** Copyright 1998 Brian J. Swetland
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+#include "kernel.h"
+#include "memory.h"
+#include "task.h"
+
+extern char *gdt;
+void thread_bootstrap(void);
+void kthread_bootstrap(void);
+
+/* create a new task, complete with int stack */
+task_t *task_create(aspace_t *a, uint32 ip, uint32 sp, int kernel) 
+{
+    task_t *t = kmalloc128();	
+	uint32 *SP;
+	
+	t->kstack = kgetpages(1,7);
+    t->cr3  = (((uint32) a->pdir[0]) & 0xFFFFFF00) - 4096;
+	t->esp = (uint32) ( ((char *) t->kstack) + 4092 );
+	t->esp0 = t->esp;
+	t->scount = 0;
+	
+	/* prep the kernel stack for first switch 
+	** SS
+	** ESP
+	** EFLAGS
+	** CS
+	** EIP            -- thread_bootstrap will iret into the thread 
+	**
+	** <thread_bootstrap>
+	** EFLAGS 
+	** EBP (0)
+	** ESI (0)
+	** EDI (0)        -- stuff for _context_switch to pop off / return to
+	** EBX (0)
+	*/
+	
+	SP = (uint32*) t->esp;
+	
+	if(kernel) {
+		SP--; *SP = SEL_KDATA; 
+		SP--; *SP = sp - 4*5;
+		SP--; *SP = 0x3202;
+		SP--; *SP = SEL_KCODE;
+		SP--; *SP = ip;
+		SP--; *SP = (uint32) thread_bootstrap;
+	} else {
+		SP--; *SP = SEL_UDATA | 3; 
+		SP--; *SP = sp - 4*5;
+		SP--; *SP = 0x3202;
+		SP--; *SP = SEL_UCODE | 3;
+		SP--; *SP = ip;
+		SP--; *SP = (uint32) thread_bootstrap;
+	}	
+	SP--; *SP = 0x3002;
+	SP--; *SP = 0;
+	SP--; *SP = 0;
+	SP--; *SP = 0;
+	SP--; *SP = 0;
+	
+	t->esp = (uint32) SP;
+	
+//	kprintf("thr:%x/%x:%d",sp,ip,(kernel ? SEL_KCODE : (SEL_UCODE | 3)));
+	
+	t->resources = NULL;
+    t->addr = a;
+    t->name[0] = 0;
+    t->irq = 0;
+    
+    return t;
+}
+
+int thr_spawn (int area_id, int addr, char * const *argv, char * const *envp,
+	volatile uint32 **stack)
+{
+	int i, temp_area;
+	void *src, *dst, *phys;
+	area_t *text;
+	aspace_t *a;
+
+	if ((text = rsrc_find_area (area_id)) == NULL)
+		return -1;
+
+	strlcpy (current->name, argv[0], sizeof (current->name));
+	a = current->addr;
+
+	/* beware, the old argv and envp are no good any longer. */
+	aspace_clr (a, 0, 512);
+	src = (void *) (text->virt_addr << 12);
+	dst = kgetpages2 (text->length, 3, (uint32 *) &phys);
+	current->text_area = area_create (a, text->length * 0x1000, addr,
+		&phys, 0x1010);
+	for (i = 0; i < text->length * 0x1000; i++)
+		*((char *) dst + i) = *((char *) src + i);
+	a->heap_id = area_create (a, 0x2000, 0x1000 + text->length * 0x1000,
+		&phys, 0);
+
+	return 0;
+}
+
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.070299
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/task.c#10 $
+a36 10
+uint32 wait_on(resource_t *rsrc)
+{
+	task_t *task = current;
+	task->status = 0;
+	rsrc_enqueue(rsrc, task);	
+	swtch();
+	return current->status;
+}
+
+
+d40 1
+a40 1
+    task_t *t = kmalloc(task_t);	
+d93 1
+d95 1
+a95 4
+    t->flags = tREADY;
+	t->waiting_on = NULL;
+	t->queue_next = NULL;
+	t->queue_prev = NULL;
+d110 1
+a110 1
+	rsrc_set_name((resource_t*)current,argv[0]);
+@
+
+
+1.1.1.3
+log
+@openblt.070799
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/task.c#12 $
+d37 1
+a37 7
+void task_wake(task_t *task, int status)
+{
+	task->status = status;
+	rsrc_enqueue(run_queue, task);
+}
+
+int wait_on(resource_t *rsrc)
+@
+
+
+1.1.1.4
+log
+@openblt.071199
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/task.c#16 $
+a33 2
+extern int live_tasks;
+
+d59 1
+a59 1
+	t->kstack = kgetpages(1);
+d117 2
+a118 2
+
+int thr_wait(int thr_id)
+d120 21
+a140 9
+	task_t *task = rsrc_find_task(thr_id);
+	
+	if(task) {
+		wait_on((resource_t *)task);
+		return ERR_NONE;
+	} else {
+		return ERR_RESOURCE;
+	}
+}
+d142 1
+a142 28
+int thr_spawn(uint32 ip, uint32 sp, 
+			  uint32 area0, uint32 vaddr0, 
+			  uint32 area1, uint32 vaddr1,
+			  const char *name)
+{
+	aspace_t *aspace;
+	task_t *task;
+	area_t *area;
+	int id;
+	void *addr;
+	
+	if(!(aspace = aspace_create())) return -1;	
+	if(!(task = task_create(aspace, ip, sp, 0))) return -1;
+	rsrc_bind((resource_t *)task, RSRC_TASK, current);
+	rsrc_bind(&aspace->rsrc, RSRC_ASPACE, task);
+	
+	id = area_clone(aspace, area0, vaddr0, &addr, 0);
+	aspace->heap_id = id;
+	if(area = rsrc_find_area(id)) rsrc_set_owner(&area->rsrc, task);
+	
+	id = area_clone(aspace, area1, vaddr1, &addr, 0);
+	if(area = rsrc_find_area(id)) rsrc_set_owner(&area->rsrc, task);
+
+	rsrc_set_name((resource_t *)task, name);
+	rsrc_enqueue(run_queue, task);
+	live_tasks++;
+
+	return task->rsrc.id;
+a143 1
+
+@
+
+
+1.1.1.5
+log
+@openblt.19991228
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/task.c#21 $
+a53 19
+void task_destroy(task_t *task)
+{
+	team_t *team = task->rsrc.owner;
+	
+	if(task == current) panic("cannot destroy the running task");
+	
+	TCLRMAGIC(task);
+	
+	if(task->stack_area) {
+		area_destroy(team->aspace, task->stack_area->rsrc.id);
+	}
+	
+	kfreepage(task->kstack);
+	rsrc_release(&task->rsrc);
+	kfree(task_t, task);
+	
+	team->refcount--;
+	if(team->refcount == 0) team_destroy(team);
+}
+d56 1
+a56 1
+task_t *task_create(team_t *team, uint32 ip, uint32 sp, int kernel) 
+d62 1
+a62 2
+	t->cr3 = team->aspace->pdirphys;
+	
+a65 3
+	t->stack_area = NULL;
+	
+	t->node.data = t;
+d109 2
+d114 2
+a115 3
+	team->refcount++;
+	
+	TSETMAGIC(t);
+a138 1
+	team_t *team;
+d143 5
+a147 6
+	team = team_create();
+	aspace = team->aspace;
+	task = task_create(team, ip, sp, 0);
+	task->ustack = 0;
+	rsrc_bind(&task->rsrc, RSRC_TASK, team);
+
+d149 2
+a150 5
+	team->heap_id = id;
+	
+	if(area = rsrc_find_area(id)) {
+		rsrc_set_owner(&area->rsrc, team);
+	}
+d153 1
+a153 1
+	if(area = rsrc_find_area(id)) rsrc_set_owner(&area->rsrc, team);
+d155 1
+a155 2
+	rsrc_set_name(&task->rsrc, name);
+	rsrc_set_name(&team->rsrc, name);
+d158 1
+a158 1
+	
+@
+
+
+1.1.1.6
+log
+@openblt.20000102
+@
+text
+@d1 26
+a26 2
+/* Copyright 1998-1999, Brian J. Swetland. All rights reserved.
+** Distributed under the terms of the OpenBLT License
+@
+
+
+1.1.1.7
+log
+@openblt.20000117
+@
+text
+@a62 1
+	t->team = team;
+@
+
+

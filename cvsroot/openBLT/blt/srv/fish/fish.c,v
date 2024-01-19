@@ -1,0 +1,1532 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.6
+	openblt20000429:1.1.1.5
+	openblt20000428:1.1.1.5
+	openblt20000427:1.1.1.5
+	openblt20000426:1.1.1.5
+	openblt20000425:1.1.1.5
+	openblt20000424:1.1.1.5
+	openblt20000423:1.1.1.5
+	openblt20000422:1.1.1.5
+	openblt20000421:1.1.1.5
+	openblt20000420:1.1.1.5
+	openblt20000419:1.1.1.5
+	openblt20000418:1.1.1.5
+	openblt20000417:1.1.1.5
+	openblt20000416:1.1.1.5
+	openblt20000415:1.1.1.5
+	openblt20000414:1.1.1.5
+	openblt20000413:1.1.1.5
+	openblt20000412:1.1.1.5
+	openblt20000411:1.1.1.5
+	openblt20000410:1.1.1.5
+	openblt20000409:1.1.1.5
+	openblt20000408:1.1.1.5
+	openblt20000407:1.1.1.5
+	openblt20000406:1.1.1.5
+	openblt20000405:1.1.1.5
+	openblt20000404:1.1.1.5
+	openblt20000403:1.1.1.5
+	openblt20000402:1.1.1.5
+	openblt20000401:1.1.1.5
+	openblt20000331:1.1.1.5
+	openblt20000330:1.1.1.5
+	openblt20000329:1.1.1.5
+	openblt20000328:1.1.1.5
+	openblt20000327:1.1.1.5
+	openblt20000326:1.1.1.5
+	openblt20000325:1.1.1.5
+	openblt20000324:1.1.1.5
+	openblt20000323:1.1.1.5
+	openblt20000322:1.1.1.5
+	openblt20000321:1.1.1.5
+	openblt20000320:1.1.1.5
+	openblt20000319:1.1.1.5
+	openblt20000318:1.1.1.5
+	openblt20000317:1.1.1.5
+	openblt20000316:1.1.1.5
+	openblt20000315:1.1.1.5
+	openblt20000314:1.1.1.5
+	openblt20000313:1.1.1.5
+	openblt20000312:1.1.1.5
+	openblt20000311:1.1.1.5
+	openblt20000310:1.1.1.5
+	openblt20000309:1.1.1.5
+	openblt20000308:1.1.1.5
+	openblt20000307:1.1.1.5
+	openblt20000306:1.1.1.5
+	openblt20000305:1.1.1.5
+	openblt20000304:1.1.1.5
+	openblt20000303:1.1.1.5
+	openblt20000302:1.1.1.5
+	openblt20000301:1.1.1.5
+	openblt20000229:1.1.1.5
+	openblt20000228:1.1.1.5
+	openblt20000227:1.1.1.5
+	openblt20000226:1.1.1.5
+	openblt20000225:1.1.1.5
+	openblt20000224:1.1.1.5
+	openblt20000223:1.1.1.5
+	openblt20000222:1.1.1.5
+	openblt20000221:1.1.1.5
+	openblt20000220:1.1.1.5
+	openblt20000219:1.1.1.5
+	openblt20000218:1.1.1.5
+	openblt20000217:1.1.1.5
+	openblt20000216:1.1.1.5
+	openblt20000215:1.1.1.5
+	openblt20000214:1.1.1.5
+	openblt20000213:1.1.1.5
+	openblt20000212:1.1.1.5
+	openblt20000211:1.1.1.5
+	openblt20000210:1.1.1.5
+	openblt20000209:1.1.1.5
+	openblt20000208:1.1.1.5
+	openblt20000207:1.1.1.5
+	openblt20000206:1.1.1.5
+	openblt20000205:1.1.1.5
+	openblt20000204:1.1.1.5
+	openblt20000203:1.1.1.5
+	openblt20000202:1.1.1.5
+	openblt20000201:1.1.1.5
+	openblt20000131:1.1.1.5
+	openblt20000130:1.1.1.5
+	openblt20000129:1.1.1.5
+	openblt20000128:1.1.1.5
+	openblt20000127:1.1.1.5
+	openblt20000126:1.1.1.5
+	openblt20000125:1.1.1.5
+	openblt20000124:1.1.1.5
+	openblt20000123:1.1.1.5
+	openblt20000122:1.1.1.5
+	openblt20000121:1.1.1.5
+	openblt20000120:1.1.1.5
+	openblt20000119:1.1.1.5
+	openblt20000118:1.1.1.5
+	openblt20000117:1.1.1.5
+	openblt20000116:1.1.1.5
+	openblt20000115:1.1.1.5
+	openblt20000114:1.1.1.5
+	openblt20000113:1.1.1.5
+	openblt20000112:1.1.1.5
+	openblt20000111:1.1.1.5
+	openblt20000110:1.1.1.5
+	openblt20000109:1.1.1.5
+	openblt20000108:1.1.1.5
+	openblt20000107:1.1.1.5
+	openblt20000106:1.1.1.5
+	openblt20000105:1.1.1.5
+	openblt20000104:1.1.1.5
+	openblt20000103:1.1.1.5
+	openblt20000102:1.1.1.5
+	openblt19991228:1.1.1.4
+	openblt19990827:1.1.1.3
+	openblt082699:1.1.1.3
+	openblt082599:1.1.1.3
+	openblt082499:1.1.1.3
+	openblt082399:1.1.1.3
+	openblt082299:1.1.1.3
+	openblt082199:1.1.1.3
+	openblt082099:1.1.1.3
+	openblt081999:1.1.1.3
+	openblt081899:1.1.1.3
+	openblt081799:1.1.1.3
+	openblt081699:1.1.1.3
+	openblt081599:1.1.1.3
+	openblt071199:1.1.1.3
+	openblt071099:1.1.1.3
+	openblt070799:1.1.1.3
+	openblt070699:1.1.1.2
+	openblt070299:1.1.1.2
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.28.56;	author jr;	state Exp;
+branches;
+next	1.1.1.3;
+
+1.1.1.3
+date	2005.01.20.16.29.14;	author jr;	state Exp;
+branches;
+next	1.1.1.4;
+
+1.1.1.4
+date	2005.01.20.16.31.53;	author jr;	state Exp;
+branches;
+next	1.1.1.5;
+
+1.1.1.5
+date	2005.01.20.16.32.11;	author jr;	state Exp;
+branches;
+next	1.1.1.6;
+
+1.1.1.6
+date	2005.01.20.17.11.14;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/srv/fish/fish.c#6 $
+**
+** Copyright 1998 Brian J. Swetland
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+#include <string.h>
+#include <stdlib.h>
+#include <i386/io.h>
+#include <blt/namer.h>
+#include <blt/syscall.h>
+#include <blt/conio.h>
+
+#include "dfp.h"
+#include "vga.h"
+
+void keythread(void);
+
+int myX = 2;
+int myY = 2;
+
+int st_sent = 0;
+int st_recv = 0;
+int st_rej = 0;
+int st_count = 0;
+int sticky = 0;
+int collision = 0;
+int snooze = 5;
+
+int logsize = 15;
+
+
+int borg = 0;
+int logo = 0;
+int logging = 1;
+int recluse = 0;
+int ticks = 0;
+
+#define LOGGING
+#define TIMEOUT 8
+
+#define MAXKEYS 64
+static char keybuf2[MAXKEYS+4];
+static char *keybuf = keybuf2+2;
+static int keyptr = 0;
+
+int port_fish, port_net, port_console, port_net_xmit;
+
+static char kpbuf[512];
+static char *kp = kpbuf;
+static char *x;    
+
+typedef struct _msg 
+{
+    struct _msg *next;
+    char buf[65];
+} msg;
+msg *first_msg = NULL, *last_msg = NULL;
+int msgcount = 0;
+
+int sem_fish = 0, sem_msgs = 0;
+
+void printf(char *fmt,...)
+{
+#ifdef LOGGING
+    va_list pvar;
+    int n;
+    msg *m = (msg *) malloc(sizeof(msg));
+    
+    va_start(pvar,fmt);
+    va_snprintf(m->buf,64,fmt,pvar);
+    va_end(pvar);
+
+    m->buf[60]=0;
+    m->next = NULL;
+    sem_acquire(sem_msgs);
+    msgcount++;
+    if(last_msg){
+        last_msg->next = m;
+        last_msg = m;
+    } else {
+        first_msg = last_msg = m;
+    }
+    sem_release(sem_msgs);
+#endif
+}
+
+#define DEAD 0
+#define LIVE 1
+#define XMIT 2
+typedef struct _fish 
+{
+    struct _fish *next, *prev;
+    int x,y;
+    int dx,dy;
+    char name[17];
+    char *bitmap;
+    int state;
+    int xt;
+    dfp_pkt_transfer xfer;
+    int dest;
+} fish;
+
+fish *first = NULL;
+fish *last = NULL;
+
+
+struct 
+{
+    int live;
+    int tx, ty;   
+} cnxn[4] = { {0,0,0}, {0,0,0}, {0,0,0}, {0,0,0} };
+
+#define C_UP 0
+#define C_DN 1
+#define C_LF 2
+#define C_RT 3
+#define NET_CONNECT  1
+#define NET_SEND     2
+#define NET_IP       3
+
+void settank(int tx, int ty, int live)
+{
+    int i;
+    for(i=0;i<4;i++){
+        if(cnxn[i].tx == tx && cnxn[i].ty == ty){
+            cnxn[i].live = live;
+            return;
+        }
+    }
+}
+
+
+typedef struct 
+{
+    int cmd; 
+    int port;
+} net_cmd;
+
+typedef struct 
+{
+    net_cmd cmd;
+    dfp_pkt_transfer dfp;
+} net_fish;
+
+void newfish(int x, int y, int dx, int dy, char *n);
+
+void pingtank(int tx, int ty)
+{
+    net_fish f;
+    msg_hdr_t msg;
+    f.cmd.cmd = NET_SEND;
+    f.cmd.port = 5049;
+    f.dfp.base.src_tank_x = myX;
+    f.dfp.base.src_tank_y = myY;
+    f.dfp.base.dst_tank_x = tx;
+    f.dfp.base.dst_tank_y = ty;
+    f.dfp.base.size = htons(DFP_SIZE_LOCATE);
+    f.dfp.base.type = DFP_PKT_PING;
+    f.dfp.base.pad = 0;
+    f.dfp.base.version = htons(DFP_VERSION);
+    msg.flags = 0;
+    msg.src = port_fish;
+    msg.dst = port_net;
+    msg.size = sizeof(dfp_base)+8;
+    msg.data = &f;
+    port_send(&msg);
+}
+
+void initiate(dfp_pkt_transfer *send, int tx, int  ty)
+{
+    net_fish f;
+    msg_hdr_t msg;
+    f.cmd.cmd = NET_SEND;
+    f.cmd.port = 5049;
+    f.dfp.base.src_tank_x = myX;
+    f.dfp.base.src_tank_y = myY;
+    f.dfp.base.dst_tank_x = tx;
+    f.dfp.base.dst_tank_y = ty;
+    f.dfp.base.size = ntohs(DFP_SIZE_TRANSFER);
+    f.dfp.base.type = DFP_PKT_SEND_FISH;
+    f.dfp.base.pad = 0;
+    f.dfp.base.version = htons(DFP_VERSION);
+    memcpy(&(f.dfp.uid), &(send->uid), 6);
+    memcpy(&(f.dfp.fish), &(send->fish), sizeof(dfp_fish));
+    msg.flags = 0;
+    msg.src = port_fish;
+    msg.dst = port_net;
+    msg.size = DFP_SIZE_TRANSFER + 8;
+    msg.data = &f;
+    port_send(&msg);
+}
+
+char *types[] = { "PING", "PING", "SEND", "ACK", "NACK", "SYNC" };
+
+void dofish(dfp_pkt_transfer *dfp)
+{
+    int i;
+    
+    net_fish f;
+    fish *ff;
+    char n2[17];
+    msg_hdr_t msg;
+    dfp->base.version = ntohs(dfp->base.version);
+    dfp->base.size = ntohs(dfp->base.size);
+
+    if(!(dfp->base.dst_tank_x == myX && dfp->base.dst_tank_y == myY)){
+        return;
+    }
+
+    
+  if(dfp->base.type == DFP_PKT_SYNC_FISH)  printf("fish: s(%d,%d) d(%d,%d) s=%d %s",
+           dfp->base.src_tank_x, dfp->base.src_tank_y,
+           dfp->base.dst_tank_x, dfp->base.dst_tank_y,
+           dfp->base.size,
+           dfp->base.type < 6 ? types[dfp->base.type] : "????"
+           );
+           
+    switch(dfp->base.type){
+    case DFP_PKT_PING :
+        f.cmd.cmd = NET_SEND;
+        f.cmd.port = 5049;
+        f.dfp.base.src_tank_x = myX;
+        f.dfp.base.src_tank_y = myY;
+        f.dfp.base.dst_tank_x = dfp->base.src_tank_x;
+        f.dfp.base.dst_tank_y = dfp->base.src_tank_y;
+        f.dfp.base.size = htons(DFP_SIZE_LOCATE);
+        f.dfp.base.type = DFP_PKT_PONG;
+        f.dfp.base.pad = 0;
+        f.dfp.base.version = htons(DFP_VERSION);
+        settank(dfp->base.src_tank_x,dfp->base.src_tank_y,1);
+        msg.flags = 0;
+        msg.src = port_fish;
+        msg.dst = port_net;
+        msg.size = sizeof(dfp_base)+8;
+        msg.data = &f;
+        port_send(&msg);
+
+        
+        break;
+               
+    case DFP_PKT_PONG :
+        printf("Pong from %d,%d",dfp->base.src_tank_x,dfp->base.src_tank_y);
+        settank(dfp->base.src_tank_x,dfp->base.src_tank_y,1);
+/*        for(i=0;i<4;i++){
+            if((cnxn[i].tx == dfp->base.src_tank_x) &&
+               (cnxn[i].ty == dfp->base.src_tank_y)) {
+                cnxn[i].live = 1;
+                break;
+            }
+        }*/
+        break;
+
+    case DFP_PKT_SEND_FISH :
+        dfp->fish.ttl = ntohs(dfp->fish.ttl);
+        strncpy(n2,dfp->fish.name,16);
+        n2[16]=0;
+        if(recluse){
+            printf("Ignoring \"%s\" from (%d,%d)",n2,
+                   dfp->base.src_tank_x, dfp->base.src_tank_y);
+            break;
+        }
+            /* printf("    : UID %X%X%X%X%X%X @@(%d,%d) d(%d,%d) ttl=%d, name=\"%s\"",
+               dfp->uid.creator_tank_x, dfp->uid.creator_tank_y,
+               dfp->uid.timestamp[0], dfp->uid.timestamp[1],
+               dfp->uid.timestamp[2], dfp->uid.timestamp[3],
+               dfp->fish.x, dfp->fish.y, dfp->fish.dx, dfp->fish.dy,
+               dfp->fish.ttl, n2);
+               */
+        f.cmd.cmd = NET_SEND;
+        f.cmd.port = 5049;
+        f.dfp.base.src_tank_x = myX;
+        f.dfp.base.src_tank_y = myY;
+        f.dfp.base.dst_tank_x = dfp->base.src_tank_x;
+        f.dfp.base.dst_tank_y = dfp->base.src_tank_y;
+        f.dfp.base.size = ntohs(DFP_SIZE_CONFIRM);
+        f.dfp.base.type = DFP_PKT_ACK_FISH;
+        f.dfp.base.pad = 0;
+        f.dfp.base.version = htons(DFP_VERSION);
+        memcpy(&(f.dfp.uid), &(dfp->uid), 6);
+        
+        msg.flags = 0;
+        msg.src = port_fish;
+        msg.dst = port_net;
+        msg.size = DFP_SIZE_CONFIRM + 8;
+        msg.data = &f;
+        port_send(&msg);
+        break;
+
+    case DFP_PKT_ACK_FISH :
+            /*  printf("    : UID %X%X%X%X%X%X",
+               dfp->uid.creator_tank_x, dfp->uid.creator_tank_y,
+               dfp->uid.timestamp[0], dfp->uid.timestamp[1],
+               dfp->uid.timestamp[2], dfp->uid.timestamp[3]);
+               */
+        sem_acquire(sem_fish);
+        for(ff = first; ff; ff=ff->next){
+            if((ff->state==XMIT) &&
+               (!memcmp(&(ff->xfer.uid),&(dfp->uid),6))){
+                ff->state = DEAD;
+                st_count--;
+                sem_release(sem_fish);
+                printf("Goodbye fish \"%s\" (%d,%d)",ff->name,
+                       dfp->base.src_tank_x,dfp->base.src_tank_y);
+                
+                f.cmd.cmd = NET_SEND;
+                f.cmd.port = 5049;
+                f.dfp.base.src_tank_x = myX;
+                f.dfp.base.src_tank_y = myY;
+                f.dfp.base.dst_tank_x = dfp->base.src_tank_x;
+                f.dfp.base.dst_tank_y = dfp->base.src_tank_y;
+                f.dfp.base.size = ntohs(DFP_SIZE_TRANSFER);
+                f.dfp.base.type = DFP_PKT_SYNC_FISH;
+                f.dfp.base.pad = 0;
+                f.dfp.base.version = htons(DFP_VERSION);
+                memcpy(&(f.dfp.uid), &(ff->xfer.uid), 6);
+                memcpy(&(f.dfp.fish), &(ff->xfer.fish), sizeof(dfp_fish));
+                msg.flags = 0;
+                msg.src = port_fish;
+                msg.dst = port_net;
+                msg.size = DFP_SIZE_TRANSFER + 8;
+                msg.data = &f;
+                port_send(&msg);
+                st_sent++;
+                goto donesync;
+            }
+        }
+        sem_release(sem_fish);
+donesync:
+        break;
+
+    case DFP_PKT_NACK_FISH :
+        break;
+
+    case DFP_PKT_SYNC_FISH :
+        dfp->fish.ttl = ntohs(dfp->fish.ttl);
+
+        strncpy(n2,dfp->fish.name,16);
+        n2[16]=0;
+             printf("    : UID %X%X%X%X%X%X @@(%d,%d) d(%d,%d) ttl=%d, name=\"%s\"\n",
+               dfp->uid.creator_tank_x, dfp->uid.creator_tank_y,
+               dfp->uid.timestamp[0], dfp->uid.timestamp[1],
+               dfp->uid.timestamp[2], dfp->uid.timestamp[3],
+               dfp->fish.x, dfp->fish.y, dfp->fish.dx, dfp->fish.dy,
+               dfp->fish.ttl, n2);
+               
+        newfish(dfp->fish.x, dfp->fish.y,
+                dfp->fish.dx, dfp->fish.dy,
+                n2);
+/*        printf("Welcome, \"%s\" from (%d,%d)",n2,
+               dfp->base.src_tank_x, dfp->base.src_tank_y);*/
+
+        settank(dfp->base.src_tank_x,dfp->base.src_tank_y,1);
+    default:
+        break;        
+    }
+}
+
+void test(int x, int y)
+{
+    static dfp_pkt_transfer tran;
+    tran.fish.x = 100;
+    tran.fish.y = 100;
+    tran.fish.dx = 3;
+    tran.fish.dy = 4;
+    tran.fish.ttl = htons(1600);
+    tran.uid.creator_tank_x = myX;
+    tran.uid.creator_tank_y = myY;
+    *((uint32 *) tran.uid.timestamp) = 0x10203040;
+    
+    strcpy(tran.fish.name,"Bitchin Fish");
+
+    initiate(&tran,x,y);
+}
+
+unsigned char *fish_bm = 
+    ".........XXXXXX.....XXX."
+    ".....XXXXYYYYYYXX..XYYYX"
+    "...XXYY.YYYYYYYYYXXYYYYX"
+    ".XXYYYYYYYYYYYYYYYYYYYX."
+    "...XXYYYYYYYYYYYYYXXYYYX"
+    ".....XXXYYYYYYYXXX..XXYX"
+    "........XXXYYYX.......XX"
+    "...........XXXXX........"
+;
+
+unsigned char *arrow_up[2] ={
+    "....rr...."
+    "...rrrr..."
+    "..rrrrrr.."
+    ".rrrrrrrr."
+    "rrrrrrrrrr"
+,
+    "....gg...."
+    "...gggg..."
+    "..gggggg.."
+    ".gggggggg."
+    "gggggggggg"
+};
+unsigned char *arrow_dn[2] ={
+    "rrrrrrrrrr"
+    ".rrrrrrrr."
+    "..rrrrrr.."
+    "...rrrr..."
+    "....rr...."
+,
+    "gggggggggg"
+    ".gggggggg."
+    "..gggggg.."
+    "...gggg..."
+    "....gg...."
+};
+unsigned char *arrow_lf[2] ={
+    "....r"
+    "...rr"
+    "..rrr"
+    ".rrrr"
+    "rrrrr"
+    "rrrrr"
+    ".rrrr"
+    "..rrr"
+    "...rr"
+    "....r"
+,
+    "....g"
+    "...gg"
+    "..ggg"
+    ".gggg"
+    "ggggg"
+    "ggggg"
+    ".gggg"
+    "..ggg"
+    "...gg"
+    "....g"
+};
+unsigned char *arrow_rt[2] = {
+    "r...."
+    "rr..."
+    "rrr.."
+    "rrrr."
+    "rrrrr"
+    "rrrrr"
+    "rrrr."
+    "rrr.."
+    "rr..."
+    "r...."
+,
+    "g...."
+    "gg..."
+    "ggg.."
+    "gggg."
+    "ggggg"
+    "ggggg"
+    "gggg."
+    "ggg.."
+    "gg..."
+    "g...."
+};
+
+int dist(int x0, int y0, int x1, int y1)
+{
+    return((x0-x1)*(x0-x1)+(y0-y1)*(y0-y1));
+}
+
+void sendfish(fish *f, int tx, int ty)
+{
+    f->xfer.fish.x = f->x;
+    f->xfer.fish.y = f->y;
+    f->xfer.fish.dx = f->dx;
+    f->xfer.fish.dy = f->dy;
+    f->xfer.fish.ttl = htons(1600);
+    f->state = XMIT;
+    f->xt = ticks+TIMEOUT;
+    initiate(&f->xfer,tx,ty);
+}
+
+void prep(void)
+{
+    int i;
+    cnxn[C_LF].tx = myX - 1;
+    cnxn[C_LF].ty = myY;
+    cnxn[C_RT].tx = myX + 1;
+    cnxn[C_RT].ty = myY;
+    cnxn[C_UP].tx = myX;
+    cnxn[C_UP].ty = myY - 1;
+    cnxn[C_DN].tx = myX;
+    cnxn[C_DN].ty = myY + 1;
+    for(i=0;i<4;i++){
+        cnxn[i].live = 0;
+        pingtank(cnxn[i].tx,cnxn[i].ty);
+    }
+}
+
+
+void vloop(void)
+{
+    fish *f,*lf;
+    fish *f2;
+    
+    int x,y,i;
+    int xx, xy, xd;
+    msg *m;    
+    
+    for(i=0;i<4;i++){
+        cnxn[i].live = 0;
+        pingtank(cnxn[i].tx,cnxn[i].ty);
+    }
+    
+    for(;;){
+        ticks++;
+        if(!(ticks % 200)){
+            printf("pinging now...");
+            for(i=0;i<4;i++){
+                cnxn[i].live = 0;
+                pingtank(cnxn[i].tx,cnxn[i].ty);
+            }
+        }
+		os_sleep(snooze);
+        vga_fillX();
+#ifdef LOGGING               
+        sem_acquire(sem_msgs);
+        if(msgcount > logsize){
+            msgcount--;
+            m = first_msg;
+            first_msg = first_msg->next;
+            free(m);
+        }
+        if(logging){
+            for(y=16,m = first_msg; (y < 161) && m; m=m->next, y +=8){
+                vga_blit_str(m->buf,15,y,'#');
+            }
+        }
+        sem_release(sem_msgs);
+#endif        
+        sem_acquire(sem_fish);
+        for(lf=NULL,f=first;f;f=f->next){
+            if(f->state == DEAD && lf){
+                printf("Expiring \"%s\"",f->name);
+                lf->next = f->next;
+                free(f);
+                f = lf;
+                continue;
+            }
+            if((f->state == XMIT) && (ticks > f->xt)) {
+                cnxn[f->dest].live = 0;
+                f->state = LIVE;
+                st_rej++;
+            }
+            if(f->state == LIVE){
+                xx = xy = 0;
+                xd = -1;
+                x = f->x;
+                y = f->y;
+                if(f->x < 0){
+                    xx = 1;
+                    if(cnxn[C_LF].live) {
+                        xd = C_LF;
+                        f->x = 254;
+                    }
+                }
+                if(f->x > 255){
+                    xx = 1;
+                    if(cnxn[C_RT].live) {
+                        xd = C_RT;
+                        f->x = 1;
+                    }                        
+                }
+                if(f->y < 0){
+                    xy = 1;
+                    if(cnxn[C_UP].live) {
+                        if(xd == -1) {
+                            xd = C_UP;
+                            f->y = 254;
+                        }
+                    }
+                }
+                if(f->y > 255) {
+                    xy = 1;
+                    if(cnxn[C_DN].live) {
+                        if(xd == -1) {
+                            xd = C_DN;
+                            f->y = 1;
+                        }
+                    }    
+                }
+                if(!sticky && !recluse && (xd != -1)) {
+                    f->dest = xd;
+                    sendfish(f,cnxn[xd].tx,cnxn[xd].ty);
+                }
+                if(xx){
+                    f->dx = - f->dx;
+                    f->x = x + f->dx;
+                }                    
+                if(xy){
+                    f->dy = - f->dy;
+                    f->y = y + f->dy;
+                }
+                if(xd != -1) continue;
+#ifdef XXX
+                    /* collision ? */
+                {
+                    int xc,yc;
+                    xc = f->x + 12;
+                    yc = f->y + 4;
+                    
+                    for(f2 = first; f2; f2 = f2->next){
+                        if((f2 == f) || (f2->state != LIVE)) continue;
+                        if(dist(xc,yc,f2->x+12,f2->y+4) < 100){
+                            if(collision){
+                                f->dx = - f->dx;
+                                f->dy = - f->dy;
+                            }
+                            if(!strcmp(f->name,"killer")) {
+                                f2->state = DEAD;
+                            }
+                            if(!strcmp(f2->name,"killer")){
+                                f->state = DEAD;
+                            }
+                            break;
+                        }
+                    }
+                }
+                    /* collision - */
+#endif
+                f->x += f->dx;
+                f->y += f->dy;
+                x = (f->x * (320-24)) / 256;
+                y = (f->y * (200-16)) / 256 + 8;
+                
+                if(f->dx < 0){
+                    vga_blit_trans(f->bitmap,x,y,24,8);
+                } else {
+                    vga_blit_trans_r(f->bitmap,x,y,24,8);                
+                }
+                vga_blit_str(f->name,x,y-8,'w');
+            }
+            lf = f;
+        }
+        sem_release(sem_fish);
+
+
+        vga_blit_trans(arrow_up[cnxn[C_UP].live],320/2-5,0,10,5);
+        vga_blit_trans(arrow_dn[cnxn[C_DN].live],320/2-5,200-9,10,5);
+        vga_blit_trans(arrow_lf[cnxn[C_LF].live],0,100-5,5,10);
+        vga_blit_trans(arrow_rt[cnxn[C_RT].live],320-6,100-5,5,10);
+       /* if(logo) vga_blit_trans(blt,319-blt_w,2,blt_w,blt_h); */
+        if(sticky) vga_blit_str("STICKY",0,0,'r');
+        if(recluse) vga_blit_str("RECLUSIVE",8*7,0,'r');
+        if(borg) vga_blit_str("BORG",320-(8*6),0,'r');
+        
+        if(keybuf[0]){
+            vga_fill(320,10,0,179,'b');
+            vga_blit_str(keybuf2,1,180,'w');
+        }
+        vga_swap_buffers();
+    }
+}
+
+int bc = 0;
+
+void newfish(int x, int y, int dx, int dy, char *n)
+{
+    fish *f = (fish *) malloc(sizeof(fish));
+    
+    char bf[16];
+    
+    st_recv++;
+    if(borg) {
+        n = bf;
+        snprintf(n,16,"Borg (%d)",bc++);
+        bf[15]=0;
+    }
+    f->x = x;
+    f->y = y;
+    f->dx = dx;
+    f->dy = dy;
+    strncpy(f->name,n,16);
+    f->name[16]=0;
+    f->bitmap = fish_bm;
+    f->state = LIVE;
+    f->xfer.uid.creator_tank_x = myX;
+    f->xfer.uid.creator_tank_y = myY;
+    *((uint32 *)f->xfer.uid.timestamp) = 0x1000000 + ticks;
+        /*XXX */
+    
+    strcpy(f->xfer.fish.name,f->name);
+    sem_acquire(sem_fish);
+    f->next = first;
+    first = f;
+    sem_release(sem_fish);
+    st_count++;
+}
+
+
+
+void vinit(void)
+{
+    int i;
+    void *vmem = 0xA0000;
+	area_create(64*1024, 0, &vmem, AREA_PHYSMAP);
+
+    vga_set_sram(vmem);
+    vga_set_mode(320,200,8);
+
+	vmem = malloc(64*1024);
+	vga_set_vram(vmem);
+
+    vga_set_palette('.',0,0,255);
+    vga_set_palette('w',255,255,255);
+    vga_set_palette('X',255,0,0);
+    vga_set_palette('Y',255,255,0);
+    vga_set_palette('#',0,255,0);
+    vga_set_palette('g',0,255,0);
+    vga_set_palette('r',255,0,0);
+    vga_set_palette('b',0,0,0);
+    vga_set_palette('L',0,255,0);
+    for(i=0;i<50;i++){
+        vga_set_palette(128+i,0,0,12+i);
+    }
+    
+    vga_fill_grad(320,200,0,0);
+    vga_swap_buffers();
+    
+    printf("fish: vinit()");
+
+    newfish(160,160,3,3,"fish");
+    newfish(100,40,-1,2,"not fish");
+}
+
+void command(char *str);
+
+int main(void)
+{
+    int once = 1;
+    unsigned char data[1500];
+    msg_hdr_t msg;
+    int i;
+    int nh;    
+    int size;
+    net_cmd cmd;
+    unsigned char ip[4];
+
+    sem_fish = sem_create(1);
+    sem_msgs = sem_create(1);
+    
+    keybuf2[0] = '>';
+    keybuf2[1] = ' ';
+    
+    nh = namer_newhandle();
+/*    while((port_console = namer_find(nh,"console")) < 1)
+        for(i=0;i<100000;i++);*/
+    while((port_net = namer_find(nh,"net")) < 1)
+        for(i=0;i<100000;i++);
+    while((port_net_xmit = namer_find(nh,"net_xmit")) < 1)
+        for(i=0;i<100000;i++);
+    
+    port_fish = port_create(0);
+    namer_register(nh, port_fish, "fish");
+    namer_delhandle(nh);
+
+    vinit();
+
+    os_thread(vloop);
+/*    os_thread(restarter); */
+    
+    printf("fish: port=%d, console=%d, net=%d\n",
+           port_fish, port_console, port_net);
+    
+    msg.flags = 0;
+    msg.src = port_fish;
+    msg.dst = port_net;
+    msg.size = 8;
+    msg.data = &cmd;
+
+    cmd.cmd = NET_IP;
+    cmd.port = 0;
+    port_send(&msg);
+    msg.src = port_net_xmit;
+    msg.dst = port_fish;
+    msg.size = 4;
+    msg.data = ip;
+    port_recv(&msg);
+
+    printf("IP = %d.%d.%d.%d\n",ip[0],ip[1],ip[2],ip[3]);
+
+    myX = (ip[3] >> 3) & 0x07;
+    myY = (ip[3]) & 0x07;
+    printf("tank @@ %d,%d",myX, myY);
+
+    msg.flags = 0;
+    msg.src = port_fish;
+    msg.dst = port_net;
+    msg.size = 8;
+    msg.data = &cmd;
+    
+    cmd.cmd = NET_CONNECT;
+    cmd.port = 5049;
+    port_send(&msg);
+
+    prep();
+    os_thread(keythread);
+    
+    for(;;){
+        msg.flags = 0;
+        msg.src = 0;
+        msg.dst = port_fish;
+        msg.size = 1500;
+        msg.data = data;
+
+        if((size = port_recv(&msg)) > 0){
+            if(msg.src == port_net_xmit){
+                dofish((dfp_pkt_transfer *) data);
+            } else {
+                data[size]=0;
+                command(data);
+            }
+        }
+    }
+    return 0;
+}
+
+void command(char *str)
+{
+    if(!strncmp(str,"tank",4)){
+        int x,y;
+        x = str[5]-'0';
+        y = str[6]-'0';
+        if(x <0 || x>9 || y<0 || x>9) return;
+        myX = x;
+        myY = y;
+        prep();
+        printf("relocating tank to %d,%d",myX,myY);
+        return;
+    }
+    if(!strncmp(str,"stats",5)){
+        printf("count: %d sent: %d recv: %d rej: %d",st_count,st_sent,st_recv,st_rej);
+        return;
+    }
+    if(!strncmp(str,"sticky",6)){
+        sticky = !sticky;
+        printf("Sticky mode %s",sticky?"on":"off");
+        return;
+    }
+    if(!strncmp(str,"recluse",7)){
+        recluse = !recluse;
+        printf("Recluse mode %s",recluse?"on":"off");
+        return;
+    }
+    if(!strncmp(str,"panic",5)){
+        fish *f;
+        sem_acquire(sem_fish);
+        for(f=first;f;f=f->next) {
+            f->dx *= 2;
+            f->dy *= 2;
+        }
+        sem_release(sem_fish);
+        return;
+    }
+    if(!strncmp(str,"purge",5)){
+        fish *f;
+        sem_acquire(sem_fish);
+        for(f=first;f;f=f->next) {
+            if(f->state == LIVE) f->state = DEAD;
+        }
+        st_count = 0;
+        sem_release(sem_fish);
+        return;
+    }
+    if(!strncmp(str,"logo",4)){
+        logo = !logo;
+        return;
+    }
+    if(!strncmp(str,"collision",9)){
+        collision = !collision;
+        return;
+    }
+    if(!strncmp(str,"snooze ",7)){
+        snooze = str[7]-'0';
+        if(snooze < 3 || snooze > 9) snooze = 5;
+        return;
+    }
+    if(!strncmp(str,"borg",4)){
+        borg = !borg;
+        printf("Borg mode %s",borg?"on - prepare to assimilate":"off");
+        return;
+    }
+    if(!strncmp(str,"eject",5)){
+        int i;
+        printf("Ejecting all fish now!");
+        for(i=0;i<4;i++){
+            if(cnxn[i].live){
+                fish *f;
+                sem_acquire(sem_fish);
+                for(f = first; f; f=f->next){
+                    if(f->state == LIVE){
+                        sendfish(f,cnxn[i].tx,cnxn[i].ty);
+                    }
+                }
+                sem_release(sem_fish);
+                return;
+            }
+        }
+        return;
+    }
+	if(!strncmp(str,"debug",5)){
+		os_debug();
+		return;
+	}
+    if(!strncmp(str,"log",3)){
+        logging = !logging;
+        return;
+    }
+    if(!strncmp(str,"new ",3)) {
+        str+=4;
+        str[16]=0;
+        if(str[0] == '*'){
+            newfish(100,100,-3,-5,str+1);
+            newfish(130,100, 3,-5,str+1);
+            newfish(160,100,-3, 5,str+1);
+            newfish(190,100, 3, 5,str+1);
+            newfish(100,150,-3,-5,str+1);
+            newfish(130,150, 3,-5,str+1);
+            newfish(160,150,-3, 5,str+1);
+            newfish(190,150, 3, 5,str+1);
+        } else {
+            newfish(160,160,-3,5,str);
+        }
+    }
+    
+}
+
+                
+/* keyboard handler */
+
+#define ESC 27
+#define BS 8
+#define TAB 9
+#define CR 13
+
+char ScanTable [] =  {' ', ESC, '1', '2', '3', '4', '5', '6', '7', '8',
+                      '9', '0', '-', '=', BS,  TAB, 'q', 'w', 'e', 'r',
+                      't', 'y', 'u', 'i', 'o', 'p', '[', ']', CR,  ' ',
+                      'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';',
+                      '\'', '~', ' ', '\\', 'z', 'x', 'c', 'v', 'b', 'n',
+                      'm', ',', '.', '/', ' ', ' ', ' ', ' ', ' '};
+char ShiftTable [] = {' ', ESC, '!', '@@', '#', '$', '%', '^', '&', '*',
+                      '(', ')', '_', '+', ' ', ' ', 'Q', 'W', 'E', 'R',
+                      'T', 'Y', 'U', 'I', 'O', 'P', '{', '}', CR,  ' ',
+                      'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':',
+                      '\"', '~', ' ', '|', 'Z', 'X', 'C', 'V', 'B', 'N',
+                      'M', '<', '>', '?', ' ', ' ', ' ', ' ', ' '};
+#define LSHIFT 42
+#define RSHIFT 54
+
+void keythread(void)
+{
+    int shift = 0;    
+    int key;
+
+    os_handle_irq(1);
+
+    for(;;) {
+        os_sleep_irq();
+        key = inb(0x60);
+        switch(key){
+        case LSHIFT:
+        case RSHIFT:
+            shift = 1;
+            break;
+        case LSHIFT | 0x80:
+        case RSHIFT | 0x80:
+            shift = 0;
+            break;
+        default:
+            if(key & 0x80){
+                        /* break */
+            } else {
+                if(key < 59){
+                    key = shift ? ShiftTable[key] : ScanTable[key];
+                    switch(key){
+                    case CR:
+                        if(keyptr) command(keybuf);
+                    case ESC:
+                        keybuf[0] = 0;
+                        keyptr = 0;
+                        break;
+                    case BS:
+                        if(keyptr){
+                            keyptr--;
+                            keybuf[keyptr]=0;
+                        }
+                        break;
+                    default:
+                        if(keyptr < MAXKEYS){
+                            keyptr++;
+                            keybuf[keyptr]=0;
+                            keybuf[keyptr-1]=key;
+                        }
+                        break;
+                    }
+                }
+            }
+        }
+    }
+
+}
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.070299
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/srv/fish/fish.c#7 $
+a37 2
+static int WITH_NET = 1;
+
+d84 1
+a84 1
+void lprintf(char *fmt,...)
+d171 18
+a188 20
+	if(WITH_NET){
+		net_fish f;
+		msg_hdr_t msg;
+		f.cmd.cmd = NET_SEND;
+		f.cmd.port = 5049;
+		f.dfp.base.src_tank_x = myX;
+		f.dfp.base.src_tank_y = myY;
+		f.dfp.base.dst_tank_x = tx;
+		f.dfp.base.dst_tank_y = ty;
+		f.dfp.base.size = htons(DFP_SIZE_LOCATE);
+		f.dfp.base.type = DFP_PKT_PING;
+		f.dfp.base.pad = 0;
+		f.dfp.base.version = htons(DFP_VERSION);
+		msg.flags = 0;
+		msg.src = port_fish;
+		msg.dst = port_net;
+		msg.size = sizeof(dfp_base)+8;
+		msg.data = &f;
+		port_send(&msg);
+	}
+d193 20
+a212 23
+	if(WITH_NET){
+		net_fish f;
+		msg_hdr_t msg;
+		f.cmd.cmd = NET_SEND;
+		f.cmd.port = 5049;
+		f.dfp.base.src_tank_x = myX;
+		f.dfp.base.src_tank_y = myY;
+		f.dfp.base.dst_tank_x = tx;
+		f.dfp.base.dst_tank_y = ty;
+		f.dfp.base.size = ntohs(DFP_SIZE_TRANSFER);
+		f.dfp.base.type = DFP_PKT_SEND_FISH;
+		f.dfp.base.pad = 0;
+		f.dfp.base.version = htons(DFP_VERSION);
+		memcpy(&(f.dfp.uid), &(send->uid), 6);
+		memcpy(&(f.dfp.fish), &(send->fish), sizeof(dfp_fish));
+		msg.flags = 0;
+		msg.src = port_fish;
+		msg.dst = port_net;
+		msg.size = DFP_SIZE_TRANSFER + 8;
+		msg.data = &f;
+		port_send(&msg);
+	}
+
+d233 1
+a233 1
+  if(dfp->base.type == DFP_PKT_SYNC_FISH)  lprintf("fish: s(%d,%d) d(%d,%d) s=%d %s",
+d264 1
+a264 1
+        lprintf("Pong from %d,%d",dfp->base.src_tank_x,dfp->base.src_tank_y);
+d280 1
+a280 1
+            lprintf("Ignoring \"%s\" from (%d,%d)",n2,
+d284 1
+a284 1
+            /* lprintf("    : UID %X%X%X%X%X%X @@(%d,%d) d(%d,%d) ttl=%d, name=\"%s\"",
+d312 1
+a312 1
+            /*  lprintf("    : UID %X%X%X%X%X%X",
+d324 1
+a324 1
+                lprintf("Goodbye fish \"%s\" (%d,%d)",ff->name,
+d361 1
+a361 1
+             lprintf("    : UID %X%X%X%X%X%X @@(%d,%d) d(%d,%d) ttl=%d, name=\"%s\"\n",
+d371 1
+a371 1
+/*        lprintf("Welcome, \"%s\" from (%d,%d)",n2,
+d533 1
+a533 1
+            lprintf("pinging now...");
+d559 1
+a559 1
+                lprintf("Expiring \"%s\"",f->name);
+d745 1
+a745 1
+    lprintf("fish: vinit()");
+d753 2
+a754 2
+void fishmain(void)
+{	
+d773 5
+a777 3
+    if((port_net = namer_find(nh,"net")) < 1) WITH_NET = 0;
+    if((port_net_xmit = namer_find(nh,"net_xmit")) < 1) WITH_NET = 0;
+  
+d787 1
+a787 1
+    lprintf("fish: port=%d, console=%d, net=%d\n",
+d789 31
+a819 35
+
+	if(WITH_NET){    
+		msg.flags = 0;
+		msg.src = port_fish;
+		msg.dst = port_net;
+		msg.size = 8;
+		msg.data = &cmd;
+		
+		cmd.cmd = NET_IP;
+		cmd.port = 0;
+		port_send(&msg);
+		msg.src = port_net_xmit;
+		msg.dst = port_fish;
+		msg.size = 4;
+		msg.data = ip;
+		port_recv(&msg);
+
+		lprintf("IP = %d.%d.%d.%d\n",ip[0],ip[1],ip[2],ip[3]);
+		
+		myX = (ip[3] >> 3) & 0x07;
+		myY = (ip[3]) & 0x07;
+		lprintf("tank @@ %d,%d",myX, myY);
+		
+		msg.flags = 0;
+		msg.src = port_fish;
+		msg.dst = port_net;
+		msg.size = 8;
+		msg.data = &cmd;
+		
+		cmd.cmd = NET_CONNECT;
+		cmd.port = 5049;
+		port_send(&msg);
+	} else {
+		lprintf("no network support\n");
+	}
+a821 1
+#if 0
+d823 1
+a823 1
+#endif    
+d832 6
+a837 8
+			if(WITH_NET){
+				if(msg.src == port_net_xmit){
+					dofish((dfp_pkt_transfer *) data);
+				} else {
+					data[size]=0;
+					command(data);
+				}
+			}
+a839 5
+}
+
+int main(void)
+{
+	os_thread(fishmain);
+d853 1
+a853 1
+        lprintf("relocating tank to %d,%d",myX,myY);
+d857 1
+a857 1
+        lprintf("count: %d sent: %d recv: %d rej: %d",st_count,st_sent,st_recv,st_rej);
+d862 1
+a862 1
+        lprintf("Sticky mode %s",sticky?"on":"off");
+d867 1
+a867 1
+        lprintf("Recluse mode %s",recluse?"on":"off");
+d905 1
+a905 1
+        lprintf("Borg mode %s",borg?"on - prepare to assimilate":"off");
+d910 1
+a910 1
+        lprintf("Ejecting all fish now!");
+@
+
+
+1.1.1.3
+log
+@openblt.070799
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/srv/fish/fish.c#8 $
+d784 1
+a784 1
+    namer_register(nh, port_fish, "fish:tell");
+d842 7
+a848 11
+			if(WITH_NET && (msg.src == port_net_xmit)){
+				dofish((dfp_pkt_transfer *) data);
+			} else {
+				uint32 response = 0;
+				data[size]=0;
+				command(data);
+				msg.dst = msg.src;
+				msg.src = port_fish;
+				msg.size = 4;
+				msg.data = &response;
+				port_send(&msg);	
+@
+
+
+1.1.1.4
+log
+@openblt.19991228
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/srv/fish/fish.c#9 $
+d771 2
+a772 2
+    sem_fish = sem_create(1, "fish_lock");
+    sem_msgs = sem_create(1, "msgs_lock");
+d783 1
+a783 1
+    port_fish = port_create(0, "fish_tell_port");
+@
+
+
+1.1.1.5
+log
+@openblt.20000102
+@
+text
+@d1 26
+a26 2
+/* Copyright 1998-1999, Brian J. Swetland. All rights reserved.
+** Distributed under the terms of the OpenBLT License
+a27 1
+
+a29 1
+#include <stdarg.h>
+d33 1
+d766 1
+d777 5
+a781 2
+    if((port_net = namer_find("net",0)) < 1) WITH_NET = 0;
+    if((port_net_xmit = namer_find("net_xmit",0)) < 1) WITH_NET = 0;
+d784 2
+a785 1
+    namer_register(port_fish, "fish:tell");
+@
+
+
+1.1.1.6
+log
+@openblt.20000517
+@
+text
+@d168 1
+a168 1
+		old_port_send(&msg);
+d194 1
+a194 1
+		old_port_send(&msg);
+d242 1
+a242 1
+        old_port_send(&msg);
+d292 1
+a292 1
+        old_port_send(&msg);
+d328 1
+a328 1
+                old_port_send(&msg);
+d523 1
+a523 1
+		os_sleep(snooze * 9000); /* 9ms increments */
+d776 1
+a776 1
+		old_port_send(&msg);
+d781 1
+a781 1
+		old_port_recv(&msg);
+d797 1
+a797 1
+		old_port_send(&msg);
+d813 1
+a813 1
+        if((size = old_port_recv(&msg)) > 0){
+d824 1
+a824 1
+				old_port_send(&msg);	
+@
+
+

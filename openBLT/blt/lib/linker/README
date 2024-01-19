@@ -1,0 +1,14 @@
+$Id: //depot/blt/lib/linker/README#1 $
+
+BLT Dynamic Linker Documentation
+--------------------------------
+
+The dynamic linker currently only supports ELF executables.  The linker
+itself must be compiled as a static ELF executable.
+
+Any votes for COFF support?
+
+Symbols defined in here should be in the _dl_ namespace (e.g.
+_dl_patchup), as ANSI says that user programs shouldn't redefine any
+of those.
+

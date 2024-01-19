@@ -1,0 +1,523 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.6
+	openblt20000429:1.1.1.6
+	openblt20000428:1.1.1.6
+	openblt20000427:1.1.1.6
+	openblt20000426:1.1.1.6
+	openblt20000425:1.1.1.6
+	openblt20000424:1.1.1.6
+	openblt20000423:1.1.1.6
+	openblt20000422:1.1.1.6
+	openblt20000421:1.1.1.6
+	openblt20000420:1.1.1.6
+	openblt20000419:1.1.1.6
+	openblt20000418:1.1.1.6
+	openblt20000417:1.1.1.6
+	openblt20000416:1.1.1.6
+	openblt20000415:1.1.1.6
+	openblt20000414:1.1.1.6
+	openblt20000413:1.1.1.6
+	openblt20000412:1.1.1.6
+	openblt20000411:1.1.1.6
+	openblt20000410:1.1.1.6
+	openblt20000409:1.1.1.6
+	openblt20000408:1.1.1.6
+	openblt20000407:1.1.1.6
+	openblt20000406:1.1.1.6
+	openblt20000405:1.1.1.6
+	openblt20000404:1.1.1.6
+	openblt20000403:1.1.1.6
+	openblt20000402:1.1.1.6
+	openblt20000401:1.1.1.6
+	openblt20000331:1.1.1.6
+	openblt20000330:1.1.1.6
+	openblt20000329:1.1.1.6
+	openblt20000328:1.1.1.6
+	openblt20000327:1.1.1.6
+	openblt20000326:1.1.1.6
+	openblt20000325:1.1.1.6
+	openblt20000324:1.1.1.6
+	openblt20000323:1.1.1.6
+	openblt20000322:1.1.1.6
+	openblt20000321:1.1.1.6
+	openblt20000320:1.1.1.6
+	openblt20000319:1.1.1.6
+	openblt20000318:1.1.1.6
+	openblt20000317:1.1.1.6
+	openblt20000316:1.1.1.6
+	openblt20000315:1.1.1.6
+	openblt20000314:1.1.1.6
+	openblt20000313:1.1.1.6
+	openblt20000312:1.1.1.6
+	openblt20000311:1.1.1.6
+	openblt20000310:1.1.1.6
+	openblt20000309:1.1.1.6
+	openblt20000308:1.1.1.6
+	openblt20000307:1.1.1.6
+	openblt20000306:1.1.1.6
+	openblt20000305:1.1.1.6
+	openblt20000304:1.1.1.6
+	openblt20000303:1.1.1.6
+	openblt20000302:1.1.1.6
+	openblt20000301:1.1.1.6
+	openblt20000229:1.1.1.6
+	openblt20000228:1.1.1.6
+	openblt20000227:1.1.1.6
+	openblt20000226:1.1.1.6
+	openblt20000225:1.1.1.6
+	openblt20000224:1.1.1.6
+	openblt20000223:1.1.1.6
+	openblt20000222:1.1.1.6
+	openblt20000221:1.1.1.6
+	openblt20000220:1.1.1.6
+	openblt20000219:1.1.1.6
+	openblt20000218:1.1.1.6
+	openblt20000217:1.1.1.6
+	openblt20000216:1.1.1.6
+	openblt20000215:1.1.1.6
+	openblt20000214:1.1.1.6
+	openblt20000213:1.1.1.6
+	openblt20000212:1.1.1.6
+	openblt20000211:1.1.1.6
+	openblt20000210:1.1.1.6
+	openblt20000209:1.1.1.6
+	openblt20000208:1.1.1.6
+	openblt20000207:1.1.1.6
+	openblt20000206:1.1.1.6
+	openblt20000205:1.1.1.6
+	openblt20000204:1.1.1.6
+	openblt20000203:1.1.1.6
+	openblt20000202:1.1.1.6
+	openblt20000201:1.1.1.6
+	openblt20000131:1.1.1.6
+	openblt20000130:1.1.1.6
+	openblt20000129:1.1.1.6
+	openblt20000128:1.1.1.6
+	openblt20000127:1.1.1.6
+	openblt20000126:1.1.1.6
+	openblt20000125:1.1.1.6
+	openblt20000124:1.1.1.6
+	openblt20000123:1.1.1.6
+	openblt20000122:1.1.1.6
+	openblt20000121:1.1.1.6
+	openblt20000120:1.1.1.6
+	openblt20000119:1.1.1.6
+	openblt20000118:1.1.1.6
+	openblt20000117:1.1.1.6
+	openblt20000116:1.1.1.6
+	openblt20000115:1.1.1.6
+	openblt20000114:1.1.1.6
+	openblt20000113:1.1.1.6
+	openblt20000112:1.1.1.6
+	openblt20000111:1.1.1.6
+	openblt20000110:1.1.1.6
+	openblt20000109:1.1.1.6
+	openblt20000108:1.1.1.6
+	openblt20000107:1.1.1.6
+	openblt20000106:1.1.1.6
+	openblt20000105:1.1.1.6
+	openblt20000104:1.1.1.6
+	openblt20000103:1.1.1.6
+	openblt20000102:1.1.1.5
+	openblt19991228:1.1.1.4
+	openblt19990827:1.1.1.3
+	openblt082699:1.1.1.3
+	openblt082599:1.1.1.3
+	openblt082499:1.1.1.3
+	openblt082399:1.1.1.3
+	openblt082299:1.1.1.3
+	openblt082199:1.1.1.3
+	openblt082099:1.1.1.3
+	openblt081999:1.1.1.3
+	openblt081899:1.1.1.3
+	openblt081799:1.1.1.3
+	openblt081699:1.1.1.3
+	openblt081599:1.1.1.3
+	openblt071199:1.1.1.3
+	openblt071099:1.1.1.3
+	openblt070799:1.1.1.3
+	openblt070699:1.1.1.2
+	openblt070299:1.1.1.2
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.28.57;	author jr;	state Exp;
+branches;
+next	1.1.1.3;
+
+1.1.1.3
+date	2005.01.20.16.29.15;	author jr;	state Exp;
+branches;
+next	1.1.1.4;
+
+1.1.1.4
+date	2005.01.20.16.31.56;	author jr;	state Exp;
+branches;
+next	1.1.1.5;
+
+1.1.1.5
+date	2005.01.20.16.32.14;	author jr;	state Exp;
+branches;
+next	1.1.1.6;
+
+1.1.1.6
+date	2005.01.20.16.32.33;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@[bootstrap]
+type=boot
+file=boot/boot.bin
+ventry=116
+
+[kernel]
+type=boot
+file=kernel/kernel.bin
+ventry=116
+
+[init]
+type=code
+file=srv/init/init.bin
+ventry=116
+
+[namer]
+type=code
+file=srv/namer/namer.bin
+ventry=116
+
+[console]
+type=data
+file=srv/console2/console.bin
+ventry=116
+
+[ne2000]
+type=data
+file=srv/ne2000/ne2000.bin
+ventry=116
+
+[vfs]
+type=data
+file=srv/vfs/vfs.bin
+ventry=116
+
+#[fish]
+#type=code
+#file=srv/fish/fish.bin
+#ventry=116
+
+[vfs_test]
+type=data
+file=bin/vfs_test/vfs_test.bin
+ventry=116
+
+[rc.boot]
+type=data
+file=etc/rc.boot
+ventry=0
+
+[rc]
+type=data
+file=etc/rc
+ventry=0
+
+[bltsh]
+type=data
+file=bin/bltsh/bltsh.bin
+ventry=0
+
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.070299
+@
+text
+@d36 4
+a39 4
+[fish]
+type=data
+file=srv/fish/fish.bin
+ventry=116
+a58 10
+ventry=0
+
+[ls]
+type=data
+file=bin/ls/ls.bin
+ventry=0
+
+[cat]
+type=data
+file=bin/cat/cat.bin
+@
+
+
+1.1.1.3
+log
+@openblt.070799
+@
+text
+@a70 9
+[tell]
+type=data
+file=bin/tell/tell.bin
+ventry=0
+
+[validate]
+type=data
+file=bin/validate/validate.bin
+ventry=0
+@
+
+
+1.1.1.4
+log
+@openblt.19991228
+@
+text
+@d26 4
+a29 4
+#[ne2000]
+#type=data
+#file=srv/ne2000/ne2000.bin
+#ventry=116
+d36 1
+a36 1
+[window_server]
+d38 2
+a39 2
+file=srv/window/window_server.bin
+ventry=0
+d41 4
+a44 14
+#[fish]
+#type=data
+#file=srv/fish/fish.bin
+#ventry=116
+
+#[vfs_test]
+#type=data
+#file=bin/vfs_test/vfs_test.bin
+#ventry=116
+
+#[foo.so]
+#type=data
+#file=bin/vfs_test/foo.so
+#ventry=0
+d76 1
+a76 6
+[pci]
+type=data
+file=bin/pci/pci.bin
+ventry=0
+
+[winapp]
+d78 1
+a78 1
+file=bin/winapp/winapp.bin
+a79 56
+
+[tests]
+type=data
+file=bin/tests/tests.bin
+ventry=0
+
+#[network]
+#type=data
+#file=srv/network/network.bin
+#ventry=0
+
+#[eth.so]
+#type=data
+#file=srv/network/protocol/eth/eth.so
+#ventry=0
+
+#[arp.so]
+#type=data
+#file=srv/network/protocol/arp/arp.so
+#ventry=0
+
+#[ne.so]
+#type=data
+#file=srv/network/device/ne/ne.so
+#ventry=0
+
+#[ipv4.so]
+#type=data
+#file=srv/network/protocol/ipv4/ipv4.so
+#ventry=0
+
+#[validate]
+#type=data
+#file=bin/validate/validate.bin
+#ventry=0
+
+#[ide]
+#type=data
+#file=srv/ide/ide.bin
+#ventry=0
+
+#[fdisk]
+#type=data
+#file=bin/fdisk/fdisk.bin
+#ventry=0
+
+#[ffs.so]
+#type=data
+#file=srv/vfs/drivers/ffs/ffs.so
+#ventry=0
+
+#[mkdir]
+#type=data
+#file=bin/mkdir/mkdir.bin
+#ventry=0
+
+@
+
+
+1.1.1.5
+log
+@openblt.20000102
+@
+text
+@d26 4
+a29 4
+[ne2000]
+type=data
+file=srv/ne2000/ne2000.bin
+ventry=116
+d41 4
+a44 4
+[fish]
+type=data
+file=srv/fish/fish.bin
+ventry=116
+d46 4
+a49 4
+[vfs_test]
+type=data
+file=bin/vfs_test/vfs_test.bin
+ventry=116
+d51 4
+a54 4
+[foo.so]
+type=data
+file=bin/vfs_test/foo.so
+ventry=0
+d88 1
+a88 6
+file=srv/pci/pci.bin
+ventry=0
+
+[sysinfo]
+type=data
+file=bin/sysinfo/sysinfo.bin
+d126 4
+a129 4
+[validate]
+type=data
+file=bin/validate/validate.bin
+ventry=0
+@
+
+
+1.1.1.6
+log
+@openblt.20000103
+@
+text
+@a0 6
+# ---------------------------------------------------------------
+# The bootstrap code is where control starts once netboot, boot.com, 
+# etc loads the image.  It creates a page table to map the kernel in 
+# at 0x80000000 and then jumps to the kernel entrypoint where things
+# really start happening.  This MUST be the first entry in the .ini
+#
+a5 4
+# ---------------------------------------------------------------
+# The OpenBLT kernel must be the second entry here
+# (the bootstrap isn't very bright).  
+#
+a10 5
+# ---------------------------------------------------------------
+# The kernel will start any entries of type "code"
+# immediately on boot.  Right now only the naming service
+# and init do this.  init brings up the rest of the system
+#
+d21 1
+a21 5
+# ---------------------------------------------------------------
+# These rc files are read by init to determine what to start
+# (thus init needs the vfs)
+#
+[rc.boot]
+d23 2
+a24 2
+file=etc/rc.boot
+ventry=0
+d26 1
+a26 1
+[rc]
+d28 2
+a29 2
+file=etc/rc
+ventry=0
+a30 3
+# ---------------------------------------------------------------
+# The vfs and console servers provide core services
+#
+d36 11
+a46 1
+[console]
+d48 1
+a48 1
+file=srv/console2/console.bin
+d51 15
+a65 3
+# ---------------------------------------------------------------
+# The shell and some shell tools
+#
+d85 71
+@
+
+

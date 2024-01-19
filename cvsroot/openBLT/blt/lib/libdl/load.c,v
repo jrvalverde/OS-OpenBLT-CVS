@@ -1,0 +1,455 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.3
+	openblt20000429:1.1.1.3
+	openblt20000428:1.1.1.3
+	openblt20000427:1.1.1.3
+	openblt20000426:1.1.1.3
+	openblt20000425:1.1.1.3
+	openblt20000424:1.1.1.3
+	openblt20000423:1.1.1.3
+	openblt20000422:1.1.1.3
+	openblt20000421:1.1.1.3
+	openblt20000420:1.1.1.3
+	openblt20000419:1.1.1.3
+	openblt20000418:1.1.1.3
+	openblt20000417:1.1.1.3
+	openblt20000416:1.1.1.3
+	openblt20000415:1.1.1.3
+	openblt20000414:1.1.1.3
+	openblt20000413:1.1.1.3
+	openblt20000412:1.1.1.3
+	openblt20000411:1.1.1.3
+	openblt20000410:1.1.1.3
+	openblt20000409:1.1.1.3
+	openblt20000408:1.1.1.3
+	openblt20000407:1.1.1.3
+	openblt20000406:1.1.1.3
+	openblt20000405:1.1.1.3
+	openblt20000404:1.1.1.3
+	openblt20000403:1.1.1.3
+	openblt20000402:1.1.1.3
+	openblt20000401:1.1.1.3
+	openblt20000331:1.1.1.3
+	openblt20000330:1.1.1.3
+	openblt20000329:1.1.1.3
+	openblt20000328:1.1.1.3
+	openblt20000327:1.1.1.3
+	openblt20000326:1.1.1.3
+	openblt20000325:1.1.1.3
+	openblt20000324:1.1.1.3
+	openblt20000323:1.1.1.3
+	openblt20000322:1.1.1.3
+	openblt20000321:1.1.1.3
+	openblt20000320:1.1.1.3
+	openblt20000319:1.1.1.3
+	openblt20000318:1.1.1.3
+	openblt20000317:1.1.1.3
+	openblt20000316:1.1.1.3
+	openblt20000315:1.1.1.3
+	openblt20000314:1.1.1.3
+	openblt20000313:1.1.1.3
+	openblt20000312:1.1.1.3
+	openblt20000311:1.1.1.3
+	openblt20000310:1.1.1.3
+	openblt20000309:1.1.1.3
+	openblt20000308:1.1.1.3
+	openblt20000307:1.1.1.3
+	openblt20000306:1.1.1.3
+	openblt20000305:1.1.1.3
+	openblt20000304:1.1.1.3
+	openblt20000303:1.1.1.3
+	openblt20000302:1.1.1.3
+	openblt20000301:1.1.1.3
+	openblt20000229:1.1.1.3
+	openblt20000228:1.1.1.3
+	openblt20000227:1.1.1.3
+	openblt20000226:1.1.1.3
+	openblt20000225:1.1.1.3
+	openblt20000224:1.1.1.3
+	openblt20000223:1.1.1.3
+	openblt20000222:1.1.1.3
+	openblt20000221:1.1.1.3
+	openblt20000220:1.1.1.3
+	openblt20000219:1.1.1.3
+	openblt20000218:1.1.1.3
+	openblt20000217:1.1.1.3
+	openblt20000216:1.1.1.3
+	openblt20000215:1.1.1.3
+	openblt20000214:1.1.1.3
+	openblt20000213:1.1.1.3
+	openblt20000212:1.1.1.3
+	openblt20000211:1.1.1.3
+	openblt20000210:1.1.1.3
+	openblt20000209:1.1.1.3
+	openblt20000208:1.1.1.3
+	openblt20000207:1.1.1.3
+	openblt20000206:1.1.1.3
+	openblt20000205:1.1.1.3
+	openblt20000204:1.1.1.3
+	openblt20000203:1.1.1.3
+	openblt20000202:1.1.1.3
+	openblt20000201:1.1.1.3
+	openblt20000131:1.1.1.3
+	openblt20000130:1.1.1.3
+	openblt20000129:1.1.1.3
+	openblt20000128:1.1.1.3
+	openblt20000127:1.1.1.3
+	openblt20000126:1.1.1.3
+	openblt20000125:1.1.1.3
+	openblt20000124:1.1.1.3
+	openblt20000123:1.1.1.3
+	openblt20000122:1.1.1.3
+	openblt20000121:1.1.1.3
+	openblt20000120:1.1.1.3
+	openblt20000119:1.1.1.3
+	openblt20000118:1.1.1.3
+	openblt20000117:1.1.1.3
+	openblt20000116:1.1.1.3
+	openblt20000115:1.1.1.3
+	openblt20000114:1.1.1.3
+	openblt20000113:1.1.1.3
+	openblt20000112:1.1.1.3
+	openblt20000111:1.1.1.3
+	openblt20000110:1.1.1.3
+	openblt20000109:1.1.1.3
+	openblt20000108:1.1.1.3
+	openblt20000107:1.1.1.3
+	openblt20000106:1.1.1.3
+	openblt20000105:1.1.1.3
+	openblt20000104:1.1.1.3
+	openblt20000103:1.1.1.3
+	openblt20000102:1.1.1.3
+	openblt19991228:1.1.1.3
+	openblt19990827:1.1.1.2
+	openblt082699:1.1.1.2
+	openblt082599:1.1.1.2
+	openblt082499:1.1.1.2
+	openblt082399:1.1.1.2
+	openblt082299:1.1.1.2
+	openblt082199:1.1.1.2
+	openblt082099:1.1.1.2
+	openblt081999:1.1.1.2
+	openblt081899:1.1.1.2
+	openblt081799:1.1.1.2
+	openblt081699:1.1.1.2
+	openblt081599:1.1.1.2
+	openblt071199:1.1.1.2
+	openblt071099:1.1.1.2
+	openblt070799:1.1.1.2
+	openblt070699:1.1.1.1
+	openblt070299:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.28.46;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.28.46;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.29.13;	author jr;	state Exp;
+branches;
+next	1.1.1.3;
+
+1.1.1.3
+date	2005.01.20.16.31.51;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/lib/libdl/load.c#1 $
+**
+** Copyright 1999 Sidney Cammeresi
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <dlfcn.h>
+#include <sys/stat.h>
+#include <blt/libsyms.h>
+#include "dl-int.h"
+
+weak_alias (_dlopen, dlopen)
+weak_alias (_dlclose, dlclose)
+weak_alias (_dlerror, dlerror)
+
+static int error;
+
+void *_dlopen (const char *filename, int flag)
+{
+	char *c;
+	int i, size, fd, res, len;
+	struct stat buf;
+	lib_t *lib;
+	elf32_pgm_hdr_t *pgm;
+
+	if (_stat (filename, &buf))
+	{
+		errno = ENOENT;
+		return NULL;
+	}
+	size = buf.st_size;
+	size = (size & ~3) ? (size & ~3) + 0x1000 : size;
+	fd = _open (filename, O_RDONLY, 0);
+	if (fd < 0)
+		return NULL;
+	lib = malloc (sizeof (lib_t));
+	lib->area = area_create (size, 0, (void **) &c, 0);
+	len = 0;
+	while ((res = read (fd, c + len, 0x2000)) > 0)
+		len += res;
+	close (fd);
+
+	lib->hdr = (elf32_hdr_t *) c;
+	pgm = (elf32_pgm_hdr_t *) ((unsigned int) lib->hdr + lib->hdr->e_phoff);
+	for (i = 0; i < lib->hdr->e_phnum; i++)
+		memmove ((void *) ((unsigned int) lib->hdr + pgm[i].p_vaddr),
+			(void *) ((unsigned int) lib->hdr + pgm[i].p_offset),
+			pgm[i].p_filesz);
+	lib->dynstr = elf_find_section_hdr (lib->hdr, ".dynstr");
+	lib->dynstr_data = elf_find_section_data (lib->hdr, ".dynstr");
+	lib->dynsym = elf_find_section_hdr (lib->hdr, ".dynsym");
+	lib->dynsym_data = elf_find_section_data (lib->hdr, ".dynsym");
+	//printf ("str %x sym %x\n", lib->dynstr_data, lib->dynsym_data);
+	//printf ("first is %s\n", lib->dynstr_data + lib->dynsym_data[1].st_name);
+	return lib;
+}
+
+int _dlclose (void *handle)
+{
+	lib_t *lib;
+
+	lib = handle;
+	area_destroy (lib->area);
+	free (handle);
+	return 0;
+}
+
+const char *_dlerror (void)
+{
+	return NULL;
+}
+
+@
+
+
+1.1.1.1
+log
+@openblt.070299
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.070799
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/lib/libdl/load.c#5 $
+d43 1
+a43 29
+const char *__dl_error = NULL;
+static volatile char initialised = 0;
+lib_t *file;
+
+/*
+ * Initialise the list of loaded images with our binary.
+ *
+ * XXX this will break when the executable is at least partially
+ * dynamically linked.
+ */
+static void _init (void)
+{
+	initialised = 1;
+	file = malloc (sizeof (lib_t));
+	file->hdr = (elf32_hdr_t *) 0x1000;
+	file->strtab = elf_find_section_hdr (file->hdr, ".strtab");
+	file->strtab_data = elf_find_section_data (file->hdr, ".strtab");
+	file->strtab_size = elf_section_size (file->hdr, ".strtab");
+	file->symtab = elf_find_section_hdr (file->hdr, ".symtab");
+	file->symtab_data = elf_find_section_data (file->hdr, ".symtab");
+	file->symtab_size = elf_section_size (file->hdr, ".symtab");
+	file->dynstr = elf_find_section_hdr (file->hdr, ".dynstr");
+	file->dynstr_data = elf_find_section_data (file->hdr, ".dynstr");
+	file->dynstr_size = elf_section_size (file->hdr, ".dynstr");
+	file->dynsym = elf_find_section_hdr (file->hdr, ".dynsym");
+	file->dynsym_data = elf_find_section_data (file->hdr, ".dynsym");
+	file->dynsym_size = elf_section_size (file->hdr, ".dynsym");
+	file->next = NULL;
+}
+a44 12
+/*
+ * Loading is not completely straightforward.  There is only one hack here,
+ * in that we guess that we will only need one page more memory than the
+ * size of the library.  This seems to work on all libraries I can get my
+ * hands on (both OpenBLT and Linux shared libraries).
+ *
+ * The memmove loop may look like a hack because you might think I'm not
+ * completely parsing the program headers.  It's not because file offsets
+ * and virtual addresses in an ELF file are equal, modulo 4k or larger
+ * powers of two.  Read page 2-7 of the ELF specification for more
+ * information.
+ */
+d47 1
+a47 1
+	char *c, debug[32];
+d50 1
+a50 1
+	lib_t *lib, *p;
+a51 4
+	int (*fn)(void);
+
+	if (!initialised)
+		_init ();
+a52 1
+	__dl_error = NULL;
+d72 1
+a72 1
+	for (i = lib->hdr->e_phnum - 1; i >= 0; i--)
+a75 6
+	lib->strtab = elf_find_section_hdr (lib->hdr, ".strtab");
+	lib->strtab_data = elf_find_section_data (lib->hdr, ".strtab");
+	lib->strtab_size = elf_section_size (lib->hdr, ".strtab");
+	lib->symtab = elf_find_section_hdr (lib->hdr, ".symtab");
+	lib->symtab_data = elf_find_section_data (lib->hdr, ".symtab");
+	lib->symtab_size = elf_section_size (lib->hdr, ".symtab");
+a77 1
+	lib->dynstr_size = elf_section_size (file->hdr, ".dynstr");
+d80 2
+a81 21
+	lib->dynsym_size = elf_section_size (file->hdr, ".dynsym");
+
+	if (__dl_patchup (lib))
+	{
+		area_destroy (lib->area);
+		free (lib);
+		return NULL;
+	}
+	if (fn = (int (*)(void)) (__dl_lookup_sym (lib, "_init") +
+			(unsigned int) lib->hdr))
+		res = (*fn) ();
+	if ((flag & ~RTLD_GLOBAL) || res)
+	{
+		p = file;
+		while (p->next != NULL)
+			p = p->next;
+		p->next = lib;
+		lib->next = NULL;
+	}
+	else
+		lib->next = NULL;
+d87 1
+a87 2
+	lib_t *lib, *p;
+	void (*fn)(void);
+a89 13
+	if (file == lib)
+		file = file->next;
+	else
+	{
+		p = file;
+		while ((p->next != lib) && (p->next != NULL))
+			p = p->next;
+		if (p->next != NULL)
+			p->next = lib->next;
+	}
+	if (fn = (void (*)(void)) (__dl_lookup_sym (lib, "_fini") +
+			(unsigned int) lib->hdr))
+		(*fn) ();
+d97 1
+a97 1
+	return __dl_error;
+@
+
+
+1.1.1.3
+log
+@openblt.19991228
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/lib/libdl/load.c#8 $
+a32 1
+#include <unistd.h>
+a36 1
+#include <blt/syscall.h>
+d53 1
+a53 1
+void __dlinit (void)
+a63 1
+/*
+a69 1
+*/
+d87 1
+a87 1
+	char *c;
+d95 1
+a95 1
+		__dlinit ();
+d111 1
+a111 1
+	while ((res = _read (fd, c + len, 0x2000)) > 0)
+d113 1
+a113 1
+	_close (fd);
+d140 2
+a141 2
+	if ((fn = (int (*)(void)) (__dl_lookup_sym (lib, "_init") +
+			(unsigned int) lib->hdr)))
+d172 2
+a173 2
+	if ((fn = (void (*)(void)) (__dl_lookup_sym (lib, "_fini") +
+			(unsigned int) lib->hdr)))
+@
+
+

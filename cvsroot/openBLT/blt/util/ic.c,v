@@ -1,0 +1,526 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.1
+	openblt20000429:1.1.1.1
+	openblt20000428:1.1.1.1
+	openblt20000427:1.1.1.1
+	openblt20000426:1.1.1.1
+	openblt20000425:1.1.1.1
+	openblt20000424:1.1.1.1
+	openblt20000423:1.1.1.1
+	openblt20000422:1.1.1.1
+	openblt20000421:1.1.1.1
+	openblt20000420:1.1.1.1
+	openblt20000419:1.1.1.1
+	openblt20000418:1.1.1.1
+	openblt20000417:1.1.1.1
+	openblt20000416:1.1.1.1
+	openblt20000415:1.1.1.1
+	openblt20000414:1.1.1.1
+	openblt20000413:1.1.1.1
+	openblt20000412:1.1.1.1
+	openblt20000411:1.1.1.1
+	openblt20000410:1.1.1.1
+	openblt20000409:1.1.1.1
+	openblt20000408:1.1.1.1
+	openblt20000407:1.1.1.1
+	openblt20000406:1.1.1.1
+	openblt20000405:1.1.1.1
+	openblt20000404:1.1.1.1
+	openblt20000403:1.1.1.1
+	openblt20000402:1.1.1.1
+	openblt20000401:1.1.1.1
+	openblt20000331:1.1.1.1
+	openblt20000330:1.1.1.1
+	openblt20000329:1.1.1.1
+	openblt20000328:1.1.1.1
+	openblt20000327:1.1.1.1
+	openblt20000326:1.1.1.1
+	openblt20000325:1.1.1.1
+	openblt20000324:1.1.1.1
+	openblt20000323:1.1.1.1
+	openblt20000322:1.1.1.1
+	openblt20000321:1.1.1.1
+	openblt20000320:1.1.1.1
+	openblt20000319:1.1.1.1
+	openblt20000318:1.1.1.1
+	openblt20000317:1.1.1.1
+	openblt20000316:1.1.1.1
+	openblt20000315:1.1.1.1
+	openblt20000314:1.1.1.1
+	openblt20000313:1.1.1.1
+	openblt20000312:1.1.1.1
+	openblt20000311:1.1.1.1
+	openblt20000310:1.1.1.1
+	openblt20000309:1.1.1.1
+	openblt20000308:1.1.1.1
+	openblt20000307:1.1.1.1
+	openblt20000306:1.1.1.1
+	openblt20000305:1.1.1.1
+	openblt20000304:1.1.1.1
+	openblt20000303:1.1.1.1
+	openblt20000302:1.1.1.1
+	openblt20000301:1.1.1.1
+	openblt20000229:1.1.1.1
+	openblt20000228:1.1.1.1
+	openblt20000227:1.1.1.1
+	openblt20000226:1.1.1.1
+	openblt20000225:1.1.1.1
+	openblt20000224:1.1.1.1
+	openblt20000223:1.1.1.1
+	openblt20000222:1.1.1.1
+	openblt20000221:1.1.1.1
+	openblt20000220:1.1.1.1
+	openblt20000219:1.1.1.1
+	openblt20000218:1.1.1.1
+	openblt20000217:1.1.1.1
+	openblt20000216:1.1.1.1
+	openblt20000215:1.1.1.1
+	openblt20000214:1.1.1.1
+	openblt20000213:1.1.1.1
+	openblt20000212:1.1.1.1
+	openblt20000211:1.1.1.1
+	openblt20000210:1.1.1.1
+	openblt20000209:1.1.1.1
+	openblt20000208:1.1.1.1
+	openblt20000207:1.1.1.1
+	openblt20000206:1.1.1.1
+	openblt20000205:1.1.1.1
+	openblt20000204:1.1.1.1
+	openblt20000203:1.1.1.1
+	openblt20000202:1.1.1.1
+	openblt20000201:1.1.1.1
+	openblt20000131:1.1.1.1
+	openblt20000130:1.1.1.1
+	openblt20000129:1.1.1.1
+	openblt20000128:1.1.1.1
+	openblt20000127:1.1.1.1
+	openblt20000126:1.1.1.1
+	openblt20000125:1.1.1.1
+	openblt20000124:1.1.1.1
+	openblt20000123:1.1.1.1
+	openblt20000122:1.1.1.1
+	openblt20000121:1.1.1.1
+	openblt20000120:1.1.1.1
+	openblt20000119:1.1.1.1
+	openblt20000118:1.1.1.1
+	openblt20000117:1.1.1.1
+	openblt20000116:1.1.1.1
+	openblt20000115:1.1.1.1
+	openblt20000114:1.1.1.1
+	openblt20000113:1.1.1.1
+	openblt20000112:1.1.1.1
+	openblt20000111:1.1.1.1
+	openblt20000110:1.1.1.1
+	openblt20000109:1.1.1.1
+	openblt20000108:1.1.1.1
+	openblt20000107:1.1.1.1
+	openblt20000106:1.1.1.1
+	openblt20000105:1.1.1.1
+	openblt20000104:1.1.1.1
+	openblt20000103:1.1.1.1
+	openblt20000102:1.1.1.1
+	openblt19991228:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.31.56;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.31.56;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@// RPC Interface Compiler (ic)
+//
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+#include <stdarg.h>
+#include <string.h>
+
+typedef struct ic_type ic_type;
+typedef struct ic_param ic_param;
+typedef struct ic_func ic_func;
+typedef struct ic_ifc ic_ifc;
+
+struct ic_type
+{
+	ic_type *next;
+	
+	char *name;
+	enum {
+		BASIC,
+		ARRAY,
+		STRING,
+		STRUCT
+	} type;
+	int size;
+	ic_type *parts;
+};
+
+struct ic_param
+{
+	ic_param *next;
+	
+	char *name;
+	ic_type *type;
+	enum {
+		IN = 1,
+		OUT = 2
+	} flags;
+};
+
+struct ic_func
+{
+	ic_func *next;
+	
+	char *name;
+	ic_param *params;	
+};
+
+struct ic_ifc
+{
+	char *name;
+	char *key;
+	ic_func *funcs;
+};
+
+ic_type *types = NULL;
+
+ic_type builtins[] = {
+	{ NULL, "int32",   BASIC, 4, NULL },
+	{ NULL, "uint32",  BASIC, 4, NULL },
+	{ NULL, "int16",   BASIC, 2, NULL },
+	{ NULL, "uint16",  BASIC, 2, NULL },
+	{ NULL, NULL,      BASIC, 0, NULL }
+};
+
+int line = 1;
+char token[256];
+char *data;
+char *file;
+
+void die(const char *fmt, ...)
+{
+	va_list ap;
+	va_start(ap,fmt);
+	fprintf(stderr,"%s:%d - ",file,line);
+	vfprintf(stderr,fmt,ap);
+	fprintf(stderr,"\n");
+	va_end(ap);
+	exit(1);
+}
+
+
+void next(void)
+{
+	char *x = token;
+	
+	if(*data == 0) {
+		token[0] = 0;
+		return;
+	}
+	
+eat_space:
+	while(*data <= ' ') {
+		if(*data == '\n') line++;
+		data++;
+	}
+	
+	if(*data == '#') {
+		while(*data != '\n') data++;
+		goto eat_space;
+	}
+	
+	if(*data == '"') {
+		data++;
+		while(*data != '"') {
+			*x++ = *data++;
+		}
+		*x = 0;
+		data++;
+		return;
+	}
+	
+	for(;;){
+		switch(*data){
+		case '{':
+		case '}':
+		case '(':
+		case ')':
+		case ',':
+		case '#':
+		case '"':
+		case ':':
+			if(x == token){
+				*x++ = *data++;
+			}
+			*x = 0;
+			return;
+		default:
+			if(*data <= ' '){
+				*x = 0;
+				return;
+			} else {
+				*x++ = *data++;
+				if((x - token) > 255) die("token too long");
+			}
+		}
+	}	
+}
+
+int match(const char *tok)
+{
+	if(!strcmp(token,tok)){
+		next();
+		return 1;
+	} else {
+		return 0;
+	}
+}
+
+void force(const char *tok)
+{
+	if(strcmp(token,tok)){
+		die("expecting '%s', found '%s'",tok,token);
+	}
+	next();
+}
+
+ic_type *type(void)
+{
+	ic_type *t;
+	
+	if(match("string")){
+		t = (ic_type *) malloc(sizeof(ic_type));
+		if(!t) die("out of memory");
+		
+		force(":");
+		t->size = atoi(token); next();
+		t->name = "string";
+		t->type = STRING;
+		t->next = NULL;
+		t->parts = NULL;
+		
+		return t;
+	}
+		
+	for(t = types; t; t = t->next){
+		if(match(t->name)) return t;
+	}
+	
+	die("unknown type '%s'",token);
+	return NULL;
+}
+
+ic_param *param(void)
+{
+	ic_param *p = (ic_param*) malloc(sizeof(ic_param));
+	if(!p) die("out of memory");
+	
+	if(match("in")){
+		p->flags = IN;
+	} else if(match("out")) {
+		p->flags = OUT;
+	} else {
+		die("expecting 'in' or 'out', found '%s'",token);
+	}
+	
+	p->type = type();
+	p->name = strdup(token); next();
+	p->next = NULL;
+	
+	return p;
+}
+
+ic_func *function(void)
+{
+	ic_param *p,*last = NULL;
+	ic_func *func = (ic_func*) malloc(sizeof(ic_func));
+	if(!func) die("out of memory");
+
+	func->name = strdup(token); next();
+	func->next = NULL;
+	func->params = NULL;
+	
+	force("(");
+	
+	for(;;){
+		if(match(")")) {	
+			match(";"); /* optional semi */
+			return func;
+		}
+		p = param();
+		if(last) {
+			last->next = p;
+		} else {
+			func->params = p;
+		}
+		last = p;
+		match(",");
+	}
+}
+
+
+
+ic_ifc *interface(void)
+{
+	ic_func *func,*last = NULL;
+	ic_ifc *ifc = (ic_ifc*) malloc(sizeof(ic_ifc));
+	
+	if(!ifc) die("out of memory");
+
+	ifc->name = strdup(token); next();
+	ifc->key = strdup(token); next();
+	ifc->funcs = NULL;
+	
+	force("{");
+	
+	for(;;){
+		if(match("}")) {
+			match(";"); /* optional semi */
+			return ifc;
+		}
+		func = function();
+		if(last){
+			last->next = func;
+		} else {
+			ifc->funcs = func;
+		}
+		last = func;
+	}
+}
+
+void mkheader(FILE *f, ic_ifc *ifc)
+{
+	ic_func *func;
+	ic_param *p;
+	char *upname,*x;
+	
+	x = upname = strdup(ifc->name);
+	while(*x) {
+		*x = toupper(*x);
+		x++;
+	}
+	fprintf(f,"/* Generated File - DO NOT EDIT */\n\n");
+	fprintf(f,"#define IFC_%s \"%s\"\n\n",upname,ifc->key);
+	fprintf(f,"typedef struct {\n");
+	for(func = ifc->funcs; func; func = func->next){
+		fprintf(f,"\tstatus_t (*%s)(\n",func->name);
+		fprintf(f,"\t\tconst ifc_handle *handle%s\n",func->params?",":"");
+		
+		for(p = func->params; p; p = p->next){
+			fprintf(f,"\t\t%s %s%s\n",p->type->name,p->name,
+					p->next ? "," : "");
+		}
+		fprintf(f,"\t\t);\n");
+	}
+	fprintf(f,"} ifc_%s;\n",ifc->name);
+}
+
+void mkstub(FILE *f, ic_ifc *ifc)
+{
+	ic_func *func;
+	ic_param *p;
+	
+	fprintf(f,"/* Generated File - DO NOT EDIT */\n\n");
+	
+	/* eject the stubs */
+	for(func = ifc->funcs; func; func = func->next){
+		fprintf(f,"static status_t\n");
+		fprintf(f,"stub_%s(\n",func->name);
+		fprintf(f,"\t)\n");
+		fprintf(f,"{\n");
+		fprintf(f,"\treturn -1;\n"); 
+		fprintf(f,"}\n\n");
+	}
+		
+	/* eject the decl */
+	fprintf(f,"ifc_%s ifc_%s_impl = {\n",ifc->name,ifc->name);	
+	for(func = ifc->funcs; func; func = func->next){
+		fprintf(f,"\t&stub_%s%s\n",func->name,func->next?",":"");
+	}
+	fprintf(f,"};\n");	
+}
+
+void parse(void)
+{
+	ic_ifc *ifc;
+	next();
+	
+	for(;;){
+		if(match("interface")) {
+			ifc = interface();
+			mkheader(stdout,ifc);
+			mkstub(stdout,ifc);
+		}
+		if(match("")) return;
+		die("unexpected token '%s'",token);
+	}
+}
+
+int main(int argc, char *argv[])
+{
+	int i,fd;
+	struct stat s;
+	
+	/* install built-in types */
+	for(i=0;builtins[i].name;i++){
+		builtins[i].next = types;
+		types = builtins + i;
+	}
+	
+	if(argc != 2) {
+		fprintf(stderr,"error: no input file\n");
+		return 1;
+	}
+	
+	file = argv[1];
+	
+	if(((fd = open(file,O_RDONLY)) < 0) || fstat(fd,&s)){
+		fprintf(stderr,"error: cannot open \"%s\"\n",file);
+		return 1;
+	}
+	
+	data = (char*) malloc(s.st_size + 1);
+	read(fd, data, s.st_size);
+	data[s.st_size] = 0;
+	close(fd);
+	
+	parse();
+}
+
+
+
+
+
+		@
+
+
+1.1.1.1
+log
+@openblt.19991228
+@
+text
+@@

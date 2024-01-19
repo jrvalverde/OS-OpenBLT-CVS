@@ -1,0 +1,526 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.5
+	openblt20000429:1.1.1.4
+	openblt20000428:1.1.1.4
+	openblt20000427:1.1.1.4
+	openblt20000426:1.1.1.4
+	openblt20000425:1.1.1.4
+	openblt20000424:1.1.1.4
+	openblt20000423:1.1.1.4
+	openblt20000422:1.1.1.4
+	openblt20000421:1.1.1.4
+	openblt20000420:1.1.1.4
+	openblt20000419:1.1.1.4
+	openblt20000418:1.1.1.4
+	openblt20000417:1.1.1.4
+	openblt20000416:1.1.1.4
+	openblt20000415:1.1.1.4
+	openblt20000414:1.1.1.4
+	openblt20000413:1.1.1.4
+	openblt20000412:1.1.1.4
+	openblt20000411:1.1.1.4
+	openblt20000410:1.1.1.4
+	openblt20000409:1.1.1.4
+	openblt20000408:1.1.1.4
+	openblt20000407:1.1.1.4
+	openblt20000406:1.1.1.4
+	openblt20000405:1.1.1.4
+	openblt20000404:1.1.1.4
+	openblt20000403:1.1.1.4
+	openblt20000402:1.1.1.4
+	openblt20000401:1.1.1.4
+	openblt20000331:1.1.1.4
+	openblt20000330:1.1.1.4
+	openblt20000329:1.1.1.4
+	openblt20000328:1.1.1.4
+	openblt20000327:1.1.1.4
+	openblt20000326:1.1.1.4
+	openblt20000325:1.1.1.4
+	openblt20000324:1.1.1.4
+	openblt20000323:1.1.1.4
+	openblt20000322:1.1.1.4
+	openblt20000321:1.1.1.4
+	openblt20000320:1.1.1.4
+	openblt20000319:1.1.1.4
+	openblt20000318:1.1.1.4
+	openblt20000317:1.1.1.4
+	openblt20000316:1.1.1.4
+	openblt20000315:1.1.1.4
+	openblt20000314:1.1.1.4
+	openblt20000313:1.1.1.4
+	openblt20000312:1.1.1.4
+	openblt20000311:1.1.1.4
+	openblt20000310:1.1.1.4
+	openblt20000309:1.1.1.4
+	openblt20000308:1.1.1.4
+	openblt20000307:1.1.1.4
+	openblt20000306:1.1.1.4
+	openblt20000305:1.1.1.4
+	openblt20000304:1.1.1.4
+	openblt20000303:1.1.1.4
+	openblt20000302:1.1.1.4
+	openblt20000301:1.1.1.4
+	openblt20000229:1.1.1.4
+	openblt20000228:1.1.1.4
+	openblt20000227:1.1.1.4
+	openblt20000226:1.1.1.4
+	openblt20000225:1.1.1.4
+	openblt20000224:1.1.1.4
+	openblt20000223:1.1.1.4
+	openblt20000222:1.1.1.4
+	openblt20000221:1.1.1.4
+	openblt20000220:1.1.1.4
+	openblt20000219:1.1.1.4
+	openblt20000218:1.1.1.4
+	openblt20000217:1.1.1.4
+	openblt20000216:1.1.1.4
+	openblt20000215:1.1.1.4
+	openblt20000214:1.1.1.4
+	openblt20000213:1.1.1.4
+	openblt20000212:1.1.1.4
+	openblt20000211:1.1.1.4
+	openblt20000210:1.1.1.4
+	openblt20000209:1.1.1.4
+	openblt20000208:1.1.1.4
+	openblt20000207:1.1.1.4
+	openblt20000206:1.1.1.4
+	openblt20000205:1.1.1.4
+	openblt20000204:1.1.1.4
+	openblt20000203:1.1.1.4
+	openblt20000202:1.1.1.4
+	openblt20000201:1.1.1.4
+	openblt20000131:1.1.1.4
+	openblt20000130:1.1.1.4
+	openblt20000129:1.1.1.4
+	openblt20000128:1.1.1.4
+	openblt20000127:1.1.1.4
+	openblt20000126:1.1.1.4
+	openblt20000125:1.1.1.4
+	openblt20000124:1.1.1.4
+	openblt20000123:1.1.1.4
+	openblt20000122:1.1.1.4
+	openblt20000121:1.1.1.4
+	openblt20000120:1.1.1.4
+	openblt20000119:1.1.1.4
+	openblt20000118:1.1.1.4
+	openblt20000117:1.1.1.4
+	openblt20000116:1.1.1.4
+	openblt20000115:1.1.1.4
+	openblt20000114:1.1.1.4
+	openblt20000113:1.1.1.4
+	openblt20000112:1.1.1.4
+	openblt20000111:1.1.1.4
+	openblt20000110:1.1.1.4
+	openblt20000109:1.1.1.4
+	openblt20000108:1.1.1.4
+	openblt20000107:1.1.1.4
+	openblt20000106:1.1.1.4
+	openblt20000105:1.1.1.4
+	openblt20000104:1.1.1.4
+	openblt20000103:1.1.1.4
+	openblt20000102:1.1.1.4
+	openblt19991228:1.1.1.4
+	openblt19990827:1.1.1.3
+	openblt082699:1.1.1.3
+	openblt082599:1.1.1.3
+	openblt082499:1.1.1.3
+	openblt082399:1.1.1.3
+	openblt082299:1.1.1.3
+	openblt082199:1.1.1.3
+	openblt082099:1.1.1.3
+	openblt081999:1.1.1.3
+	openblt081899:1.1.1.3
+	openblt081799:1.1.1.3
+	openblt081699:1.1.1.3
+	openblt081599:1.1.1.3
+	openblt071199:1.1.1.3
+	openblt071099:1.1.1.2
+	openblt070799:1.1.1.2
+	openblt070699:1.1.1.1
+	openblt070299:1.1.1.1
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.23.01;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.23.01;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.29.18;	author jr;	state Exp;
+branches;
+next	1.1.1.3;
+
+1.1.1.3
+date	2005.01.20.16.29.38;	author jr;	state Exp;
+branches;
+next	1.1.1.4;
+
+1.1.1.4
+date	2005.01.20.16.32.00;	author jr;	state Exp;
+branches;
+next	1.1.1.5;
+
+1.1.1.5
+date	2005.01.20.17.11.20;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/include/blt/syscall.h#10 $
+**
+** Copyright 1998 Brian J. Swetland
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+#ifndef _SYSCALL_H_
+#define _SYSCALL_H_
+
+#include <blt/types.h>
+#include <blt/os.h>
+
+int   os_thread(void *addr);
+void  os_terminate(int status);
+void  os_console(char *string);
+int   os_brk(int addr);
+void  os_handle_irq(int irq);
+void  os_sleep_irq(void);
+void  os_debug(void);
+void  os_sleep(int ticks);
+int   os_identify(int rsrc); /* returns the thread_id of the owner of a resource */
+
+int sem_create(int value);
+int sem_destroy(int sem);
+int sem_acquire(int sem);
+int sem_release(int sem);
+
+typedef struct {
+    int flags;
+    int src;
+    int dst;
+    int size;
+    void *data;    
+} msg_hdr_t;
+
+int port_create(int restrict);
+int port_destroy(int port);
+int port_option(int port, uint32 opt, uint32 arg);
+int port_send(msg_hdr_t *mh);
+int port_recv(msg_hdr_t *mh);
+
+#define port_set_restrict(port, restrict) port_option(port,PORT_OPT_SETRESTRICT,restrict);
+#define port_slave(master, slave) port_option(slave,PORT_OPT_SLAVE,master)
+
+int thr_create(void *addr, void *data);
+int thr_resume(int thr_id);
+int thr_suspend(int thr_id);
+int thr_kill(int thr_id);
+int thr_detach(void (*addr)(void));
+int thr_join(int thr_id, int options);
+int thr_spawn (int area_id, int virt, char * const *argv, char * const *envp);
+
+int area_create(off_t size, off_t virt, void **addr, uint32 flags);
+int area_clone(int area_id, off_t virt, void **addr, uint32 flags);
+int area_destroy(int area_id);
+int area_resize(int area_id, off_t size);   
+
+int right_create(int rsrc_id, uint32 flags);
+int right_destroy(int right_id);
+int right_revoke(int right_id, int thread_id); 
+int right_grant(int right_id, int thread_id);
+
+typedef union
+{
+	thread_info t_info;
+	sys_info s_info;
+} rsrc_info;
+
+/* look up a resource by name or id number and fill in information about it */
+int rsrc_find_id (rsrc_info *info, int rsrc_id, int rsrc_type);
+int rsrc_find_name (rsrc_info *info, const char *name, int rsrc_type);
+ 
+#endif
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.070799
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/include/blt/syscall.h#11 $
+d85 6
+d94 1
+a94 16
+
+/*
+ * the ubercall is for random things that are not compiled into the kernel
+ * by default, but might be useful for debugging, etc.  if you think you
+ * need to add a syscall temporarily in order to debug something, using
+ * this will save you some time, since you only have to edit two files
+ * instead of four.
+ *
+ * the request parameter is used to multiplex the call among many different
+ * purposes.  the range UBER_MIN_RESERVED to UBER_MAX_RESERVED is for
+ * temporary purposes that are not submitted to the repository.  request
+ * defines are in include/blt/os.h.
+ */
+
+int os_uber(unsigned int request, ...);
+
+@
+
+
+1.1.1.3
+log
+@openblt.071199
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/include/blt/syscall.h#13 $
+d35 1
+d67 1
+a67 1
+int thr_create(void *addr, void *data, const char *name);
+d73 1
+a73 5
+
+int thr_spawn(uint32 eip, uint32 esp,
+			  int area0, uint32 vaddr0,
+			  int area1, uint32 vaddr1,
+			  const char *name);
+d90 1
+a90 1
+ * the metacall is for random things that are not compiled into the kernel
+d97 1
+a97 1
+ * purposes.  the range META_MIN_RESERVED to META_MAX_RESERVED is for
+d102 1
+a102 6
+int os_meta(unsigned int request, ...);
+
+/* compatability defines */
+#define os_thread(addr) thr_create(addr,NULL,NULL);
+#define thr_join(id,opt) thr_wait(id);
+#define thr_detach(addr) (0)
+@
+
+
+1.1.1.4
+log
+@openblt.19991228
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/include/blt/syscall.h#16 $
+d35 13
+a47 23
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+	void  os_terminate(int status);
+	void  os_console(char *string);
+	int   os_brk(int addr);
+	void  os_handle_irq(int irq);
+	void  os_sleep_irq(void);
+	void  os_debug(void);
+	void  os_sleep(int ticks);
+	int   os_identify(int rsrc); /* returns the thread_id of the owner of a resource */
+	
+	int sem_create(int value, const char *name);
+	int sem_destroy(int sem);
+	int sem_acquire(int sem);
+	int sem_release(int sem);
+
+#ifdef __cplusplus
+}
+#endif
+
+
+d57 49
+a105 57
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+	int port_create(int restrict, const char *name);
+	int port_destroy(int port);
+	int port_option(int port, uint32 opt, uint32 arg);
+	int port_send(msg_hdr_t *mh);
+	int port_recv(msg_hdr_t *mh);
+	
+	#define port_set_restrict(port, restrict) port_option(port,PORT_OPT_SETRESTRICT,restrict);
+	#define port_slave(master, slave) port_option(slave,PORT_OPT_SLAVE,master)
+	
+	int thr_create(void *addr, void *data, const char *name);
+	int thr_resume(int thr_id);
+	int thr_suspend(int thr_id);
+	int thr_kill(int thr_id);
+	int thr_detach(void (*addr)(void));
+	int thr_wait(int thr_id);
+	
+	int thr_spawn(uint32 eip, uint32 esp,
+				  int area0, uint32 vaddr0,
+				  int area1, uint32 vaddr1,
+				  const char *name);
+	
+	int area_create(off_t size, off_t virt, void **addr, uint32 flags);
+	int area_clone(int area_id, off_t virt, void **addr, uint32 flags);
+	int area_destroy(int area_id);
+	int area_resize(int area_id, off_t size);   
+	
+	int right_create(int rsrc_id, uint32 flags);
+	int right_destroy(int right_id);
+	int right_revoke(int right_id, int thread_id); 
+	int right_grant(int right_id, int thread_id);
+	
+	/* look up a resource by name or id number and fill in information about it */
+	int rsrc_find_id (rsrc_info *info, int rsrc_id, int rsrc_type);
+	int rsrc_find_name (rsrc_info *info, const char *name, int rsrc_type);
+	
+	/*
+	 * the metacall is for random things that are not compiled into the kernel
+	 * by default, but might be useful for debugging, etc.  if you think you
+	 * need to add a syscall temporarily in order to debug something, using
+	 * this will save you some time, since you only have to edit two files
+	 * instead of four.
+	 *
+	 * the request parameter is used to multiplex the call among many different
+	 * purposes.  the range META_MIN_RESERVED to META_MAX_RESERVED is for
+	 * temporary purposes that are not submitted to the repository.  request
+	 * defines are in include/blt/os.h.
+	 */
+	
+	int os_meta(unsigned int request, ...);
+
+#ifdef __cplusplus
+}
+#endif
+d109 1
+a109 1
+#define thr_join(thr_id,opt) thr_wait(thr_id);
+@
+
+
+1.1.1.5
+log
+@openblt.20000517
+@
+text
+@d1 26
+a26 2
+/* Copyright 1998-2000 Brian J. Swetland.  All rights reserved.
+** Distributed under the terms of the OpenBLT License.
+d46 1
+a46 1
+	int   os_identify(int rsrc); /* returns the team_id of the owner of a resource */
+d48 28
+a75 11
+	sem_id sem_create(int value, const char *name);
+	int sem_destroy(sem_id sem);
+	int sem_acquire(sem_id sem);
+	int sem_release(sem_id sem);
+
+	port_id port_create(int restrict, const char *name);
+	int port_destroy(port_id port);
+	int port_option(port_id port, uint32 opt, uint32 arg);
+	ssize_t port_send(port_id src, port_id dst, const void *data, size_t len, uint32 code);
+	ssize_t port_recv(port_id dst, port_id *src, void *data, size_t max, uint32 *code);
+	ssize_t port_peek(port_id *src, port_id *dst, int *code);
+d79 11
+a89 14
+	#define port_set_nonblocking(port) port_option(port, PORT_OPT_NOWAIT, 1);
+	#define port_set_blocking(port) port_option(port, PORT_OPT_NOWAIT, 0);
+	#define port_set_timeout(port, useconds)
+		
+	thread_id thr_create(void *addr, void *data, const char *name);
+	int thr_resume(thread_id thr_id);
+	int thr_suspend(thread_id thr_id);
+	int thr_kill(thread_id thr_id);
+	int thr_detach(thread_id (*addr)(void));
+	int thr_wait(thread_id thr_id);
+	
+	thread_id thr_spawn(uint32 eip, uint32 esp,
+				  area_id area0, uint32 vaddr0,
+				  area_id area1, uint32 vaddr1,
+d92 4
+a95 4
+	area_id area_create(off_t size, off_t virt, void **addr, uint32 flags);
+	area_id area_clone(area_id aid, off_t virt, void **addr, uint32 flags);
+	int area_destroy(area_id aid);
+	int area_resize(area_id aid, off_t size);   
+a128 12
+
+/* deprecated messaging system */
+typedef struct {
+    int flags;
+    int src;
+    int dst;
+    int size;
+    void *data;    
+} msg_hdr_t;
+
+#define old_port_send(mh) port_send((mh)->src, (mh)->dst, (mh)->data, (mh)->size, 0)
+#define old_port_recv(mh) port_recv((mh)->dst, &((mh)->src), (mh)->data, (mh)->size, 0)
+@
+
+

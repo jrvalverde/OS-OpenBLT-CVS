@@ -1,0 +1,1161 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.5
+	openblt20000429:1.1.1.4
+	openblt20000428:1.1.1.4
+	openblt20000427:1.1.1.4
+	openblt20000426:1.1.1.4
+	openblt20000425:1.1.1.4
+	openblt20000424:1.1.1.4
+	openblt20000423:1.1.1.4
+	openblt20000422:1.1.1.4
+	openblt20000421:1.1.1.4
+	openblt20000420:1.1.1.4
+	openblt20000419:1.1.1.4
+	openblt20000418:1.1.1.4
+	openblt20000417:1.1.1.4
+	openblt20000416:1.1.1.4
+	openblt20000415:1.1.1.4
+	openblt20000414:1.1.1.4
+	openblt20000413:1.1.1.4
+	openblt20000412:1.1.1.4
+	openblt20000411:1.1.1.4
+	openblt20000410:1.1.1.4
+	openblt20000409:1.1.1.4
+	openblt20000408:1.1.1.4
+	openblt20000407:1.1.1.4
+	openblt20000406:1.1.1.4
+	openblt20000405:1.1.1.4
+	openblt20000404:1.1.1.4
+	openblt20000403:1.1.1.4
+	openblt20000402:1.1.1.4
+	openblt20000401:1.1.1.4
+	openblt20000331:1.1.1.4
+	openblt20000330:1.1.1.4
+	openblt20000329:1.1.1.4
+	openblt20000328:1.1.1.4
+	openblt20000327:1.1.1.4
+	openblt20000326:1.1.1.4
+	openblt20000325:1.1.1.4
+	openblt20000324:1.1.1.4
+	openblt20000323:1.1.1.4
+	openblt20000322:1.1.1.4
+	openblt20000321:1.1.1.4
+	openblt20000320:1.1.1.4
+	openblt20000319:1.1.1.4
+	openblt20000318:1.1.1.4
+	openblt20000317:1.1.1.4
+	openblt20000316:1.1.1.4
+	openblt20000315:1.1.1.4
+	openblt20000314:1.1.1.4
+	openblt20000313:1.1.1.4
+	openblt20000312:1.1.1.4
+	openblt20000311:1.1.1.4
+	openblt20000310:1.1.1.4
+	openblt20000309:1.1.1.4
+	openblt20000308:1.1.1.4
+	openblt20000307:1.1.1.4
+	openblt20000306:1.1.1.4
+	openblt20000305:1.1.1.4
+	openblt20000304:1.1.1.4
+	openblt20000303:1.1.1.4
+	openblt20000302:1.1.1.4
+	openblt20000301:1.1.1.4
+	openblt20000229:1.1.1.4
+	openblt20000228:1.1.1.4
+	openblt20000227:1.1.1.4
+	openblt20000226:1.1.1.4
+	openblt20000225:1.1.1.4
+	openblt20000224:1.1.1.4
+	openblt20000223:1.1.1.4
+	openblt20000222:1.1.1.4
+	openblt20000221:1.1.1.4
+	openblt20000220:1.1.1.4
+	openblt20000219:1.1.1.4
+	openblt20000218:1.1.1.4
+	openblt20000217:1.1.1.4
+	openblt20000216:1.1.1.4
+	openblt20000215:1.1.1.4
+	openblt20000214:1.1.1.4
+	openblt20000213:1.1.1.4
+	openblt20000212:1.1.1.4
+	openblt20000211:1.1.1.4
+	openblt20000210:1.1.1.4
+	openblt20000209:1.1.1.4
+	openblt20000208:1.1.1.4
+	openblt20000207:1.1.1.4
+	openblt20000206:1.1.1.4
+	openblt20000205:1.1.1.4
+	openblt20000204:1.1.1.4
+	openblt20000203:1.1.1.4
+	openblt20000202:1.1.1.4
+	openblt20000201:1.1.1.4
+	openblt20000131:1.1.1.4
+	openblt20000130:1.1.1.4
+	openblt20000129:1.1.1.4
+	openblt20000128:1.1.1.4
+	openblt20000127:1.1.1.4
+	openblt20000126:1.1.1.4
+	openblt20000125:1.1.1.4
+	openblt20000124:1.1.1.4
+	openblt20000123:1.1.1.4
+	openblt20000122:1.1.1.4
+	openblt20000121:1.1.1.4
+	openblt20000120:1.1.1.4
+	openblt20000119:1.1.1.4
+	openblt20000118:1.1.1.4
+	openblt20000117:1.1.1.4
+	openblt20000116:1.1.1.4
+	openblt20000115:1.1.1.4
+	openblt20000114:1.1.1.4
+	openblt20000113:1.1.1.4
+	openblt20000112:1.1.1.4
+	openblt20000111:1.1.1.4
+	openblt20000110:1.1.1.4
+	openblt20000109:1.1.1.4
+	openblt20000108:1.1.1.4
+	openblt20000107:1.1.1.4
+	openblt20000106:1.1.1.4
+	openblt20000105:1.1.1.4
+	openblt20000104:1.1.1.4
+	openblt20000103:1.1.1.4
+	openblt20000102:1.1.1.4
+	openblt19991228:1.1.1.3
+	openblt19990827:1.1.1.2
+	openblt082699:1.1.1.2
+	openblt082599:1.1.1.2
+	openblt082499:1.1.1.2
+	openblt082399:1.1.1.2
+	openblt082299:1.1.1.2
+	openblt082199:1.1.1.2
+	openblt082099:1.1.1.2
+	openblt081999:1.1.1.2
+	openblt081899:1.1.1.2
+	openblt081799:1.1.1.2
+	openblt081699:1.1.1.2
+	openblt081599:1.1.1.2
+	openblt071199:1.1.1.2
+	openblt071099:1.1.1.1
+	openblt070799:1.1.1.1
+	openblt070699:1.1.1.1
+	openblt070299:1.1.1.1
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.29.33;	author jr;	state Exp;
+branches;
+next	1.1.1.3;
+
+1.1.1.3
+date	2005.01.20.16.31.52;	author jr;	state Exp;
+branches;
+next	1.1.1.4;
+
+1.1.1.4
+date	2005.01.20.16.32.10;	author jr;	state Exp;
+branches;
+next	1.1.1.5;
+
+1.1.1.5
+date	2005.01.20.17.11.13;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/srv/vfs/vfs.c#12 $
+**
+** Copyright 1998 Sidney Cammeresi
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <errno.h>
+#include <boot.h>
+#include <sys/stat.h>
+#include <blt/syscall.h>
+#include <blt/namer.h>
+#include <blt/error.h>
+#include <blt/hash.h>
+#include <blt/libsyms.h>
+#include <blt/vfs.h>
+#include "vfs-int.h"
+#include "path.h"
+#include "shm.h"
+
+#define FG_GREEN  "\033[32m"
+#define FG_RED    "\033[34m"
+#define FG_WHITE  "\033[37m"
+
+int vfs_port;
+struct fs_type *fs_drivers;
+struct superblock *mount_list = NULL;
+hashtable_t *conn_table;
+
+volatile int ready = 0;
+
+//extern struct fs_type rootfs, bootfs, portalfs;
+extern struct fs_type rootfs, bootfs;
+extern void __libc_init_console ();
+
+int fs_register (struct fs_type *driver)
+{
+	struct fs_type *p;
+
+	if (fs_drivers == NULL)
+	{
+		fs_drivers = driver;
+		fs_drivers->next = NULL;
+		return 0;
+	}
+	else
+	{
+		p = fs_drivers;
+		while (p->next != NULL)
+		{
+			if (!strcmp (p->name, driver->name))
+				return 1;
+			p = p->next;
+		}
+		p->next = driver;
+		driver->next = NULL;
+		return 0;
+	}
+}
+
+struct superblock *fs_find (const char *node)
+{
+	int len, bestlen;
+	struct superblock *super, *best;
+
+	super = mount_list;
+	len = bestlen = 0;
+	best = NULL;
+	while (super != NULL)
+	{
+		if (!strncmp (super->sb_dir, node, len = strlen (super->sb_dir)))
+			if (len > bestlen)
+			{
+				best = super;
+				bestlen = len;
+			}
+		super = super->sb_next;
+	}
+	return best;
+}
+
+vfs_res_t *vfs_openconn (int rport, int area)
+{
+	int i, private_port;
+	vfs_res_t *res;
+	struct client *client;
+
+	res = malloc (sizeof (vfs_res_t));
+	res->status = VFS_OK;
+	res->errno = 0;
+	private_port = port_create (rport);
+	port_slave (vfs_port, private_port);
+	res->data[0] = private_port;
+
+	client = malloc (sizeof (struct client));
+	client->in = rport;
+	client->out = private_port;
+	client->filename_area = area;
+	area_clone (area, 0, (void **) &client->nameptr, 0);
+	for (i = 0; i < MAX_FDS; i++)
+		client->ioctx.fdarray.ofile[i] = NULL;
+	hashtable_insert (conn_table, client->in, client, sizeof (struct client));
+
+#ifdef VFS_DEBUG
+	printf ("vfs_openconn: from port %d, assigned port %d, area %d "
+		"mapped to %p\n", rport, private_port, area, client->nameptr);
+#endif
+	return res;
+}
+
+vfs_res_t *vfs_scroll_area (struct client *client, vfs_cmd_t *vc)
+{
+	struct ofile *ofile;
+	vfs_res_t *res;
+
+	res = malloc (sizeof (vfs_res_t));
+	ofile = client->ioctx.fdarray.ofile[vc->data[0]];
+	shm_write (ofile, vc->data[1], 0, ofile->length, &res->data[0],
+		&res->data[1]);
+	res->status = VFS_OK;
+	res->errno = 0;
+	return res;
+}
+
+int vfs_mount (const char *dir, char *type, int flags, void *data)
+{
+	int res;
+	static int rootmounted = 0;
+	struct fs_type *driver;
+	struct superblock *super;
+
+#ifdef VFS_DEBUG
+	printf ("vfs_mount %s %s\n", dir, type);
+#endif
+
+	/* find filesystem driver */
+	driver = fs_drivers;
+	while (driver != NULL)
+	{
+		if (!strcmp (driver->name, type))
+			break;
+		else
+			driver = driver->next;
+	}
+	if (driver == NULL)
+	{
+		printf ("vfs: no driver\n");
+		return 1;
+	}
+	super = malloc (sizeof (struct superblock));
+	super->sb_vops = driver->t_vops;
+
+	super->sb_dir = malloc (strlen (dir) + 1);
+	strcpy (super->sb_dir, dir);
+
+	/* verify mount point existence */
+	if (!rootmounted)
+	{
+		rootmounted = 1;
+		super->sb_dev = "none";
+	}
+	else
+	{
+		super->sb_dev = "none";
+	}
+
+	super->sb_vnode_cache = hashtable_new (0.75);
+	super->sb_next = NULL;
+	res = driver->t_vops->mount (super, data, 1);
+	if (!res)
+	{
+		if (mount_list != NULL)
+			super->sb_next = mount_list;
+		mount_list = super;
+#ifdef VFS_DEBUG
+		printf ("vfs: mounted type %s on %s from %s\n", type,
+			super->sb_dir, super->sb_dev);
+#endif
+	}
+	//if (!strcmp (dir, "/boot")) for (;;) ;
+	return res;
+}
+
+int vfs_mkdir (const char *dir, mode_t mode)
+{
+	const char *s;
+	int res;
+	struct superblock *super;
+	struct vnode *vnode;
+
+#ifdef VFS_DEBUG
+	printf ("vfs_mkdir %s %d\n", dir, mode);
+#endif
+
+	/* find superblock and check if mkdir supported */
+	super = fs_find (dir);
+	if (super->sb_vops->mkdir == NULL)
+		return ENOSYS;
+
+	/* XXX dispatch to root vnode for now */
+	vnode = super->sb_root;
+	s = dir + strlen (super->sb_dir);
+	res = super->sb_vops->mkdir (vnode, s, mode);
+	return res;
+}
+
+vfs_res_t *vfs_opendir (struct client *client, vfs_cmd_t *vc)
+{
+	const char *dir;
+	int i;
+	vfs_res_t *res;
+	struct ofile *ofile;
+	struct superblock *super;
+	struct vnode *vnode;
+
+	dir = client->nameptr + vc->data[0];
+	res = malloc (sizeof (vfs_res_t));
+#ifdef VFS_DEBUG
+	printf ("vfs_opendir %s\n", dir);
+#endif
+
+	/* get a file descriptor */
+	for (i = 0; i < MAX_FDS; i++)
+		if (client->ioctx.fdarray.ofile[i] == NULL)
+			break;
+	if (i == MAX_FDS)
+	{
+		res->status = VFS_ERROR;
+		res->errno = EMFILE;
+		return res;
+	}
+
+	/* is opendir supported? */
+	super = fs_find (dir);
+	if (super->sb_vops->opendir == NULL)
+	{
+		res->status = VFS_ERROR;
+		res->errno = ENOSYS;
+		return res;
+	}
+
+	/* find directory's vnode */
+	if (!strcmp (dir, super->sb_dir))
+		vnode = super->sb_root;
+	else
+	{
+		printf ("UNTESTED\n");
+		vnode = super->sb_vops->walk (super->sb_root, dir +
+			strlen (super->sb_dir));
+	}
+
+	/* stat here to check for directory */
+
+	/* call filesystem's opendir and read the directory */
+	ofile = client->ioctx.fdarray.ofile[i] = malloc (sizeof (struct ofile));
+	ofile->o_vnode = vnode;
+	ofile->area = area_clone (vc->data[1], 0, &ofile->dataptr, 0);
+	ofile->offset = vc->data[2];
+	ofile->length = vc->data[3];
+	res->errno = super->sb_vops->opendir (vnode, &ofile->o_cookie);
+	res->status = res->errno ? VFS_ERROR : VFS_OK;
+	res->data[0] = i;
+	return res;
+}
+
+vfs_res_t *vfs_closedir (struct client *client, vfs_cmd_t *vc)
+{
+	vfs_res_t *res;
+	struct ofile *ofile;
+	struct vnode *vnode;
+
+#ifdef VFS_DEBUG
+	printf ("vfs_closedir %d\n", vc->data[0]);
+#endif
+	res = malloc (sizeof (vfs_res_t));
+
+	/* is file descriptor valid? */
+	if ((ofile = client->ioctx.fdarray.ofile[vc->data[0]]) == NULL)
+	{
+		res->errno = EBADF;
+		res->status = VFS_ERROR;
+		return res;
+	}
+
+	/* is closedir supported? */
+	vnode = ofile->o_vnode;
+	if (vnode->v_sb->sb_vops->closedir == NULL)
+	{
+		res->errno = ENOSYS;
+		res->status = VFS_ERROR;
+		return res;
+	}
+
+	/* call filesystem */
+	vnode->v_sb->sb_vops->closedir (vnode, ofile->o_cookie);
+	if (!res->errno && (vnode->v_sb->sb_vops->free_dircookie != NULL))
+		vnode->v_sb->sb_vops->free_dircookie (ofile->o_cookie);
+	free (ofile);
+	client->ioctx.fdarray.ofile[vc->data[0]] = NULL;
+
+	res->status = VFS_OK;
+	res->errno = 0;
+	return res;
+}
+
+vfs_res_t *vfs_open (struct client *client, vfs_cmd_t *vc)
+{
+	int i;
+	char *path;
+	vfs_res_t *res;
+	struct ofile *ofile;
+	struct superblock *super;
+	struct vnode *vnode;
+
+	res = malloc (sizeof (vfs_res_t));
+	path = client->nameptr + vc->data[0];
+#ifdef VFS_DEBUG
+	printf ("vfs_open %s\n", path);
+#endif
+
+	/* get a file descriptor */
+	for (i = 0; i < MAX_FDS; i++)
+		if (client->ioctx.fdarray.ofile[i] == NULL)
+			break;
+	if (i == MAX_FDS)
+	{
+		res->status = VFS_ERROR;
+		res->errno = EMFILE;
+		return res;
+	}
+
+	/* is open supported? */
+	super = fs_find (path);
+	if (super == NULL)
+	{
+		res->status = VFS_ERROR;
+		res->errno = ENOENT;
+		return res;
+	}
+	if (super->sb_vops->open == NULL)
+	{
+		res->status = VFS_ERROR;
+		res->errno = ENOSYS;
+		return res;
+	}
+
+	/* find file's vnode */
+	vnode = super->sb_vops->walk (super->sb_root, path +
+		strlen (super->sb_dir) + 1);
+	if (vnode == NULL)
+	{
+		res->status = VFS_ERROR;
+		res->errno = ENOENT;
+		return res;
+	}
+
+	/* call filesystem */
+	ofile = client->ioctx.fdarray.ofile[i] = malloc (sizeof (struct ofile));
+	ofile->o_vnode = vnode;
+	ofile->area = area_clone (vc->data[1], 0, &ofile->dataptr, 0);
+	ofile->offset = vc->data[2];
+	ofile->length = vc->data[3];
+	res->errno = super->sb_vops->open (vnode, &ofile->o_cookie);
+	res->status = res->errno ? VFS_ERROR : VFS_OK;
+	res->data[0] = i;
+	return res;
+}
+
+vfs_res_t *vfs_close (struct client *client, vfs_cmd_t *vc)
+{
+	printf ("vfs_close\n");
+	return NULL;
+}
+
+vfs_res_t *vfs_rstat (struct client *client, vfs_cmd_t *vc)
+{
+	char *path;
+	vfs_res_t *res;
+	struct superblock *super;
+	struct vnode *vnode;
+	struct stat *buf;
+
+#ifdef VFS_DEBUG
+	printf ("vfs_rstat\n");
+#endif
+	res = malloc (sizeof (vfs_res_t) + sizeof (struct stat));
+	buf = (void *) res + sizeof (vfs_res_t);
+	path = client->nameptr + vc->data[0];
+
+	/* is stat supported? */
+	super = fs_find (path);
+	if (super == NULL)
+	{
+		res->status = VFS_ERROR;
+		res->errno = ENOENT;
+		return res;
+	}
+	if (super->sb_vops->rstat == NULL)
+	{
+		res->status = VFS_ERROR;
+		res->errno = ENOSYS;
+		return res;
+	}
+
+	/* find file's vnode */
+	vnode = super->sb_vops->walk (super->sb_root, path +
+		strlen (super->sb_dir) + 1);
+	if (vnode == NULL)
+	{
+		res->status = VFS_ERROR;
+		res->errno = ENOENT;
+		return res;
+	}
+
+	/* call filesystem */
+	res->errno = super->sb_vops->rstat (vnode, buf);
+	res->status = res->errno ? VFS_ERROR : VFS_OK;
+	return res;
+}
+
+int vfs_main (void)
+{
+	int nh, size;
+	msg_hdr_t msg, reply;
+	vfs_cmd_t vc;
+	vfs_res_t *res;
+	struct client *client;
+
+	/* open a connection to the console */
+	__libc_init_console ();
+
+	/* get a public port and register ourself with the namer */
+	vfs_port = port_create (0);
+	nh = namer_newhandle ();
+	(void) namer_register (nh, vfs_port, "vfs");
+	namer_delhandle (nh);
+
+	/* say hello */
+#ifdef VFS_DEBUG
+	printf ("vfs: " FG_GREEN "listener ready" FG_WHITE " (port %d)\n",
+		vfs_port);
+#endif
+
+	/* initialise structures */
+	fs_drivers = NULL;
+	conn_table = hashtable_new (0.75);
+	res = NULL;
+	client = NULL;
+
+	/* mount the root and boot filesystems */
+	fs_register (&rootfs);
+	fs_register (&bootfs);
+	//fs_register (&portalfs);
+	vfs_mount ("/", "rootfs", 0, NULL);
+	vfs_mkdir ("/boot", 755);
+	vfs_mount ("/boot", "bootfs", 0, NULL);
+	//vfs_mkdir ("/portal", 755);
+	//vfs_mount ("/portal", "portalfs", 0, NULL);
+	ready = 1;
+
+	for (;;)
+	{
+		/*
+		 * listen for commands.  all ports will be slaved to the one
+		 * we just created, so we only need to listen on one port.
+		 */
+		msg.src = 0;
+		msg.dst = vfs_port;
+		msg.data = &vc;
+		msg.size = sizeof (vc);
+		port_recv (&msg);
+
+		if (vc.cmd != VFS_OPENCONN)
+			client = hashtable_lookup (conn_table, msg.src, NULL);
+		size = sizeof (vfs_res_t);
+
+		switch (vc.cmd)
+		{
+			case VFS_OPENCONN:
+				res = vfs_openconn (msg.src, vc.data[0]);
+				break;
+
+			case VFS_SCROLL_AREA:
+				res = vfs_scroll_area (client, &vc);
+				break;
+
+			case VFS_OPENDIR:
+				res = vfs_opendir (client, &vc);
+				shm_write_dir (client->ioctx.fdarray.ofile[res->data[0]],
+					0, 0, vc.data[3], &res->data[1], &res->data[2]);
+				break;
+
+			case VFS_CLOSEDIR:
+				res = vfs_closedir (client, &vc);
+				break;
+
+			case VFS_OPEN:
+				res = vfs_open (client, &vc);
+				if (res->status == VFS_OK)
+					shm_write (client->ioctx.fdarray.ofile[res->data[0]],
+						0, 0, vc.data[3], &res->data[1], &res->data[2]);
+				break;
+
+			case VFS_CLOSE:
+				res = vfs_close (client, &vc);
+				break;
+
+			case VFS_RSTAT:
+				res = vfs_rstat (client, &vc);
+				size = sizeof (vfs_res_t) + sizeof (struct stat);
+				break;
+		}
+
+		if (res != NULL)
+		{
+			reply.src = (vc.cmd == VFS_OPENCONN) ? vfs_port : client->out;
+			reply.dst = msg.src;
+			reply.data = res;
+			reply.size = size;
+			port_send (&reply);
+			free (res);
+		}
+	}
+
+	/* not reached */
+	return 0;
+}
+
+int main (void)
+{
+	os_thread (vfs_main);
+	while (!ready) ;
+	return 0;
+}
+
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.071199
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/srv/vfs/vfs.c#15 $
+d55 2
+a259 6
+	if (super == NULL)
+	{
+		res->status = VFS_ERROR;
+		res->errno = ENOENT;
+		return res;
+	}
+d446 1
+a446 1
+int vfs_main (volatile int *ready)
+d484 1
+a484 1
+	*ready = 1;
+d514 2
+a515 3
+				if (res->status == VFS_OK)
+					shm_write_dir (client->ioctx.fdarray.ofile[res->data[0]],
+						0, 0, vc.data[3], &res->data[1], &res->data[2]);
+d556 1
+a556 3
+	volatile int ready = 0;
+
+	thr_create (vfs_main, (int *) &ready, "vfs");
+@
+
+
+1.1.1.3
+log
+@openblt.19991228
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/srv/vfs/vfs.c#22 $
+d3 1
+a3 1
+** Copyright 1998-1999 Sidney Cammeresi
+a34 1
+#include <dlfcn.h>
+d55 1
+a55 2
+void __libc_init_vfs (void), __dlinit (void);
+
+d58 46
+a103 1
+extern int __blk_ref;
+d114 1
+a114 1
+	private_port = port_create (rport, "vfs_private_port");
+a122 2
+	client->ioctx.cwd = malloc (BLT_MAX_NAME_LENGTH);
+	strcpy (client->ioctx.cwd, "/");
+d148 59
+d232 1
+a232 1
+	char *reldir, *dir;
+d239 1
+a239 1
+	reldir = client->nameptr + vc->data[0];
+d242 1
+a242 1
+	printf ("vfs_opendir %s\n", reldir);
+a256 3
+	dir = malloc (BLT_MAX_NAME_LENGTH);
+	strlcpy (dir, client->ioctx.cwd, BLT_MAX_NAME_LENGTH);
+	path_combine (client->ioctx.cwd, reldir, dir);
+a261 1
+		free (dir);
+a267 1
+		free (dir);
+d275 2
+d278 1
+a278 7
+			strlen (super->sb_dir) + 1);
+	if (vnode == NULL)
+	{
+		res->status = VFS_ERROR;
+		res->errno = ENOENT;
+		free (dir);
+		return res;
+a291 1
+	free (dir);
+a388 1
+	ofile->o_pos = 0;
+a399 6
+	vfs_res_t *res;
+	struct ofile *ofile;
+	struct superblock *super;
+
+	res = malloc (sizeof (vfs_res_t));
+#ifdef VFS_DEBUG
+d401 1
+a401 63
+#endif
+
+	ofile = client->ioctx.fdarray.ofile[vc->data[0]];
+	if (ofile == NULL)
+	{
+		res->status = VFS_ERROR;
+		res->errno = EBADF;
+		return res;
+	}
+	super = ofile->o_vnode->v_sb;
+	if (super->sb_vops->close == NULL)
+	{
+		res->status = VFS_ERROR;
+		res->errno = ENOSYS;
+		return res;
+	}
+	res->errno = super->sb_vops->close (ofile->o_vnode,
+		ofile->o_cookie);
+
+	if (super->sb_vops->free_cookie != NULL)
+		super->sb_vops->free_cookie (ofile->o_cookie);
+
+	res->status = res->errno ? VFS_ERROR : VFS_OK;
+	return res;
+}
+
+vfs_res_t *vfs_read (struct client *client, vfs_cmd_t *vc, void **data,
+	int *len)
+{
+	size_t numread;
+	void *buf;
+	vfs_res_t *res;
+	struct ofile *ofile;
+	struct superblock *super;
+
+#ifdef VFS_DEBUG
+	printf ("vfs_read\n");
+#endif
+	res = malloc (sizeof (vfs_res_t));
+	buf = malloc (vc->data[1]);
+
+	ofile = client->ioctx.fdarray.ofile[vc->data[0]];
+	if (ofile == NULL)
+	{
+		res->status = VFS_ERROR;
+		res->errno = EBADF;
+		return res;
+	}
+	super = ofile->o_vnode->v_sb;
+	if (super->sb_vops->read == NULL)
+	{
+		res->status = VFS_ERROR;
+		res->errno = ENOSYS;
+		return res;
+	}
+
+	res->errno = super->sb_vops->read (ofile->o_vnode, buf, vc->data[1],
+		ofile->o_pos, &numread, ofile->o_cookie);
+	res->status = res->errno ? VFS_ERROR : VFS_OK;
+	res->data[0] = numread;
+	ofile->o_pos += *len = numread;
+	*data = buf;
+	return res;
+a449 117
+void vfs_tell_cmd (const char *cmd, char *arg)
+{
+	char *name;
+	const char *type, *dir, *data;
+	int i, len;
+	void *handle;
+
+	if (!strcmp (cmd, "load"))
+	{
+		printf (" %s", arg);
+        name = malloc (len = BLT_MAX_NAME_LENGTH);
+        strlcpy (name, "/boot/", len);
+        strlcat (name, arg, len);
+        strlcat (name, ".so", len);
+        handle = dlopen (name, 0);
+        if (handle == NULL)
+        {
+            printf ("(error)");
+            return;
+        }
+        free (name);
+	}
+	else if (!strcmp (cmd, "mount"))
+	{
+		type = arg;
+		for (i = 0; arg[i] != ' '; i++) ;
+		arg[i] = 0;
+		dir = arg + i + 1;
+		for (arg++; arg[i] != ' '; i++) ;
+		arg[i] = 0;
+		data = arg + i + 1;
+		vfs_mount (dir, type, 0, data);
+	}
+}
+
+void vfs_tell_parse (const char *msg)
+{
+    const char *c, *cmd;
+    char *full;
+    char *d;
+    int i, whole, len;
+
+    c = msg;
+    cmd = full = NULL;
+    whole = len = 0;
+    while (*c)
+    {
+        i = 0;
+        while ((c[i] != ' ') && c[i])
+            i++;
+        d = malloc (i + 1);
+        strlcpy (d, c, i + 1);
+        if (cmd == NULL)
+        {
+            cmd = d;
+            if (!strcmp (cmd, "load"))
+                printf ("vfs: loading drivers.  [");
+            else if (!strcmp (cmd, "mount"))
+            {
+                whole = 1;
+                full = malloc (len = strlen (msg + 1));
+                *full = 0;
+            }
+        }
+        else if (!whole)
+            vfs_tell_cmd (cmd, d);
+        else
+        {
+            strlcat (full, d, len);
+            strlcat (full, " ", len);
+        }
+        if (i != strlen (c))
+            c += i + 1;
+        else
+            break;
+    }
+	if (whole)
+		full[strlen (full) - 1] = 0;
+    if (!strcmp (cmd, "load"))
+        printf (" ]\n");
+	else if (!strcmp (cmd, "mount"))
+		vfs_tell_cmd (cmd, full);
+}
+
+void vfs_tell (void)
+{
+	char buf[64];
+	int port, nh;
+	msg_hdr_t mh;
+
+	__libc_init_fdl ();
+	__libc_init_vfs ();
+	__dlinit ();
+	__blk_ref++;
+
+	port = port_create (0, "vfs:tell");
+	nh = namer_newhandle ();
+	namer_register (nh, port, "vfs:tell");
+	namer_delhandle (nh);
+
+	for (;;)
+	{
+		mh.src = 0;
+		mh.dst = port;
+		mh.data = buf;
+		mh.size = sizeof (buf);
+		port_recv (&mh);
+		vfs_tell_parse (mh.data);
+
+		mh.dst = mh.src;
+		mh.src = port;
+		mh.data = &nh;
+		mh.size = 1;
+		port_send (&mh);
+	}
+}
+
+d452 1
+a452 2
+	int i, nh, size, len;
+	void *data;
+d462 1
+a462 1
+	vfs_port = port_create (0, "vfs_listen_port");
+d464 1
+a464 1
+	namer_register (nh, vfs_port, "vfs");
+d482 1
+d486 2
+a487 1
+	thr_create (vfs_tell, 0, "vfs:tell");
+a504 1
+		data = NULL;
+a537 4
+			case VFS_READ:
+				res = vfs_read (client, &vc, &data, &len);
+				break;
+
+a541 7
+
+			case VFS_MKDIR:
+				res = malloc (sizeof (vfs_res_t));
+				res->status = vfs_mkdir (client->nameptr + vc.data[0],
+					vc.data[1]);
+				res->errno = 0;
+				break;
+a551 25
+
+			if (data != NULL)
+			{
+				reply.src = client->out;
+				reply.dst = msg.src;
+				if (len < 0x1000)
+				{
+					reply.data = data;
+					reply.size = len;
+					port_send (&reply);
+				}
+				else
+				{
+					for (i = 0; len > 0x1000; i += 0x1000, len -= 0x1000)
+					{
+						reply.data = (char *) data + i;
+						reply.size = 0x1000;
+						port_send (&reply);
+					}
+					reply.data = (char *) data + i;
+					reply.size = len;
+					port_send (&reply);
+				}
+				free (data);
+			}
+@
+
+
+1.1.1.4
+log
+@openblt.20000102
+@
+text
+@d1 26
+a26 2
+/* Copyright 1998-1999, Sidney Cammeresi. All rights reserved.
+** Distributed under the terms of the OpenBLT License
+d516 1
+a516 1
+	int port;
+d525 3
+a527 1
+	namer_register (port, "vfs:tell");
+d540 1
+a540 1
+		mh.data = &port;
+d548 1
+a548 1
+	int i, size, len;
+d560 3
+a562 1
+	namer_register (vfs_port, "vfs");
+@
+
+
+1.1.1.5
+log
+@openblt.20000517
+@
+text
+@d509 1
+a509 1
+		old_port_recv (&mh);
+d516 1
+a516 1
+		old_port_send (&mh);
+d567 1
+a567 1
+		old_port_recv (&msg);
+d629 1
+a629 1
+			old_port_send (&reply);
+d640 1
+a640 1
+					old_port_send (&reply);
+d648 1
+a648 1
+						old_port_send (&reply);
+d652 1
+a652 1
+					old_port_send (&reply);
+@
+
+

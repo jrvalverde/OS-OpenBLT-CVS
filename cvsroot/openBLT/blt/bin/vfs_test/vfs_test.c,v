@@ -1,0 +1,502 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.6
+	openblt20000429:1.1.1.6
+	openblt20000428:1.1.1.6
+	openblt20000427:1.1.1.6
+	openblt20000426:1.1.1.6
+	openblt20000425:1.1.1.6
+	openblt20000424:1.1.1.6
+	openblt20000423:1.1.1.6
+	openblt20000422:1.1.1.6
+	openblt20000421:1.1.1.6
+	openblt20000420:1.1.1.6
+	openblt20000419:1.1.1.6
+	openblt20000418:1.1.1.6
+	openblt20000417:1.1.1.6
+	openblt20000416:1.1.1.6
+	openblt20000415:1.1.1.6
+	openblt20000414:1.1.1.6
+	openblt20000413:1.1.1.6
+	openblt20000412:1.1.1.6
+	openblt20000411:1.1.1.6
+	openblt20000410:1.1.1.6
+	openblt20000409:1.1.1.6
+	openblt20000408:1.1.1.6
+	openblt20000407:1.1.1.6
+	openblt20000406:1.1.1.6
+	openblt20000405:1.1.1.6
+	openblt20000404:1.1.1.6
+	openblt20000403:1.1.1.6
+	openblt20000402:1.1.1.6
+	openblt20000401:1.1.1.6
+	openblt20000331:1.1.1.6
+	openblt20000330:1.1.1.6
+	openblt20000329:1.1.1.6
+	openblt20000328:1.1.1.6
+	openblt20000327:1.1.1.6
+	openblt20000326:1.1.1.6
+	openblt20000325:1.1.1.6
+	openblt20000324:1.1.1.6
+	openblt20000323:1.1.1.6
+	openblt20000322:1.1.1.6
+	openblt20000321:1.1.1.6
+	openblt20000320:1.1.1.6
+	openblt20000319:1.1.1.6
+	openblt20000318:1.1.1.6
+	openblt20000317:1.1.1.6
+	openblt20000316:1.1.1.6
+	openblt20000315:1.1.1.6
+	openblt20000314:1.1.1.6
+	openblt20000313:1.1.1.6
+	openblt20000312:1.1.1.6
+	openblt20000311:1.1.1.6
+	openblt20000310:1.1.1.6
+	openblt20000309:1.1.1.6
+	openblt20000308:1.1.1.6
+	openblt20000307:1.1.1.6
+	openblt20000306:1.1.1.6
+	openblt20000305:1.1.1.6
+	openblt20000304:1.1.1.6
+	openblt20000303:1.1.1.6
+	openblt20000302:1.1.1.6
+	openblt20000301:1.1.1.6
+	openblt20000229:1.1.1.6
+	openblt20000228:1.1.1.6
+	openblt20000227:1.1.1.6
+	openblt20000226:1.1.1.6
+	openblt20000225:1.1.1.6
+	openblt20000224:1.1.1.6
+	openblt20000223:1.1.1.6
+	openblt20000222:1.1.1.6
+	openblt20000221:1.1.1.6
+	openblt20000220:1.1.1.6
+	openblt20000219:1.1.1.6
+	openblt20000218:1.1.1.6
+	openblt20000217:1.1.1.6
+	openblt20000216:1.1.1.6
+	openblt20000215:1.1.1.6
+	openblt20000214:1.1.1.6
+	openblt20000213:1.1.1.6
+	openblt20000212:1.1.1.6
+	openblt20000211:1.1.1.6
+	openblt20000210:1.1.1.6
+	openblt20000209:1.1.1.6
+	openblt20000208:1.1.1.6
+	openblt20000207:1.1.1.6
+	openblt20000206:1.1.1.6
+	openblt20000205:1.1.1.6
+	openblt20000204:1.1.1.6
+	openblt20000203:1.1.1.6
+	openblt20000202:1.1.1.6
+	openblt20000201:1.1.1.6
+	openblt20000131:1.1.1.6
+	openblt20000130:1.1.1.6
+	openblt20000129:1.1.1.6
+	openblt20000128:1.1.1.6
+	openblt20000127:1.1.1.6
+	openblt20000126:1.1.1.6
+	openblt20000125:1.1.1.6
+	openblt20000124:1.1.1.6
+	openblt20000123:1.1.1.6
+	openblt20000122:1.1.1.6
+	openblt20000121:1.1.1.6
+	openblt20000120:1.1.1.6
+	openblt20000119:1.1.1.6
+	openblt20000118:1.1.1.6
+	openblt20000117:1.1.1.6
+	openblt20000116:1.1.1.5
+	openblt20000115:1.1.1.5
+	openblt20000114:1.1.1.5
+	openblt20000113:1.1.1.5
+	openblt20000112:1.1.1.5
+	openblt20000111:1.1.1.5
+	openblt20000110:1.1.1.5
+	openblt20000109:1.1.1.5
+	openblt20000108:1.1.1.5
+	openblt20000107:1.1.1.5
+	openblt20000106:1.1.1.5
+	openblt20000105:1.1.1.5
+	openblt20000104:1.1.1.5
+	openblt20000103:1.1.1.5
+	openblt20000102:1.1.1.5
+	openblt19991228:1.1.1.4
+	openblt19990827:1.1.1.3
+	openblt082699:1.1.1.3
+	openblt082599:1.1.1.3
+	openblt082499:1.1.1.3
+	openblt082399:1.1.1.3
+	openblt082299:1.1.1.3
+	openblt082199:1.1.1.3
+	openblt082099:1.1.1.3
+	openblt081999:1.1.1.3
+	openblt081899:1.1.1.3
+	openblt081799:1.1.1.3
+	openblt081699:1.1.1.3
+	openblt081599:1.1.1.3
+	openblt071199:1.1.1.3
+	openblt071099:1.1.1.3
+	openblt070799:1.1.1.3
+	openblt070699:1.1.1.2
+	openblt070299:1.1.1.2
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.22.59;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.22.59;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.28.45;	author jr;	state Exp;
+branches;
+next	1.1.1.3;
+
+1.1.1.3
+date	2005.01.20.16.29.12;	author jr;	state Exp;
+branches;
+next	1.1.1.4;
+
+1.1.1.4
+date	2005.01.20.16.31.50;	author jr;	state Exp;
+branches;
+next	1.1.1.5;
+
+1.1.1.5
+date	2005.01.20.16.32.06;	author jr;	state Exp;
+branches;
+next	1.1.1.6;
+
+1.1.1.6
+date	2005.01.20.16.36.24;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/bin/vfs_test/vfs_test.c#6 $
+**
+** Copyright 1999 Sidney Cammeresi.
+** All rights reserved.
+** 
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 
+** 1. Redistributions of source code must retain the above copyright notice,
+**    this list of conditions and the following disclaimer.
+** 
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+** 
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR `AS IS' AND ANY EXPRESS OR IMPLIED
+** WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+** MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN
+** NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+** SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+** TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+** PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+** LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+** NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+** SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+#include <dirent.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <unistd.h>
+#include <sys/stat.h>
+#include <blt/syscall.h>
+#include <blt/namer.h>
+#include <blt/qsem.h>
+#include <blt/fdl.h>
+
+/*
+extern void __vfs_scroll_area (int, int);
+
+static int input_remote_port, input_local_port;
+int _console_read (void *, void *, size_t);
+static fdl_type console_input_fdl_imp = { "console_input", _console_read,
+	NULL, NULL, NULL };
+typedef struct
+{
+	int fd;
+} FILE;
+FILE *stdin, *stdout, *stderr;
+
+void __libc_init_input ()
+{
+	int nh, fd;
+
+	nh = namer_newhandle ();
+	input_remote_port = namer_find (nh, "console_input");
+	namer_delhandle (nh);
+	input_local_port = port_create (input_remote_port);
+	fd = _fdl_alloc_descriptor (&console_input_fdl_imp, NULL);
+	if (fd)
+		_printf ("__libc_init_input: console input not on fd 0\n");
+	stdin = malloc (sizeof (FILE));
+	stdin->fd = 0;
+}
+
+int _console_read (void *cookie, void *buf, size_t count)
+{
+	char data;
+	msg_hdr_t msg;
+
+	data = count;
+	msg.src = input_local_port;
+	msg.dst = input_remote_port;
+	msg.data = &data;
+	msg.size = 1;
+	port_send (&msg);
+
+	msg.src = input_remote_port;
+	msg.dst = input_local_port;
+	msg.data = buf;
+	msg.size = count;
+	port_recv (&msg);
+	return msg.size;
+}
+
+int getc (FILE *stream)
+{
+	char c;
+	msg_hdr_t msg;
+
+	read (stream->fd, &c, 1);
+	return c;
+}
+
+int getchar (void)
+{
+	return getc (stdin);
+}
+*/
+
+int main (void)
+{
+	int i, j, k;
+	msg_hdr_t mh;
+	qsem_t *sem;
+	DIR *dir1, *dir2;
+	struct dirent *dirent;
+	struct stat buf;
+	char c;
+
+	__libc_init_console ();
+	__libc_init_vfs ();
+
+	printf ("hello from vfs_test\n");
+/*
+	dir1 = opendir ("/");
+	while ((dirent = readdir (dir1)) != NULL)
+		printf ("readdir says %d %s\n", dirent->d_fileno, dirent->d_name);
+	closedir (dir1);
+	dir2 = opendir ("/");
+	while ((dirent = readdir (dir2)) != NULL)
+		printf ("readdir says %d %s\n", dirent->d_fileno, dirent->d_name);
+	closedir (dir2);
+	dir1 = opendir ("/boot");
+	while ((dirent = readdir (dir1)) != NULL)
+		printf ("readdir says %d %s\n", dirent->d_fileno, dirent->d_name);
+	closedir (dir1);
+	i = open ("/boot/rc.boot", O_RDONLY, 0);
+	//i = open ("/boot/text", O_RDONLY, 0);
+	if (i >= 0)
+		while (read (i, &c, 1))
+			printf ("%c", c);
+*/
+/*
+	dir1 = opendir ("/portal");
+	if (dir1 != NULL)
+		while ((dirent = readdir (dir1)) != NULL)
+			printf ("readdir says %d %s\n", dirent->d_fileno, dirent->d_name);
+	closedir (dir1);
+*/
+	//i = stat ("/boot/rc.boot", &buf);
+/*
+	if (i)
+		printf ("stat failed\n");
+	else
+	{
+		printf ("stat is good\n");
+		printf ("size is %d\n", buf.st_size);
+	}
+*/
+/*
+	printf ("going for input...\n");
+	for (;;)
+	{
+		c = getchar ();
+		printf ("we got %d\n", c);
+	}
+*/
+
+	__libc_fini_vfs ();
+	return 0;
+}
+
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.070299
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/bin/vfs_test/vfs_test.c#8 $
+a35 1
+#include <dlfcn.h>
+a113 2
+	void *ptr;
+	int (*strlen_fn)(char *);
+a131 2
+*/
+/*
+a162 7
+
+	ptr = dlopen ("/boot/libc.so", 0);
+	printf ("ptr is %x\n", ptr);
+	strlen_fn = dlsym (ptr, "strlen");
+	printf ("strlen is %x\n", strlen_fn);
+	printf ("len is %d\n", (*strlen_fn) ("foobarbaz"));
+	dlclose (ptr);
+@
+
+
+1.1.1.3
+log
+@openblt.070799
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/bin/vfs_test/vfs_test.c#12 $
+d116 1
+a116 1
+	int (*fn1)(char *), (*fn2)(void);
+a120 11
+	sem = qsem_create (0);
+	sem = qsem_create (0);
+	i = sem_create (0);
+	printf ("sem_ is %d\n", i);
+	printf ("-- %d %d\n", sem->count, sem->mutex);
+	qsem_acquire (sem);
+	//sem_acquire (i);
+	printf ("-- %d %d\n", sem->count, sem->mutex);
+	qsem_acquire (sem);
+	//sem_acquire (i);
+	printf ("-- %d %d\n", sem->count, sem->mutex);
+d168 7
+a174 13
+/*
+	printf ("opening /boot/foo.so\n");
+	ptr = dlopen ("/boot/foo.so", 0);
+	if (ptr != NULL)
+	{
+		fn2 = dlsym (ptr, "bar");
+		(*fn2) ();
+		printf ("closing\n");
+		dlclose (ptr);
+	}
+	else
+		printf ("error: %s\n", dlerror ());
+*/
+@
+
+
+1.1.1.4
+log
+@openblt.19991228
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/bin/vfs_test/vfs_test.c#14 $
+d118 15
+a146 2
+	i = open ("/boot/rc.boot", O_RDONLY, 0);
+	printf ("got fd %d\n", i);
+a147 5
+	if (i >= 0)
+		while (read (i, &c, 1))
+			printf ("%c", c);
+*/
+	close (i);
+d149 1
+a149 2
+	printf ("got fd %d\n", i);
+/*
+a153 1
+	close (i);
+d193 1
+@
+
+
+1.1.1.5
+log
+@openblt.20000102
+@
+text
+@d1 29
+a29 2
+/* Copyright 1999, Sidney Cammeresi. All rights reserved.
+** Distributed under the terms of the OpenBLT License
+d43 62
+@
+
+
+1.1.1.6
+log
+@openblt.20000117
+@
+text
+@a18 1
+#if 0
+a96 6
+#endif
+
+	int *ptr;
+
+	ptr = 1;
+	printf ("hello %d\n", *ptr);
+@
+
+

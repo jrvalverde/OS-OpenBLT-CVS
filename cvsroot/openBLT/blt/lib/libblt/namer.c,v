@@ -1,0 +1,506 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.2
+	openblt20000429:1.1.1.2
+	openblt20000428:1.1.1.2
+	openblt20000427:1.1.1.2
+	openblt20000426:1.1.1.2
+	openblt20000425:1.1.1.2
+	openblt20000424:1.1.1.2
+	openblt20000423:1.1.1.2
+	openblt20000422:1.1.1.2
+	openblt20000421:1.1.1.2
+	openblt20000420:1.1.1.2
+	openblt20000419:1.1.1.2
+	openblt20000418:1.1.1.2
+	openblt20000417:1.1.1.2
+	openblt20000416:1.1.1.2
+	openblt20000415:1.1.1.2
+	openblt20000414:1.1.1.2
+	openblt20000413:1.1.1.2
+	openblt20000412:1.1.1.2
+	openblt20000411:1.1.1.2
+	openblt20000410:1.1.1.2
+	openblt20000409:1.1.1.2
+	openblt20000408:1.1.1.2
+	openblt20000407:1.1.1.2
+	openblt20000406:1.1.1.2
+	openblt20000405:1.1.1.2
+	openblt20000404:1.1.1.2
+	openblt20000403:1.1.1.2
+	openblt20000402:1.1.1.2
+	openblt20000401:1.1.1.2
+	openblt20000331:1.1.1.2
+	openblt20000330:1.1.1.2
+	openblt20000329:1.1.1.2
+	openblt20000328:1.1.1.2
+	openblt20000327:1.1.1.2
+	openblt20000326:1.1.1.2
+	openblt20000325:1.1.1.2
+	openblt20000324:1.1.1.2
+	openblt20000323:1.1.1.2
+	openblt20000322:1.1.1.2
+	openblt20000321:1.1.1.2
+	openblt20000320:1.1.1.2
+	openblt20000319:1.1.1.2
+	openblt20000318:1.1.1.2
+	openblt20000317:1.1.1.2
+	openblt20000316:1.1.1.2
+	openblt20000315:1.1.1.2
+	openblt20000314:1.1.1.2
+	openblt20000313:1.1.1.2
+	openblt20000312:1.1.1.2
+	openblt20000311:1.1.1.2
+	openblt20000310:1.1.1.2
+	openblt20000309:1.1.1.2
+	openblt20000308:1.1.1.2
+	openblt20000307:1.1.1.2
+	openblt20000306:1.1.1.2
+	openblt20000305:1.1.1.2
+	openblt20000304:1.1.1.2
+	openblt20000303:1.1.1.2
+	openblt20000302:1.1.1.2
+	openblt20000301:1.1.1.2
+	openblt20000229:1.1.1.2
+	openblt20000228:1.1.1.2
+	openblt20000227:1.1.1.2
+	openblt20000226:1.1.1.2
+	openblt20000225:1.1.1.2
+	openblt20000224:1.1.1.2
+	openblt20000223:1.1.1.2
+	openblt20000222:1.1.1.2
+	openblt20000221:1.1.1.2
+	openblt20000220:1.1.1.2
+	openblt20000219:1.1.1.2
+	openblt20000218:1.1.1.2
+	openblt20000217:1.1.1.2
+	openblt20000216:1.1.1.2
+	openblt20000215:1.1.1.2
+	openblt20000214:1.1.1.2
+	openblt20000213:1.1.1.2
+	openblt20000212:1.1.1.2
+	openblt20000211:1.1.1.2
+	openblt20000210:1.1.1.2
+	openblt20000209:1.1.1.2
+	openblt20000208:1.1.1.2
+	openblt20000207:1.1.1.2
+	openblt20000206:1.1.1.2
+	openblt20000205:1.1.1.2
+	openblt20000204:1.1.1.2
+	openblt20000203:1.1.1.2
+	openblt20000202:1.1.1.2
+	openblt20000201:1.1.1.2
+	openblt20000131:1.1.1.2
+	openblt20000130:1.1.1.2
+	openblt20000129:1.1.1.2
+	openblt20000128:1.1.1.2
+	openblt20000127:1.1.1.2
+	openblt20000126:1.1.1.2
+	openblt20000125:1.1.1.2
+	openblt20000124:1.1.1.2
+	openblt20000123:1.1.1.2
+	openblt20000122:1.1.1.2
+	openblt20000121:1.1.1.2
+	openblt20000120:1.1.1.2
+	openblt20000119:1.1.1.2
+	openblt20000118:1.1.1.2
+	openblt20000117:1.1.1.2
+	openblt20000116:1.1.1.2
+	openblt20000115:1.1.1.2
+	openblt20000114:1.1.1.2
+	openblt20000113:1.1.1.2
+	openblt20000112:1.1.1.2
+	openblt20000111:1.1.1.2
+	openblt20000110:1.1.1.2
+	openblt20000109:1.1.1.2
+	openblt20000108:1.1.1.2
+	openblt20000107:1.1.1.2
+	openblt20000106:1.1.1.2
+	openblt20000105:1.1.1.2
+	openblt20000104:1.1.1.2
+	openblt20000103:1.1.1.2
+	openblt20000102:1.1.1.2
+	openblt19991228:1.1.1.2
+	openblt19990827:1.1.1.1
+	openblt082699:1.1.1.1
+	openblt082599:1.1.1.1
+	openblt082499:1.1.1.1
+	openblt082399:1.1.1.1
+	openblt082299:1.1.1.1
+	openblt082199:1.1.1.1
+	openblt082099:1.1.1.1
+	openblt081999:1.1.1.1
+	openblt081899:1.1.1.1
+	openblt081799:1.1.1.1
+	openblt081699:1.1.1.1
+	openblt081599:1.1.1.1
+	openblt071199:1.1.1.1
+	openblt071099:1.1.1.1
+	openblt070799:1.1.1.1
+	openblt070699:1.1.1.1
+	openblt070299:1.1.1.1
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.22.59;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.22.59;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.31.51;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/lib/libblt/namer.c#1 $
+**
+** Copyright 1998 Brian J. Swetland
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+#include <blt/namer.h>
+#include <blt/error.h>
+#include <blt/syscall.h>
+
+#include <string.h>
+
+int namer_newhandle(void)
+{
+    return port_create(NAMER_PORT);    
+}
+
+int namer_delhandle(int nh)
+{
+    return port_destroy(nh);    
+}
+
+int namer_register(int nh, int port, char *name)
+{
+    namer_message_t msg;
+    msg_hdr_t mh;
+
+    msg.number = port;
+
+    strncpy(msg.text,name,32);
+    msg.text[NAMER_TEXT_MAX-1] = 0;
+
+    mh.src = nh;
+    mh.dst = NAMER_PORT;
+    mh.size = sizeof(namer_message_t);
+    mh.data = &msg;    
+    if(port_send(&mh) != sizeof(namer_message_t)) return ERR_RESOURCE;
+
+    mh.dst = nh;    
+    if(port_recv(&mh) != sizeof(int)) return ERR_RESOURCE;
+
+    return msg.number;    
+}
+
+int namer_find(int nh, char *name)
+{
+    return namer_register(nh, 0, name);    
+}
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.19991228
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/lib/libblt/namer.c#4 $
+a33 1
+#include <stdlib.h>
+d35 1
+a35 11
+static int __namer_port = -1;
+static int __namer_sem = -1;
+static namer_request_t *__namer_req = NULL;
+
+#define CHECK(errmsg) if((__namer_port < 0) && connect()) return (errmsg)
+#define LOCK() sem_acquire(__namer_sem)
+#define UNLOCK() sem_release(__namer_sem)
+#define nreq __namer_req
+
+static 
+int connect(void)
+d37 1
+a37 4
+	if((__namer_port = port_create(NAMER_PORT,"local_namer_port")) < 0) return -1;
+	if((__namer_sem = sem_create(1,"local_namer_sem")) < 0) return -1;
+	__namer_req = (namer_request_t *) malloc(MAXMSG);
+	return 0;
+d40 1
+a40 2
+int 
+do_request(int opcode, token_t token, uint32 type, const void *data, int size)
+d42 1
+a42 22
+	msg_hdr_t mh;
+	
+	if(size > MAXMSGDATA) return -1;
+	
+	nreq->opcode = opcode;
+	nreq->token = token;
+	nreq->size = size;
+	nreq->type = type;
+	if(size && data) memcpy(nreq->data,data,size);
+
+	mh.dst = NAMER_PORT;
+	mh.src = __namer_port;
+	mh.size = HDRSIZE + size;
+	mh.data = __namer_req;
+	
+	if(port_send(&mh) != mh.size) {
+		return -1;
+	}
+	
+	mh.dst = __namer_port;
+	mh.size = MAXMSG;
+	return port_recv(&mh);	
+d45 1
+a45 2
+token_t
+namer_walk(token_t token, const char *name)
+d47 2
+a48 12
+	CHECK(TOKEN_NONE);	
+	
+	LOCK();
+	if(do_request(OP_WALK, token, 0, name, strlen(name)+1) != HDRSIZE) {
+		token = TOKEN_NONE;
+	} else {
+		token = nreq->token;
+	}
+	UNLOCK();
+	
+	return token;
+}
+d50 1
+a50 18
+int
+namer_stat(token_t token, const char *name, token_info_t *info)
+{
+	int res;
+	CHECK(-1);
+		
+	LOCK();
+	if(do_request(OP_STAT, token, 0, name, strlen(name)+1) != HDRSIZE) {
+		res = -1;
+	} else {
+		if(!(res = nreq->opcode)){
+			memcpy(info,&nreq->token,INFOSIZE);
+		}
+	}
+	UNLOCK();
+	
+	return res;
+}
+d52 2
+a53 15
+token_t 
+namer_create(token_t token, const char *name, uint32 type)
+{
+	CHECK(TOKEN_NONE);
+		
+	LOCK();
+	if(do_request(OP_CREATE, token, type, name, strlen(name)+1) != HDRSIZE) {
+		token = TOKEN_NONE;
+	} else {
+		token = nreq->opcode ? TOKEN_NONE : nreq->token;
+	}
+	UNLOCK();
+	
+	return token;
+}
+d55 5
+a59 16
+int 
+namer_delete(token_t token)
+{
+	int res;
+	CHECK(-1);
+		
+	LOCK();
+	if(do_request(OP_DELETE, token, 0, NULL, 0) != HDRSIZE) {
+		res = -1;
+	} else {
+		res = nreq->opcode;
+	}
+	UNLOCK();
+	
+	return res;
+}
+d61 2
+a62 16
+int
+namer_write(token_t token, uint32 type, uint32 size, void *data)
+{
+	int res;
+	CHECK(-1);
+		
+	LOCK();
+	if((res = do_request(OP_WRITE, token, type, data, size)) != HDRSIZE) {
+		res = -1;
+	} else {
+		res = nreq->opcode;
+	}
+	UNLOCK();
+	
+	return res;
+}
+d64 1
+a64 23
+int
+namer_read(token_t token, uint32 type, uint32 *size, void *data)
+{
+	int res;
+	CHECK(-1);
+		
+	LOCK();
+	if((res = do_request(OP_READ, token, type, NULL, *size)) < HDRSIZE) {
+		res = -1;
+	} else {
+		if(nreq->size > *size){
+			/* bad response - overrun */
+			res = -1;
+		} else {
+			if(!(res = nreq->opcode)){
+				memcpy(data, nreq->data, nreq->size);
+				*size = nreq->size;
+			}
+		}
+	}
+	UNLOCK();
+	
+	return res;
+d67 1
+a67 1
+token_t namer_resolve(const char *path, int create)
+d69 1
+a69 67
+	token_t root;
+	token_t next = TOKEN_ROOT;
+	char *slash, *tmp;
+	
+	if(path[0] != '/') return TOKEN_NONE;
+	path++;
+	
+	if(!(tmp = (char *) malloc(strlen(path)))) return TOKEN_NONE;
+	memcpy(tmp,path,strlen(path)+1);
+	path = tmp;
+	
+	while((root = next) && (*path)){
+		if((slash = strchr(path,'/'))) *slash = 0;
+		
+		next = namer_walk(root,path);
+		if(!next && create){
+			next = namer_create(root,path,TYPE_DIRECTORY);
+		}			
+		
+		if(slash) path = slash + 1;
+	}
+	free(tmp);
+	return root;	
+}
+
+/* ----------- old interface wrappers ----------------- */
+
+int namer_newhandle(void)
+{
+	return 1;
+}
+
+int namer_delhandle(int nh)
+{
+	return 0;
+}
+
+int namer_register(int nh, int port, char *name)
+{
+	token_t token = namer_walk(TOKEN_ROOT,"servers");
+//	DEBUG("register %d %d \"%s\" (%d)\n",nh,port,name,token);
+	if(token) {
+		token = namer_create(token,name,TYPE_INT32);
+		if(token) {
+			return namer_write(token,TYPE_INT32,4,&port);
+		}
+	} 
+	return -1;
+}
+
+int namer_find(int nh, char *name)
+{	
+	token_t token = namer_walk(TOKEN_ROOT,"servers");
+//	DEBUG("find servers %d",token);
+	if(token) {
+		token = namer_walk(token,name);
+//		DEBUG("find servers/%s %d",name,token);
+		if(token){
+			uint32 size = 4;
+			int32 value;
+			if(namer_read(token,TYPE_INT32,&size,&value)) return -1;
+			if(size == 4) {
+				return value;
+			}
+		}
+	}
+	return -1;
+@
+

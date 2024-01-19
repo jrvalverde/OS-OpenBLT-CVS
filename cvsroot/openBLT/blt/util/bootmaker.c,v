@@ -1,0 +1,640 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.2
+	openblt20000429:1.1.1.2
+	openblt20000428:1.1.1.2
+	openblt20000427:1.1.1.2
+	openblt20000426:1.1.1.2
+	openblt20000425:1.1.1.2
+	openblt20000424:1.1.1.2
+	openblt20000423:1.1.1.2
+	openblt20000422:1.1.1.2
+	openblt20000421:1.1.1.2
+	openblt20000420:1.1.1.2
+	openblt20000419:1.1.1.2
+	openblt20000418:1.1.1.2
+	openblt20000417:1.1.1.2
+	openblt20000416:1.1.1.2
+	openblt20000415:1.1.1.2
+	openblt20000414:1.1.1.2
+	openblt20000413:1.1.1.2
+	openblt20000412:1.1.1.2
+	openblt20000411:1.1.1.2
+	openblt20000410:1.1.1.2
+	openblt20000409:1.1.1.2
+	openblt20000408:1.1.1.2
+	openblt20000407:1.1.1.2
+	openblt20000406:1.1.1.2
+	openblt20000405:1.1.1.2
+	openblt20000404:1.1.1.2
+	openblt20000403:1.1.1.2
+	openblt20000402:1.1.1.2
+	openblt20000401:1.1.1.2
+	openblt20000331:1.1.1.2
+	openblt20000330:1.1.1.2
+	openblt20000329:1.1.1.2
+	openblt20000328:1.1.1.2
+	openblt20000327:1.1.1.2
+	openblt20000326:1.1.1.2
+	openblt20000325:1.1.1.2
+	openblt20000324:1.1.1.2
+	openblt20000323:1.1.1.2
+	openblt20000322:1.1.1.2
+	openblt20000321:1.1.1.2
+	openblt20000320:1.1.1.2
+	openblt20000319:1.1.1.2
+	openblt20000318:1.1.1.2
+	openblt20000317:1.1.1.2
+	openblt20000316:1.1.1.2
+	openblt20000315:1.1.1.2
+	openblt20000314:1.1.1.2
+	openblt20000313:1.1.1.2
+	openblt20000312:1.1.1.2
+	openblt20000311:1.1.1.2
+	openblt20000310:1.1.1.2
+	openblt20000309:1.1.1.2
+	openblt20000308:1.1.1.2
+	openblt20000307:1.1.1.2
+	openblt20000306:1.1.1.2
+	openblt20000305:1.1.1.2
+	openblt20000304:1.1.1.2
+	openblt20000303:1.1.1.2
+	openblt20000302:1.1.1.2
+	openblt20000301:1.1.1.2
+	openblt20000229:1.1.1.2
+	openblt20000228:1.1.1.2
+	openblt20000227:1.1.1.2
+	openblt20000226:1.1.1.2
+	openblt20000225:1.1.1.2
+	openblt20000224:1.1.1.2
+	openblt20000223:1.1.1.2
+	openblt20000222:1.1.1.2
+	openblt20000221:1.1.1.2
+	openblt20000220:1.1.1.2
+	openblt20000219:1.1.1.2
+	openblt20000218:1.1.1.2
+	openblt20000217:1.1.1.2
+	openblt20000216:1.1.1.2
+	openblt20000215:1.1.1.2
+	openblt20000214:1.1.1.2
+	openblt20000213:1.1.1.2
+	openblt20000212:1.1.1.2
+	openblt20000211:1.1.1.2
+	openblt20000210:1.1.1.2
+	openblt20000209:1.1.1.2
+	openblt20000208:1.1.1.2
+	openblt20000207:1.1.1.2
+	openblt20000206:1.1.1.2
+	openblt20000205:1.1.1.2
+	openblt20000204:1.1.1.2
+	openblt20000203:1.1.1.2
+	openblt20000202:1.1.1.2
+	openblt20000201:1.1.1.2
+	openblt20000131:1.1.1.2
+	openblt20000130:1.1.1.2
+	openblt20000129:1.1.1.2
+	openblt20000128:1.1.1.2
+	openblt20000127:1.1.1.2
+	openblt20000126:1.1.1.2
+	openblt20000125:1.1.1.2
+	openblt20000124:1.1.1.2
+	openblt20000123:1.1.1.2
+	openblt20000122:1.1.1.2
+	openblt20000121:1.1.1.2
+	openblt20000120:1.1.1.2
+	openblt20000119:1.1.1.2
+	openblt20000118:1.1.1.2
+	openblt20000117:1.1.1.2
+	openblt20000116:1.1.1.2
+	openblt20000115:1.1.1.2
+	openblt20000114:1.1.1.2
+	openblt20000113:1.1.1.2
+	openblt20000112:1.1.1.2
+	openblt20000111:1.1.1.2
+	openblt20000110:1.1.1.2
+	openblt20000109:1.1.1.2
+	openblt20000108:1.1.1.2
+	openblt20000107:1.1.1.2
+	openblt20000106:1.1.1.2
+	openblt20000105:1.1.1.2
+	openblt20000104:1.1.1.2
+	openblt20000103:1.1.1.2
+	openblt20000102:1.1.1.1
+	openblt19991228:1.1.1.1
+	openblt19990827:1.1.1.1
+	openblt082699:1.1.1.1
+	openblt082599:1.1.1.1
+	openblt082499:1.1.1.1
+	openblt082399:1.1.1.1
+	openblt082299:1.1.1.1
+	openblt082199:1.1.1.1
+	openblt082099:1.1.1.1
+	openblt081999:1.1.1.1
+	openblt081899:1.1.1.1
+	openblt081799:1.1.1.1
+	openblt081699:1.1.1.1
+	openblt081599:1.1.1.1
+	openblt071199:1.1.1.1
+	openblt071099:1.1.1.1
+	openblt070799:1.1.1.1
+	openblt070699:1.1.1.1
+	openblt070299:1.1.1.1
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.32.33;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/util/bootmaker.c#3 $
+**
+** Copyright 1998 Brian J. Swetland
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+#include "../include/boot.h"
+
+#include "bootblock.h"
+
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+static int make_floppy = 0;
+
+void die(char *s, char *a)
+{
+    fprintf(stderr,"error: ");
+    fprintf(stderr,s,a);
+    fprintf(stderr,"\n");
+    exit(1);
+}
+
+void *loadfile(char *file, int *size)
+{
+    int fd;
+    char *data;
+    struct stat info;
+    
+    if((fd = open(file,O_RDONLY)) != -1){
+        if(fstat(fd,&info)){
+            close(fd);
+            *size = 0;
+            return NULL;
+        }
+        data = (char *) malloc(info.st_size);
+        if(read(fd, data, info.st_size) != info.st_size) {
+            close(fd);
+            *size = 0;
+            return NULL;
+        }
+        close(fd);
+        *size = info.st_size;
+        return data;
+    }
+    *size = 0;
+    return NULL;
+}
+
+/* at location 2 is a uint16, set to blocks * 8 */
+int writebootblock(FILE *fp, unsigned int blocks)
+{
+    unsigned char bb[512];
+    
+    blocks *= 8;
+    
+    memcpy(bb,bootblock,512);
+    
+    bb[2] = (blocks & 0x00FF);
+    bb[3] = (blocks & 0xFF00) >> 8;
+    
+    fwrite(bb,512,1,fp);
+}
+
+typedef struct _nvpair 
+{
+    struct _nvpair *next;
+    char *name;
+    char *value;
+} nvpair;
+
+
+typedef struct _section
+{
+    struct _section *next;
+    char *name;
+    struct _nvpair *firstnv;
+} section;
+
+void print_sections(section *first)
+{
+    nvpair *p;
+    
+    while(first){
+        printf("\n[%s]\n",first->name);
+        for(p = first->firstnv; p; p = p->next){
+            printf("%s=%s\n",p->name,p->value);
+        }
+        first = first->next;
+    }
+}
+
+#ifdef xBIG_ENDIAN
+unsigned int fix(unsigned int x)
+{
+    int r;
+    unsigned char *a = (unsigned char *) &x;
+    unsigned char b[4];
+
+    b[0] = a[3];
+    b[1] = a[2];
+    b[2] = a[1];
+    b[3] = a[0];
+
+    r = *((unsigned int *)b);
+    return r;
+    
+}
+#else
+#define fix(x) (x)
+#endif
+
+#define stNEWLINE 0
+#define stSKIPLINE 1
+#define stHEADER 2
+#define stLHS 3
+#define stRHS 4
+
+section *load_ini(char *file)
+{
+    char *data,*end;
+    int size;
+    int state = stNEWLINE;
+    section *first, *last, *cur;
+    char *lhs,*rhs;
+    
+    first = last = NULL;
+        
+    if(!(data = loadfile(file,&size))){
+        return NULL;
+    }
+    end = data+size;
+    
+    while(data < end){
+        switch(state){
+        case stSKIPLINE:
+            if(*data == '\n'){
+                state = stNEWLINE;
+            }
+            data++;
+            break;
+            
+        case stNEWLINE:
+            if(*data == '\n'){
+                data++;
+                break;
+            }
+            if(*data == '['){
+                lhs = data+1;
+                state = stHEADER;
+                data++;
+                break;
+            }
+            if(*data == '#' || *data <= ' '){
+                state = stSKIPLINE;
+                data++;
+                break;
+            }
+            lhs = data;
+            data++;
+            state = stLHS;
+            break;
+        case stHEADER:        
+            if(*data == ']'){                
+                cur = (section *) malloc(sizeof(section));
+                cur->name = lhs;
+                cur->firstnv = NULL;
+                cur->next = NULL;
+                if(last){
+                    last->next = cur;
+                    last = cur;
+                } else {
+                    last = first = cur;
+                }
+                *data = 0;
+                state = stSKIPLINE;
+            }
+            data++;
+            break;
+        case stLHS:
+            if(*data == '\n'){
+                state = stNEWLINE;
+            }
+            if(*data == '='){
+                *data = 0;
+                rhs = data+1;
+                state = stRHS;
+            }
+            data++;
+            continue;
+        case stRHS:
+            if(*data == '\n'){
+                nvpair *p = (nvpair *) malloc(sizeof(nvpair));
+                p->name = lhs;
+                p->value = rhs;
+                *data = 0;
+                p->next = cur->firstnv;
+                cur->firstnv = p;
+                state = stNEWLINE;
+            }
+            data++;
+            break;
+        }
+    }
+    return first;
+    
+}
+
+
+char *getval(section *s, char *name)
+{
+    nvpair *p;
+    for(p = s->firstnv; p; p = p->next){
+        if(!strcmp(p->name,name)) return p->value;
+    }
+    return NULL;
+}
+
+char *getvaldef(section *s, char *name, char *def)
+{
+    nvpair *p;
+    for(p = s->firstnv; p; p = p->next){
+        if(!strcmp(p->name,name)) return p->value;
+    }
+    return def;
+}
+
+#define centry bdir.bd_entry[c]
+void makeboot(section *s, char *outfile)
+{
+    FILE *fp;
+    void *rawdata[64];
+    int rawsize[64];
+    char fill[4096];
+    boot_dir bdir;
+    int i,c;
+    int nextpage = 1; /* page rel offset of next loaded object */
+
+    memset(fill,0,4096);
+    
+    memset(&bdir, 0, 4096);
+    for(i=0;i<64;i++){
+        rawdata[i] = NULL;
+        rawsize[i] = 0;
+    }
+
+    c = 1;
+
+    bdir.bd_entry[0].be_type = fix(BE_TYPE_DIRECTORY);
+    bdir.bd_entry[0].be_size = fix(1);
+    bdir.bd_entry[0].be_vsize = fix(1);
+    rawdata[0] = (void *) &bdir;
+    rawsize[0] = 4096;
+    
+    strcpy(bdir.bd_entry[0].be_name,"SBBB/Directory");
+
+    while(s){
+        char *type = getvaldef(s,"type","NONE");
+        char *file = getval(s,"file");
+        int vsize;
+        int size;
+        struct stat statbuf;
+        
+        if(!type) die("section %s has no type",s->name);
+
+        strncpy(centry.be_name,s->name,32);
+        centry.be_name[31] = 0;
+
+        if(!file) die("section %s has no file",s->name);
+        if(!(rawdata[c] = loadfile(file,&rawsize[c])))
+           die("cannot load \"%s\"",file);
+
+        if(stat(file,&statbuf))
+            die("cannot stat \"%s\"",file);
+        vsize = statbuf.st_size;
+        
+        centry.be_size = rawsize[c] / 4096 + (rawsize[c] % 4096 ? 1 : 0);
+        centry.be_vsize = 
+            (vsize < centry.be_size) ? centry.be_size : vsize;
+
+        centry.be_offset = nextpage;
+        nextpage += centry.be_size;
+
+        centry.be_size = fix(centry.be_size);
+        centry.be_vsize = fix(centry.be_vsize);
+        centry.be_offset = fix(centry.be_offset);
+        
+        if(!strcmp(type,"boot")){
+            centry.be_type = fix(BE_TYPE_BOOTSTRAP);
+            centry.be_code_vaddr = fix(atoi(getvaldef(s,"vaddr","0")));
+            centry.be_code_ventr = fix(atoi(getvaldef(s,"ventry","0")));            
+        }
+        if(!strcmp(type,"code")){
+            centry.be_type = fix(BE_TYPE_CODE);
+            centry.be_code_vaddr = fix(atoi(getvaldef(s,"vaddr","0")));
+            centry.be_code_ventr = fix(atoi(getvaldef(s,"ventry","0"))); 
+        }
+        if(!strcmp(type,"data")){
+            centry.be_type = fix(BE_TYPE_DATA);
+        }
+        if(!strcmp(type,"elf32")){
+            centry.be_type = fix(BE_TYPE_ELF32);
+        }
+
+        if(centry.be_type == BE_TYPE_NONE){
+            die("unrecognized section type \"%s\"",type);
+        }
+
+        c++;
+        s = s->next;
+        
+        if(c==64) die("too many sections (>63)",NULL);
+    }
+
+    if(!(fp = fopen(outfile,"w"))){
+        die("cannot write to \"%s\"",outfile);
+    }
+
+    if(make_floppy) {
+        fprintf(stderr,"whoohah!");
+        
+        writebootblock(fp, nextpage+1);
+    }
+    
+    for(i=0;i<c;i++){
+        fwrite(rawdata[i],rawsize[i],1,fp);
+        if(rawsize[i]%4096) fwrite(fill,4096 - (rawsize[i]%4096),1,fp);
+    }
+    fclose(fp);
+    
+    
+}
+
+int main(int argc, char *argv[])
+{
+    section *s;
+    
+    if(argc < 3){
+        fprintf(stderr,"usage: %s <inifile> <bootfile>\n",argv[0]);
+        return 1;
+    }
+
+    if((argc > 3) && !strcmp(argv[3],"-floppy")){
+        make_floppy = 1;
+    }
+    
+    if(s = load_ini(argv[1])){
+        makeboot(s,argv[2]);
+    } else {
+        fprintf(stderr,"error: can't read %s\n",argv[1]);
+    }
+    
+    return 0;
+    
+}
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.20000103
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/util/bootmaker.c#4 $
+a144 3
+section *first = NULL;
+section *last = NULL;
+
+d150 1
+a150 2
+	section *cur;
+	
+d153 2
+d360 1
+a360 1
+int main(int argc, char **argv)
+a361 1
+	char *file = NULL;
+d364 2
+a365 3
+    if(argc < 2){
+usage:
+        fprintf(stderr,"usage: %s [ --floppy | -f ] [ <inifile> ... ] -o <bootfile>\n",argv[0]);
+a368 24
+	argc--;
+	argv++;
+	
+	while(argc){
+		if(!strcmp(*argv,"--floppy")){
+			make_floppy = 1;
+		} else if(!strcmp(*argv,"-o")){
+			argc--;
+			argv++;
+			if(argc){
+				file = *argv;
+			} else {
+				goto usage;
+			}
+		} else {
+			if(load_ini(*argv) == NULL){
+				fprintf(stderr,"warning: cannot load '%s'\n",*argv);
+			}
+		}
+		argc--;
+		argv++;
+	}
+	
+	
+a371 12
+
+	if(!file){
+		fprintf(stderr,"error: no output specified\n");
+		goto usage;
+	}
+	
+	if(!first){
+		fprintf(stderr,"error: no data to write?!\n");
+		goto usage;
+	}
+	
+	makeboot(first,file);
+d373 8
+a380 1
+    return 0;    
+@
+

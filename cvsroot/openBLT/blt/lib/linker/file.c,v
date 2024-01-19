@@ -1,0 +1,348 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.1
+	openblt20000429:1.1.1.1
+	openblt20000428:1.1.1.1
+	openblt20000427:1.1.1.1
+	openblt20000426:1.1.1.1
+	openblt20000425:1.1.1.1
+	openblt20000424:1.1.1.1
+	openblt20000423:1.1.1.1
+	openblt20000422:1.1.1.1
+	openblt20000421:1.1.1.1
+	openblt20000420:1.1.1.1
+	openblt20000419:1.1.1.1
+	openblt20000418:1.1.1.1
+	openblt20000417:1.1.1.1
+	openblt20000416:1.1.1.1
+	openblt20000415:1.1.1.1
+	openblt20000414:1.1.1.1
+	openblt20000413:1.1.1.1
+	openblt20000412:1.1.1.1
+	openblt20000411:1.1.1.1
+	openblt20000410:1.1.1.1
+	openblt20000409:1.1.1.1
+	openblt20000408:1.1.1.1
+	openblt20000407:1.1.1.1
+	openblt20000406:1.1.1.1
+	openblt20000405:1.1.1.1
+	openblt20000404:1.1.1.1
+	openblt20000403:1.1.1.1
+	openblt20000402:1.1.1.1
+	openblt20000401:1.1.1.1
+	openblt20000331:1.1.1.1
+	openblt20000330:1.1.1.1
+	openblt20000329:1.1.1.1
+	openblt20000328:1.1.1.1
+	openblt20000327:1.1.1.1
+	openblt20000326:1.1.1.1
+	openblt20000325:1.1.1.1
+	openblt20000324:1.1.1.1
+	openblt20000323:1.1.1.1
+	openblt20000322:1.1.1.1
+	openblt20000321:1.1.1.1
+	openblt20000320:1.1.1.1
+	openblt20000319:1.1.1.1
+	openblt20000318:1.1.1.1
+	openblt20000317:1.1.1.1
+	openblt20000316:1.1.1.1
+	openblt20000315:1.1.1.1
+	openblt20000314:1.1.1.1
+	openblt20000313:1.1.1.1
+	openblt20000312:1.1.1.1
+	openblt20000311:1.1.1.1
+	openblt20000310:1.1.1.1
+	openblt20000309:1.1.1.1
+	openblt20000308:1.1.1.1
+	openblt20000307:1.1.1.1
+	openblt20000306:1.1.1.1
+	openblt20000305:1.1.1.1
+	openblt20000304:1.1.1.1
+	openblt20000303:1.1.1.1
+	openblt20000302:1.1.1.1
+	openblt20000301:1.1.1.1
+	openblt20000229:1.1.1.1
+	openblt20000228:1.1.1.1
+	openblt20000227:1.1.1.1
+	openblt20000226:1.1.1.1
+	openblt20000225:1.1.1.1
+	openblt20000224:1.1.1.1
+	openblt20000223:1.1.1.1
+	openblt20000222:1.1.1.1
+	openblt20000221:1.1.1.1
+	openblt20000220:1.1.1.1
+	openblt20000219:1.1.1.1
+	openblt20000218:1.1.1.1
+	openblt20000217:1.1.1.1
+	openblt20000216:1.1.1.1
+	openblt20000215:1.1.1.1
+	openblt20000214:1.1.1.1
+	openblt20000213:1.1.1.1
+	openblt20000212:1.1.1.1
+	openblt20000211:1.1.1.1
+	openblt20000210:1.1.1.1
+	openblt20000209:1.1.1.1
+	openblt20000208:1.1.1.1
+	openblt20000207:1.1.1.1
+	openblt20000206:1.1.1.1
+	openblt20000205:1.1.1.1
+	openblt20000204:1.1.1.1
+	openblt20000203:1.1.1.1
+	openblt20000202:1.1.1.1
+	openblt20000201:1.1.1.1
+	openblt20000131:1.1.1.1
+	openblt20000130:1.1.1.1
+	openblt20000129:1.1.1.1
+	openblt20000128:1.1.1.1
+	openblt20000127:1.1.1.1
+	openblt20000126:1.1.1.1
+	openblt20000125:1.1.1.1
+	openblt20000124:1.1.1.1
+	openblt20000123:1.1.1.1
+	openblt20000122:1.1.1.1
+	openblt20000121:1.1.1.1
+	openblt20000120:1.1.1.1
+	openblt20000119:1.1.1.1
+	openblt20000118:1.1.1.1
+	openblt20000117:1.1.1.1
+	openblt20000116:1.1.1.1
+	openblt20000115:1.1.1.1
+	openblt20000114:1.1.1.1
+	openblt20000113:1.1.1.1
+	openblt20000112:1.1.1.1
+	openblt20000111:1.1.1.1
+	openblt20000110:1.1.1.1
+	openblt20000109:1.1.1.1
+	openblt20000108:1.1.1.1
+	openblt20000107:1.1.1.1
+	openblt20000106:1.1.1.1
+	openblt20000105:1.1.1.1
+	openblt20000104:1.1.1.1
+	openblt20000103:1.1.1.1
+	openblt20000102:1.1.1.1
+	openblt19991228:1.1.1.1
+	openblt19990827:1.1.1.1
+	openblt082699:1.1.1.1
+	openblt082599:1.1.1.1
+	openblt082499:1.1.1.1
+	openblt082399:1.1.1.1
+	openblt082299:1.1.1.1
+	openblt082199:1.1.1.1
+	openblt082099:1.1.1.1
+	openblt081999:1.1.1.1
+	openblt081899:1.1.1.1
+	openblt081799:1.1.1.1
+	openblt081699:1.1.1.1
+	openblt081599:1.1.1.1
+	openblt071199:1.1.1.1
+	openblt071099:1.1.1.1
+	openblt070799:1.1.1.1
+	openblt070699:1.1.1.1
+	openblt070299:1.1.1.1
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.22.59;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.22.59;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/lib/linker/file.c#2 $
+**
+** Copyright 1998 Sidney Cammeresi
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+**
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+#if defined (LINUX)
+#define NULL ((void *) 0)
+#elif defined (BLT)
+#endif
+
+#include <fcntl.h>
+#include <unistd.h>
+#include <sys/mman.h>
+
+#define LIB_START 0x200000
+#include "file.h"
+#include "elf.h"
+#include "link.h"
+#include "defs.h"
+
+#define MAX_FILES    32
+
+unsigned int num_files = 0;
+
+unsigned int high = 0x200000;
+file_info files[MAX_FILES];
+
+/*
+ * add a file to the list of files to load, ignoring duplicates. return
+ * -1 if too many files or file already added, subscript otherwise.
+ */
+int _dl_add_file (char *file)
+{
+	int i;
+
+	if (num_files == MAX_FILES)
+		return -1;
+	for (i = 0; i < num_files; i++)
+		if (!strcmp (files[i].name, file))
+			return -1;
+	files[num_files].jmprel_off = 0;
+	files[num_files].rel_off = 0;
+	files[num_files].nopatch = 0;
+	files[num_files++].name = file;
+	return num_files - 1;
+}
+
+void _dl_print_files (void)
+{
+	int i;
+
+	for (i = 0; i < num_files; i++)
+		printf ("%d: %s\n", i, files[i].name);
+}
+
+void *_dl_load (int filenum)
+{
+	char buffer[4096], *file;
+	unsigned int i, fd, len, num_pages, part_addr;
+	void *addr = NULL, *new_addr, *pgm_base = (void *) 0x1000;
+	elf32_hdr_t *new_hdr;
+	elf32_pgm_hdr_t *pgm_hdr;
+	elf32_sec_hdr_t *sec_hdr;
+	extern char *exec_name;
+
+	file = files[filenum].name;
+	if (files[filenum].nopatch)
+		return;
+
+	if ((fd = open (file, O_RDONLY, 0)) == -1)
+		error ("linker: _dl_load: file not found %s\n", file);
+	(void) read (fd, buffer, sizeof (buffer));
+
+	/* parse the program headers and map in loadable parts */
+	new_hdr = (elf32_hdr_t *) buffer;
+	for (i = 0; i < new_hdr->e_phnum; i++)
+		{
+			pgm_hdr = (elf32_pgm_hdr_t *) ((unsigned int) buffer + new_hdr->e_phoff +
+				i * new_hdr->e_phentsize);
+			switch (pgm_hdr->p_type)
+				{
+					case PT_LOAD:
+						/* this is a loadable program section */
+						if (!pgm_hdr->p_filesz)
+							continue;
+						num_pages = ((pgm_hdr->p_vaddr + pgm_hdr->p_filesz) >> 12) -
+							(pgm_hdr->p_vaddr >> 12) + 1;
+						/* printf ("           mapping %4x bytes @@ %6x (%4x bytes @@ %6x)\n",
+							pgm_hdr->p_filesz, pgm_hdr->p_vaddr, pgm_hdr->p_filesz +
+							(pgm_hdr->p_vaddr & 0xfff), filenum ? high : pgm_hdr->p_vaddr &
+							0xfffff000); */
+						if (!(new_addr = mmap ((void *) (filenum ? high :
+								pgm_hdr->p_vaddr & 0xfffff000), pgm_hdr->p_filesz +
+								(pgm_hdr->p_vaddr & 0xfff), PROT_READ | PROT_WRITE,
+								MAP_PRIVATE, fd, pgm_hdr->p_offset & 0xfffff000)))
+							; /* error ("mmap failed\n"); */
+						else if (!addr)
+							addr = new_addr;
+						if (filenum)
+							high += num_pages * 0x1000;
+						else
+							pgm_base += num_pages * 0x1000;
+						break;
+					default:
+						break;
+				}
+		}
+
+	/* load the symbol and string tables after the file */
+	files[filenum].symtab_off = (unsigned int) mmap ((void *) (filenum ? high :
+		(unsigned int) pgm_base), len = files[filenum].symtab_size +
+		((unsigned int) files[filenum].symtab_off & 0xfff), PROT_READ |
+		PROT_WRITE, MAP_PRIVATE, fd,
+		files[filenum].symtab_off & 0xfffff000) + (files[filenum].symtab_off &
+		0xfff);
+	if (filenum)
+		high += (len / 0x1000 + 1) * 0x1000;
+	else
+		pgm_base += (len / 0x1000 + 1) * 0x1000;
+	files[filenum].strtab_off = (unsigned int) mmap ((void *) (filenum ? high :
+		(unsigned int) pgm_base), len = files[filenum].strtab_size +
+		((unsigned int) files[filenum].strtab_off & 0xfff), PROT_READ | PROT_WRITE,
+		MAP_PRIVATE, fd,
+		files[filenum].strtab_off & 0xfffff000) + (files[filenum].strtab_off &
+		0xfff);
+	if (filenum)
+		high += (len / 0x1000 + 1) * 0x1000;
+	else
+		pgm_base += (len / 0x1000 + 1) * 0x1000;
+
+/*
+	printf ("symbol table at %x\n", files[filenum].symtab_off);
+	printf ("string table at %x\n", files[filenum].strtab_off);
+*/
+
+	/* update accounting information */
+	files[filenum].addr = (unsigned int) addr;
+	files[filenum].len = lseek (fd, 0, SEEK_END);
+
+	return (void *) addr;
+}
+
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@

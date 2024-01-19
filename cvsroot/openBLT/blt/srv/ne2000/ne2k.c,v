@@ -1,0 +1,1161 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.5
+	openblt20000429:1.1.1.4
+	openblt20000428:1.1.1.4
+	openblt20000427:1.1.1.4
+	openblt20000426:1.1.1.4
+	openblt20000425:1.1.1.4
+	openblt20000424:1.1.1.4
+	openblt20000423:1.1.1.4
+	openblt20000422:1.1.1.4
+	openblt20000421:1.1.1.4
+	openblt20000420:1.1.1.4
+	openblt20000419:1.1.1.4
+	openblt20000418:1.1.1.4
+	openblt20000417:1.1.1.4
+	openblt20000416:1.1.1.4
+	openblt20000415:1.1.1.4
+	openblt20000414:1.1.1.4
+	openblt20000413:1.1.1.4
+	openblt20000412:1.1.1.4
+	openblt20000411:1.1.1.4
+	openblt20000410:1.1.1.4
+	openblt20000409:1.1.1.4
+	openblt20000408:1.1.1.4
+	openblt20000407:1.1.1.4
+	openblt20000406:1.1.1.4
+	openblt20000405:1.1.1.4
+	openblt20000404:1.1.1.4
+	openblt20000403:1.1.1.4
+	openblt20000402:1.1.1.4
+	openblt20000401:1.1.1.4
+	openblt20000331:1.1.1.4
+	openblt20000330:1.1.1.4
+	openblt20000329:1.1.1.4
+	openblt20000328:1.1.1.4
+	openblt20000327:1.1.1.4
+	openblt20000326:1.1.1.4
+	openblt20000325:1.1.1.4
+	openblt20000324:1.1.1.4
+	openblt20000323:1.1.1.4
+	openblt20000322:1.1.1.4
+	openblt20000321:1.1.1.4
+	openblt20000320:1.1.1.4
+	openblt20000319:1.1.1.4
+	openblt20000318:1.1.1.4
+	openblt20000317:1.1.1.4
+	openblt20000316:1.1.1.4
+	openblt20000315:1.1.1.4
+	openblt20000314:1.1.1.4
+	openblt20000313:1.1.1.4
+	openblt20000312:1.1.1.4
+	openblt20000311:1.1.1.4
+	openblt20000310:1.1.1.4
+	openblt20000309:1.1.1.4
+	openblt20000308:1.1.1.4
+	openblt20000307:1.1.1.4
+	openblt20000306:1.1.1.4
+	openblt20000305:1.1.1.4
+	openblt20000304:1.1.1.4
+	openblt20000303:1.1.1.4
+	openblt20000302:1.1.1.4
+	openblt20000301:1.1.1.4
+	openblt20000229:1.1.1.4
+	openblt20000228:1.1.1.4
+	openblt20000227:1.1.1.4
+	openblt20000226:1.1.1.4
+	openblt20000225:1.1.1.4
+	openblt20000224:1.1.1.4
+	openblt20000223:1.1.1.4
+	openblt20000222:1.1.1.4
+	openblt20000221:1.1.1.4
+	openblt20000220:1.1.1.4
+	openblt20000219:1.1.1.4
+	openblt20000218:1.1.1.4
+	openblt20000217:1.1.1.4
+	openblt20000216:1.1.1.4
+	openblt20000215:1.1.1.4
+	openblt20000214:1.1.1.4
+	openblt20000213:1.1.1.4
+	openblt20000212:1.1.1.4
+	openblt20000211:1.1.1.4
+	openblt20000210:1.1.1.4
+	openblt20000209:1.1.1.4
+	openblt20000208:1.1.1.4
+	openblt20000207:1.1.1.4
+	openblt20000206:1.1.1.4
+	openblt20000205:1.1.1.4
+	openblt20000204:1.1.1.4
+	openblt20000203:1.1.1.4
+	openblt20000202:1.1.1.4
+	openblt20000201:1.1.1.4
+	openblt20000131:1.1.1.4
+	openblt20000130:1.1.1.4
+	openblt20000129:1.1.1.4
+	openblt20000128:1.1.1.4
+	openblt20000127:1.1.1.4
+	openblt20000126:1.1.1.4
+	openblt20000125:1.1.1.4
+	openblt20000124:1.1.1.4
+	openblt20000123:1.1.1.4
+	openblt20000122:1.1.1.4
+	openblt20000121:1.1.1.4
+	openblt20000120:1.1.1.4
+	openblt20000119:1.1.1.4
+	openblt20000118:1.1.1.4
+	openblt20000117:1.1.1.4
+	openblt20000116:1.1.1.4
+	openblt20000115:1.1.1.4
+	openblt20000114:1.1.1.4
+	openblt20000113:1.1.1.4
+	openblt20000112:1.1.1.4
+	openblt20000111:1.1.1.4
+	openblt20000110:1.1.1.4
+	openblt20000109:1.1.1.4
+	openblt20000108:1.1.1.4
+	openblt20000107:1.1.1.4
+	openblt20000106:1.1.1.4
+	openblt20000105:1.1.1.4
+	openblt20000104:1.1.1.4
+	openblt20000103:1.1.1.4
+	openblt20000102:1.1.1.4
+	openblt19991228:1.1.1.3
+	openblt19990827:1.1.1.2
+	openblt082699:1.1.1.2
+	openblt082599:1.1.1.2
+	openblt082499:1.1.1.2
+	openblt082399:1.1.1.2
+	openblt082299:1.1.1.2
+	openblt082199:1.1.1.2
+	openblt082099:1.1.1.2
+	openblt081999:1.1.1.2
+	openblt081899:1.1.1.2
+	openblt081799:1.1.1.2
+	openblt081699:1.1.1.2
+	openblt081599:1.1.1.2
+	openblt071199:1.1.1.2
+	openblt071099:1.1.1.2
+	openblt070799:1.1.1.2
+	openblt070699:1.1.1.2
+	openblt070299:1.1.1.2
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.28.57;	author jr;	state Exp;
+branches;
+next	1.1.1.3;
+
+1.1.1.3
+date	2005.01.20.16.31.55;	author jr;	state Exp;
+branches;
+next	1.1.1.4;
+
+1.1.1.4
+date	2005.01.20.16.32.13;	author jr;	state Exp;
+branches;
+next	1.1.1.5;
+
+1.1.1.5
+date	2005.01.20.17.11.15;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/srv/ne2000/ne2k.c#6 $
+**
+** Copyright 1998 Brian J. Swetland
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+#include "string.h"
+
+#include <blt/namer.h>
+#include <blt/syscall.h>
+#include <blt/conio.h>
+#include <blt/qsem.h>
+
+#include "net.h"
+
+#define NULL ((void *) 0)
+
+#include "ne2k.h"
+
+/* hard code these for now */
+#define NIC_IRQ		3
+#define NIC_ADDR	0x300
+
+static unsigned char *loadip = (unsigned char *) 0x1020;
+
+static snic TheSNIC;
+
+static unsigned char prom[32];
+static unsigned char IP[4];	/* we get our ip from the booter */
+
+/* messaging */
+static int port_isr = 0;
+static int port_xmit = 0;
+/*static int port_xmit_done = 0;*/
+
+static qsem_t *sem_xmit_done = NULL;
+static int port_dispatch = 0;
+static int port_net = 0;
+
+qsem_t *mutex = NULL;
+qsem_t *sem_ring = NULL;
+
+#define LOG_LEVEL 9999
+
+/* to keep site's ne2000 code happy */
+void kprintf(char *fmt,...)
+{
+}
+
+#define printf __libc_printf
+
+#define trace(a, b) if (a >= LOG_LEVEL) printf("ne2000: %s\n", b);
+
+#define RINGSIZE 16
+#define PACKETSIZE 1536
+
+typedef struct _pbuf {
+    struct _pbuf *next;  /* 4 */
+    packet_buffer pb;    /* 16 */
+    packet_data pd;      /* 8 */
+    int n;
+} pbuf;
+
+#define pb_to_ring(x) ((pbuf *) (((char *) (x)) - 4))
+#define pd_to_ring(x) ((pbuf *) (((char *) (x)) - 20))
+                       
+pbuf *p_next = NULL;
+
+struct _pmap {
+    struct _pmap *next;;
+    int udp_port;
+    int blt_port;
+} pmap[10];
+
+pbuf *p_discard;
+
+void init_ring(void)
+{
+    int i;
+    pbuf *p;
+    p_next = NULL;
+    pmap[0].udp_port = 0;
+    
+    for(i=0;i<RINGSIZE;i++){
+        p = (pbuf *) malloc(sizeof(pbuf));        
+        p->next = p_next;
+        p_next = p;
+        p->pb.count = 1;
+        p->pb.buf = &(p->pd);
+        p->pd.ptr = (char *) malloc(PACKETSIZE);
+        p->n = i;
+    }
+
+    p_discard = p_next;
+    p_next = p_next->next;
+}
+
+
+/* called by the ne2k core to get a receive buffer */
+packet_data *alloc_buffer_data(uint size)
+{
+    pbuf *P;
+
+    qsem_acquire(sem_ring);
+    if(!p_next){
+        qsem_release(sem_ring);
+        printf("ne2000: !!! out of packet ringbuffers (recv)\n");
+        return NULL;
+    }
+    P = p_next;
+    p_next = P->next;
+    qsem_release(sem_ring);
+    
+    P->pd.len = size;
+    return &(P->pd);
+}
+
+
+/* called by the us to sem_release a received buffer */
+void free_buffer_data(packet_data *pd)
+{
+    pbuf *P = pd_to_ring(pd);
+    qsem_acquire(sem_ring);
+    P->next = p_next;
+    p_next = P;
+    qsem_release(sem_ring);
+}
+
+
+/* called by our send data routines to get a send buffer */
+pbuf *get_pbuf(void)
+{
+    pbuf *P;
+    qsem_acquire(sem_ring);
+    if(!p_next){
+        qsem_release(sem_ring);
+        return p_discard;        
+    }
+    P = p_next;
+    p_next = P->next;
+    qsem_release(sem_ring);
+    return P;
+}
+
+/* called after a pbuf is xmit'd */
+void free_buffer(packet_buffer *ptr)
+{
+    msg_hdr_t mh;
+    pbuf *P = pb_to_ring(ptr);
+
+trace(1, "free_buffer");
+
+    if(P == p_discard) return;
+
+    qsem_acquire(sem_ring);
+    P->next = p_next;
+    p_next = P;
+    qsem_release(sem_ring);
+
+    qsem_release(sem_xmit_done);
+    
+/*    mh.flags = 0;
+    mh.src = port_isr;
+    mh.dst = port_xmit_done;
+    mh.size = 4;
+    mh.data = &mh.flags;
+    if(port_send(&mh) != 4) printf("free_buffer: blargh!"); */
+}
+
+int ticks = 0;
+void idle(void)
+{
+    int i;
+    for(i=0;i<1000;i++);
+    ticks++;
+}
+
+typedef struct 
+{
+    net_ether ether;
+    net_arp arp;    
+} arp_packet;
+
+void print_arp(unsigned char *p);
+
+
+void
+xmit(pbuf *P)
+{
+    int i;
+    msg_hdr_t mh;
+        /* printf("xmit: P->n = %d\n",P->n);*/
+
+    if(P == p_discard) return;
+    
+    mh.flags = 0;
+    mh.src = port_isr;
+    mh.dst = port_xmit;
+    mh.size = 4;
+    mh.data = &P;
+    if((i = port_send(&mh)) != 4) printf("xmit: blargh! %d\n",i);
+    
+}
+
+void handle_arp(arp_packet *req, pbuf *packet)
+{
+    if(htons(req->arp.arp_op) == ARP_OP_REQUEST){
+        if(!memcmp(&(req->arp.arp_ip_target),IP,4)){
+            pbuf *P;
+            arp_packet *resp;
+            P = get_pbuf();
+            resp = (arp_packet *) P->pd.ptr;
+
+/*            printf("handle_arp: IS the one!\n");*/
+            memcpy(&(resp->ether.src),prom,6);
+            memcpy(&(resp->ether.dst),&(req->ether.src),6);
+            resp->ether.type = htons(0x0806);
+            resp->arp.arp_hard_type = htons(1);
+            resp->arp.arp_prot_type = htons(0x0800);
+            resp->arp.arp_hard_size = 6;
+            resp->arp.arp_prot_size = 4;            
+            resp->arp.arp_op = htons(ARP_OP_REPLY);
+            memcpy(&(resp->arp.arp_enet_sender),prom,6);
+            memcpy(&(resp->arp.arp_ip_sender),IP,4);
+            memcpy(&(resp->arp.arp_enet_target),&(req->arp.arp_enet_sender),6);
+            memcpy(&(resp->arp.arp_ip_target),&(req->arp.arp_ip_sender),4);
+            print_arp((unsigned char *) &(resp->arp));
+
+            P->pd.len = sizeof(arp_packet);
+            P->pb.len = sizeof(arp_packet);
+            
+            xmit(P);
+        } else {
+                /*printf("handle_arp: NOT the one.\n");            */
+        }
+    }
+}
+
+void print_arp(unsigned char *p)
+{
+    net_arp *arp = (net_arp *) p;
+    unsigned char *b;    
+    unsigned short t;
+    
+    printf("  ARP: ");
+    t = htons(arp->arp_op);
+    if(t == ARP_OP_REQUEST) printf("req ");
+    else if(t == ARP_OP_REPLY) printf("rep ");
+    else printf("??? ");
+
+    b = (unsigned char *) &(arp->arp_enet_sender);
+    printf("source:  %X:%X:%X:%X:%X:%X ",b[0],b[1],b[2],b[3],b[4],b[5]);
+    b = (unsigned char *) &(arp->arp_ip_sender);
+    printf("(%d.%d.%d.%d)\n",b[0],b[1],b[2],b[3]);
+
+    printf("  ARP:     target:  ");    
+    
+    b = (unsigned char *) &(arp->arp_enet_target);
+    printf("%X:%X:%X:%X:%X:%X ",b[0],b[1],b[2],b[3],b[4],b[5]);
+    b = (unsigned char *) &(arp->arp_ip_target);
+    printf("(%d.%d.%d.%d)\n",b[0],b[1],b[2],b[3]);    
+
+}
+
+void print_ip(unsigned char *p)
+{
+}
+
+int ipchksum(void *_ip, int len)
+{
+    register unsigned short *ip = (unsigned short *) _ip;
+    register unsigned long sum = 0;
+    len >>= 1;
+    while (len--) {
+        sum += *(ip++);
+        if (sum > 0xFFFF)
+            sum -= 0xFFFF;
+    }
+    return((~sum) & 0x0000FFFF);
+}
+
+
+void
+handle_icmp(icmp_packet *icmp)
+{
+    pbuf *P;
+    icmp_packet *resp;
+
+    if(icmp->icmp.icmp_type == ICMP_PING_REQ){
+        P = get_pbuf();
+        resp = (icmp_packet *) P->pd.ptr;
+        
+        memcpy(&(resp->ether.src),prom,6);
+        memcpy(&(resp->ether.dst),&(icmp->ether.src),6);
+        memcpy(&(resp->ether.type),&(icmp->ether.type),2);
+
+        resp->ip.ip_hdr_len = 5;
+        resp->ip.ip_version = 4;
+        resp->ip.ip_tos = 0;
+        resp->ip.ip_len = icmp->ip.ip_len;
+        resp->ip.ip_id = 0;
+        resp->ip.ip_off = 0;
+        resp->ip.ip_ttl = 64;
+        resp->ip.ip_proto = 0x01;
+        resp->ip.ip_chk = 0;
+	(int) resp->ip.ip_src = *(int *) IP;
+        resp->ip.ip_dst = icmp->ip.ip_src;
+        resp->ip.ip_chk = ipchksum(&(resp->ip),sizeof(net_ip));
+        
+        resp->icmp.icmp_type = ICMP_PING_REP;
+        resp->icmp.icmp_code = 0;
+        resp->icmp.icmp_chk = 0;
+        resp->icmp.data.ping.id = icmp->icmp.data.ping.id;
+        resp->icmp.data.ping.seq = icmp->icmp.data.ping.seq;
+        memcpy(resp->icmp.data.ping.data,icmp->icmp.data.ping.data,
+               ntohs(icmp->ip.ip_len) - 28);
+
+        resp->icmp.icmp_chk = ipchksum(&(resp->ip),ntohs(resp->ip.ip_len));
+/*        printf("ICMP resp l = %d\n",ntohs(resp->ip.ip_len));*/
+
+        P->pb.len = P->pd.len = ntohs(resp->ip.ip_len)+14;
+
+        xmit(P);
+    }        
+}
+
+
+void
+handle_udp(udp_packet *udp, pbuf *packet)
+{
+    msg_hdr_t msg;
+    int i;
+    
+    if(pmap[0].udp_port == ntohs(udp->udp.udp_dst)){
+        msg.src = port_isr;
+        msg.dst = pmap[0].blt_port;
+        msg.flags = 0;
+        msg.size = ntohs(udp->udp.udp_len) - 8;
+        msg.data = udp->data;
+
+        if((i = port_send(&msg)) <0)
+            printf("^&%$&^ %d / %d / %x\n",i,msg.size,msg.data);
+        
+        
+    }
+    
+/*    printf("UDP %d.%d.%d.%d:%d -> %d.%d.%d.%d:%d\n",
+           src[0],src[1],src[2],src[3],ntohs(udp->udp.udp_src),
+           dst[0],dst[1],dst[2],dst[3],ntohs(udp->udp.udp_dst)
+           );*/
+}
+
+
+void
+handle_tcp(tcp_packet *tcp, pbuf *packet)
+{
+trace(2, "handle_tcp");
+/* full of worms */
+}
+
+
+void
+handle_ip(ip_packet *ip, pbuf *packet)
+{
+    unsigned char *src = (unsigned char *) &(ip->ip.ip_src);
+    unsigned char *dst = (unsigned char *) &(ip->ip.ip_dst);
+    static unsigned char bcip[4] = { 255, 255, 255, 255 };
+    
+trace(2, "handle_ip");
+
+    if(!memcmp(dst,IP,4) || (dst[3] == 0xFF)){ /*!memcmp(dst,bcip,4)){*/
+#ifdef DEBUG
+      printf("IP %d.%d.%d.%d -> %d.%d.%d.%d\n",
+      src[0],src[1],src[2],src[3],
+           dst[0],dst[1],dst[2],dst[3]
+           );
+#endif
+    
+        switch(ip->ip.ip_proto){
+        case 0x01:
+            handle_icmp((icmp_packet *) ip);
+            break;
+        case 0x11:
+            handle_udp((udp_packet *) ip, packet);
+            break;
+        case 0x6:
+            handle_tcp((tcp_packet *) ip, packet);
+            break;
+        }
+    }
+}
+
+
+void
+receive(void *cb, packet_data *_packet)
+{
+    pbuf *packet = pd_to_ring(_packet);
+    unsigned char *b = (unsigned char *) packet->pd.ptr;
+            
+trace(1, "receive");
+
+    if(b[12] == 0x08){
+        if(b[13] == 0x00) {
+            handle_ip((ip_packet *) b, packet);
+        } else if (b[13] == 0x06) {
+            handle_arp((arp_packet *) b, packet);
+        }
+    }
+    free_buffer_data(&(packet->pd));
+}
+
+#if 0
+void
+xxreceive(void *cb, packet_data *packet)
+{
+    msg_hdr_t msg;
+    int i;
+    pbuf *P = pd_to_ring(packet);
+
+    if(P == p_discard) return;
+    
+    msg.src = port_isr;
+    msg.dst = port_dispatch;
+    msg.flags = 0;
+    msg.size = 4;
+    msg.data = &P;
+
+    if((i = port_send(&msg)) != 4){
+        printf("receive: dispatch send failed %d\n",i);
+        free_buffer_data(packet);
+    }
+}
+#endif
+
+
+#define NET_CONNECT  1
+#define NET_SEND     2
+#define NET_IP       3
+typedef struct 
+{
+    int cmd; 
+    int port;
+    char data[0];
+} net_cmd;
+
+
+unsigned char bcast[] = { 0xff, 0xff, 0xff, 0xff, 0xff, 0xff };
+
+void send_udp(int port, unsigned char *ip, void *data, int size)
+{
+    pbuf *P;
+    udp_packet *udp;
+
+    P = get_pbuf();
+    udp = (udp_packet *) P->pd.ptr;
+    
+    memcpy(&(udp->ether.src),prom,6);
+    memcpy(&(udp->ether.dst),bcast,6);
+    udp->ether.type = ntohs(0x0800);
+    
+    udp->ip.ip_hdr_len = 5;
+    udp->ip.ip_version = 4;
+    udp->ip.ip_tos = 0;
+    udp->ip.ip_len = htons(20 + 8 + size);
+    udp->ip.ip_id = 0;
+    udp->ip.ip_off = 0;
+    udp->ip.ip_ttl = 64;
+    udp->ip.ip_proto = 17;
+    udp->ip.ip_chk = 0;
+    memcpy(&(udp->ip.ip_src),IP,4);
+    memcpy(&(udp->ip.ip_dst),bcast,4);
+    udp->ip.ip_chk = ipchksum(&(udp->ip),sizeof(net_ip));
+    
+    udp->udp.udp_src = htons(5049);
+    udp->udp.udp_dst = htons(port);
+    udp->udp.udp_len = htons(size + 8);
+    udp->udp.udp_chk = 0;
+    
+    memcpy(udp->data, data, size);
+    
+/*    printf("sending UDP to %d / %d\n",port,size);*/
+    P->pb.len = P->pd.len = 14 + 20 + 8 + size;
+    
+    xmit(P);
+    
+}
+
+void
+control(void)
+{
+    int nh;
+    msg_hdr_t msg;
+    char cbuf[1500];
+    net_cmd *cmd = (net_cmd *) cbuf;
+    int size;
+    
+    nh = namer_newhandle();
+    namer_register(nh, port_net = port_create(0),"net");
+
+if (port_net)
+trace(1, "control: sem port_net");
+
+    msg.flags=0;
+    
+    for(;;){
+        msg.dst = port_net;
+        msg.src = 0;
+        msg.data = cbuf;
+        msg.size = 1500;
+        size = port_recv(&msg);
+
+        if(size >= 8){
+            switch(cmd->cmd){
+            case NET_IP:
+                memcpy(cbuf,IP,4);
+                msg.size = 4;
+                msg.data = cbuf;
+                msg.dst = msg.src;
+                msg.src = port_isr;
+                port_send(&msg);
+                break;
+                
+            case NET_CONNECT:
+                pmap[0].udp_port = cmd->port;
+                pmap[0].blt_port = msg.src;
+                printf("ne2000: routing udp:%d -> blt:%d\n",
+                       cmd->port, msg.src);
+                
+                break;
+            case NET_SEND:
+                send_udp(cmd->port, NULL, cmd->data, size-8);
+                break;
+            }
+        }
+    }
+
+}
+
+
+void
+sender(void)
+{
+    msg_hdr_t mh;
+    pbuf *packet;
+    
+    port_xmit = port_create(port_isr);
+/*    port_xmit_done = port_create(port_isr);*/
+    sem_xmit_done = qsem_create(1);
+    
+if (sem_xmit_done)
+trace(1, "sender: sem sem_xmit_done");
+
+    mh.flags = 0;
+    mh.src = port_isr;
+    mh.size = 4;
+    mh.data = &packet;
+    
+    for(;;){
+            /* wait for a send request */
+        mh.dst = port_xmit;
+        if(port_recv(&mh) == 4){
+trace(2, "sender: sending packet");
+                /* send the packet */
+            qsem_acquire(mutex);
+            nic_send_packet(&TheSNIC, &(packet->pb));
+            qsem_release(mutex);
+            
+                /* wait for a done response */
+/*            mh.dst = port_xmit_done;
+            if(port_recv(&mh) == 4){
+            }*/
+            qsem_acquire(sem_xmit_done);
+        }    
+    }
+}
+
+void
+dispatcher(void)
+{
+    pbuf *packet;
+    unsigned char *b;
+    msg_hdr_t msg;
+    port_dispatch = port_create(port_isr);
+
+if (port_dispatch)
+trace(1, "dispatcher: sem port_dispatcher");
+
+    msg.flags = 0;
+    msg.src = port_isr;
+    msg.size = 4;
+    msg.dst = port_dispatch;
+    msg.data = &packet;
+    
+    for(;;){
+        if(port_recv(&msg) == 4){
+            b = (unsigned char *) packet->pd.ptr;
+            
+            if(b[12] == 0x08){
+                if(b[13] == 0x00) {
+                    handle_ip((ip_packet *) b, packet);
+                } else if(b[13] == 0x06) {
+                    handle_arp((arp_packet *) b, packet);
+                }
+            }
+            free_buffer_data(&(packet->pd));
+        }
+    }
+}
+
+/*
+ * bad kludge where using volatile doesn't fool the compiler's optimizer
+ * do not make this inline.
+ */
+static int check_avail(void * foo)
+{
+	return (foo) ? 1 : 0;
+}
+
+int main(void)
+{
+    int i;
+    int nh;    
+    int snic_irq = NIC_IRQ;
+
+    __libc_init_console();
+
+    if(loadip[0]=='i' && loadip[1]=='p'){
+        memcpy(IP,loadip+2,4);   
+    }
+    
+    os_brk(RINGSIZE*PACKETSIZE*2);
+
+    sem_ring = qsem_create(1);
+    mutex = qsem_create(1);
+
+        /* create our send port */
+    port_isr = port_create(0);
+    port_set_restrict(port_isr, port_isr);
+
+    nh = namer_newhandle();    
+    namer_register(nh, port_isr,"net_xmit");
+    namer_delhandle(nh);
+
+    os_handle_irq(snic_irq);
+
+    init_ring();
+    TheSNIC.iobase = 0;
+    nic_init(&TheSNIC, NIC_ADDR, prom, NULL);
+
+    printf("ne2000: irq %d @@ 0x300 mac = %X:%X:%X:%X:%X:%X\n",
+           snic_irq,prom[0],prom[1],prom[2],prom[3],prom[4],prom[5]);    
+
+    nic_register_notify(&TheSNIC,receive,NULL);
+    
+    printf("ne2000: starting sender, dispatcher, and control\n");
+
+    os_thread(sender);
+    //os_thread(dispatcher);
+    os_thread(control);
+
+    while (!(check_avail(sem_xmit_done) && port_net));
+    
+    printf("ne2000: starting NIC\n");
+    nic_start(&TheSNIC,0);
+    printf("ne2000: \033[32mready.\033[37m\n");
+
+/*    printf("TS=%X TD=%X\n",ts,td);*/
+    
+    for(;;){
+        os_sleep_irq();
+        qsem_acquire(mutex);
+        nic_isr(&TheSNIC);
+        qsem_release(mutex);
+    }
+    nic_stop(&TheSNIC);
+
+    return 0;
+}
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.070299
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/srv/ne2000/ne2k.c#8 $
+a47 2
+int snic_irq = NIC_IRQ;
+
+d50 1
+a50 1
+static unsigned char IP[4] = { 10, 113, 216, 6 };	/* we get our ip from the booter */
+d640 1
+a640 23
+void ISR(void)
+{
+    os_handle_irq(snic_irq);
+
+    for(;;){
+        os_sleep_irq();
+        qsem_acquire(mutex);
+        nic_isr(&TheSNIC);
+        qsem_release(mutex);
+    }
+}
+
+int atoi(char *x)
+{
+	int n = 0;
+	while(*x) {
+		n = (n * 10) + (*x - '0');
+		x++;
+	}
+	return n;
+}
+
+int main(int argc, char **argv)
+d644 1
+d648 4
+a651 10
+//    if(loadip[0]=='i' && loadip[1]=='p'){
+//        memcpy(IP,loadip+2,4);   
+//    }
+    
+	if(argc == 5){
+		for(i=0;i<4;i++){
+			IP[i] = atoi(argv[i+1]);
+		}
+	}
+		
+d665 2
+a674 1
+	printf("ne2000: IP %d.%d.%d.%d\n",IP[0],IP[1],IP[2],IP[3]);
+d690 8
+a697 2
+	os_thread(ISR);
+	
+@
+
+
+1.1.1.3
+log
+@openblt.19991228
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/srv/ne2000/ne2k.c#9 $
+d42 1
+a42 1
+#define NIC_IRQ		5
+d521 1
+a521 1
+    namer_register(nh, port_net = port_create(0,"net_listen_port"),"net");
+d569 1
+a569 1
+    port_xmit = port_create(port_isr,"net_isr_port");
+d606 1
+a606 1
+    port_dispatch = port_create(port_isr,"net_dispatch_port");
+d687 1
+a687 1
+    port_isr = port_create(0,"net_send_port");
+@
+
+
+1.1.1.4
+log
+@openblt.20000102
+@
+text
+@d1 26
+a26 2
+/* Copyright 1999, Brian J. Swetland.  All Rights Reserved.
+** This file is provided under the terms of the OpenBLT License
+a27 1
+
+a40 2
+int find_pci(uint16 vendor, uint16 device, int *iobase, int *irq);
+
+a48 1
+int snic_addr = NIC_ADDR;
+d514 1
+d520 2
+a521 1
+    namer_register(port_net = port_create(0,"net_listen_port"),"net");
+d667 1
+a680 4
+	if(find_pci(0x10ec, 0x8029, &snic_addr, &snic_irq)){
+		printf("ne2000: found PCI device\n");
+	}
+	
+d690 3
+a692 1
+    namer_register(port_isr,"net_xmit");
+d696 1
+a696 1
+    nic_init(&TheSNIC, snic_addr, prom, NULL);
+d698 2
+a699 2
+    printf("ne2000: irq %d @@ 0x%S mac = %X:%X:%X:%X:%X:%X\n",
+           snic_irq,snic_addr,prom[0],prom[1],prom[2],prom[3],prom[4],prom[5]);    
+@
+
+
+1.1.1.5
+log
+@openblt.20000517
+@
+text
+@a11 4
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+d24 2
+d37 1
+d40 1
+d53 2
+d72 2
+a73 4
+typedef struct pmap pmap;
+
+struct pmap {
+    struct pmap *next;
+d76 1
+a76 3
+};
+
+pmap *pmaps = NULL;
+d85 1
+d151 1
+d154 1
+a154 1
+	trace(1, "free_buffer");
+d163 8
+a170 1
+    qsem_release(sem_xmit_done);    
+d204 1
+a204 1
+    if((i = old_port_send(&mh)) != 4) printf("xmit: blargh! %d\n",i);
+a333 1
+	pmap *m;
+d337 12
+a348 15
+	for(m = pmaps; m; m = m->next){
+		if(m->udp_port == ntohs(udp->udp.udp_dst)){
+			msg.src = port_isr;
+			msg.dst = m->blt_port;
+			msg.flags = 0;
+			msg.size = ntohs(udp->udp.udp_len) - 8;
+			msg.data = udp->data;
+
+			if((i = old_port_send(&msg)) <0) {	
+				/* XXX: if resource is gone, tear down this mapping */
+				/* printf("aieee %d / %d / %x\n",i,msg.size,msg.data);  */
+			}
+		}
+	}
+	
+d360 2
+a361 2
+		trace(2, "handle_tcp");
+			/* full of worms */
+d368 1
+d370 1
+d372 1
+a372 1
+	trace(2, "handle_ip");
+d415 24
+d452 1
+a452 1
+void send_udp(int src_port, int dst_port, unsigned char *ip, void *data, int size)
+d477 2
+a478 2
+    udp->udp.udp_src = htons(src_port);
+    udp->udp.udp_dst = htons(dst_port);
+d498 5
+d511 1
+a511 1
+        size = old_port_recv(&msg);
+d521 1
+a521 1
+                old_port_send(&msg);
+d524 6
+a529 10
+            case NET_CONNECT: {
+				pmap *m = (pmap *) malloc(sizeof(pmap));
+				if(m) {
+					m->udp_port = cmd->port;
+					m->blt_port = msg.src;
+					m->next = pmaps;
+					pmaps = m;
+					printf("ne2000: routing udp:%d -> blt:%d\n",
+						   cmd->port, msg.src);
+				}                
+d531 2
+a532 8
+			}	
+            case NET_SEND: {
+				pmap *m;
+				for(m = pmaps; m; m = m->next){
+					if(msg.src == m->blt_port) {
+						send_udp(m->udp_port, cmd->port, NULL, cmd->data, size-8);
+					}
+				}
+d534 2
+a535 4
+			}
+			}
+			
+		}
+d540 1
+d547 7
+d562 2
+a563 2
+        if(old_port_recv(&mh) == 4){
+			trace(2, "sender: sending packet");
+d569 4
+d578 42
+d632 10
+d645 6
+a669 1
+	port_option(port_isr, PORT_OPT_NOWAIT, 1);
+a684 5
+	namer_register(port_net = port_create(0,"net_listen_port"),"net");
+
+    port_xmit = port_create(port_isr,"net_isr_port");
+    sem_xmit_done = qsem_create(0);    
+	
+d686 1
+d689 2
+d694 2
+@
+
+

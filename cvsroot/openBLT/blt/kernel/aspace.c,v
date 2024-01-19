@@ -1,0 +1,939 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.7
+	openblt20000429:1.1.1.7
+	openblt20000428:1.1.1.7
+	openblt20000427:1.1.1.7
+	openblt20000426:1.1.1.7
+	openblt20000425:1.1.1.7
+	openblt20000424:1.1.1.7
+	openblt20000423:1.1.1.7
+	openblt20000422:1.1.1.7
+	openblt20000421:1.1.1.7
+	openblt20000420:1.1.1.7
+	openblt20000419:1.1.1.7
+	openblt20000418:1.1.1.7
+	openblt20000417:1.1.1.7
+	openblt20000416:1.1.1.7
+	openblt20000415:1.1.1.7
+	openblt20000414:1.1.1.7
+	openblt20000413:1.1.1.7
+	openblt20000412:1.1.1.7
+	openblt20000411:1.1.1.7
+	openblt20000410:1.1.1.7
+	openblt20000409:1.1.1.7
+	openblt20000408:1.1.1.7
+	openblt20000407:1.1.1.7
+	openblt20000406:1.1.1.7
+	openblt20000405:1.1.1.7
+	openblt20000404:1.1.1.7
+	openblt20000403:1.1.1.7
+	openblt20000402:1.1.1.7
+	openblt20000401:1.1.1.7
+	openblt20000331:1.1.1.7
+	openblt20000330:1.1.1.7
+	openblt20000329:1.1.1.7
+	openblt20000328:1.1.1.7
+	openblt20000327:1.1.1.7
+	openblt20000326:1.1.1.7
+	openblt20000325:1.1.1.7
+	openblt20000324:1.1.1.7
+	openblt20000323:1.1.1.7
+	openblt20000322:1.1.1.7
+	openblt20000321:1.1.1.7
+	openblt20000320:1.1.1.7
+	openblt20000319:1.1.1.7
+	openblt20000318:1.1.1.7
+	openblt20000317:1.1.1.7
+	openblt20000316:1.1.1.7
+	openblt20000315:1.1.1.7
+	openblt20000314:1.1.1.7
+	openblt20000313:1.1.1.7
+	openblt20000312:1.1.1.7
+	openblt20000311:1.1.1.7
+	openblt20000310:1.1.1.7
+	openblt20000309:1.1.1.7
+	openblt20000308:1.1.1.7
+	openblt20000307:1.1.1.7
+	openblt20000306:1.1.1.7
+	openblt20000305:1.1.1.7
+	openblt20000304:1.1.1.7
+	openblt20000303:1.1.1.7
+	openblt20000302:1.1.1.7
+	openblt20000301:1.1.1.7
+	openblt20000229:1.1.1.7
+	openblt20000228:1.1.1.7
+	openblt20000227:1.1.1.7
+	openblt20000226:1.1.1.7
+	openblt20000225:1.1.1.7
+	openblt20000224:1.1.1.7
+	openblt20000223:1.1.1.7
+	openblt20000222:1.1.1.7
+	openblt20000221:1.1.1.7
+	openblt20000220:1.1.1.7
+	openblt20000219:1.1.1.7
+	openblt20000218:1.1.1.7
+	openblt20000217:1.1.1.7
+	openblt20000216:1.1.1.7
+	openblt20000215:1.1.1.7
+	openblt20000214:1.1.1.7
+	openblt20000213:1.1.1.7
+	openblt20000212:1.1.1.7
+	openblt20000211:1.1.1.7
+	openblt20000210:1.1.1.7
+	openblt20000209:1.1.1.7
+	openblt20000208:1.1.1.7
+	openblt20000207:1.1.1.7
+	openblt20000206:1.1.1.7
+	openblt20000205:1.1.1.7
+	openblt20000204:1.1.1.7
+	openblt20000203:1.1.1.7
+	openblt20000202:1.1.1.7
+	openblt20000201:1.1.1.7
+	openblt20000131:1.1.1.7
+	openblt20000130:1.1.1.7
+	openblt20000129:1.1.1.7
+	openblt20000128:1.1.1.7
+	openblt20000127:1.1.1.7
+	openblt20000126:1.1.1.7
+	openblt20000125:1.1.1.7
+	openblt20000124:1.1.1.7
+	openblt20000123:1.1.1.7
+	openblt20000122:1.1.1.7
+	openblt20000121:1.1.1.7
+	openblt20000120:1.1.1.7
+	openblt20000119:1.1.1.7
+	openblt20000118:1.1.1.7
+	openblt20000117:1.1.1.6
+	openblt20000116:1.1.1.6
+	openblt20000115:1.1.1.6
+	openblt20000114:1.1.1.6
+	openblt20000113:1.1.1.6
+	openblt20000112:1.1.1.6
+	openblt20000111:1.1.1.6
+	openblt20000110:1.1.1.6
+	openblt20000109:1.1.1.6
+	openblt20000108:1.1.1.6
+	openblt20000107:1.1.1.6
+	openblt20000106:1.1.1.6
+	openblt20000105:1.1.1.6
+	openblt20000104:1.1.1.6
+	openblt20000103:1.1.1.6
+	openblt20000102:1.1.1.6
+	openblt19991228:1.1.1.5
+	openblt19990827:1.1.1.4
+	openblt082699:1.1.1.4
+	openblt082599:1.1.1.4
+	openblt082499:1.1.1.4
+	openblt082399:1.1.1.4
+	openblt082299:1.1.1.4
+	openblt082199:1.1.1.4
+	openblt082099:1.1.1.4
+	openblt081999:1.1.1.4
+	openblt081899:1.1.1.4
+	openblt081799:1.1.1.4
+	openblt081699:1.1.1.4
+	openblt081599:1.1.1.4
+	openblt071199:1.1.1.4
+	openblt071099:1.1.1.3
+	openblt070799:1.1.1.3
+	openblt070699:1.1.1.2
+	openblt070299:1.1.1.2
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.23.01;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.23.01;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.28.59;	author jr;	state Exp;
+branches;
+next	1.1.1.3;
+
+1.1.1.3
+date	2005.01.20.16.29.17;	author jr;	state Exp;
+branches;
+next	1.1.1.4;
+
+1.1.1.4
+date	2005.01.20.16.29.37;	author jr;	state Exp;
+branches;
+next	1.1.1.5;
+
+1.1.1.5
+date	2005.01.20.16.31.59;	author jr;	state Exp;
+branches;
+next	1.1.1.6;
+
+1.1.1.6
+date	2005.01.20.16.32.18;	author jr;	state Exp;
+branches;
+next	1.1.1.7;
+
+1.1.1.7
+date	2005.01.20.16.36.52;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/kernel/aspace.c#8 $
+**
+** Copyright 1998 Brian J. Swetland
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+#include "kernel.h"
+#include "memory.h"
+#include "aspace.h"
+
+extern uint32 _cr3;
+extern aspace_t *flat;
+
+void aspace_pprint(uint32 *page, uint32 vbase)
+{
+    int i,j;
+
+    char buf[80];
+    
+    for(i=0;i<1024;i++){
+        if(page[i]){
+            j = page[i];
+            snprintf(buf,80,"%s %s %s ",
+                    (j & 4) ? "USR" : "SYS",
+                    (j & 2) ? "RW" : "RO",
+                    (j & 1) ? "P" : "X");
+
+            snprintf(buf+9,80-9,"%xv  %xp", i*4096+vbase, j&0xFFFFFF00);
+            
+            for(j=1;(i+j < 1024) &&
+                    ( (0xFFFFFF00 & page[i+j]) ==
+                      (0xFFFFFF00 & page[i+j-1])+0x1000 );j++);
+            
+            if(j>1) { 
+                i += j-1;
+                snprintf(buf+29,80-29," - %xp (%x)",
+                        0x0FFF + (page[i]&0xFFFFFF00), j);
+            }
+            kprintf(buf);
+        }
+    }
+}
+
+void aspace_kprint(aspace_t *a)
+{
+    aspace_pprint(a->high,0x80000000);       
+}
+
+void aspace_print(aspace_t *a)
+{
+    aspace_pprint(a->ptab,0);        
+}
+
+aspace_t *aspace_create(void) 
+{
+    int i;
+    uint32 phys;
+	uint32 *raw;
+    
+    aspace_t *a = kmalloc64();
+	raw = kgetpages2(2,3,&phys);
+	a->pdir = raw;
+	a->ptab = &raw[1024];
+	a->high = flat->high;
+	a->areas = NULL;
+	
+    for(i=0;i<1024;i++){
+        a->pdir[i] = 0;
+        a->ptab[i] = 0;
+    }
+    a->pdir[0] = (phys + 4096) | 7;
+    a->pdir[512] = (_cr3 + 2*4096) | 3;
+	rsrc_bind(&a->rsrc, RSRC_ASPACE, NULL);
+    return a;
+}
+
+void aspace_protect(aspace_t *a, uint32 virt, uint32 flags)
+{
+    a->ptab[virt] = ((a->ptab[virt] & 0xFFFFF000) | (flags & 0x00000FFF));
+    
+}
+
+void aspace_map(aspace_t *a, uint32 phys, uint32 virt, uint32 len, uint32 flags)
+{
+    int i;
+    for(i=0;i<len;i++){
+        a->ptab[virt+i] = (((phys+i)*4096) & 0xFFFFF000) |
+            (flags & 0x00000FFF);
+        local_flush_pte(0x1000*((virt)+i));
+    }    
+}
+
+void aspace_maphi(aspace_t *a, uint32 phys, uint32 virt, uint32 len, uint32 flags)
+{
+    int i;
+    for(i=0;i<len;i++){
+        a->high[(virt&0x3FF)+i] = (phys+i)*4096 | flags;
+        local_flush_pte(0x1000*((virt&0x3FF)+i));
+    }
+    
+}
+
+void aspace_clr(aspace_t *a, uint32 virt, uint32 len)
+{
+    int i;
+    for(i=0;i<len;i++)
+        a->ptab[virt+i] = 0;
+}
+
+/* find a span of contig virtual pages */
+static int locate_span(aspace_t *a, uint32 start, uint32 len)
+{
+    uint32 *map = a->ptab;
+    uint32 found = 0;
+    uint32 foundat = 0;
+    
+    /* default to 2mb line if unspec or invalid */
+    if((start < 1) || (start > 1023)) start = 512;
+    
+    while((found < len) && (start < 1024)){
+        if(map[start]){
+            found = 0;
+            foundat = 0;
+        } else {
+            if(found == 0) foundat = start;
+            found++;
+        }
+        start++;
+    }
+    return foundat;
+}
+
+
+#define AREA_PHYSMAP 0x00001010
+
+/* userland calls */
+int area_create(aspace_t *aspace, off_t size, off_t virt, void **addr, uint32 flags)
+{
+    int ppo,i,p,at;
+    area_t *area;
+    pagegroup_t *pg;
+    phys_page_t *pp;
+    anode_t *an;
+    size = (size & 0x0FFF) ? (size / 0x1000 + 1) : (size / 0x1000);
+    
+    if(size < 1) size = 1;
+
+    if(flags & AREA_PHYSMAP) {
+        p = ((uint32) *addr) / 0x1000;
+    } 
+    
+    /* find a virtaddr */
+    if(!(at = locate_span(aspace, virt/0x1000, size))){
+        return ERR_MEMORY;
+    }
+    
+    /* create a fresh pagegroup and enough phys_page_t's */    
+    pg = (pagegroup_t *) kmalloc32();
+    pg->flags = flags;
+    pg->refcount = 1;
+    pg->size = size;
+    pg->pages = NULL;
+    for(i=0;i<size;i+=6){
+        pp = (phys_page_t *) kmalloc32();
+        pp->lockcount = 0;
+        pp->next = pg->pages;
+        pg->pages = pp;
+    };
+    
+    /* create an area to ref the pagegroup */
+    area = (area_t *) kmalloc32();
+    area->pgroup = pg;
+    area->virt_addr = at;
+    area->length = size;
+    area->maxlength = size;
+    
+    /* link this area into the new pagegroup */
+    an = (anode_t *) kmalloc16();
+    an->next = an->prev = NULL;
+    an->area = area;
+    pg->areas = an;
+    
+    /* link this area into the aspace's arealist */
+    an = (anode_t *) kmalloc16();
+    if(aspace->areas){
+        aspace->areas->prev = an;
+    }
+    an->next = aspace->areas;
+    an->prev = NULL;
+    an->area = area;
+    aspace->areas = an;
+
+    /* check for valid ptr */
+    *addr = (void *) (at * 0x1000);
+        
+    /* allocate pages, fill phys_page_t's, and map 'em */
+    for(ppo=0,pp=pg->pages,i=0;i<size;i++){
+        if(!(flags & AREA_PHYSMAP)) {
+            p = getpages(1);
+        }
+        aspace_map(aspace, p, at, 1, 7);
+        pp->addr[ppo] = p;
+        ppo++;
+        if(ppo == 6) {
+            ppo = 0;
+            pp = pp->next;
+        }
+        if(flags & AREA_PHYSMAP) p++;
+        at++;
+    }
+    
+    /*
+	 * zero extra space in last phys_page_t.
+	 * careful, ppo == 0 and pp == NULL if size == 6.
+	 */
+    while((ppo < 6) && (pp != NULL)){
+        pp->addr[ppo] = 0;
+        ppo++;
+    }
+    
+    /* bind the resource and return the id */
+    rsrc_bind(&(area->rsrc), RSRC_AREA, current);
+    return area->rsrc.id;
+}
+
+int area_create_uber(off_t size, void *addr)
+{
+    int ppo,i,p,at;
+    area_t *area;
+    pagegroup_t *pg;
+    phys_page_t *pp;
+    anode_t *an;
+
+    size = (size & 0x0FFF) ? (size / 0x1000 + 1) : (size / 0x1000);
+    if(size < 1) size = 1;
+
+    p = ((uint32) addr) / 0x1000;
+    
+    /* create a fresh pagegroup and enough phys_page_t's */    
+    pg = (pagegroup_t *) kmalloc32();
+    pg->flags = 0x1010;
+    pg->refcount = 1;
+    pg->size = size;
+    pg->pages = NULL;
+    for(i=0;i<size;i+=6){
+        pp = (phys_page_t *) kmalloc32();
+        pp->lockcount = 0;
+        pp->next = pg->pages;
+        pg->pages = pp;
+    };
+    
+    /* create an area to ref the pagegroup */
+    area = (area_t *) kmalloc32();
+    area->pgroup = pg;
+    area->virt_addr = at;
+    area->length = size;
+    area->maxlength = size;
+    
+    /* link this area into the new pagegroup */
+    an = (anode_t *) kmalloc16();
+    an->next = an->prev = NULL;
+    an->area = area;
+    pg->areas = an;
+    
+    /* allocate pages, fill phys_page_t's, and map 'em */
+    for(ppo=0,pp=pg->pages,i=0;i<size;i++){
+        pp->addr[ppo] = p;
+        ppo++;
+        if(ppo == 6) {
+            ppo = 0;
+            pp = pp->next;
+        }
+        p++;
+        at++;
+    }
+    
+    /*
+	 * zero extra space in last phys_page_t.
+	 * careful, ppo == 0 and pp == NULL if size == 6.
+	 */
+    while((ppo < 6) && (pp != NULL)){
+        pp->addr[ppo] = 0;
+        ppo++;
+    }
+    
+    /* bind the resource and return the id */
+    rsrc_bind(&(area->rsrc), RSRC_AREA, kernel);
+    return area->rsrc.id;
+}
+
+int area_clone(aspace_t *aspace, int area_id, off_t virt, void **addr, uint32 flags)
+{
+    area_t *area0, *area1;
+    uint32 at, size;
+    anode_t *an;
+    phys_page_t *pp;
+    int i,ppo;
+    
+    /* make sure the area exists */
+    /* xxx : check perm */
+    if(!(area0 = rsrc_find_area(area_id))) return ERR_RESOURCE;
+    
+    /* find virt space for it */
+    if(!(at = locate_span(aspace, virt/0x1000, area0->length))){
+        return ERR_MEMORY;
+    }
+
+/* xxx lock area1 and area1->pgroup */
+        
+    /* allocate the clone area and init it from the orig */
+    area1 = (area_t *) kmalloc32();
+    area0->pgroup->refcount++;
+    area1->pgroup = area0->pgroup;
+    size = area1->length = area0->length;
+    area1->maxlength = area0->maxlength;
+    area1->virt_addr = at;
+    
+    /* link this area into the new pagegroup */
+    an = (anode_t *) kmalloc16();
+    area0->pgroup->areas->prev = an;
+    an->next = area0->pgroup->areas;
+    an->prev = NULL;
+    an->area = area1;
+    area0->pgroup->areas = an;
+   
+    /* link this area into the aspace's arealist */
+    an = (anode_t *) kmalloc16();
+    if(aspace->areas){
+        aspace->areas->prev = an;
+    }
+    an->next = aspace->areas;
+    an->prev = NULL;
+    an->area = area1;
+    aspace->areas = an;        
+
+    /* check for valid ptr */
+    *addr = (void *) (at * 0x1000);
+        
+    /* map the phys_page_t's into the clone area */
+    for(ppo=0,i=0,pp=area1->pgroup->pages;i<size;i++){
+        aspace_map(aspace, pp->addr[ppo], at, 1, 7);
+        at++;
+        ppo++;
+        if(ppo == 6){
+            ppo = 0;
+            pp = pp->next;
+        }
+    }
+    /*
+    kprintf("area0 pgroup %x",area1->pgroup);
+    kprintf("area1 pgroup %x",area1->pgroup);
+    */
+    /* bind and return an id */
+    rsrc_bind(&(area1->rsrc), RSRC_AREA, current);
+    return area1->rsrc.id;
+}
+
+int area_destroy(aspace_t *aspace, int area_id)
+{
+
+}
+
+int area_resize(aspace_t *aspace, int area_id, off_t size)
+{
+    area_t *area;
+    pagegroup_t *pg;
+    int ppo;
+    phys_page_t *pp,*pp0;
+    uint32 at,p;
+    
+    if(!(area = rsrc_find_area(area_id))) return ERR_RESOURCE;
+    
+    pg = area->pgroup;
+    pp = area->pgroup->pages;
+    
+    
+    if(size <= pg->size*0x1000) return 0;
+
+    size = size/0x1000 - pg->size; /* pages to add */
+/*
+    kprintf("area_resize: %x %x %x + %x",area,pg,pp,size);
+ */   
+    at = locate_span(aspace, area->virt_addr + pg->size, size);
+    if(at != (area->virt_addr + pg->size)) {
+        kprintf("oops: cannot grow area (%x != %x)",at,area->virt_addr+pg->size);
+        return ERR_MEMORY;
+    }
+    
+    pg->size += size;
+    area->length += size;
+    area->maxlength += size;
+    
+    while(pp->next) pp = pp->next;
+    ppo = pg->size % 6;
+    
+    while(size){
+        if(!ppo){
+            pp0 = (phys_page_t *) kmalloc32();
+            pp0->next = NULL;
+            pp->next = pp0;
+            pp0->lockcount = 0;
+            pp = pp0;
+        }
+        p = getpages(1);
+        aspace_map(aspace, p, at, 1, 7);
+        pp->addr[ppo] = p;
+        at++;
+        ppo++;
+        if(ppo == 6) ppo = 0;
+        size--;
+    }
+    
+    return 0;
+}
+
+
+
+
+
+
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.070299
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/aspace.c#10 $
+d82 1
+a82 1
+    aspace_t *a = kmalloc(aspace_t);
+d180 1
+a180 1
+    pg = (pagegroup_t *) kmalloc(pagegroup_t);
+d186 1
+a186 1
+        pp = (phys_page_t *) kmalloc(phys_page_t);
+d193 1
+a193 1
+    area = (area_t *) kmalloc(area_t);
+d200 1
+a200 1
+    an = (anode_t *) kmalloc(anode_t);
+d206 1
+a206 1
+    an = (anode_t *) kmalloc(anode_t);
+d262 1
+a262 1
+    pg = (pagegroup_t *) kmalloc(pagegroup_t);
+d268 1
+a268 1
+        pp = (phys_page_t *) kmalloc(phys_page_t);
+d275 1
+a275 1
+    area = (area_t *) kmalloc(area_t);
+d282 1
+a282 1
+    an = (anode_t *) kmalloc(anode_t);
+d333 1
+a333 1
+    area1 = (area_t *) kmalloc(area_t);
+d341 1
+a341 1
+    an = (anode_t *) kmalloc(anode_t);
+d349 1
+a349 1
+    an = (anode_t *) kmalloc(anode_t);
+d420 1
+a420 1
+            pp0 = (phys_page_t *) kmalloc(phys_page_t);
+@
+
+
+1.1.1.3
+log
+@openblt.070799
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/aspace.c#11 $
+@
+
+
+1.1.1.4
+log
+@openblt.071199
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/aspace.c#12 $
+d79 2
+a80 2
+    uint32 phys0,phys1;
+	uint32 *raw0,*raw1;
+d83 3
+a85 4
+	raw0 = kgetpage(&phys0);
+	raw1 = kgetpage(&phys1);
+	a->pdir = raw0;
+	a->ptab = raw1;
+a86 1
+	a->pdirphys = phys0;
+d93 1
+a93 1
+    a->pdir[0] = phys1 | 7;
+d221 1
+a221 1
+            p = getpage();
+d426 1
+a426 1
+        p = getpage();
+@
+
+
+1.1.1.5
+log
+@openblt.19991228
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/aspace.c#18 $
+d89 1
+a89 1
+	list_init(&a->areas);
+d97 1
+a97 1
+	rsrc_bind(&a->rsrc, RSRC_ASPACE, kernel_team);
+d103 2
+a104 1
+    a->ptab[virt] = ((a->ptab[virt] & 0xFFFFF000) | (flags & 0x00000FFF));    
+d122 1
+a122 1
+        local_flush_pte(0x1000*((virt)+i));
+d130 1
+a130 1
+    for(i=0;i<len;i++){
+a131 17
+	}
+}
+
+void aspace_destroy(aspace_t *a)
+{
+	area_t *area;
+		
+	/* tear down all attached areas */
+	while((area = (area_t*) list_peek_head(&a->areas))){
+		area_destroy(a, area->rsrc.id);
+	}
+		
+	rsrc_release(&a->rsrc);
+	/* release page directory and table(s) */
+	kfreepage(a->pdir);
+	kfreepage(a->ptab);
+	kfree(aspace_t, a);
+d167 1
+a186 1
+	list_init(&pg->areas);
+d202 4
+a205 1
+	list_add_tail(&pg->areas, area);
+d208 8
+a215 1
+	list_add_tail(&aspace->areas, area);	
+d246 1
+a246 1
+    rsrc_bind(&(area->rsrc), RSRC_AREA, current->rsrc.owner);
+d256 1
+a268 1
+	list_init(&pg->areas);
+d284 4
+a287 1
+	list_add_tail(&pg->areas, area);    
+d311 1
+a311 1
+    rsrc_bind(&(area->rsrc), RSRC_AREA, kernel_team);
+d319 1
+d326 1
+a326 1
+	
+a331 1
+	
+d341 1
+a341 1
+	
+d343 6
+a348 1
+	list_add_tail(&area0->pgroup->areas, area1);
+d351 8
+a358 1
+	list_add_tail(&aspace->areas, area1);
+d378 1
+a378 2
+    rsrc_bind(&(area1->rsrc), RSRC_AREA, current->rsrc.owner);
+//	kprintf("area_clone(%d) -> %d",area_id,area1->rsrc.id);
+a383 36
+	area_t *area;
+	pagegroup_t *pg;
+	
+    if(!(area = rsrc_find_area(area_id))) return ERR_RESOURCE;
+	
+	/* find and unchain the area from its aspace -- complain if it is foreign */
+	if(list_remove(&aspace->areas, area)) return ERR_RESOURCE;
+	
+	/* unmap the memory */
+	aspace_clr(aspace, area->virt_addr, area->length);
+	
+	pg = area->pgroup;
+	
+	/* remove this area from the pgroup's area list */
+	list_remove(&pg->areas, area);
+	
+	/* decr the pagegroup refcount and tear it down if zero */
+	pg->refcount--;
+	
+	if(pg->refcount == 0){
+		int release = !(pg->flags & AREA_PHYSMAP);
+		int count = 0;
+		phys_page_t *pp;
+
+		while(pp = pg->pages){
+			pg->pages = pp->next;
+			if(release){
+				for(count=0;pg->size && (count < 6);count++){
+					putpage(pp->addr[count]);
+					pg->size--;
+				}
+			}
+			kfree(phys_page_t, pp);
+		}	
+		kfree(pagegroup_t, pg);
+	}
+a384 4
+	rsrc_release(&area->rsrc);
+	
+	kfree(area_t, area);
+	return ERR_NONE;
+d400 1
+a400 2
+//	kprintf("area_resize(%x,%d,%d)",aspace,area_id,size);
+	    
+d404 3
+a406 3
+
+//    kprintf("area_resize: %x %x %x + %x",area,pg,pp,size);
+
+a412 3
+    while(pp->next) pp = pp->next;
+    ppo = pg->size % 6;
+    
+d416 3
+@
+
+
+1.1.1.6
+log
+@openblt.20000102
+@
+text
+@d1 26
+a26 2
+/* Copyright 1998-1999, Brian J. Swetland. All rights reserved.
+** Distributed under the terms of the OpenBLT License
+@
+
+
+1.1.1.7
+log
+@openblt.20000118
+@
+text
+@a4 1
+#include <blt/os.h>
+a11 2
+int snprintf (char *s, int len, const char *fmt, ...);
+
+d149 3
+d155 1
+a155 1
+    int ppo,i,p=0,at;
+d181 1
+a181 1
+        pp->refcount = 0;
+d234 1
+a234 1
+    int ppo,i,p,at=0;
+d246 1
+a246 1
+    pg->flags = AREA_PHYSMAP;
+d253 1
+a253 1
+        pp->refcount = 0;
+d376 1
+a376 1
+		while((pp = pg->pages)){
+d434 1
+a434 1
+            pp0->refcount = 0;
+@
+
+

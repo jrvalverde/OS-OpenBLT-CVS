@@ -1,0 +1,355 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.1
+	openblt20000429:1.1.1.1
+	openblt20000428:1.1.1.1
+	openblt20000427:1.1.1.1
+	openblt20000426:1.1.1.1
+	openblt20000425:1.1.1.1
+	openblt20000424:1.1.1.1
+	openblt20000423:1.1.1.1
+	openblt20000422:1.1.1.1
+	openblt20000421:1.1.1.1
+	openblt20000420:1.1.1.1
+	openblt20000419:1.1.1.1
+	openblt20000418:1.1.1.1
+	openblt20000417:1.1.1.1
+	openblt20000416:1.1.1.1
+	openblt20000415:1.1.1.1
+	openblt20000414:1.1.1.1
+	openblt20000413:1.1.1.1
+	openblt20000412:1.1.1.1
+	openblt20000411:1.1.1.1
+	openblt20000410:1.1.1.1
+	openblt20000409:1.1.1.1
+	openblt20000408:1.1.1.1
+	openblt20000407:1.1.1.1
+	openblt20000406:1.1.1.1
+	openblt20000405:1.1.1.1
+	openblt20000404:1.1.1.1
+	openblt20000403:1.1.1.1
+	openblt20000402:1.1.1.1
+	openblt20000401:1.1.1.1
+	openblt20000331:1.1.1.1
+	openblt20000330:1.1.1.1
+	openblt20000329:1.1.1.1
+	openblt20000328:1.1.1.1
+	openblt20000327:1.1.1.1
+	openblt20000326:1.1.1.1
+	openblt20000325:1.1.1.1
+	openblt20000324:1.1.1.1
+	openblt20000323:1.1.1.1
+	openblt20000322:1.1.1.1
+	openblt20000321:1.1.1.1
+	openblt20000320:1.1.1.1
+	openblt20000319:1.1.1.1
+	openblt20000318:1.1.1.1
+	openblt20000317:1.1.1.1
+	openblt20000316:1.1.1.1
+	openblt20000315:1.1.1.1
+	openblt20000314:1.1.1.1
+	openblt20000313:1.1.1.1
+	openblt20000312:1.1.1.1
+	openblt20000311:1.1.1.1
+	openblt20000310:1.1.1.1
+	openblt20000309:1.1.1.1
+	openblt20000308:1.1.1.1
+	openblt20000307:1.1.1.1
+	openblt20000306:1.1.1.1
+	openblt20000305:1.1.1.1
+	openblt20000304:1.1.1.1
+	openblt20000303:1.1.1.1
+	openblt20000302:1.1.1.1
+	openblt20000301:1.1.1.1
+	openblt20000229:1.1.1.1
+	openblt20000228:1.1.1.1
+	openblt20000227:1.1.1.1
+	openblt20000226:1.1.1.1
+	openblt20000225:1.1.1.1
+	openblt20000224:1.1.1.1
+	openblt20000223:1.1.1.1
+	openblt20000222:1.1.1.1
+	openblt20000221:1.1.1.1
+	openblt20000220:1.1.1.1
+	openblt20000219:1.1.1.1
+	openblt20000218:1.1.1.1
+	openblt20000217:1.1.1.1
+	openblt20000216:1.1.1.1
+	openblt20000215:1.1.1.1
+	openblt20000214:1.1.1.1
+	openblt20000213:1.1.1.1
+	openblt20000212:1.1.1.1
+	openblt20000211:1.1.1.1
+	openblt20000210:1.1.1.1
+	openblt20000209:1.1.1.1
+	openblt20000208:1.1.1.1
+	openblt20000207:1.1.1.1
+	openblt20000206:1.1.1.1
+	openblt20000205:1.1.1.1
+	openblt20000204:1.1.1.1
+	openblt20000203:1.1.1.1
+	openblt20000202:1.1.1.1
+	openblt20000201:1.1.1.1
+	openblt20000131:1.1.1.1
+	openblt20000130:1.1.1.1
+	openblt20000129:1.1.1.1
+	openblt20000128:1.1.1.1
+	openblt20000127:1.1.1.1
+	openblt20000126:1.1.1.1
+	openblt20000125:1.1.1.1
+	openblt20000124:1.1.1.1
+	openblt20000123:1.1.1.1
+	openblt20000122:1.1.1.1
+	openblt20000121:1.1.1.1
+	openblt20000120:1.1.1.1
+	openblt20000119:1.1.1.1
+	openblt20000118:1.1.1.1
+	openblt20000117:1.1.1.1
+	openblt20000116:1.1.1.1
+	openblt20000115:1.1.1.1
+	openblt20000114:1.1.1.1
+	openblt20000113:1.1.1.1
+	openblt20000112:1.1.1.1
+	openblt20000111:1.1.1.1
+	openblt20000110:1.1.1.1
+	openblt20000109:1.1.1.1
+	openblt20000108:1.1.1.1
+	openblt20000107:1.1.1.1
+	openblt20000106:1.1.1.1
+	openblt20000105:1.1.1.1
+	openblt20000104:1.1.1.1
+	openblt20000103:1.1.1.1
+	openblt20000102:1.1.1.1
+	openblt19991228:1.1.1.1
+	openblt19990827:1.1.1.1
+	openblt082699:1.1.1.1
+	openblt082599:1.1.1.1
+	openblt082499:1.1.1.1
+	openblt082399:1.1.1.1
+	openblt082299:1.1.1.1
+	openblt082199:1.1.1.1
+	openblt082099:1.1.1.1
+	openblt081999:1.1.1.1
+	openblt081899:1.1.1.1
+	openblt081799:1.1.1.1
+	openblt081699:1.1.1.1
+	openblt081599:1.1.1.1
+	openblt071199:1.1.1.1
+	openblt071099:1.1.1.1
+	openblt070799:1.1.1.1
+	openblt070699:1.1.1.1
+	openblt070299:1.1.1.1
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.23.00;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/netboot/net.h#3 $
+**
+** Copyright 1998 Brian J. Swetland
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+#pragma pack(2)
+
+/*
+typedef unsigned char uint8;
+typedef unsigned short uint16;
+typedef unsigned int uint32;
+*/
+
+typedef struct 
+{
+    uint8  dst[6];
+    uint8  src[6];    
+    uint16 type;    
+} net_ether;
+
+typedef struct 
+{
+    uint8  ip_hdr_len:4;
+    uint8  ip_version:4;
+    uint8  ip_tos;
+    uint16 ip_len;
+    
+    uint16 ip_id;
+    uint16 ip_off;
+    
+    uint8  ip_ttl;
+    uint8  ip_proto;    
+    uint16 ip_chk;
+    
+    uint32 ip_src;
+    uint32 ip_dst;        
+} net_ip;
+
+#define IP_PROTO_ICMP   1
+#define IP_PROTO_IGMP   2
+#define IP_PROTO_TCP    6
+#define IP_PROTO_UDP   17
+
+#define IP_TOS_MIN_DELAY  0x10
+#define IP_TOS_MAX_THRU   0x08
+#define IP_TOS_MAX_RELY   0x04
+#define IP_TOS_MIN_COST   0x02
+
+#define IP_FLAG_CE 0x8000
+#define IP_FLAG_DF 0x4000
+#define IP_FLAG_MF 0x2000
+#define IP_FLAG_MASK 0x1FFF
+
+typedef struct 
+{
+    uint16 udp_src;
+    uint16 udp_dst;
+
+    uint16 udp_len;
+    uint16 udp_chk;    
+} net_udp;
+
+typedef struct
+{
+    uint8  icmp_type;
+    uint8  icmp_code;
+    uint16 icmp_chk;
+} net_icmp;
+
+typedef struct
+{
+    net_icmp ping_icmp;    
+    uint16   ping_id;
+    uint16   ping_seq;    
+} net_icmp_ping;
+
+typedef struct
+{
+    uint16 arp_hard_type;
+    uint16 arp_prot_type;    
+    uint8  arp_hard_size;
+    uint8  arp_prot_size;
+    uint16 arp_op;    
+    uint8  arp_enet_sender[6];
+    uint32 arp_ip_sender;
+    uint8  arp_enet_target[6];
+    uint32 arp_ip_target;    
+} net_arp;
+
+#define ARP_OP_REQUEST  1
+#define ARP_OP_REPLY    2
+#define RARP_OP_REQUEST 3
+#define RARP_OP_REPLY   4
+
+/* yeah, ugly as shit */
+#define ntohs(n) ( (((n) & 0xFF00) >> 8) | (((n) & 0x00FF) << 8) )
+#define htons(n) ( (((n) & 0xFF00) >> 8) | (((n) & 0x00FF) << 8) )
+#define ntohl(n) ( (((n) & 0xFF000000) >> 24) | (((n) & 0x00FF0000) >> 8) | (((n) & 0x0000FF00) << 8) | (((n) & 0x000000FF) << 24) )
+#define htonl(n) ( (((n) & 0xFF000000) >> 24) | (((n) & 0x00FF0000) >> 8) | (((n) & 0x0000FF00) << 8) | (((n) & 0x000000FF) << 24) )
+
+/*
+typedef struct 
+{
+    uint32 ip;    
+    uint16 flags;
+    uint8  hw[6];   
+} net_arp_table;
+
+typedef struct 
+{
+    uint32 dest;
+    uint32 gw;
+    uint32 mask;
+    uint16 flags;
+    net_iface *iface;    
+} net_route_table;
+
+
+typedef struct 
+{
+    char name[8];
+    uint32 addr;
+    uint32 bcast;
+    uint32 mask;
+    uint16 flags;
+    uint16 mtu;
+    uint32 metric;
+    
+    uint32 stat_rx_packets;
+    uint32 stat_rx_errors;
+    uint32 stat_rx_dropped;
+    uint32 stat_rx_overruns;
+
+    uint32 stat_tx_packets;
+    uint32 stat_tx_errors;
+    uint32 stat_tx_dropped;
+    uint32 stat_tx_overruns;
+
+    void (*send)(void);
+    void (*init)(void);    
+    void (*add_proto)(net_proto *proto, uint16 id);
+    
+} net_iface;
+
+#define IF_UP         0x0001
+#define IF_BROADCAST  0x0002
+#define IF_PROMISC    0x0004
+#define IF_LOOPBACK   0x0008
+#define IF_MULTICAST  0x0010
+#define IF_RUNNING    0x0020
+*/
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@

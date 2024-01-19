@@ -1,0 +1,488 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.2
+	openblt20000429:1.1.1.1
+	openblt20000428:1.1.1.1
+	openblt20000427:1.1.1.1
+	openblt20000426:1.1.1.1
+	openblt20000425:1.1.1.1
+	openblt20000424:1.1.1.1
+	openblt20000423:1.1.1.1
+	openblt20000422:1.1.1.1
+	openblt20000421:1.1.1.1
+	openblt20000420:1.1.1.1
+	openblt20000419:1.1.1.1
+	openblt20000418:1.1.1.1
+	openblt20000417:1.1.1.1
+	openblt20000416:1.1.1.1
+	openblt20000415:1.1.1.1
+	openblt20000414:1.1.1.1
+	openblt20000413:1.1.1.1
+	openblt20000412:1.1.1.1
+	openblt20000411:1.1.1.1
+	openblt20000410:1.1.1.1
+	openblt20000409:1.1.1.1
+	openblt20000408:1.1.1.1
+	openblt20000407:1.1.1.1
+	openblt20000406:1.1.1.1
+	openblt20000405:1.1.1.1
+	openblt20000404:1.1.1.1
+	openblt20000403:1.1.1.1
+	openblt20000402:1.1.1.1
+	openblt20000401:1.1.1.1
+	openblt20000331:1.1.1.1
+	openblt20000330:1.1.1.1
+	openblt20000329:1.1.1.1
+	openblt20000328:1.1.1.1
+	openblt20000327:1.1.1.1
+	openblt20000326:1.1.1.1
+	openblt20000325:1.1.1.1
+	openblt20000324:1.1.1.1
+	openblt20000323:1.1.1.1
+	openblt20000322:1.1.1.1
+	openblt20000321:1.1.1.1
+	openblt20000320:1.1.1.1
+	openblt20000319:1.1.1.1
+	openblt20000318:1.1.1.1
+	openblt20000317:1.1.1.1
+	openblt20000316:1.1.1.1
+	openblt20000315:1.1.1.1
+	openblt20000314:1.1.1.1
+	openblt20000313:1.1.1.1
+	openblt20000312:1.1.1.1
+	openblt20000311:1.1.1.1
+	openblt20000310:1.1.1.1
+	openblt20000309:1.1.1.1
+	openblt20000308:1.1.1.1
+	openblt20000307:1.1.1.1
+	openblt20000306:1.1.1.1
+	openblt20000305:1.1.1.1
+	openblt20000304:1.1.1.1
+	openblt20000303:1.1.1.1
+	openblt20000302:1.1.1.1
+	openblt20000301:1.1.1.1
+	openblt20000229:1.1.1.1
+	openblt20000228:1.1.1.1
+	openblt20000227:1.1.1.1
+	openblt20000226:1.1.1.1
+	openblt20000225:1.1.1.1
+	openblt20000224:1.1.1.1
+	openblt20000223:1.1.1.1
+	openblt20000222:1.1.1.1
+	openblt20000221:1.1.1.1
+	openblt20000220:1.1.1.1
+	openblt20000219:1.1.1.1
+	openblt20000218:1.1.1.1
+	openblt20000217:1.1.1.1
+	openblt20000216:1.1.1.1
+	openblt20000215:1.1.1.1
+	openblt20000214:1.1.1.1
+	openblt20000213:1.1.1.1
+	openblt20000212:1.1.1.1
+	openblt20000211:1.1.1.1
+	openblt20000210:1.1.1.1
+	openblt20000209:1.1.1.1
+	openblt20000208:1.1.1.1
+	openblt20000207:1.1.1.1
+	openblt20000206:1.1.1.1
+	openblt20000205:1.1.1.1
+	openblt20000204:1.1.1.1
+	openblt20000203:1.1.1.1
+	openblt20000202:1.1.1.1
+	openblt20000201:1.1.1.1
+	openblt20000131:1.1.1.1
+	openblt20000130:1.1.1.1
+	openblt20000129:1.1.1.1
+	openblt20000128:1.1.1.1
+	openblt20000127:1.1.1.1
+	openblt20000126:1.1.1.1
+	openblt20000125:1.1.1.1
+	openblt20000124:1.1.1.1
+	openblt20000123:1.1.1.1
+	openblt20000122:1.1.1.1
+	openblt20000121:1.1.1.1
+	openblt20000120:1.1.1.1
+	openblt20000119:1.1.1.1
+	openblt20000118:1.1.1.1
+	openblt20000117:1.1.1.1
+	openblt20000116:1.1.1.1
+	openblt20000115:1.1.1.1
+	openblt20000114:1.1.1.1
+	openblt20000113:1.1.1.1
+	openblt20000112:1.1.1.1
+	openblt20000111:1.1.1.1
+	openblt20000110:1.1.1.1
+	openblt20000109:1.1.1.1
+	openblt20000108:1.1.1.1
+	openblt20000107:1.1.1.1
+	openblt20000106:1.1.1.1
+	openblt20000105:1.1.1.1
+	openblt20000104:1.1.1.1
+	openblt20000103:1.1.1.1
+	openblt20000102:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@// @;
+
+
+1.1
+date	2005.01.20.16.32.09;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.32.09;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.17.11.11;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@// Copyright 1999, Brian J. Swetland.  All Rights Reserved.
+// This file is provided under the terms of the OpenBLT License
+
+#include <stdlib.h>
+#include <string.h>
+
+#include <blt/Message.h>
+#include <blt/syscall.h>
+
+#define GROW_BY 128
+#define BLT_ID_MESSAGE 0x42023017
+
+using namespace BLT;
+
+struct chunk
+{
+	uint32 type;
+	uint32 id;
+	uint32 len;
+	uchar data[4];
+};
+
+Message::Message()
+{
+	chunk *c;
+	
+	_data = malloc(GROW_BY);
+	_length = 12;
+	_available = GROW_BY - 12;
+	
+	c = (chunk*) _data;
+	
+	c->type = BLT_TYPE_MESSAGE;
+	c->id = BLT_ID_MESSAGE;
+	c->len = 0;
+	
+	_reply_port = 0;
+}
+
+
+Message::~Message()
+{
+	if(_data) free(_data);
+}
+
+int 
+Message::PutData(uint32 type, uint32 id, const void *data, uint32 len)
+{
+	chunk *c;
+	uint32 size = 12 + ((len + 3) & ~3);
+	
+	if(_available < size) {
+		while(_available < size) {
+			_available += GROW_BY;
+		}
+		_data = realloc(_data, (_length + _available));
+	}
+	
+	c = (chunk*) ((char*) _data + _length);
+	c->type = type;
+	c->id = id;
+	c->len = len;
+	memcpy(c->data, data, len);
+	
+	_length += size;	
+	((chunk*)_data)->len = _length - 12;
+}
+
+int 
+Message::GetData(uint32 type, uint32 id, void *data, uint32 len) const
+{
+	chunk *c;
+	char *x = (char *) _data + 12;
+	uint32 count = _length - 12;
+	uint32 size;
+	
+	while(count > 12){
+		c = (chunk*) x;
+		size = (12 + ((c->len + 3) & ~3));
+		if((type == c->type) && (id == c->id) && (len == c->len)){
+			memcpy(data, c->data, c->len);
+			return 0;
+		}
+		
+		x += size;
+		count -= size;
+	}
+	
+	return -1;
+}
+
+int 
+Message::GetData(uint32 type, uint32 id, const void **data, uint32 *len) const
+{
+	chunk *c;
+	char *x = (char *) _data + 12;
+	uint32 count = _length - 12;
+	uint32 size;
+	
+	while(count > 12){
+		c = (chunk*) x;
+		size = (12 + ((c->len + 3) & ~3));
+		if((type == c->type) && (id == c->id)){
+			*data = (void*) c->data;
+			*len = c->len;
+			return 0;
+		}
+		
+		x += size;
+		count -= size;
+	}
+	
+	*data = NULL;
+	return -1;
+}
+
+int 
+Message::GetEntry(uint32 n, uint32 *type, uint32 *id, const void **data, uint32 *len) const
+{
+	chunk *c;
+	char *x = (char *) _data + 12;
+	uint32 count = _length - 12;
+	uint32 size;
+	uint32 _n = 0;
+	
+	while(count > 12){
+		c = (chunk*) x;
+		if(_n == n){
+			*type = c->type;
+			*id = c->id;
+			*len = c->len;
+			*data = (void*) c->data;
+		}
+		
+		size = (12 + ((c->len + 3) & 3));
+		x += size;
+		count -= size;
+	}
+	
+	*data = NULL;
+	return -1;
+}
+
+int 
+Message::GetPackedData(const void **data, uint32 *length) const
+{
+	*data = _data;
+	*length = _length;
+	
+	return 0;
+}
+
+int 
+Message::PutPackedData(const void *data, uint32 length, int reply_port)
+{
+	chunk *c = (chunk*) data;
+	
+	if(length < 12) return -1;
+	
+	if(c->type != BLT_TYPE_MESSAGE) return -1;
+	if(c->id != BLT_ID_MESSAGE) return -1;
+	if(c->len != (length - 12)) return -1;
+	
+	if(_data) free(_data);
+	_data = malloc(length);
+	
+	memcpy(_data, data, length);
+	_available = 0;
+	_length = length;
+	
+	_reply_port = reply_port;
+	
+	return 0;
+}
+		
+int 
+Message::PutInt32(uint32 id, int32 data)
+{
+	return PutData(BLT_TYPE_INT32, id, &data, sizeof(int32));
+}
+
+int 
+Message::PutString(uint32 id, const char *data)
+{
+	return PutData(BLT_TYPE_STRING, id, data, strlen(data)+1);
+}
+
+int 
+Message::PutPointer(uint32 id, void *data)
+{
+	return PutData(BLT_TYPE_POINTER, id, data, sizeof(void*)); 
+}
+
+int 
+Message::PutMessage(uint32 id, Message *msg)
+{
+	return PutData(BLT_TYPE_MESSAGE, id, msg->_data, msg->_length);
+}
+
+int 
+Message::GetInt32(uint32 id, int32 *data) const
+{
+	return GetData(BLT_TYPE_INT32, id, (void*) data, sizeof(int32));
+}
+
+int 
+Message::GetString(uint32 id, const char **data) const
+{
+	uint32 discard; 
+	return GetData(BLT_TYPE_STRING, id, (const void**) data, &discard); 
+}
+
+int 
+Message::GetPointer(uint32 id, void **ptr) const
+{
+	return GetData(BLT_TYPE_POINTER, id, (void*) ptr, sizeof(void *));
+}
+
+int 
+Message::GetMessage(uint32 id, Message *msg) const
+{
+	const void *data;
+	uint32 len;
+	
+	GetData(BLT_TYPE_MESSAGE, id, &data, &len);
+	return msg->PutPackedData(data,len);
+}
+
+void
+Message::Empty()
+{
+	_available += _length - 12;
+	_length = 12;
+	_reply_port = 0;
+	((chunk*)_data)->len = 0;
+}
+
+int
+Message::Reply(const Message *msg) const
+{
+	msg_hdr_t mh;
+	int res;
+	
+	if(_reply_port > 0){
+		if((res = port_create(0,"reply_port")) < 0) return res;
+		mh.flags = 0;
+		mh.src = res;
+		mh.dst = _reply_port;
+		mh.size = msg->_length;
+		mh.data = msg->_data;
+		res = port_send(&mh);
+		port_destroy(mh.src);
+		if(res == msg->_length) {
+			return 0;
+		} else {
+			return res;
+		}
+	} else {
+		return -1;
+	}
+}
+
+#if 0
+
+void Message::dump()
+{
+	int i,j;
+	fprintf(stderr,"bMessage - %d of %d\n",_length,_length+_available);
+	
+	for(i=0;i<_length;i+=16){
+		fprintf(stderr,"%04x: ",i);
+		for(j=0;j<16;j++){
+			if((i+j) < _length){ 
+				fprintf(stderr,"%02x ",((uchar*)_data)[i+j]);
+			} else {
+				fprintf(stderr,"   ");
+			}
+		}
+		fprintf(stderr,"  ");
+		for(j=0;j<16;j++){
+			if((i+j) < _length){ 
+				uchar c = ((uchar*)_data)[i+j];
+				if((c<' ')||(c>126)) c = '.';
+				fprintf(stderr,"%c",c);
+			} else {
+				fprintf(stderr," ");
+			}
+		}			
+		fprintf(stderr,"\n");
+	}
+	
+}
+
+int main(int argc, char *argv[])
+{
+	int32 n;
+	const char *s;
+	
+	Message msg;
+	msg.PutInt32('foob',42);
+	msg.PutString('blah',"Hello, Message");
+	
+	if(msg.GetInt32('foob',&n)) exit(1);
+	fprintf(stderr,"foob = %d\n",n);
+	
+	if(msg.GetString('blah',&s)) exit(1);
+	fprintf(stderr,"blah = %s\n",s);
+	
+	msg.dump();
+	return 0;
+}
+#endif
+@
+
+
+1.1.1.1
+log
+@openblt.20000102
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.20000517
+@
+text
+@d251 1
+a251 1
+		res = old_port_send(&mh);
+@
+

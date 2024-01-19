@@ -1,0 +1,885 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.8
+	openblt20000429:1.1.1.7
+	openblt20000428:1.1.1.7
+	openblt20000427:1.1.1.7
+	openblt20000426:1.1.1.7
+	openblt20000425:1.1.1.7
+	openblt20000424:1.1.1.7
+	openblt20000423:1.1.1.7
+	openblt20000422:1.1.1.7
+	openblt20000421:1.1.1.7
+	openblt20000420:1.1.1.7
+	openblt20000419:1.1.1.7
+	openblt20000418:1.1.1.7
+	openblt20000417:1.1.1.7
+	openblt20000416:1.1.1.7
+	openblt20000415:1.1.1.7
+	openblt20000414:1.1.1.7
+	openblt20000413:1.1.1.7
+	openblt20000412:1.1.1.7
+	openblt20000411:1.1.1.7
+	openblt20000410:1.1.1.7
+	openblt20000409:1.1.1.7
+	openblt20000408:1.1.1.7
+	openblt20000407:1.1.1.7
+	openblt20000406:1.1.1.7
+	openblt20000405:1.1.1.7
+	openblt20000404:1.1.1.7
+	openblt20000403:1.1.1.7
+	openblt20000402:1.1.1.7
+	openblt20000401:1.1.1.7
+	openblt20000331:1.1.1.7
+	openblt20000330:1.1.1.7
+	openblt20000329:1.1.1.7
+	openblt20000328:1.1.1.7
+	openblt20000327:1.1.1.7
+	openblt20000326:1.1.1.7
+	openblt20000325:1.1.1.7
+	openblt20000324:1.1.1.7
+	openblt20000323:1.1.1.7
+	openblt20000322:1.1.1.7
+	openblt20000321:1.1.1.7
+	openblt20000320:1.1.1.7
+	openblt20000319:1.1.1.7
+	openblt20000318:1.1.1.7
+	openblt20000317:1.1.1.7
+	openblt20000316:1.1.1.7
+	openblt20000315:1.1.1.7
+	openblt20000314:1.1.1.7
+	openblt20000313:1.1.1.7
+	openblt20000312:1.1.1.7
+	openblt20000311:1.1.1.7
+	openblt20000310:1.1.1.7
+	openblt20000309:1.1.1.7
+	openblt20000308:1.1.1.7
+	openblt20000307:1.1.1.7
+	openblt20000306:1.1.1.7
+	openblt20000305:1.1.1.7
+	openblt20000304:1.1.1.7
+	openblt20000303:1.1.1.7
+	openblt20000302:1.1.1.7
+	openblt20000301:1.1.1.7
+	openblt20000229:1.1.1.7
+	openblt20000228:1.1.1.7
+	openblt20000227:1.1.1.7
+	openblt20000226:1.1.1.7
+	openblt20000225:1.1.1.7
+	openblt20000224:1.1.1.7
+	openblt20000223:1.1.1.7
+	openblt20000222:1.1.1.7
+	openblt20000221:1.1.1.7
+	openblt20000220:1.1.1.7
+	openblt20000219:1.1.1.7
+	openblt20000218:1.1.1.7
+	openblt20000217:1.1.1.7
+	openblt20000216:1.1.1.7
+	openblt20000215:1.1.1.7
+	openblt20000214:1.1.1.7
+	openblt20000213:1.1.1.7
+	openblt20000212:1.1.1.7
+	openblt20000211:1.1.1.7
+	openblt20000210:1.1.1.7
+	openblt20000209:1.1.1.7
+	openblt20000208:1.1.1.7
+	openblt20000207:1.1.1.7
+	openblt20000206:1.1.1.7
+	openblt20000205:1.1.1.7
+	openblt20000204:1.1.1.7
+	openblt20000203:1.1.1.7
+	openblt20000202:1.1.1.7
+	openblt20000201:1.1.1.7
+	openblt20000131:1.1.1.7
+	openblt20000130:1.1.1.7
+	openblt20000129:1.1.1.7
+	openblt20000128:1.1.1.7
+	openblt20000127:1.1.1.7
+	openblt20000126:1.1.1.7
+	openblt20000125:1.1.1.7
+	openblt20000124:1.1.1.7
+	openblt20000123:1.1.1.7
+	openblt20000122:1.1.1.7
+	openblt20000121:1.1.1.7
+	openblt20000120:1.1.1.7
+	openblt20000119:1.1.1.7
+	openblt20000118:1.1.1.7
+	openblt20000117:1.1.1.7
+	openblt20000116:1.1.1.6
+	openblt20000115:1.1.1.6
+	openblt20000114:1.1.1.6
+	openblt20000113:1.1.1.6
+	openblt20000112:1.1.1.6
+	openblt20000111:1.1.1.6
+	openblt20000110:1.1.1.6
+	openblt20000109:1.1.1.6
+	openblt20000108:1.1.1.6
+	openblt20000107:1.1.1.6
+	openblt20000106:1.1.1.6
+	openblt20000105:1.1.1.6
+	openblt20000104:1.1.1.6
+	openblt20000103:1.1.1.6
+	openblt20000102:1.1.1.6
+	openblt19991228:1.1.1.5
+	openblt19990827:1.1.1.4
+	openblt082699:1.1.1.4
+	openblt082599:1.1.1.4
+	openblt082499:1.1.1.4
+	openblt082399:1.1.1.4
+	openblt082299:1.1.1.4
+	openblt082199:1.1.1.4
+	openblt082099:1.1.1.4
+	openblt081999:1.1.1.4
+	openblt081899:1.1.1.4
+	openblt081799:1.1.1.4
+	openblt081699:1.1.1.4
+	openblt081599:1.1.1.4
+	openblt071199:1.1.1.4
+	openblt071099:1.1.1.3
+	openblt070799:1.1.1.3
+	openblt070699:1.1.1.2
+	openblt070299:1.1.1.2
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.23.01;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.23.01;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.28.58;	author jr;	state Exp;
+branches;
+next	1.1.1.3;
+
+1.1.1.3
+date	2005.01.20.16.29.16;	author jr;	state Exp;
+branches;
+next	1.1.1.4;
+
+1.1.1.4
+date	2005.01.20.16.29.36;	author jr;	state Exp;
+branches;
+next	1.1.1.5;
+
+1.1.1.5
+date	2005.01.20.16.31.58;	author jr;	state Exp;
+branches;
+next	1.1.1.6;
+
+1.1.1.6
+date	2005.01.20.16.32.17;	author jr;	state Exp;
+branches;
+next	1.1.1.7;
+
+1.1.1.7
+date	2005.01.20.16.36.33;	author jr;	state Exp;
+branches;
+next	1.1.1.8;
+
+1.1.1.8
+date	2005.01.20.17.11.18;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/kernel/syscall.c#13 $
+**
+** Copyright 1998 Brian J. Swetland
+** All rights reserved.
+** Copyright 1998-1999 Sidney Cammeresi
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+#include <i386/io.h>
+#include "kernel.h"
+#include "queue.h"
+#include "memory.h"
+#include "resource.h"
+#include "boot.h"
+#include "aspace.h"
+#include "task.h"
+#include "smp.h"
+
+#include <blt/syscall_id.h>
+
+extern task_t *irq_task_map[16];
+
+typedef struct { uint32 edi, esi, ebp, esp, ebx, edx, ecx, eax; } regs;
+void k_debugger(regs *r, uint32 eip, uint32 cs, uint32 eflags);
+
+extern int live_tasks;
+
+extern boot_dir *bdir;
+
+void terminate(void)
+{
+    task_t *t = current, *task;
+	resnode_t *p;
+	extern resnode_t *resource_list;
+	extern queue_t *run_queue;
+    
+    //kprintf("Task %X terminated.",current->rsrc.id);
+    live_tasks--;    
+    current->flags = tDEAD;
+
+	p = resource_list;
+	while (p != NULL)
+	{
+		if (p->resource->type == RSRC_TASK)
+		{
+			task = (task_t *) p->resource;
+			if ((task->flags == tSLEEP_THREAD) && (task->sleeping_on ==
+					current->rsrc.id))
+			{
+				task->flags = tREADY;
+				queue_addTail (run_queue, task, 0);
+			}
+		}
+		p = p->next;
+	}
+
+    swtch();
+    //kprintf("panic: HUH? Back from the dead? %x / %x",t,current);
+    asm("hlt");
+}
+
+
+
+struct _ll time_first = { NULL, NULL, 0, NULL };
+
+
+void sleep(int ticks)
+{
+    struct _ll *l,*n;
+    int when = ticks + kernel_timer;
+
+    if(when > kernel_timer){
+        n = kmalloc16();
+        n->t = current;
+        n->when = when;
+        if(!time_first.next){
+            time_first.next = n;
+            n->next = NULL;
+            n->prev = NULL;
+        } else { 
+            for(l = time_first.next;l;l=l->next){
+                if(when < l->when){
+                    n->prev = l->prev;
+                    n->next = l;
+                    l->prev = l;
+                    l->prev->next = n;
+                    break;
+                }
+                if(!(l->next)){
+                    l->next = n;
+                    n->prev = l;
+                    n->next = NULL;
+                }
+            }
+        }
+        current->flags = tSLEEP_TIMER;
+/*    kprintf("sleeping %d / %d -> %d\n",current->rid, kernel_timer, when);
+ */
+    }
+    swtch();
+}
+
+#define p_uint32(n) (esp[n])
+#define p_voidptr(n) ((void *) esp[n])
+#define p_charptr(n) ((char *) esp[n])
+#define res r.eax
+extern char *screen;
+
+void syscall(regs r, volatile uint32 eip, uint32 cs, uint32 eflags,
+	volatile uint32 *esp)
+{
+	char *c, **argv, **temp_argv, **orig_argv;
+	int i, j, len, total;
+    unsigned int config;
+//	kprintf("%d %x:%d #%d@@%x",current->rsrc.id,eip,cs,r.eax,(uint32)esp);
+	
+    switch(r.eax){
+
+    case BLT_SYS_os_thread :
+    {
+        int i;    
+        task_t *t;
+        
+        t = new_thread(current->addr, p_uint32(1), 0);
+		t->text_area = current->text_area;
+        for(i=0;current->name[i] && i<31;i++) t->name[i] = current->name[i];
+        if(i<30){
+            t->name[i++] = '+';
+        }
+        t->name[i] = 0;    
+        t->rsrc.owner = current;
+        
+        res = t->rsrc.id;
+    }
+    break;
+
+    case BLT_SYS_os_terminate :
+        //kprintf("task %X: os_terminate(%x)",current->rsrc.id,r.eax);
+        if(p_uint32(1) == 0x00420023) {
+            kprintf("");
+            kprintf("Kernel terminated by user process");
+            destroy_kspace();
+        }
+        terminate();    
+        break;
+
+    case BLT_SYS_os_console :
+        kprintf("task %X> %s",current->rsrc.id,p_charptr(1));
+        break;
+
+    case BLT_SYS_os_brk :
+        res = brk(p_uint32(1));
+        break;
+
+    case BLT_SYS_os_handle_irq :
+            /* thread wants to listen to irq in eax */
+        if(p_uint32(1) > 0 && p_uint32(1) < 16) {
+            current->irq = p_uint32(1);
+            irq_task_map[p_uint32(1)] = current;
+        };
+        
+        eflags |= 2<<12 | 2<<13;
+        break;
+
+    case BLT_SYS_os_sleep_irq :
+        if(current->irq){
+                /* sleep */
+            current->flags = tSLEEP_IRQ;
+            unmask_irq(current->irq);
+        }
+        swtch();
+        break;
+
+    case BLT_SYS_os_debug :
+#ifdef __SMP__
+        if (smp_configured)
+          {
+            config = apic_read (APIC_LVTT);
+            apic_write (APIC_LVTT, config | 0x10000);
+            smp_begun = 0;
+            ipi_all_but_self (IPI_STOP);
+          }
+#endif
+        k_debugger(&r, eip, cs, eflags);
+		kprintf("bye bye debugger");
+		
+#ifdef __SMP__
+				if (smp_configured)
+          {
+            smp_begin ();
+            apic_write (APIC_LVTT, config);
+          }
+#endif
+        break;
+
+    case BLT_SYS_os_sleep :
+        sleep(p_uint32(1));
+        break;
+	
+	case BLT_SYS_os_identify :
+		res = rsrc_identify(p_uint32(1));
+		break;
+		
+    case BLT_SYS_sem_create :
+        res = sem_create(p_uint32(1));
+        break;
+
+    case BLT_SYS_sem_destroy :
+        res = sem_destroy(p_uint32(1));
+        break;
+
+    case BLT_SYS_sem_acquire :
+        res = sem_acquire(p_uint32(1));
+        break;
+
+    case BLT_SYS_sem_release :
+        res = sem_release(p_uint32(1));
+        break;
+
+    case BLT_SYS_port_create :
+        res = port_create(p_uint32(1));
+        break;
+
+    case BLT_SYS_port_destroy :
+        res = port_destroy(p_uint32(1));    
+        break;
+
+    case BLT_SYS_port_option :
+        res = port_option(p_uint32(1), p_uint32(2), p_uint32(3));
+        break;
+
+    case BLT_SYS_port_send :
+        res = port_send(p_voidptr(1));
+        break;
+
+    case BLT_SYS_port_recv :
+        res = port_recv(p_voidptr(1));
+        break;        
+		
+	case BLT_SYS_right_create :
+		res = right_create(p_uint32(1), p_uint32(1));
+		break;
+		
+	case BLT_SYS_right_destroy :
+		res = right_destroy(p_uint32(1));
+		break;
+		
+	case BLT_SYS_right_revoke :
+		res = right_revoke(p_uint32(1), p_uint32(2));
+		break;
+		
+	case BLT_SYS_right_grant :
+		res = right_grant(p_uint32(1), p_uint32(2));
+		break;		
+        
+    case BLT_SYS_area_create :
+        res = area_create(current->addr, p_uint32(1), p_uint32(2), (void **)p_voidptr(3), p_uint32(4));
+        break;
+
+    case BLT_SYS_area_clone :
+        res = area_clone(current->addr, p_uint32(1), p_uint32(2), (void **)p_voidptr(3), p_uint32(4));
+        break;
+        
+    case BLT_SYS_area_destroy :
+        res = area_destroy(current->addr, p_uint32(1));
+        break;
+        
+    case BLT_SYS_area_resize :
+        res = area_resize(current->addr, p_uint32(1), p_uint32(2));
+        break;
+
+	case BLT_SYS_rsrc_find_id :
+		break;
+
+	case BLT_SYS_rsrc_find_name :
+		break;
+
+	case BLT_SYS_thr_create :
+		break;
+
+	case BLT_SYS_thr_resume :
+		break;
+
+	case BLT_SYS_thr_suspend :
+		break;
+
+	case BLT_SYS_thr_kill :
+		break;
+
+	case BLT_SYS_thr_detach :
+		res = thr_detach (p_uint32 (1));
+		break;
+
+	case BLT_SYS_thr_join :
+		res = thr_join (p_uint32 (1), p_uint32 (2));
+		break;
+
+	case BLT_SYS_thr_spawn :
+		/*
+		 * if thr_spawn is successful, the current userspace stack will
+		 * be gone when we get back here, so we have to copy the arguments
+		 * now in case it works.
+		 */
+ 		i = -1;
+		orig_argv = p_voidptr (3);
+		while (orig_argv[i] != NULL)
+			i++;
+		temp_argv = kmallocB (i * sizeof (char *));
+		for (j = total = 0; j < i; j++)
+		{
+			temp_argv[j] = kmallocB (total += len = strlen (orig_argv[j]) + 1);
+			strlcpy (temp_argv[j], orig_argv[j], len);
+		}
+
+		if (!(res = thr_spawn (p_uint32 (1), p_uint32 (2),
+				(char * const *) p_voidptr (3),
+				(char * const *) p_voidptr (4), &esp)))
+		{
+			total = (total & ~3) ? (total & ~3) + 4 : total;
+			c = (char *) (0x400000 - total);
+			argv = (char **) (c - i * sizeof (char *));
+			for (j = 0; j < i; j++)
+			{
+				strcpy (c, temp_argv[j]);
+				argv[j] = c;
+				c += strlen (temp_argv[j]) + 1;
+			}
+
+			eip = p_uint32 (2) + 0x74;
+			esp = (uint32 *) 0x400000 - (total + i * sizeof (char *) + 12);
+			*(esp + 1) = i;
+			*(esp + 2) = (uint32) argv;
+		}
+
+		for (j = 0; j < i; j++)
+			kfreeB (strlen (temp_argv[j] + 1), temp_argv[j]);
+		kfreeB (i * sizeof (char *), temp_argv);
+		break;
+    }
+}
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.070299
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/syscall.c#16 $
+d32 1
+d56 1
+a59 1
+	rsrc_enqueue(reaper_queue,current);
+d68 5
+a72 2
+			if(task->waiting_on == ((resource_t*)current)){
+				rsrc_enqueue(run_queue, task);
+d83 5
+d90 32
+a121 4
+	if(ticks) {
+		rsrc_enqueue_ordered(timer_queue, current, kernel_timer + ticks);
+	}
+	swtch();	
+d147 1
+a147 1
+        for(i=0;current->rsrc.name[i] && i<31;i++) t->rsrc.name[i] = current->rsrc.name[i];
+d149 1
+a149 1
+            t->rsrc.name[i++] = '+';
+d151 1
+a151 1
+        t->rsrc.name[i] = 0;    
+@
+
+
+1.1.1.3
+log
+@openblt.070799
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/syscall.c#18 $
+d91 1
+a91 1
+int ubercall (volatile uint32 *esp);
+d102 19
+a186 4
+
+	case BLT_SYS_os_uber :
+		res = ubercall(esp);
+		break;
+d262 2
+a263 20
+    case BLT_SYS_os_thread :
+	case BLT_SYS_thr_create : {
+        int i;    
+        task_t *t;
+        
+        t = new_thread(current->addr, p_uint32(1), 0);
+		if(t) {
+			t->text_area = current->text_area;
+			for(i=0;current->rsrc.name[i] && i<31;i++) {
+				t->rsrc.name[i] = current->rsrc.name[i];
+			}
+			if(i<30) t->rsrc.name[i++] = '+';
+			t->rsrc.name[i] = 0;    
+			t->rsrc.owner = current;        
+			res = t->rsrc.id;
+		} else {
+			res = -1;
+		}
+    }
+    break;
+d290 2
+a291 2
+		while (orig_argv[i] != NULL) i++;
+		
+d293 3
+a295 5
+		
+		for (j = total = 0; j < i; j++) {
+			len = strlen(orig_argv[j]) + 1;
+			total += len;
+			temp_argv[j] = kmallocB(len);
+d306 2
+a307 1
+			for (j = 0; j < i; j++) {
+d319 2
+a320 3
+		for (j = 0; j < i; j++) {
+			kfreeB(strlen(temp_argv[j]) + 1, temp_argv[j]);
+		}
+a324 13
+
+int ubercall (volatile uint32 *esp)
+{
+	switch (p_uint32 (0))
+	{
+		case UBER_NULL_REQUEST :
+			break;
+
+		default:
+			return -1;
+	}
+}
+
+@
+
+
+1.1.1.4
+log
+@openblt.071199
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/syscall.c#23 $
+d91 1
+a91 1
+int metacall (volatile uint32 *esp);
+d103 6
+d169 2
+a170 2
+	case BLT_SYS_os_meta :
+		res = metacall(esp);
+d241 7
+a248 1
+		char *name;
+d251 1
+a253 1
+			*((unsigned int *) (t->ustack + 0xfec)) = p_uint32(2);
+d255 2
+a256 8
+			name = p_charptr(3);
+			if (name == NULL)
+			{
+				for(i=0;current->rsrc.name[i] && i<31;i++) {
+					t->rsrc.name[i] = current->rsrc.name[i];
+				}
+				if(i<30) t->rsrc.name[i++] = '+';
+				t->rsrc.name[i] = 0;    
+d258 2
+a259 2
+			else
+				rsrc_set_name((resource_t *)t, name);
+d274 1
+a274 5
+	case BLT_SYS_thr_spawn :
+		res = thr_spawn(p_uint32(1), p_uint32(2),
+						p_uint32(3), p_uint32(4),
+						p_uint32(5), p_uint32(6),
+						p_charptr(7));
+d276 3
+a278 2
+		
+	case BLT_SYS_thr_kill :
+d281 2
+a282 2
+	case BLT_SYS_thr_wait :
+		res = thr_wait(p_uint32(1));
+d285 43
+a327 2
+	default:
+		res = -1;
+d331 1
+a331 1
+int metacall (volatile uint32 *esp)
+d335 2
+a336 2
+		case META_NULL_REQUEST :
+			return 0;
+@
+
+
+1.1.1.5
+log
+@openblt.19991228
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/syscall.c#27 $
+a46 1
+extern int reaper_sem;
+a49 9
+/* HACK: sem_release will cause a reschedule which would not be good */
+void wake_the_reaper(void)
+{
+	task_t *task;
+	sem_t *sem = rsrc_find_sem(reaper_sem);
+	sem->count++;
+	if(task = rsrc_dequeue(&sem->rsrc)) task_wake(task,ERR_NONE);
+}
+
+d52 4
+a55 2
+    task_t *t = current, *t0;
+	
+d60 14
+a73 6
+	
+	/* wake all blocking objects */
+	while(t0 = list_detach_head(&t->rsrc.queue)) task_wake(t0,ERR_RESOURCE);
+	
+	wake_the_reaper();
+	
+d75 1
+a75 1
+    kprintf("panic: HUH? Back from the dead? %x / %x",t,current);
+d99 2
+a100 4
+#if 0
+	kprintf("* %d %x #%d@@%x",current->rsrc.id,eip,r.eax,(uint32)esp);
+#endif
+		
+d168 1
+a168 1
+        res = sem_create(p_uint32(1),p_charptr(2));
+d184 1
+a184 1
+        res = port_create(p_uint32(1),p_charptr(2));
+d220 1
+a220 1
+        res = area_create(current->rsrc.owner->aspace, p_uint32(1), p_uint32(2), (void **)p_voidptr(3), p_uint32(4));
+d224 1
+a224 1
+        res = area_clone(current->rsrc.owner->aspace, p_uint32(1), p_uint32(2), (void **)p_voidptr(3), p_uint32(4));
+d228 1
+a228 1
+        res = area_destroy(current->rsrc.owner->aspace, p_uint32(1));
+d232 1
+a232 1
+        res = area_resize(current->rsrc.owner->aspace, p_uint32(1), p_uint32(2));
+d239 1
+a239 1
+        t = new_thread(current->rsrc.owner, p_uint32(1), 0);
+d242 1
+d251 2
+a252 1
+			} else {
+d254 1
+a254 1
+			}
+@
+
+
+1.1.1.6
+log
+@openblt.20000102
+@
+text
+@d1 28
+a28 2
+/* Copyright 1998-1999, Brian J. Swetland. All rights reserved.
+** Distributed under the terms of the OpenBLT License
+a29 1
+
+@
+
+
+1.1.1.7
+log
+@openblt.20000117
+@
+text
+@a12 1
+#include "rights.h"
+d18 1
+d32 1
+a32 1
+	if((task = rsrc_dequeue(&sem->rsrc)) != NULL) task_wake(task,ERR_NONE);
+d45 1
+a45 2
+	while((t0 = list_detach_head(&t->rsrc.queue)) != NULL)
+		task_wake(t0,ERR_RESOURCE);
+d71 3
+@
+
+
+1.1.1.8
+log
+@openblt.20000517
+@
+text
+@a56 3
+	/* convert from microseconds to 3ms ticks - round up slightly */
+	ticks = ((ticks + 2000) / 3000); 
+	
+a63 1
+#define p_int(n) ((int) esp[n])
+a65 4
+#define p_sizet(n) ((size_t) esp[n])
+#define p_pint(n) ((int*) esp[n])
+#define p_puint32(n) ((uint32*) esp[n])
+
+d171 1
+a171 1
+        res = port_send(p_int(1), p_int(2), p_voidptr(3), p_sizet(4), p_uint32(5));
+d175 1
+a175 1
+        res = port_recv(p_int(1), p_pint(2), p_voidptr(3), p_sizet(4), p_puint32(5));
+@
+
+

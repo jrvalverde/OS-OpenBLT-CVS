@@ -1,0 +1,399 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.3
+	openblt20000429:1.1.1.2
+	openblt20000428:1.1.1.2
+	openblt20000427:1.1.1.2
+	openblt20000426:1.1.1.2
+	openblt20000425:1.1.1.2
+	openblt20000424:1.1.1.2
+	openblt20000423:1.1.1.2
+	openblt20000422:1.1.1.2
+	openblt20000421:1.1.1.2
+	openblt20000420:1.1.1.2
+	openblt20000419:1.1.1.2
+	openblt20000418:1.1.1.2
+	openblt20000417:1.1.1.2
+	openblt20000416:1.1.1.2
+	openblt20000415:1.1.1.2
+	openblt20000414:1.1.1.2
+	openblt20000413:1.1.1.2
+	openblt20000412:1.1.1.2
+	openblt20000411:1.1.1.2
+	openblt20000410:1.1.1.2
+	openblt20000409:1.1.1.2
+	openblt20000408:1.1.1.2
+	openblt20000407:1.1.1.2
+	openblt20000406:1.1.1.2
+	openblt20000405:1.1.1.2
+	openblt20000404:1.1.1.2
+	openblt20000403:1.1.1.2
+	openblt20000402:1.1.1.2
+	openblt20000401:1.1.1.2
+	openblt20000331:1.1.1.2
+	openblt20000330:1.1.1.2
+	openblt20000329:1.1.1.2
+	openblt20000328:1.1.1.2
+	openblt20000327:1.1.1.2
+	openblt20000326:1.1.1.2
+	openblt20000325:1.1.1.2
+	openblt20000324:1.1.1.2
+	openblt20000323:1.1.1.2
+	openblt20000322:1.1.1.2
+	openblt20000321:1.1.1.2
+	openblt20000320:1.1.1.2
+	openblt20000319:1.1.1.2
+	openblt20000318:1.1.1.2
+	openblt20000317:1.1.1.2
+	openblt20000316:1.1.1.2
+	openblt20000315:1.1.1.2
+	openblt20000314:1.1.1.2
+	openblt20000313:1.1.1.2
+	openblt20000312:1.1.1.2
+	openblt20000311:1.1.1.2
+	openblt20000310:1.1.1.2
+	openblt20000309:1.1.1.2
+	openblt20000308:1.1.1.2
+	openblt20000307:1.1.1.2
+	openblt20000306:1.1.1.2
+	openblt20000305:1.1.1.2
+	openblt20000304:1.1.1.2
+	openblt20000303:1.1.1.2
+	openblt20000302:1.1.1.2
+	openblt20000301:1.1.1.2
+	openblt20000229:1.1.1.2
+	openblt20000228:1.1.1.2
+	openblt20000227:1.1.1.2
+	openblt20000226:1.1.1.2
+	openblt20000225:1.1.1.2
+	openblt20000224:1.1.1.2
+	openblt20000223:1.1.1.2
+	openblt20000222:1.1.1.2
+	openblt20000221:1.1.1.2
+	openblt20000220:1.1.1.2
+	openblt20000219:1.1.1.2
+	openblt20000218:1.1.1.2
+	openblt20000217:1.1.1.2
+	openblt20000216:1.1.1.2
+	openblt20000215:1.1.1.2
+	openblt20000214:1.1.1.2
+	openblt20000213:1.1.1.2
+	openblt20000212:1.1.1.2
+	openblt20000211:1.1.1.2
+	openblt20000210:1.1.1.2
+	openblt20000209:1.1.1.2
+	openblt20000208:1.1.1.2
+	openblt20000207:1.1.1.2
+	openblt20000206:1.1.1.2
+	openblt20000205:1.1.1.2
+	openblt20000204:1.1.1.2
+	openblt20000203:1.1.1.2
+	openblt20000202:1.1.1.2
+	openblt20000201:1.1.1.2
+	openblt20000131:1.1.1.2
+	openblt20000130:1.1.1.2
+	openblt20000129:1.1.1.2
+	openblt20000128:1.1.1.2
+	openblt20000127:1.1.1.2
+	openblt20000126:1.1.1.2
+	openblt20000125:1.1.1.2
+	openblt20000124:1.1.1.2
+	openblt20000123:1.1.1.2
+	openblt20000122:1.1.1.2
+	openblt20000121:1.1.1.2
+	openblt20000120:1.1.1.2
+	openblt20000119:1.1.1.2
+	openblt20000118:1.1.1.2
+	openblt20000117:1.1.1.2
+	openblt20000116:1.1.1.2
+	openblt20000115:1.1.1.2
+	openblt20000114:1.1.1.2
+	openblt20000113:1.1.1.2
+	openblt20000112:1.1.1.2
+	openblt20000111:1.1.1.2
+	openblt20000110:1.1.1.2
+	openblt20000109:1.1.1.2
+	openblt20000108:1.1.1.2
+	openblt20000107:1.1.1.2
+	openblt20000106:1.1.1.2
+	openblt20000105:1.1.1.2
+	openblt20000104:1.1.1.2
+	openblt20000103:1.1.1.2
+	openblt20000102:1.1.1.2
+	openblt19991228:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@// @;
+
+
+1.1
+date	2005.01.20.16.31.52;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.31.52;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.32.09;	author jr;	state Exp;
+branches;
+next	1.1.1.3;
+
+1.1.1.3
+date	2005.01.20.17.11.11;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#include <blt/namer.h>
+#include <blt/syscall.h>
+#include <win/Window.h>
+#include <win/Canvas.h>
+#include <win/Event.h>
+#include <stdio.h>
+#include "../../srv/window/protocol.h"
+#include "Connection.h"
+
+Window::Window(long left, long top, long right, long bottom)
+	:	fShowLevel(0),
+		fCanvasList(0)
+{
+	int nh = namer_newhandle ();
+ 	int windowServerPort;
+ 	windowServerPort = namer_find (nh, "window_server");
+ 	if (windowServerPort <= 0) {
+ 		printf("couldn't connect to window server\n");
+ 		return;
+ 	}
+ 	namer_delhandle (nh);
+
+	int localReplyPort = port_create(0, "client_syncport");
+	fEventPort = port_create(0, "client_eventport");
+
+ 	fConnection = new Connection(windowServerPort, localReplyPort);
+ 	fConnection->WriteInt8(OP_CREATE_WINDOW);
+ 	fConnection->WriteInt32(0);			// Child of root window
+ 	fConnection->WriteInt32(left);
+ 	fConnection->WriteInt32(top);
+ 	fConnection->WriteInt32(right);
+ 	fConnection->WriteInt32(bottom);
+ 	fConnection->WriteInt32(fEventPort);
+ 	fConnection->Flush();
+ 	fID = fConnection->ReadInt32();
+
+ 	fLock = qsem_create(1);
+
+	thr_create((void*) EventLoop, this, "win_thread");
+}
+
+Window::~Window()
+{
+	qsem_acquire(fLock);
+	while (fCanvasList) {
+		Canvas *child = fCanvasList;
+		fCanvasList = fCanvasList->fWinListNext;
+		fConnection->WriteInt8(OP_DESTROY_WINDOW);
+		fConnection->WriteInt32(child->fID);
+		fConnection->Flush();
+		delete child;
+	}
+
+	fConnection->WriteInt8(OP_DESTROY_WINDOW);
+	fConnection->WriteInt32(fID);
+	fConnection->Flush();
+	delete fConnection;
+
+ 	qsem_destroy(fLock);
+}
+
+
+void Window::MakeFocus()
+{
+	fConnection->WriteInt8(OP_MAKE_FOCUS);
+	fConnection->WriteInt32(fID);
+	fConnection->Flush();
+}
+
+void Window::Flush()
+{
+	fConnection->Flush();
+}
+
+void Window::WaitEvent(Event *event)
+{
+ 	msg_hdr_t header;
+ 	header.src = 0;
+ 	header.dst = fEventPort;
+ 	header.data = event;
+ 	header.size = sizeof(Event);
+ 	port_recv(&header);
+}
+
+void Window::AddChild(Canvas *child, long left, long top, long right, long bottom)
+{
+	fConnection->WriteInt8(OP_CREATE_WINDOW);
+	fConnection->WriteInt32(fID);					// My child
+	fConnection->WriteInt32(left);
+	fConnection->WriteInt32(top);
+	fConnection->WriteInt32(right);
+	fConnection->WriteInt32(bottom);
+	fConnection->WriteInt32(fEventPort);
+	fConnection->Flush();
+	child->fID = fConnection->ReadInt32();
+	child->fWindow = this;
+	child->fLeft = 0;
+	child->fTop = 0;
+	child->fRight = right - left;
+	child->fBottom = bottom - top;	
+	child->Show();
+
+	// Stick window in my canvas list
+	child->fWinListNext = fCanvasList;
+	child->fWinListPrev = &fCanvasList;
+	if (fCanvasList)
+		fCanvasList->fWinListPrev = &child->fWinListNext;
+		
+	fCanvasList = child;
+}
+
+void Window::RemoveChild(Canvas *child)
+{
+	Lock();
+	fConnection->WriteInt8(OP_DESTROY_WINDOW);
+	fConnection->WriteInt32(child->fID);
+	fConnection->Flush();
+	*child->fWinListPrev = child->fWinListNext;
+	if (child->fWinListNext)
+		child->fWinListNext->fWinListPrev = child->fWinListPrev;
+		
+	Unlock();
+}
+
+void Window::Lock()
+{
+	qsem_acquire(fLock);
+}
+
+void Window::Unlock()
+{
+	qsem_release(fLock);
+}
+
+void Window::Hide()
+{
+	if (--fShowLevel == 0) {
+		fConnection->WriteInt8(OP_HIDE_WINDOW);
+ 		fConnection->WriteInt32(fID);
+		fConnection->Flush();
+	}
+}
+
+void Window::Show()
+{
+	if (++fShowLevel == 1) {
+		fConnection->WriteInt8(OP_SHOW_WINDOW);
+		fConnection->WriteInt32(fID);
+		fConnection->Flush();
+	}
+}
+
+Canvas* Window::FindChild(int id)
+{
+	for (Canvas *canvas = fCanvasList; canvas; canvas = canvas->fWinListNext)
+		if (canvas->fID == id)
+			return canvas;
+	
+	return 0;
+}
+
+void Window::DispatchEvent(Event *event)
+{
+	Canvas *canvas = FindChild(event->target);
+	if (canvas)
+		canvas->HandleEvent(event);
+}
+
+int Window::EventLoop(void *_window)
+{
+	Window *window = (Window*) _window;	
+	while (true) {
+		Event event;
+		window->WaitEvent(&event);
+		if (event.what == EVT_QUIT) {
+			delete window;
+			os_terminate(0);
+		}
+
+		window->Lock();
+		window->DispatchEvent(&event);
+		window->Unlock();
+	}
+}
+
+void Window::Quit()
+{
+	Event event;
+	event.what = EVT_QUIT;
+	event.target = fID;
+
+	msg_hdr_t header;
+	header.src = fEventPort;	// May break someday
+	header.dst = fEventPort;
+	header.data = &event;
+	header.size = sizeof(Event);
+	port_send(&header);
+}
+
+
+@
+
+
+1.1.1.1
+log
+@openblt.19991228
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.20000102
+@
+text
+@d14 1
+d16 1
+a16 1
+ 	windowServerPort = namer_find ("window_server", 0);
+d21 1
+@
+
+
+1.1.1.3
+log
+@openblt.20000517
+@
+text
+@d80 1
+a80 1
+ 	old_port_recv(&header);
+d195 1
+a195 1
+	old_port_send(&header);
+@
+
+

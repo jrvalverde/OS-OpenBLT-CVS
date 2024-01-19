@@ -1,0 +1,388 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.1
+	openblt20000429:1.1.1.1
+	openblt20000428:1.1.1.1
+	openblt20000427:1.1.1.1
+	openblt20000426:1.1.1.1
+	openblt20000425:1.1.1.1
+	openblt20000424:1.1.1.1
+	openblt20000423:1.1.1.1
+	openblt20000422:1.1.1.1
+	openblt20000421:1.1.1.1
+	openblt20000420:1.1.1.1
+	openblt20000419:1.1.1.1
+	openblt20000418:1.1.1.1
+	openblt20000417:1.1.1.1
+	openblt20000416:1.1.1.1
+	openblt20000415:1.1.1.1
+	openblt20000414:1.1.1.1
+	openblt20000413:1.1.1.1
+	openblt20000412:1.1.1.1
+	openblt20000411:1.1.1.1
+	openblt20000410:1.1.1.1
+	openblt20000409:1.1.1.1
+	openblt20000408:1.1.1.1
+	openblt20000407:1.1.1.1
+	openblt20000406:1.1.1.1
+	openblt20000405:1.1.1.1
+	openblt20000404:1.1.1.1
+	openblt20000403:1.1.1.1
+	openblt20000402:1.1.1.1
+	openblt20000401:1.1.1.1
+	openblt20000331:1.1.1.1
+	openblt20000330:1.1.1.1
+	openblt20000329:1.1.1.1
+	openblt20000328:1.1.1.1
+	openblt20000327:1.1.1.1
+	openblt20000326:1.1.1.1
+	openblt20000325:1.1.1.1
+	openblt20000324:1.1.1.1
+	openblt20000323:1.1.1.1
+	openblt20000322:1.1.1.1
+	openblt20000321:1.1.1.1
+	openblt20000320:1.1.1.1
+	openblt20000319:1.1.1.1
+	openblt20000318:1.1.1.1
+	openblt20000317:1.1.1.1
+	openblt20000316:1.1.1.1
+	openblt20000315:1.1.1.1
+	openblt20000314:1.1.1.1
+	openblt20000313:1.1.1.1
+	openblt20000312:1.1.1.1
+	openblt20000311:1.1.1.1
+	openblt20000310:1.1.1.1
+	openblt20000309:1.1.1.1
+	openblt20000308:1.1.1.1
+	openblt20000307:1.1.1.1
+	openblt20000306:1.1.1.1
+	openblt20000305:1.1.1.1
+	openblt20000304:1.1.1.1
+	openblt20000303:1.1.1.1
+	openblt20000302:1.1.1.1
+	openblt20000301:1.1.1.1
+	openblt20000229:1.1.1.1
+	openblt20000228:1.1.1.1
+	openblt20000227:1.1.1.1
+	openblt20000226:1.1.1.1
+	openblt20000225:1.1.1.1
+	openblt20000224:1.1.1.1
+	openblt20000223:1.1.1.1
+	openblt20000222:1.1.1.1
+	openblt20000221:1.1.1.1
+	openblt20000220:1.1.1.1
+	openblt20000219:1.1.1.1
+	openblt20000218:1.1.1.1
+	openblt20000217:1.1.1.1
+	openblt20000216:1.1.1.1
+	openblt20000215:1.1.1.1
+	openblt20000214:1.1.1.1
+	openblt20000213:1.1.1.1
+	openblt20000212:1.1.1.1
+	openblt20000211:1.1.1.1
+	openblt20000210:1.1.1.1
+	openblt20000209:1.1.1.1
+	openblt20000208:1.1.1.1
+	openblt20000207:1.1.1.1
+	openblt20000206:1.1.1.1
+	openblt20000205:1.1.1.1
+	openblt20000204:1.1.1.1
+	openblt20000203:1.1.1.1
+	openblt20000202:1.1.1.1
+	openblt20000201:1.1.1.1
+	openblt20000131:1.1.1.1
+	openblt20000130:1.1.1.1
+	openblt20000129:1.1.1.1
+	openblt20000128:1.1.1.1
+	openblt20000127:1.1.1.1
+	openblt20000126:1.1.1.1
+	openblt20000125:1.1.1.1
+	openblt20000124:1.1.1.1
+	openblt20000123:1.1.1.1
+	openblt20000122:1.1.1.1
+	openblt20000121:1.1.1.1
+	openblt20000120:1.1.1.1
+	openblt20000119:1.1.1.1
+	openblt20000118:1.1.1.1
+	openblt20000117:1.1.1.1
+	openblt20000116:1.1.1.1
+	openblt20000115:1.1.1.1
+	openblt20000114:1.1.1.1
+	openblt20000113:1.1.1.1
+	openblt20000112:1.1.1.1
+	openblt20000111:1.1.1.1
+	openblt20000110:1.1.1.1
+	openblt20000109:1.1.1.1
+	openblt20000108:1.1.1.1
+	openblt20000107:1.1.1.1
+	openblt20000106:1.1.1.1
+	openblt20000105:1.1.1.1
+	openblt20000104:1.1.1.1
+	openblt20000103:1.1.1.1
+	openblt20000102:1.1.1.1
+	openblt19991228:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@// @;
+
+
+1.1
+date	2005.01.20.16.31.56;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.31.56;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#include "Renderer.h"
+#include "Rect.h"
+#include "Region.h"
+#include "GraphicsContext.h"
+#include "util.h"
+#include "font.h"
+#include "Window.h"
+
+#define swap(a, b) { int temp = a; a = b; b = temp; }
+
+
+GraphicsContext::GraphicsContext()
+	:	fRenderer(0)
+{
+}
+
+void GraphicsContext::SetColor(char color)
+{
+	fCurrentColor = color;
+}
+
+const unsigned kBottom = 1;
+const unsigned kTop = 2;
+const unsigned kLeft = 4;
+const unsigned kRight = 8;
+
+inline unsigned clipmask(int x, int y, const Rect &rect) 
+{
+	unsigned mask = 0;
+	if (x < rect.left)
+		mask |= kLeft;
+	else if (x > rect.right)
+		mask |= kRight;
+	
+	if (y < rect.top)
+		mask |= kTop;
+	else if (y > rect.bottom)
+		mask |= kBottom;
+	
+	return mask;		
+}
+
+inline int vert_intersection(int x1, int y1, int x2, int y2, int x)
+{
+	return y1 + (y2 - y1) * (x - x1) / (x2 - x1);
+}
+
+inline int horz_intersection(int x1, int y1, int x2, int y2, int y)
+{
+	return x1 + (x2 - x1) * (y - y1) / (y2 - y1);
+}
+
+void GraphicsContext::DrawLine(int x1, int y1, int x2, int y2)
+{
+	x1 += fXOrigin;
+	x2 += fXOrigin;
+	y1 += fYOrigin;
+	y2 += fYOrigin;
+
+	for (int rect = 0; rect < fClipRegion.CountRects(); rect++) {
+		const Rect &clipRect = fClipRegion.RectAt(rect);
+		int clippedX1 = x1;
+		int clippedY1 = y1;
+		int clippedX2 = x2;
+		int clippedY2 = y2;
+		unsigned point1mask = clipmask(clippedX1, clippedY1, clipRect);
+		unsigned point2mask = clipmask(clippedX2, clippedY2, clipRect);
+			
+		bool rejected = false;
+		while (point1mask != 0 || point2mask != 0) {
+			if ((point1mask & point2mask) != 0) {
+				rejected = true;
+				break;
+			}
+
+			unsigned  mask = point1mask ? point1mask : point2mask;
+			int x = 0;
+			int y = 0;
+			if (mask & kBottom) {
+				y = clipRect.bottom;
+				x = horz_intersection(clippedX1, clippedY1, clippedX2, clippedY2, y);
+			} else if (mask & kTop) {
+				y = clipRect.top;
+				x = horz_intersection(clippedX1, clippedY1, clippedX2, clippedY2, y);
+			} else if (mask & kRight) {
+				x = clipRect.right;
+				y = vert_intersection(clippedX1, clippedY1, clippedX2, clippedY2, x);
+			} else if (mask & kLeft) {
+				x = clipRect.left;
+				y = vert_intersection(clippedX1, clippedY1, clippedX2, clippedY2, x);
+			}
+			
+			if (point1mask) {
+				// Clip point 1
+				point1mask = clipmask(x, y, clipRect);
+				clippedX1 = x;
+				clippedY1 = y;
+			} else {
+				// Clip point 2
+				point2mask = clipmask(x, y, clipRect);
+				clippedX2 = x;
+				clippedY2 = y;
+			}
+		}
+
+		if (!rejected)
+	 		fRenderer->DrawLine(clippedX1, clippedY1, clippedX2, clippedY2, fCurrentColor);
+	}
+}
+
+
+
+void GraphicsContext::FillRect(int x1, int y1, int x2, int y2)
+{
+	x1 += fXOrigin;
+	x2 += fXOrigin;
+	y1 += fYOrigin;
+	y2 += fYOrigin;
+
+    if (x1 > x2) swap(x1, x2);
+    if (y1 > y2) swap(y1, y2);
+
+	for (int rect = 0; rect < fClipRegion.CountRects(); rect++) {
+		const Rect &clipRect = fClipRegion.RectAt(rect);
+		int clipleft = max(x1, clipRect.left); 
+		int cliptop = max(y1, clipRect.top);
+		int clipright = min(x2, clipRect.right);
+		int clipbottom = min(y2, clipRect.bottom);
+
+		if (clipright >= clipleft && clipbottom >= cliptop) 
+			fRenderer->FillRect(clipleft, cliptop, clipright, clipbottom, 
+				fCurrentColor);
+	}
+}
+
+void GraphicsContext::Blit(int x, int y, char image[], int image_width,
+	int image_height, int img_bytes_per_row)
+{
+	x += fXOrigin;
+	y += fYOrigin;
+
+	for (int rect = 0; rect < fClipRegion.CountRects(); rect++) {
+		const Rect &clipRect = fClipRegion.RectAt(rect);
+		int clipleft = max(x, clipRect.left); 
+		int cliptop = max(y, clipRect.top);
+		int clipright = min(x + image_width - 1, clipRect.right);
+		int clipbottom = min(y + image_height - 1, clipRect.bottom);
+
+		if (clipright >= clipleft && clipbottom >= cliptop) {
+			fRenderer->Blit(clipleft, cliptop, image + (clipleft - x) + 
+				(cliptop - y) * img_bytes_per_row, clipright - clipleft + 1, 
+				clipbottom - cliptop + 1, img_bytes_per_row);
+		}
+	}
+}
+
+void GraphicsContext::StretchBlit(Rect imageRect, Rect screenRect, char image[], int img_bytes_per_row)
+{
+	screenRect.left += fXOrigin;
+	screenRect.top += fYOrigin;
+	screenRect.right += fXOrigin;
+	screenRect.bottom += fYOrigin;
+
+	for (int rect = 0; rect < fClipRegion.CountRects(); rect++) {
+		const Rect &clipRect = fClipRegion.RectAt(rect);
+		Rect clippedScreenRect;
+		clippedScreenRect.left = max(screenRect.left, clipRect.left);
+		clippedScreenRect.top = max(screenRect.top, clipRect.top);
+		clippedScreenRect.right = min(screenRect.right, clipRect.right);
+		clippedScreenRect.bottom = min(screenRect.bottom, clipRect.bottom);
+
+		if (clippedScreenRect.Width() > 0 && clippedScreenRect.Height() > 0) {
+			Rect clippedImageRect;
+			clippedImageRect.left = (clippedScreenRect.left - screenRect.left)
+				* imageRect.Width() / screenRect.Width();
+			clippedImageRect.right = (clippedScreenRect.right - screenRect.left)
+				 * imageRect.Width() / screenRect.Width();
+			clippedImageRect.top = (clippedScreenRect.top - screenRect.top)
+				* imageRect.Height() / screenRect.Height();		
+			clippedImageRect.bottom = (clippedScreenRect.bottom - screenRect.top)
+				* imageRect.Height() / screenRect.Height();
+	
+			fRenderer->StretchBlit(clippedImageRect, clippedScreenRect, image, img_bytes_per_row);
+		}
+	}
+}
+
+void GraphicsContext::CopyRect(Rect src, Rect dest, const Region &inCleanRegion,
+	Region &outNotCopied)
+{
+	src.OffsetBy(fXOrigin, fYOrigin);
+	dest.OffsetBy(fXOrigin, fYOrigin);
+
+	int dX = dest.left - src.left;
+	int dY = dest.top - src.top;
+	Region copyRegion = inCleanRegion;
+	copyRegion.ConstrainTo(dest);
+	copyRegion.Translate(-dX, -dY);
+	copyRegion.Intersect(inCleanRegion);
+	for (int rect = 0; rect < copyRegion.CountRects(); rect++) {
+		const Rect &srcRect = copyRegion.RectAt(rect);
+		Rect destRect(srcRect);
+		destRect.OffsetBy(dX, dY);
+		fRenderer->CopyRect(srcRect, destRect);
+	}
+	
+	copyRegion.Invert();
+	copyRegion.Intersect(fClipRegion);
+	outNotCopied = copyRegion;
+}
+
+void GraphicsContext::DrawString(int x, int y, const char *string)
+{
+	while (*string) {
+		Blit(x, y, (char*) &font5x8[*string++ * 40], 5, 8, 5);
+		x += 5;
+	}
+}
+
+Rect GraphicsContext::Bounds()
+{
+	Rect rect = fClipRegion.Bounds();
+	rect.OffsetBy(-fXOrigin, -fYOrigin);
+	return rect;
+}
+
+
+
+@
+
+
+1.1.1.1
+log
+@openblt.19991228
+@
+text
+@@

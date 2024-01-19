@@ -1,0 +1,822 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.5
+	openblt20000429:1.1.1.5
+	openblt20000428:1.1.1.5
+	openblt20000427:1.1.1.5
+	openblt20000426:1.1.1.5
+	openblt20000425:1.1.1.5
+	openblt20000424:1.1.1.5
+	openblt20000423:1.1.1.5
+	openblt20000422:1.1.1.5
+	openblt20000421:1.1.1.5
+	openblt20000420:1.1.1.5
+	openblt20000419:1.1.1.5
+	openblt20000418:1.1.1.5
+	openblt20000417:1.1.1.5
+	openblt20000416:1.1.1.5
+	openblt20000415:1.1.1.5
+	openblt20000414:1.1.1.5
+	openblt20000413:1.1.1.5
+	openblt20000412:1.1.1.5
+	openblt20000411:1.1.1.5
+	openblt20000410:1.1.1.5
+	openblt20000409:1.1.1.5
+	openblt20000408:1.1.1.5
+	openblt20000407:1.1.1.5
+	openblt20000406:1.1.1.5
+	openblt20000405:1.1.1.5
+	openblt20000404:1.1.1.5
+	openblt20000403:1.1.1.5
+	openblt20000402:1.1.1.5
+	openblt20000401:1.1.1.5
+	openblt20000331:1.1.1.5
+	openblt20000330:1.1.1.5
+	openblt20000329:1.1.1.5
+	openblt20000328:1.1.1.5
+	openblt20000327:1.1.1.5
+	openblt20000326:1.1.1.5
+	openblt20000325:1.1.1.5
+	openblt20000324:1.1.1.5
+	openblt20000323:1.1.1.5
+	openblt20000322:1.1.1.5
+	openblt20000321:1.1.1.5
+	openblt20000320:1.1.1.5
+	openblt20000319:1.1.1.5
+	openblt20000318:1.1.1.5
+	openblt20000317:1.1.1.5
+	openblt20000316:1.1.1.5
+	openblt20000315:1.1.1.5
+	openblt20000314:1.1.1.5
+	openblt20000313:1.1.1.5
+	openblt20000312:1.1.1.5
+	openblt20000311:1.1.1.5
+	openblt20000310:1.1.1.5
+	openblt20000309:1.1.1.5
+	openblt20000308:1.1.1.5
+	openblt20000307:1.1.1.5
+	openblt20000306:1.1.1.5
+	openblt20000305:1.1.1.5
+	openblt20000304:1.1.1.5
+	openblt20000303:1.1.1.5
+	openblt20000302:1.1.1.5
+	openblt20000301:1.1.1.5
+	openblt20000229:1.1.1.5
+	openblt20000228:1.1.1.5
+	openblt20000227:1.1.1.5
+	openblt20000226:1.1.1.5
+	openblt20000225:1.1.1.5
+	openblt20000224:1.1.1.5
+	openblt20000223:1.1.1.5
+	openblt20000222:1.1.1.5
+	openblt20000221:1.1.1.5
+	openblt20000220:1.1.1.5
+	openblt20000219:1.1.1.5
+	openblt20000218:1.1.1.5
+	openblt20000217:1.1.1.5
+	openblt20000216:1.1.1.5
+	openblt20000215:1.1.1.5
+	openblt20000214:1.1.1.5
+	openblt20000213:1.1.1.5
+	openblt20000212:1.1.1.5
+	openblt20000211:1.1.1.5
+	openblt20000210:1.1.1.5
+	openblt20000209:1.1.1.5
+	openblt20000208:1.1.1.5
+	openblt20000207:1.1.1.5
+	openblt20000206:1.1.1.5
+	openblt20000205:1.1.1.5
+	openblt20000204:1.1.1.5
+	openblt20000203:1.1.1.5
+	openblt20000202:1.1.1.5
+	openblt20000201:1.1.1.5
+	openblt20000131:1.1.1.5
+	openblt20000130:1.1.1.5
+	openblt20000129:1.1.1.5
+	openblt20000128:1.1.1.5
+	openblt20000127:1.1.1.5
+	openblt20000126:1.1.1.5
+	openblt20000125:1.1.1.5
+	openblt20000124:1.1.1.5
+	openblt20000123:1.1.1.5
+	openblt20000122:1.1.1.5
+	openblt20000121:1.1.1.5
+	openblt20000120:1.1.1.5
+	openblt20000119:1.1.1.5
+	openblt20000118:1.1.1.5
+	openblt20000117:1.1.1.5
+	openblt20000116:1.1.1.5
+	openblt20000115:1.1.1.5
+	openblt20000114:1.1.1.5
+	openblt20000113:1.1.1.5
+	openblt20000112:1.1.1.5
+	openblt20000111:1.1.1.5
+	openblt20000110:1.1.1.5
+	openblt20000109:1.1.1.5
+	openblt20000108:1.1.1.5
+	openblt20000107:1.1.1.5
+	openblt20000106:1.1.1.5
+	openblt20000105:1.1.1.5
+	openblt20000104:1.1.1.5
+	openblt20000103:1.1.1.5
+	openblt20000102:1.1.1.5
+	openblt19991228:1.1.1.4
+	openblt19990827:1.1.1.3
+	openblt082699:1.1.1.3
+	openblt082599:1.1.1.3
+	openblt082499:1.1.1.3
+	openblt082399:1.1.1.3
+	openblt082299:1.1.1.3
+	openblt082199:1.1.1.3
+	openblt082099:1.1.1.3
+	openblt081999:1.1.1.3
+	openblt081899:1.1.1.3
+	openblt081799:1.1.1.3
+	openblt081699:1.1.1.3
+	openblt081599:1.1.1.3
+	openblt071199:1.1.1.3
+	openblt071099:1.1.1.2
+	openblt070799:1.1.1.2
+	openblt070699:1.1.1.2
+	openblt070299:1.1.1.2
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.23.01;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.23.01;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.28.59;	author jr;	state Exp;
+branches;
+next	1.1.1.3;
+
+1.1.1.3
+date	2005.01.20.16.29.37;	author jr;	state Exp;
+branches;
+next	1.1.1.4;
+
+1.1.1.4
+date	2005.01.20.16.31.59;	author jr;	state Exp;
+branches;
+next	1.1.1.5;
+
+1.1.1.5
+date	2005.01.20.16.32.19;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/kernel/memory.c#2 $
+**
+** Copyright 1998 Brian J. Swetland
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+#include "kernel.h"
+
+#include "memory.h"
+
+
+static unsigned char size_map[1025] = {
+    KM16,
+    
+    KM16, KM16, KM16, KM16, KM16, KM16, KM16, KM16,
+    KM16, KM16, KM16, KM16, KM16, KM16, KM16, KM16,
+
+    KM32, KM32, KM32, KM32, KM32, KM32, KM32, KM32,
+    KM32, KM32, KM32, KM32, KM32, KM32, KM32, KM32,
+
+    KM64, KM64, KM64, KM64, KM64, KM64, KM64, KM64,
+    KM64, KM64, KM64, KM64, KM64, KM64, KM64, KM64,
+    KM64, KM64, KM64, KM64, KM64, KM64, KM64, KM64,
+    KM64, KM64, KM64, KM64, KM64, KM64, KM64, KM64,
+
+    KM128, KM128, KM128, KM128, KM128, KM128, KM128, KM128,
+    KM128, KM128, KM128, KM128, KM128, KM128, KM128, KM128,
+    KM128, KM128, KM128, KM128, KM128, KM128, KM128, KM128,
+    KM128, KM128, KM128, KM128, KM128, KM128, KM128, KM128,
+    KM128, KM128, KM128, KM128, KM128, KM128, KM128, KM128,
+    KM128, KM128, KM128, KM128, KM128, KM128, KM128, KM128,
+    KM128, KM128, KM128, KM128, KM128, KM128, KM128, KM128,
+    KM128, KM128, KM128, KM128, KM128, KM128, KM128, KM128,
+    
+    KM256, KM256, KM256, KM256, KM256, KM256, KM256, KM256,
+    KM256, KM256, KM256, KM256, KM256, KM256, KM256, KM256,
+    KM256, KM256, KM256, KM256, KM256, KM256, KM256, KM256,
+    KM256, KM256, KM256, KM256, KM256, KM256, KM256, KM256,
+    KM256, KM256, KM256, KM256, KM256, KM256, KM256, KM256,
+    KM256, KM256, KM256, KM256, KM256, KM256, KM256, KM256,
+    KM256, KM256, KM256, KM256, KM256, KM256, KM256, KM256,
+    KM256, KM256, KM256, KM256, KM256, KM256, KM256, KM256,    
+    KM256, KM256, KM256, KM256, KM256, KM256, KM256, KM256,
+    KM256, KM256, KM256, KM256, KM256, KM256, KM256, KM256,
+    KM256, KM256, KM256, KM256, KM256, KM256, KM256, KM256,
+    KM256, KM256, KM256, KM256, KM256, KM256, KM256, KM256,
+    KM256, KM256, KM256, KM256, KM256, KM256, KM256, KM256,
+    KM256, KM256, KM256, KM256, KM256, KM256, KM256, KM256,
+    KM256, KM256, KM256, KM256, KM256, KM256, KM256, KM256,
+    KM256, KM256, KM256, KM256, KM256, KM256, KM256, KM256,
+
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,    
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,    
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+    KM512, KM512, KM512, KM512, KM512, KM512, KM512, KM512,
+
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,    
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,    
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,    
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,    
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024,
+    KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024, KM1024    
+};
+
+
+void *kmallocB(int size)
+{
+    if(size < 1025){
+        return kmalloc(size_map[size /* X? -1 */] );        
+    } else {
+        panic("illegal size in kmallocB");        
+    }
+    return NULL; /* for paranoid compilers */
+}
+
+void kfreeB(int size, void *block)
+{
+    if(size < 1025){
+        kfree(size_map[size /* X? -1 */],block);        
+    } else {
+        panic("illegal size in kmallocB");        
+    }
+}
+
+
+
+struct km_mnode 
+{
+    struct km_mnode *next;    
+};
+
+static struct _km_map
+{
+    int size;
+    int used_count;
+    int fresh_count;
+    int free_count;
+    struct km_mnode *free_chain;
+    void *fresh_chain;    
+} km_map[7] = {
+    {   16,   0, 256, 0, NULL, NULL },
+    {   32,   0, 128, 0, NULL, NULL },
+    {   64,   0,  64, 0, NULL, NULL },
+    {  128,   0,  32, 0, NULL, NULL },
+    {  256,   0,  16, 0, NULL, NULL },
+    {  512,   0,   8, 0, NULL, NULL },
+    { 1024,   0,   4, 0, NULL, NULL }
+};        
+
+extern uint32 memsize;
+extern uint32 memtotal;
+
+void memory_status(void)
+{
+    int i;
+	int inuse = 0, allocated = 0;
+	
+    kprintf("");
+    kprintf("size used free fresh");    
+    for(i=0;i<7;i++){
+        kprintf("%U %U %U %U", km_map[i].size, km_map[i].used_count,
+                km_map[i].free_count, km_map[i].fresh_count);
+		inuse += km_map[i].size * km_map[i].used_count;
+		allocated += km_map[i].size * 
+		    (km_map[i].free_count+km_map[i].used_count+km_map[i].fresh_count);
+		
+    }
+	inuse /= 1024;
+	allocated /= 1024;
+	kprintf("");
+	kprintf("%Ukb allocated, %Ukb in use",allocated,inuse);
+	kprintf("%U (of %U) pages in use",memtotal-memsize,memtotal);
+	 
+}
+
+void memory_init(void) 
+{
+    int i;
+
+    for(i=0;i<7;i++)
+        km_map[i].fresh_chain = kgetpages(1,3);    
+}
+
+
+void *kmalloc(int size)
+{
+    struct _km_map *km;    
+    void *block;    
+    if(size > KM1024) panic("illegal size in kmalloc()");
+    km = &km_map[size];
+
+    km->used_count++;
+
+    if(km->free_chain) {
+            /* recycle free'd blocks if available */
+        km->free_count--;
+        block = (void *) km->free_chain;
+        km->free_chain = km->free_chain->next;
+    } else {
+            /* shave a new block off of the fresh page if
+               we can't recycle */
+        km->fresh_count--;
+        block = km->fresh_chain;
+
+        if(km->fresh_count){
+                /* still some left, just bump us to the next chunk */
+            km->fresh_chain = (void *)
+                (((char *) km->fresh_chain) + km->size);        
+        } else {
+                /* gotta grab a new page */
+            km->fresh_count = 4096 / km->size;        
+            km->fresh_chain = kgetpages(1,3);            
+        }
+    }
+    
+    return block;    
+}
+
+void kfree(int size, void *block)
+{
+    struct _km_map *km;    
+    if(size > KM1024) panic("illegal size in kmalloc()");
+    km = &km_map[size];
+    
+    km->free_count++;    
+    km->used_count--;
+    ((struct km_mnode *) block)->next = km->free_chain;    
+    km->free_chain = (struct km_mnode *) block;    
+}
+
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.070299
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/memory.c#4 $
+d30 1
+d33 3
+a35 2
+static unsigned char size_map[513] = {
+    KM16,                                      
+a47 5
+    KM96, KM96, KM96, KM96, KM96, KM96, KM96, KM96,
+    KM96, KM96, KM96, KM96, KM96, KM96, KM96, KM96,
+    KM96, KM96, KM96, KM96, KM96, KM96, KM96, KM96,
+    KM96, KM96, KM96, KM96, KM96, KM96, KM96, KM96,
+	
+d52 4
+a55 9
+
+	KM192, KM192, KM192, KM192, KM192, KM192, KM192, KM192,
+	KM192, KM192, KM192, KM192, KM192, KM192, KM192, KM192,
+	KM192, KM192, KM192, KM192, KM192, KM192, KM192, KM192,
+	KM192, KM192, KM192, KM192, KM192, KM192, KM192, KM192,
+	KM192, KM192, KM192, KM192, KM192, KM192, KM192, KM192,
+	KM192, KM192, KM192, KM192, KM192, KM192, KM192, KM192,
+	KM192, KM192, KM192, KM192, KM192, KM192, KM192, KM192,
+	KM192, KM192, KM192, KM192, KM192, KM192, KM192, KM192,
+d64 3
+d68 103
+d176 6
+a181 2
+	if(size < 256) return kmallocP(size_map[size]);
+	panic("invalid kmallocB");
+d186 5
+a190 2
+	if(size < 256) return kfreeP(size_map[size],block);
+	panic("invalid kmallocB");
+d208 1
+a208 1
+} km_map[KMMAX] = {
+a211 1
+	{   96,   0,  42, 0, NULL, NULL },
+d213 3
+a215 2
+    {  192,   0,  21, 0, NULL, NULL },
+    {  256,   0,  16, 0, NULL, NULL } 
+d228 1
+a228 1
+    for(i=0;i<KMMAX;i++){
+d248 1
+a248 1
+    for(i=0;i<KMMAX;i++)
+d253 1
+a253 1
+void *kmallocP(int size)
+d257 1
+a257 1
+    if(size >= KMMAX) panic("illegal size in kmalloc()");
+d287 1
+a287 1
+void kfreeP(int size, void *block)
+d290 1
+a290 1
+    if(size > KMMAX) panic("illegal size in kmalloc()");
+@
+
+
+1.1.1.3
+log
+@openblt.071199
+@
+text
+@d1 1
+a1 1
+ /* $Id: //depot/blt/kernel/memory.c#5 $
+d139 1
+a139 3
+#if 0
+/* return phys page number of first page of allocated group */
+uint32 getpages(int count)
+d141 1
+a141 27
+    memsize -= count;
+    Assert(memsize > 512);
+    
+    return memsize;
+}
+
+/* alloc count physical pages, map them into kernel space, return virtaddr AND phys */
+void *kgetpages2(int count, int flags, uint32 *phys)
+{
+    nextmem -= 4096*count;
+    *phys = getpages(count);
+    aspace_maphi(flat, *phys, nextmem/0x1000, count, flags);
+    *phys *= 4096;
+    return (void *) nextmem;
+}
+
+/* alloc count physical pages, map them into kernel space, return virtaddr */
+void *kgetpages(int count, int flags)
+{
+    nextmem -= 4096*count;
+    aspace_maphi(flat, getpages(count), nextmem/0x1000, count, flags); 
+    return (void *) nextmem;
+}
+#endif
+
+/* kernel 'heap' is allocated top down ... top three pages used by the bootstrap */
+static uint32 nextmem = 0x80400000 - 4*4096;
+d143 2
+a144 90
+static uint32 *pagelist = NULL;
+static uint32 freepage = 0;
+
+extern aspace_t *flat;
+
+void putpage(uint32 number)
+{
+	pagelist[number] = freepage;
+	freepage = number;
+}
+
+uint32 getpage(void)
+{
+	uint32 n = freepage;
+	if(n){
+		freepage = pagelist[n];
+	} else {
+		asm("hlt");
+		
+		panic("Out of physical memory");
+	}
+	return n;
+}
+
+void kfreepage(void *vaddr)
+{
+}
+
+void *kgetpage(uint32 *phys)
+{
+	uint32 pg = getpage();
+	*phys = pg * 0x1000;
+	nextmem -= 4096;
+	aspace_maphi(flat, pg, nextmem/0x1000, 1, 3);
+	return (void *) nextmem;
+}
+
+void *kgetpages(int count)
+{
+	int i,n;
+    nextmem -= 4096*count;
+	for(n=nextmem/0x1000,i=0;i<count;n++,i++){
+		aspace_maphi(flat, getpage(), n, 1, 3); 
+	}
+    return (void *) nextmem;
+}
+
+/* map specific physical pages into kernel space, return virtaddr */
+void *kmappages(int phys, int count, int flags)
+{
+    nextmem -= 4096*count;
+    aspace_maphi(flat, phys, nextmem/0x1000, count, flags); 
+    return (void *) nextmem;
+}
+
+void memory_init(uint32 bottom_page, uint32 top_page) 
+{
+	int i,count;
+	
+	/* we can track 1024 pages for every 4K of pagelist */
+	count = ((top_page - bottom_page) / 1024) + 1;
+	
+	/* allocate the pagelist */
+	top_page -= count;
+	
+#if 0
+	top_page = 2048+32;
+	count = 4;
+#endif
+	
+	nextmem -= 4096*count;
+	pagelist = (uint32 *) nextmem;
+	aspace_maphi(flat, top_page, nextmem/0x1000, count, 3);
+
+#if 0
+	bottom_page = 1024;
+	top_page = 2048;	
+#endif
+		
+	/* setup the pagelist */
+	freepage = 0;
+	for(i=top_page;i>=bottom_page;i--){
+		pagelist[i] = freepage;
+		freepage = i;
+	}
+	
+	/* setup the memory pools */
+    for(i=0;i<KMMAX;i++){
+        km_map[i].fresh_chain = kgetpages(1);
+	}
+d175 1
+a175 1
+            km->fresh_chain = kgetpages(1);            
+@
+
+
+1.1.1.4
+log
+@openblt.19991228
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/memory.c#10 $
+a115 3
+static uint32 total_pages;
+static uint32 used_pages;
+
+d134 2
+a135 2
+	kprintf("%dkb allocated, %dkb in use",allocated,inuse);
+	kprintf("%d (of %d) pages in use",used_pages, total_pages);
+d139 28
+a169 1
+static node_t *freevpagelist = NULL;
+a177 2
+//	kprintf("- %d",number);
+				
+a179 1
+	used_pages--;
+a184 3
+	
+//	kprintf("+ %d",n);
+
+d188 2
+a191 1
+	used_pages++;
+a196 22
+	node_t *n;
+	int pageno;
+	int vpage = (((uint32)vaddr)/0x1000) & 0x3ff;
+	
+	if(!flat->high[vpage]){
+		kprintf("vpage %d / %x unmapped already?!",vpage,vaddr);
+		DEBUGGER();
+	}
+	
+	/* release the underlying page */
+	pageno = flat->high[vpage] / 0x1000;	
+//	kprintf("kfreepage(%x) high[%d] = %d",vaddr,vpage,pageno);
+	putpage( pageno );
+	
+	flat->high[vpage] = 0;
+	local_flush_pte(vaddr);
+	
+	/* stick it on the virtual page freelist */
+	n = kmalloc(node_t);
+	n->next = freevpagelist;
+	n->data = vaddr;
+	freevpagelist = n;
+d203 3
+a205 19
+
+	if(nextmem < 0x80050000) panic("kernel vspace exhausted");
+	
+	if(freevpagelist){
+		node_t *n = freevpagelist;
+		void *page = n->data;
+		freevpagelist = n->next;
+		kfree(node_t, n);
+		if(flat->high[(((uint32)page)/0x1000) & 0x3ff]){
+			kprintf("page collision @@ %x",page);
+			DEBUGGER();
+		}
+		aspace_maphi(flat, pg, (((uint32)page)/0x1000) , 1, 3);
+		return page;		
+	} else {	
+		nextmem -= 4096;
+		aspace_maphi(flat, pg, nextmem/0x1000, 1, 3);
+		return (void *) nextmem;
+	}
+d210 4
+a213 10
+	if(count == 1){
+		uint32 phys;
+		return kgetpage(&phys);
+	} else {
+		int i,n;
+		nextmem -= 4096*count;
+		for(n=nextmem/0x1000,i=0;i<count;n++,i++){
+			aspace_maphi(flat, getpage(), n, 1, 3); 
+		}
+		return (void *) nextmem;
+d215 1
+d235 5
+a239 2
+	total_pages = 0;
+	used_pages = 0;
+d244 5
+a252 1
+		total_pages++;
+@
+
+
+1.1.1.5
+log
+@openblt.20000102
+@
+text
+@d1 26
+a26 2
+/* Copyright 1998-1999, Brian J. Swetland. All rights reserved.
+** Distributed under the terms of the OpenBLT License
+@
+
+

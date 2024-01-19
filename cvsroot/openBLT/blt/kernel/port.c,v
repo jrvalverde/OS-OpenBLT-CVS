@@ -1,0 +1,772 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	openblt20000517:1.1.1.8
+	openblt20000429:1.1.1.7
+	openblt20000428:1.1.1.7
+	openblt20000427:1.1.1.7
+	openblt20000426:1.1.1.7
+	openblt20000425:1.1.1.7
+	openblt20000424:1.1.1.7
+	openblt20000423:1.1.1.7
+	openblt20000422:1.1.1.7
+	openblt20000421:1.1.1.7
+	openblt20000420:1.1.1.7
+	openblt20000419:1.1.1.7
+	openblt20000418:1.1.1.7
+	openblt20000417:1.1.1.7
+	openblt20000416:1.1.1.7
+	openblt20000415:1.1.1.7
+	openblt20000414:1.1.1.7
+	openblt20000413:1.1.1.7
+	openblt20000412:1.1.1.7
+	openblt20000411:1.1.1.7
+	openblt20000410:1.1.1.7
+	openblt20000409:1.1.1.7
+	openblt20000408:1.1.1.7
+	openblt20000407:1.1.1.7
+	openblt20000406:1.1.1.7
+	openblt20000405:1.1.1.7
+	openblt20000404:1.1.1.7
+	openblt20000403:1.1.1.7
+	openblt20000402:1.1.1.7
+	openblt20000401:1.1.1.7
+	openblt20000331:1.1.1.7
+	openblt20000330:1.1.1.7
+	openblt20000329:1.1.1.7
+	openblt20000328:1.1.1.7
+	openblt20000327:1.1.1.7
+	openblt20000326:1.1.1.7
+	openblt20000325:1.1.1.7
+	openblt20000324:1.1.1.7
+	openblt20000323:1.1.1.7
+	openblt20000322:1.1.1.7
+	openblt20000321:1.1.1.7
+	openblt20000320:1.1.1.7
+	openblt20000319:1.1.1.7
+	openblt20000318:1.1.1.7
+	openblt20000317:1.1.1.7
+	openblt20000316:1.1.1.7
+	openblt20000315:1.1.1.7
+	openblt20000314:1.1.1.7
+	openblt20000313:1.1.1.7
+	openblt20000312:1.1.1.7
+	openblt20000311:1.1.1.7
+	openblt20000310:1.1.1.7
+	openblt20000309:1.1.1.7
+	openblt20000308:1.1.1.7
+	openblt20000307:1.1.1.7
+	openblt20000306:1.1.1.7
+	openblt20000305:1.1.1.7
+	openblt20000304:1.1.1.7
+	openblt20000303:1.1.1.7
+	openblt20000302:1.1.1.7
+	openblt20000301:1.1.1.7
+	openblt20000229:1.1.1.7
+	openblt20000228:1.1.1.7
+	openblt20000227:1.1.1.7
+	openblt20000226:1.1.1.7
+	openblt20000225:1.1.1.7
+	openblt20000224:1.1.1.7
+	openblt20000223:1.1.1.7
+	openblt20000222:1.1.1.7
+	openblt20000221:1.1.1.7
+	openblt20000220:1.1.1.7
+	openblt20000219:1.1.1.7
+	openblt20000218:1.1.1.7
+	openblt20000217:1.1.1.7
+	openblt20000216:1.1.1.7
+	openblt20000215:1.1.1.7
+	openblt20000214:1.1.1.7
+	openblt20000213:1.1.1.7
+	openblt20000212:1.1.1.7
+	openblt20000211:1.1.1.7
+	openblt20000210:1.1.1.7
+	openblt20000209:1.1.1.7
+	openblt20000208:1.1.1.7
+	openblt20000207:1.1.1.7
+	openblt20000206:1.1.1.7
+	openblt20000205:1.1.1.7
+	openblt20000204:1.1.1.7
+	openblt20000203:1.1.1.7
+	openblt20000202:1.1.1.7
+	openblt20000201:1.1.1.7
+	openblt20000131:1.1.1.7
+	openblt20000130:1.1.1.7
+	openblt20000129:1.1.1.7
+	openblt20000128:1.1.1.7
+	openblt20000127:1.1.1.7
+	openblt20000126:1.1.1.7
+	openblt20000125:1.1.1.7
+	openblt20000124:1.1.1.7
+	openblt20000123:1.1.1.7
+	openblt20000122:1.1.1.7
+	openblt20000121:1.1.1.7
+	openblt20000120:1.1.1.7
+	openblt20000119:1.1.1.7
+	openblt20000118:1.1.1.7
+	openblt20000117:1.1.1.7
+	openblt20000116:1.1.1.6
+	openblt20000115:1.1.1.6
+	openblt20000114:1.1.1.6
+	openblt20000113:1.1.1.6
+	openblt20000112:1.1.1.6
+	openblt20000111:1.1.1.6
+	openblt20000110:1.1.1.6
+	openblt20000109:1.1.1.6
+	openblt20000108:1.1.1.6
+	openblt20000107:1.1.1.6
+	openblt20000106:1.1.1.6
+	openblt20000105:1.1.1.6
+	openblt20000104:1.1.1.6
+	openblt20000103:1.1.1.6
+	openblt20000102:1.1.1.6
+	openblt19991228:1.1.1.5
+	openblt19990827:1.1.1.4
+	openblt082699:1.1.1.4
+	openblt082599:1.1.1.4
+	openblt082499:1.1.1.4
+	openblt082399:1.1.1.4
+	openblt082299:1.1.1.4
+	openblt082199:1.1.1.4
+	openblt082099:1.1.1.4
+	openblt081999:1.1.1.4
+	openblt081899:1.1.1.4
+	openblt081799:1.1.1.4
+	openblt081699:1.1.1.4
+	openblt081599:1.1.1.4
+	openblt071199:1.1.1.4
+	openblt071099:1.1.1.3
+	openblt070799:1.1.1.3
+	openblt070699:1.1.1.2
+	openblt070299:1.1.1.2
+	openblt070199:1.1.1.1
+	openblt063099:1.1.1.1
+	openblt062999:1.1.1.1
+	start:1.1.1.1
+	openBLT:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.01.20.16.23.01;	author jr;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2005.01.20.16.23.01;	author jr;	state Exp;
+branches;
+next	1.1.1.2;
+
+1.1.1.2
+date	2005.01.20.16.28.59;	author jr;	state Exp;
+branches;
+next	1.1.1.3;
+
+1.1.1.3
+date	2005.01.20.16.29.17;	author jr;	state Exp;
+branches;
+next	1.1.1.4;
+
+1.1.1.4
+date	2005.01.20.16.29.36;	author jr;	state Exp;
+branches;
+next	1.1.1.5;
+
+1.1.1.5
+date	2005.01.20.16.31.58;	author jr;	state Exp;
+branches;
+next	1.1.1.6;
+
+1.1.1.6
+date	2005.01.20.16.32.18;	author jr;	state Exp;
+branches;
+next	1.1.1.7;
+
+1.1.1.7
+date	2005.01.20.16.36.34;	author jr;	state Exp;
+branches;
+next	1.1.1.8;
+
+1.1.1.8
+date	2005.01.20.17.11.18;	author jr;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* $Id: //depot/blt/kernel/port.c#5 $
+**
+** Copyright 1998 Brian J. Swetland
+** All rights reserved.
+**
+** Redistribution and use in source and binary forms, with or without
+** modification, are permitted provided that the following conditions
+** are met:
+** 1. Redistributions of source code must retain the above copyright
+**    notice, this list of conditions, and the following disclaimer.
+** 2. Redistributions in binary form must reproduce the above copyright
+**    notice, this list of conditions, and the following disclaimer in the
+**    documentation and/or other materials provided with the distribution.
+** 3. The name of the author may not be used to endorse or promote products
+**    derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+** IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+** OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+** IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+** INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+** THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+#include "kernel.h"    
+#include "memory.h"
+#include "port.h"
+#include "resource.h"
+#include "queue.h"
+
+#include "assert.h"
+
+extern queue_t *run_queue;
+
+int port_create(int restrict)
+{
+    port_t *p;
+
+        /* create new port */
+    p = kmalloc64();
+    
+    p->msgcount = 0;
+    p->first = p->last = NULL;
+    p->slaved = 0;
+    p->refcount = 1;
+	p->nowait = 0;
+	p->restrict = restrict;
+	
+	rsrc_bind(&p->rsrc, RSRC_PORT, current);
+    return p->rsrc.id;
+}
+
+int port_destroy(int port)
+{
+    port_t *p;
+    if(!(p = rsrc_find_port(port))) return ERR_RESOURCE;
+    if(p->rsrc.owner != current) return ERR_PERMISSION;
+
+    if(p->refcount == 1) {                
+            /* destroy port */
+		rsrc_release(&p->rsrc);
+        kfree64(p); /* XXX check */
+        return ERR_NONE;    
+    }
+
+        /* port is the master of one or more slaves */
+    return ERR_RESOURCE;       
+}
+
+uint32 port_option(uint32 port, uint32 opt, uint32 arg)
+{
+    port_t *p;
+    
+    if(!(p = rsrc_find_port(port))) return ERR_RESOURCE;
+    if(p->rsrc.owner != current) return ERR_PERMISSION;
+
+    if(opt == PORT_OPT_SETRESTRICT){
+/*XXX        p->restrict = arg;        */
+        p->restrict = arg;
+        return ERR_NONE;        
+    }
+
+    if(opt == PORT_OPT_SLAVE){
+        port_t *master;
+
+        if(arg){
+                /* arg == 0 will simply release the old master */
+            
+            if(!(master = rsrc_find_port(arg))) return ERR_RESOURCE;
+            if(master->rsrc.owner != current) return ERR_PERMISSION;
+            
+                /* indicate that our master has one more slave */
+            master->refcount++;
+        }
+        
+        if(p->slaved){
+                /* change in slave status, deref our old master */
+            if(!(master = rsrc_find_port(p->slaved)))
+                panic("port_option(): master port not found?");
+            
+            master->refcount--;            
+        }
+        p->slaved = arg;
+        return ERR_NONE;        
+    }
+
+	if (opt == PORT_OPT_NOWAIT) {
+		p->nowait = arg;
+		return ERR_NONE;
+	}
+
+    return ERR_PERMISSION;
+}
+
+static chain_t *msg_pool = NULL;
+
+
+/*int port_send(int from, int port, void *msg, int size)*/
+int port_send(msg_hdr_t *mh)
+{
+    int i,size;
+    message_t *m;
+    void *msg;
+    port_t *f,*p;
+
+    if(((uint32) mh) > 0x400000) return ERR_MEMORY;
+    size = mh->size;    
+    msg = mh->data;
+    
+    if(!(f = rsrc_find_port(mh->src))) return ERR_SENDPORT;
+#if 0
+ 	if(f->rsrc.owner != current) {
+        task_t *t = current->rsrc.owner; /* XXX */
+        while(t){
+            if(t == f->rsrc.owner) break;
+            t = t->rsrc.owner;
+            
+        }
+        if(!t) return ERR_PERMISSION;
+    }
+#endif
+        /* insure the port exists and we may send to it */
+    if(!(p = rsrc_find_port(mh->dst))) return ERR_RECVPORT;
+/*    if((p->restrict) &&
+       (p->restrict != mh->src)) return ERR_PERMISSION; XXX */
+
+        /* are we slaved to a different port? */
+    if(p->slaved){
+        if(!(p = rsrc_find_port(p->slaved))) return ERR_RESOURCE;
+        if(p->slaved) return ERR_RESOURCE;
+/*        if((p->restrict) &&
+           (p->restrict != mh->src)) return ERR_PERMISSION;  XXX */      
+    }
+        /* ignore invalid sizes/locations */
+    if( (size < 1) ||
+        (((uint32) msg) > 0x400000) ||
+        (size > 4096)) return ERR_MEMORY;    
+
+    m = kmalloc32();
+    
+        /* allocate a 4k page to carry the message. klunky... */
+    if(size < 1025){
+        m->data = kmallocB(size);        
+    } else {
+        if(msg_pool){
+            m->data = (void *) msg_pool;
+            msg_pool = (chain_t *) msg_pool->next;        
+        } else {
+            m->data = kgetpages(1,3);
+        }
+    }
+
+/*    kprintf("task %X: copyin %x -> %x (%d)\n",current->rid,
+            (int) msg, (int) m->data,  size);*/
+    
+    for(i=0;i<size;i++)
+        ((unsigned char *) m->data)[i] = *((unsigned char *) msg++);
+
+    m->from_port = mh->src;
+    m->to_port = mh->dst;    
+    m->size = size;
+    m->next = NULL;
+    if(p->last){
+        p->last->next = m;
+    } else {
+        p->first = m;
+    }
+    p->last = m;
+    p->msgcount++;
+
+    /*
+     * wake our owner if he's sleeping on us.  we must check both the port
+     * sent to as well as the port we delivered to since they will be
+     * different if the original destination is slaved.
+     */
+    if(p->rsrc.owner->flags == tSLEEP_PORT &&
+       ((p->rsrc.owner->sleeping_on == mh->dst) ||
+        (p->rsrc.owner->sleeping_on == p->rsrc.id))) {
+/*        kprintf("task %X: waking task %X on port %d\n",current->rid,
+                p->owner->rid,mh->dst);        */
+        p->rsrc.owner->flags = tREADY;
+        queue_addTail(run_queue, p->rsrc.owner, 0);        
+    }
+    
+    return size;
+}
+
+/*int port_recv(int port, void *msg, int size, int *from)*/
+int port_recv(msg_hdr_t *mh)
+{
+    int i,size;
+    message_t *m;
+    void *msg;    
+    port_t *p;
+
+    if(((uint32) mh) > 0x400000) return ERR_MEMORY;
+    size = mh->size;    
+    msg = mh->data;
+
+        /* insure the port exists and we may receive on it */
+    if(!(p = rsrc_find_port(mh->dst))) return ERR_RECVPORT;
+#if 0
+	    if(p->rsrc.owner != current) return ERR_PERMISSION;
+#endif
+ 
+        /* bounds check the message... should be more careful */
+    if(((uint32) msg) > 0x400000) return ERR_MEMORY;
+
+        /* no messages -- sleep */
+    while(!p->msgcount) {
+        if (p->nowait)
+			return ERR_WOULD_BLOCK;
+        current->sleeping_on = mh->dst;
+        current->flags = tSLEEP_PORT;
+/*        kprintf("task %X: sleeping on port %d\n",current->rid,mh->dst);      */  
+        swtch();        
+/*        if(i != current->rid) panic("who am i?"); 
+        kprintf("task %X: waking up\n",current->rid);        */
+    }
+    
+    m = p->first;
+/*    kprintf("task %X: copyout %x -> %x (%d/%d)\n",current->rid,
+            (int) m->data, (int) msg, m->size, size);
+            */  
+    Assert(m->size < 4096);
+    for(i=0;i<m->size && (i <size);i++){
+        *((unsigned char *) msg++) = ((unsigned char *) m->data)[i];
+    }
+    mh->src = m->from_port;    
+    mh->dst = m->to_port;
+    
+        /* unchain from the head of the queue */
+    if(!(p->first = p->first->next)) p->last = NULL;    
+    
+    p->msgcount--;
+
+        /* add to the freepool */
+    if(m->size < 1025){
+        kfreeB(m->size,m->data);
+    } else {
+        ((chain_t *) m->data)->next = msg_pool;
+        msg_pool = ((chain_t *) m->data);
+    }
+    kfree32(m);
+/*  kprintf("       : DONE\n");
+ */
+    return size < m->size ? size : m->size;
+}
+
+@
+
+
+1.1.1.1
+log
+@openBLT source code
+@
+text
+@@
+
+
+1.1.1.2
+log
+@openblt.070299
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/port.c#7 $
+d33 1
+d37 2
+d44 1
+a44 1
+    p = kmalloc(port_t);
+d66 1
+a66 1
+        kfree(port_t,p); /* XXX check */
+d163 1
+a163 1
+    m = kmalloc(message_t);
+d166 1
+a166 1
+    if(size < 256){
+d195 13
+a207 13
+
+	/* If a thread is sleeping on the destination, wake it up
+	*/	
+	if(p->slaved){
+		port_t *p0 = rsrc_find_port(p->slaved);
+		if(p0){
+			task_t *task = rsrc_dequeue((resource_t*)p0);
+			if(task) rsrc_enqueue(run_queue, task);
+		}
+	} else {
+		task_t *task = rsrc_dequeue((resource_t*)p);
+		if(task) rsrc_enqueue(run_queue, task);
+	}	
+d235 8
+a242 3
+        if (p->nowait) return ERR_WOULD_BLOCK;
+		
+		wait_on((resource_t*)p);	/* XXX check status */
+d262 1
+a262 1
+    if(m->size < 256){
+d268 1
+a268 1
+    kfree(message_t,m);
+@
+
+
+1.1.1.3
+log
+@openblt.070799
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/port.c#9 $
+d42 1
+a42 2
+    p->sendqueue = kmalloc(resource_t);
+	
+a50 1
+	rsrc_bind(p->sendqueue, RSRC_QUEUE, current);
+d58 1
+a58 1
+//    if(p->rsrc.owner != current) return ERR_PERMISSION;
+d63 1
+a63 3
+		rsrc_release(p->sendqueue);
+		kfree(resource_t,p->sendqueue);
+        kfree(port_t,p); 
+d79 1
+a154 7
+
+	while(p->msgcount > 15){
+		int status;
+        if(p->nowait) return ERR_WOULD_BLOCK;
+		if(status = wait_on(p->sendqueue)) return status;
+	}
+		
+d177 1
+a177 1
+    for(i=0;i<size;i++){
+d179 1
+a179 2
+	}
+	
+d198 2
+a199 2
+			task_t *task = rsrc_dequeue(&p0->rsrc);
+			if(task) task_wake(task,ERR_NONE);
+d202 2
+a203 2
+		task_t *task = rsrc_dequeue(&p->rsrc);
+		if(task) task_wake(task,ERR_NONE);
+a231 1
+		int status;
+d233 2
+a234 1
+		if(status = wait_on(&p->rsrc)) return status;
+@
+
+
+1.1.1.4
+log
+@openblt.071199
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/port.c#11 $
+a35 2
+#define MAX_MSGCOUNT    16
+
+d159 1
+a159 1
+	while(p->msgcount >= MAX_MSGCOUNT){
+d161 1
+a161 1
+		if(p->nowait) return ERR_WOULD_BLOCK;
+d164 1
+a164 1
+
+d180 1
+a180 1
+            m->data = kgetpages(1);
+d261 2
+a262 6
+
+	if(p->msgcount == MAX_MSGCOUNT) {
+		task_t *task = rsrc_dequeue (p->sendqueue);
+		if(task) task_wake(task, ERR_NONE);
+	}
+	p->msgcount--;
+@
+
+
+1.1.1.5
+log
+@openblt.19991228
+@
+text
+@d1 1
+a1 1
+/* $Id: //depot/blt/kernel/port.c#16 $
+d38 1
+a38 1
+int port_create(int restrict, const char *name)
+d41 1
+a41 2
+	char qname[16];
+	
+d53 2
+a54 5
+	rsrc_bind(&p->rsrc, RSRC_PORT, current->rsrc.owner);
+	rsrc_bind(p->sendqueue, RSRC_QUEUE, current->rsrc.owner);
+	rsrc_set_name(&p->rsrc, name);
+	snprintf(qname,16,"port:%d",p->rsrc.id);
+	rsrc_set_name(p->sendqueue, name);
+d82 1
+a82 1
+    if(p->rsrc.owner != current->rsrc.owner) return ERR_PERMISSION;
+d96 1
+a96 1
+            if(master->rsrc.owner != current->rsrc.owner) return ERR_PERMISSION;
+d254 1
+a254 1
+    Assert(m->size <= 4096);
+d264 1
+a264 1
+	if(p->sendqueue->queue.count && (p->msgcount <= MAX_MSGCOUNT)) {
+@
+
+
+1.1.1.6
+log
+@openblt.20000102
+@
+text
+@d1 26
+a26 2
+/* Copyright 1998-1999, Brian J. Swetland. All rights reserved.
+** Distributed under the terms of the OpenBLT License
+d34 2
+d190 3
+d255 4
+d282 2
+@
+
+
+1.1.1.7
+log
+@openblt.20000117
+@
+text
+@a11 2
+int snprintf (char *s, int len, char *fmt, ...);
+
+d110 1
+a110 2
+    if((current->team != kernel_team) && (((uint32) mh) > 0x400000))
+		return ERR_MEMORY;
+d142 1
+a142 1
+		if((status = wait_on(p->sendqueue))) return status;
+d205 1
+a205 2
+    if((current->team != kernel_team) && (((uint32) mh) > 0x400000))
+		return ERR_MEMORY;
+d216 1
+a216 2
+    if((current->team != kernel_team) && (((uint32) msg) > 0x400000))
+		return ERR_MEMORY;
+d222 1
+a222 1
+		if((status = wait_on(&p->rsrc))) return status;
+@
+
+
+1.1.1.8
+log
+@openblt.20000517
+@
+text
+@d104 2
+a105 1
+int port_send(int src, int dst, void *msg, size_t size, uint32 code)
+d107 1
+a107 1
+    int i;
+d109 1
+d111 5
+d117 1
+a117 1
+    if(!(f = rsrc_find_port(src))) return ERR_SENDPORT;
+d130 1
+a130 1
+    if(!(p = rsrc_find_port(dst))) return ERR_RECVPORT;
+d132 1
+a132 1
+       (p->restrict != src)) return ERR_PERMISSION; XXX */
+d139 1
+a139 1
+           (p->restrict != src)) return ERR_PERMISSION;  XXX */      
+d149 2
+a150 1
+    if( (((uint32) msg) > 0x400000) ||
+d157 1
+a157 1
+        m->data = size ? kmallocB(size) : NULL;        
+d171 2
+a172 3
+    m->from_port = src;
+    m->to_port = dst;    
+	m->code = code;
+d200 2
+a201 2
+/*int old_port_recv(int port, void *msg, int size, int *from)*/
+int port_recv(int dst, int *src, void *msg, size_t size, uint32 *code)
+d203 1
+a203 1
+    int i;
+d205 1
+d208 5
+d214 1
+a214 1
+    if(!(p = rsrc_find_port(dst))) return ERR_RECVPORT;
+d234 2
+a235 3
+    if(src) *src = m->from_port;    
+	if(code) *code = m->code;
+    dst = m->to_port; // XXX
+d248 1
+a248 1
+        if(m->size) kfreeB(m->size,m->data);
+@
+
+

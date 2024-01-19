@@ -1,0 +1,26 @@
+The CVS tree here is not the original CVS from the openBLT project.
+
+This is a reconstituted CVS tree I built out of the existing tarballs in
+the parent directory.
+
+Many of those tarballs seem to be incomplete. My original idea was to
+untar all of them one on top of each other to try and get a (hopefully)
+full source tree. While doing this I further thought that if there were
+inconsistencies in the final tree I wouldn't be able to trace them back
+and moreover, it would be nice to have a CVS repository holding all the
+versions just in case.
+
+Thus I deleted everything and started all over again, building a script
+that would create an empty repository, loop over all tar.gz files, and
+for each one, checkout the previous tree, untar the new archive, import
+all files (including any new ones) and commit them to the repository.
+
+That is what you can find here. Not other thing. It is a pity that the
+original files have disappeared from the map, and this was my attempt
+at a best reconstruction.
+
+Yours,
+				j
+--
+Jose R. Valverde
+jrvalverde@acm.org
